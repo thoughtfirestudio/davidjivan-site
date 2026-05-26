@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patron — David Jivan</title>
+<meta name="description" content="Access RealityCode, LogosArchive, and a growing body of work on the Logos tradition, consciousness philosophy, and what early Christianity actually said before the councils shut it down.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+
+:root {
+  --bg:         #0f0f0f;
+  --surface:    #161616;
+  --border:     #272727;
+  --border-hi:  #3a3a3a;
+  --text:       #c8c4bb;
+  --text-dim:   #666560;
+  --text-hi:    #e8e5de;
+  --accent:     #6b9e6b;
+  --accent-dim: #3d5c3d;
+  --font: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  --dur: 0.15s;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+a { text-decoration: none; color: inherit; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100dvh;
+}
+
+/* ─── TOPBAR ─────────────────────────────────────────────── */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(15,15,15,0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar-logo {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-hi);
+}
+
+.topbar-back {
+  font-size: 11px;
+  color: var(--text-dim);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  letter-spacing: 0.06em;
+  transition: color var(--dur), border-color var(--dur);
+}
+.topbar-back:hover { color: var(--text); border-color: var(--border-hi); }
+
+/* ─── MAIN ───────────────────────────────────────────────── */
+.main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 24px 96px;
+}
+
+/* ─── OPENING ────────────────────────────────────────────── */
+.opening {
+  padding: 56px 0 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.opening-prompt {
+  font-size: 10px;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  margin-bottom: 20px;
+}
+.opening-prompt::before { content: '> '; color: var(--text-dim); }
+
+.opening-title {
+  font-size: clamp(20px, 4vw, 28px);
+  font-weight: 700;
+  color: var(--text-hi);
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.opening-body {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--text);
+  font-weight: 300;
+}
+
+.opening-body p + p { margin-top: 1.4em; }
+
+.opening-body em {
+  color: var(--text-hi);
+  font-style: italic;
+}
+
+/* ─── RECOGNITION ────────────────────────────────────────── */
+.recognition {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-label {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section-label::before { content: '// '; }
+
+.recognition-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.recognition-list li {
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--text);
+  font-weight: 300;
+  padding: 14px 0 14px 20px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+.recognition-list li:last-child { border-bottom: none; }
+
+.recognition-list li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* ─── WHAT YOU GET ───────────────────────────────────────── */
+.access {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.access-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.access-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  align-items: start;
+}
+
+.access-item-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+
+.access-item-desc {
+  font-size: 12px;
+  color: var(--text);
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.access-item-desc strong {
+  color: var(--text-hi);
+  font-weight: 500;
+}
+
+/* ─── FORM SECTION ───────────────────────────────────────── */
+.form-section {
+  padding: 40px 0 0;
+}
+
+.form-note {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.7;
+  margin-bottom: 28px;
+  font-weight: 300;
+  border-left: 2px solid var(--accent-dim);
+  padding-left: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-row {
+  display: flex;
+  gap: 8px;
+}
+
+.form-input {
+  flex: 1;
+  font-family: var(--font);
+  font-size: 13px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-hi);
+  padding: 13px 16px;
+  outline: none;
+  transition: border-color var(--dur);
+  letter-spacing: 0.03em;
+}
+
+.form-input::placeholder { color: var(--text-dim); }
+.form-input:focus { border-color: var(--accent-dim); }
+
+.form-submit {
+  font-family: var(--font);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 13px 24px;
+  cursor: pointer;
+  transition: background var(--dur), color var(--dur);
+  white-space: nowrap;
+}
+.form-submit:hover { background: #7ab87a; border-color: #7ab87a; }
+.form-submit:active { background: #5a8a5a; }
+.form-submit:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.form-fine {
+  font-size: 10px;
+  color: var(--text-dim);
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+/* ─── SUCCESS ────────────────────────────────────────────── */
+.success {
+  display: none;
+  padding: 20px;
+  border: 1px solid var(--accent-dim);
+  background: rgba(107,158,107,0.06);
+}
+
+.success.visible { display: block; }
+
+.success-prompt {
+  font-size: 10px;
+  color: var(--accent);
+  letter-spacing: 0.10em;
+  margin-bottom: 8px;
+}
+.success-prompt::before { content: '> '; color: var(--text-dim); }
+
+.success-msg {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+/* ─── DIVIDER ────────────────────────────────────────────── */
+.divider {
+  font-size: 10px;
+  color: var(--border-hi);
+  margin: 2em 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* ─── RESPONSIVE ─────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .main { padding: 0 20px 72px; }
+  .opening { padding: 40px 0 32px; }
+  .form-row { flex-direction: column; }
+  .access-item { grid-template-columns: 1fr; gap: 6px; }
+}
+
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="topbar-logo" href="/">David Jivan</a>
+  <a class="topbar-back" href="/">← home</a>
+</div>
+
+<div class="main">
+
+  <!-- OPENING -->
+  <div class="opening">
+    <div class="opening-prompt">patron access</div>
+    <h1 class="opening-title">The Logos tradition was suppressed.<br>We're recovering it.</h1>
+    <div class="opening-body">
+      <p>In the first three centuries of Christianity, the most serious thinkers — Justin Martyr, Clement of Alexandria, Origen — were not primarily interested in institutional doctrine. They were interested in the <em>Logos</em>: the rational ground of all existence, identical to what Heraclitus and the Stoics had been reaching for centuries before Christ, and what quantum field theory has arrived at from the other direction.</p>
+      <p>That tradition was politically suppressed. The councils needed clean lines between saved and damned, inside and outside. A theology in which the Logos underlies all things — in which consciousness is fundamental and not a product of matter, in which universal restoration follows logically from the nature of the ground — that theology resists institutional machinery. So it was condemned.</p>
+      <p>It did not die. It went underground. It is recoverable. That is the project.</p>
+    </div>
+  </div>
+
+  <!-- RECOGNITION -->
+  <div class="recognition">
+    <div class="section-label">if this is yours</div>
+    <ul class="recognition-list">
+      <li>You find pure materialism unsatisfying — not as a comfort, but as a description. The hard problem of consciousness doesn't close from that side and you know it.</li>
+      <li>You left a religious tradition, or are quietly suffocating inside one, and you're not interested in either going back or flattening the whole thing into nothing.</li>
+      <li>You've read Kastrup, or Origen, or the Stoics, or the Upanishads, and had the experience of recognizing something rather than learning something new.</li>
+      <li>You want to engage the Logos tradition seriously — primary sources, historical context, philosophical argument — not as self-help and not as academic performance.</li>
+      <li>You think the intersection of early Christian theology and contemporary philosophy of mind is one of the most interesting places to stand right now, and almost nobody is standing there.</li>
+    </ul>
+  </div>
+
+  <!-- WHAT YOU GET -->
+  <div class="access">
+    <div class="section-label">what patron access includes</div>
+    <div class="access-items">
+      <div class="access-item">
+        <div class="access-item-label">RealityCode</div>
+        <div class="access-item-desc"><strong>A course on the Logos tradition</strong> — from Heraclitus through Origen through the suppression through what it means now. Not lecture. Thinking out loud with primary sources.</div>
+      </div>
+      <div class="access-item">
+        <div class="access-item-label">LogosArchive</div>
+        <div class="access-item-desc"><strong>A library of pre-Nicene texts</strong> with commentary — Heraclitus fragments, Stoic Logos doctrine, Philo, Justin, Clement, Origen. The primary sources, annotated for people who aren't classicists.</div>
+      </div>
+      <div class="access-item">
+        <div class="access-item-label">Essays</div>
+        <div class="access-item-desc"><strong>The writing at davidjivan.net</strong> goes deeper in patron access — longer pieces, working notes, the thinking behind the thinking.</div>
+      </div>
+      <div class="access-item">
+        <div class="access-item-label">What's next</div>
+        <div class="access-item-desc">This is early. Patrons shape what gets built. The project is a living document — you're in at the beginning of it.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FORM -->
+  <div class="form-section">
+    <div class="section-label">get early access</div>
+    <p class="form-note">Patron access isn't open yet. Leave your email and you'll be first in — before public launch, before pricing is set. No spam. One email when it's ready.</p>
+
+    <div class="divider">────────────────────────────────────────────────────────</div>
+
+    <form class="form" id="patron-form">
+      <div class="form-row">
+        <input
+          class="form-input"
+          type="email"
+          id="email-input"
+          name="email"
+          placeholder="your@email.com"
+          autocomplete="email"
+          required
+        />
+        <button class="form-submit" type="submit" id="submit-btn">
+          I'm in →
+        </button>
+      </div>
+      <p class="form-fine">No account created yet. Just a spot in line. Unsubscribe any time with one click.</p>
+    </form>
+
+    <div class="success" id="success-msg">
+      <div class="success-prompt">confirmed</div>
+      <div class="success-msg">You're on the list. You'll hear from me when patron access opens — and not before. That's the whole deal.</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const form = document.getElementById('patron-form');
+  const input = document.getElementById('email-input');
+  const btn = document.getElementById('submit-btn');
+  const success = document.getElementById('success-msg');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const email = input.value.trim();
+    if (!email) return;
+
+    btn.disabled = true;
+    btn.textContent = 'logging...';
+
+    // TODO: replace with real API call
+    console.log('[patron] email submitted:', email);
+
+    setTimeout(() => {
+      form.style.display = 'none';
+      success.classList.add('visible');
+      console.log('[patron] success state shown for:', email);
+    }, 600);
+  });
+</script>
+
+</body>
+</html>
