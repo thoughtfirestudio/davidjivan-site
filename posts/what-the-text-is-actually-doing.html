@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What the Text Is Actually Doing — David Jivan</title>
+<meta name="description" content="Inerrancy is a doctrine with a history — written in 1978, built to foreclose a question that was already being asked. When that frame comes off, what you find underneath is more interesting.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+
+:root {
+  --bg:         #0f0f0f;
+  --surface:    #161616;
+  --border:     #272727;
+  --border-hi:  #3a3a3a;
+  --text:       #c8c4bb;
+  --text-dim:   #666560;
+  --text-hi:    #e8e5de;
+  --accent:     #6b9e6b;
+  --accent-dim: #3d5c3d;
+  --font: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  --dur: 0.15s;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+a { text-decoration: none; color: inherit; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100dvh;
+}
+
+/* ─── TOPBAR ─────────────────────────────────────────────── */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(15,15,15,0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar-logo {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-hi);
+}
+
+.topbar-back {
+  font-size: 11px;
+  color: var(--text-dim);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  letter-spacing: 0.06em;
+  transition: color var(--dur), border-color var(--dur);
+  cursor: pointer;
+}
+.topbar-back:hover { color: var(--text); border-color: var(--border-hi); }
+
+/* ─── POST HEADER ────────────────────────────────────────── */
+.post-header {
+  padding: 48px 24px 36px;
+  border-bottom: 1px solid var(--border);
+  max-width: 720px;
+}
+
+.post-eyebrow {
+  font-size: 10px;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  margin-bottom: 20px;
+}
+.post-eyebrow::before { content: '> '; color: var(--text-dim); }
+
+.post-title {
+  font-size: clamp(18px, 4vw, 26px);
+  font-weight: 700;
+  color: var(--text-hi);
+  letter-spacing: 0.03em;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.post-meta {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+}
+
+/* ─── ARTICLE ────────────────────────────────────────────── */
+.article {
+  max-width: 720px;
+  padding: 40px 24px 96px;
+}
+
+.article p {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--text);
+  margin-bottom: 1.6em;
+  font-weight: 300;
+}
+
+.article p:first-child {
+  font-size: 15px;
+  color: rgba(200,196,187,0.85);
+}
+
+.article h2 {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 3em 0 1.2em;
+  padding-top: 2em;
+  border-top: 1px solid var(--border);
+}
+
+.article h2::before { content: '// '; color: var(--text-dim); }
+
+.article blockquote {
+  margin: 2em 0;
+  padding: 16px 20px;
+  border-left: 2px solid var(--accent-dim);
+  background: var(--surface);
+}
+
+.article blockquote p {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-bottom: 0;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.article em {
+  color: var(--text-hi);
+  font-style: italic;
+}
+
+.article strong {
+  color: var(--text-hi);
+  font-weight: 500;
+}
+
+/* ─── DIVIDER ────────────────────────────────────────────── */
+.divider {
+  font-size: 10px;
+  color: var(--border-hi);
+  margin: 2.5em 0;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+}
+
+/* ─── POST FOOTER ────────────────────────────────────────── */
+.post-footer {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid var(--border);
+}
+
+.author-line {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  margin-bottom: 16px;
+}
+
+.back-link {
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  transition: color var(--dur);
+}
+.back-link:hover { color: var(--text-hi); }
+.back-link::before { content: '← '; color: var(--text-dim); }
+
+/* ─── RESPONSIVE ─────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .post-header { padding: 36px 20px 28px; }
+  .article { padding: 32px 20px 72px; }
+}
+
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="topbar-logo" href="/">David Jivan</a>
+  <a class="topbar-back" href="/">← home</a>
+</div>
+
+<div class="post-header">
+  <div class="post-eyebrow">history · May 2026</div>
+  <h1 class="post-title">What the Text Is Actually Doing</h1>
+  <div class="post-meta">David Jivan · davidjivan.net</div>
+</div>
+
+<div class="article">
+
+  <p>The claim was never argued for. It was handed to me as the thing arguing started from.</p>
+
+  <p><em>The Bible is the inerrant Word of God.</em> In the tradition I grew up in, that sentence was load-bearing in a specific way: not a conclusion you arrived at after examining the evidence, but the frame inside which all the examining happened. Questions were allowed, within limits. The limits were the frame. You could ask what a passage meant. You could not ask whether it was true in the first place. The inerrancy claim made certain questions feel dangerous before they were even formed — not because anyone said they were forbidden, but because the frame made them feel like a kind of betrayal.</p>
+
+  <p>I grew up reading the NIV. At some point I learned that the NIV was produced by a committee that had committed, in writing, to inerrancy before the translation began — and that this prior commitment shapes specific translation choices in ways that are traceable. Then, further: the manuscripts behind any translation are themselves a transmission history, not a clean original. I've written about both of those things in earlier pieces, and they're what brought me to this one.</p>
+
+  <p>Because the translation carries institutional commitments, and the manuscript tradition is in process — but underneath both of those things is the doctrine that was placed around them to hold the whole structure together. The inerrancy frame itself. And the frame has a history that most people who hold it have never been told.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <p>The Chicago Statement on Biblical Inerrancy was written in 1978. It was produced by a gathering of evangelical scholars who wanted a formal, rigorous definition of what they meant when they said the Bible was without error. It's a serious document — careful, philosophically aware, distinguishing inerrancy from verbal dictation and making room for genre and literary convention. If you haven't read it, it's worth reading. It's doing real work.</p>
+
+  <p>But here is what I find significant: it was written in 1978. As a response to Enlightenment historical criticism — the slow-building scholarly project, running from the 17th century onward, that treated the biblical texts the way it treated any other ancient texts. Source analysis. Redaction history. Manuscript comparison. The Chicago Statement is not an ancient position recovered from the early church. It is a modern position constructed to push back against a kind of inquiry that was already well underway.</p>
+
+  <p>The word "inerrancy" does not appear in the Bible. The early church did not have this doctrine. Origen of Alexandria — the most sophisticated theologian in the history of the church, working in the 3rd century, reading the texts in their original languages — did not call the scriptures inerrant. He called them spiritually layered. He read them allegorically precisely because he knew the literal text had tensions and contradictions that were not incidental but instructive. The allegorical sense was where the real meaning lived, he argued, underneath the letter. He was not troubled by the tensions. He thought they were invitations to go deeper.</p>
+
+  <p>The inerrancy framework was built, in 1978, to foreclose a kind of reading that Origen considered essential. That's the genealogy. It is not ancient. It was not what the most serious early readers of these texts were doing. It was constructed at a specific moment to defend a specific position against a specific challenge.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <p>What the NIV does with the opening chapters of Genesis shows the frame operating in practice.</p>
+
+  <p>Genesis has two creation accounts. This is not a controversial scholarly claim — it is what the text contains. Genesis 1 runs from the beginning through chapter 2, verse 3: Elohim creates systematically over seven days, humans are made last, everything is good. Then Genesis 2, verse 4 begins again. A different divine name now: Yahweh Elohim. A different order: the man is formed from dust before any plant or animal exists, then the garden is made, then the animals are brought to the man, then the woman is made from his side. The two accounts are not minor variations. They are different theological pictures, drawing from different source traditions that scholars call the Priestly source (P) and the Yahwist source (J).</p>
+
+  <p>The Hebrew at Genesis 2:4 marks the seam explicitly. The phrase that opens the verse — <em>elleh toledot</em>, "these are the generations of" — is a structural formula that appears ten times in Genesis, each time introducing a new section. It is the book's own internal divider. The text is not trying to hide the join. It is marking it.</p>
+
+  <p>The NIV translates verse 4 through verse 7 using "when" constructions that collapse the second account into a detail zoom-in on Day 6 of the first. The man is formed <em>when</em> no shrub had yet appeared — as if we're being shown what happened within the sixth day before the plants arrived. The translation makes the accounts read as one continuous narrative, Genesis 1 setting the sequence and Genesis 2 filling in a detail.</p>
+
+  <p>That is not what the Hebrew is doing. The toledot formula is not a zoom-in. It opens a new account. The NIV is making a translation choice — flattening a seam the text is openly marking — in the service of a doctrine the translating committee had committed to before sitting down to translate. The text is not inerrant. The translation is arranged to look as if it is.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <p>But the clearest evidence — the most concrete, specific demonstration that the Bible cannot be what inerrancy requires it to be — is not in the translation choices. It is inside the text itself. And it is, if you can receive it this way, remarkable.</p>
+
+  <p>2 Samuel 24:1. Written somewhere around 550 BCE. The verse reads:</p>
+
+  <blockquote><p>Again the anger of the LORD was kindled against Israel, and he incited David against them, saying, "Go, number Israel and Judah."</p></blockquote>
+
+  <p>The LORD incites David to take a census. David takes the census. Then the LORD is angry with David for taking the census and sends a plague that kills seventy thousand people.</p>
+
+  <p>Read slowly: God tells David to do a thing. David does it. God punishes David for doing it.</p>
+
+  <p>Now 1 Chronicles 21:1. Written around 400 BCE — roughly a hundred and fifty years later. The same event:</p>
+
+  <blockquote><p>Then Satan stood against Israel and incited David to number Israel.</p></blockquote>
+
+  <p>Same event. Same action. Same punishment — David still takes the census, the plague still comes. But the agent who does the inciting has been changed. In Samuel, it is the LORD. In Chronicles, it is Satan.</p>
+
+  <p>The authors of Chronicles knew the Samuel text. This was not a scribal error, not a translation problem, not a different community working from a different source with no knowledge of the other account. Chronicles was written by people who had Samuel in front of them. They changed it deliberately.</p>
+
+  <p>Between 550 and 400 BCE, Jewish theology had been developing a more transcendent, morally coherent picture of God. Attributing the direct instigation of evil to Yahweh had become theologically untenable — it raised the problem of divine culpability in a way the tradition was no longer comfortable with. And so the tradition did what living traditions do: it thought more carefully about what it actually believed, and it revised its own account. It introduced a figure — Satan, here functioning as an adversarial agent rather than the later concept of a cosmic enemy — to carry the moral weight that could no longer rest with God directly.</p>
+
+  <p>The tradition was correcting its own theology. In writing. With the original still there to read.</p>
+
+  <p>An inerrant Bible cannot contain both of these passages. There is no harmonization available — no "when" construction, no translation choice, no theological gymnastics — that makes both verses simultaneously true in the plain sense. God incited David, or Satan did. Not both.</p>
+
+  <p>But a living tradition — a record of serious people thinking more carefully about God over time, revising earlier accounts when later thinking outgrew them — absolutely contains both passages. That is exactly what a living tradition looks like. The revision is not a failure. It is the tradition doing theology. The earlier account and the later one together show the inquiry in motion.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <p>The same pattern runs throughout. Paul didn't write all the letters attributed to him — the Pastoral Epistles (1 Timothy, 2 Timothy, Titus) are almost certainly deutero-Pauline, written by later authors working in his name. This was a common and accepted practice in antiquity; it was not forgery in the modern sense, but theological extension of a tradition. The household codes that have been used to subordinate women and justify slavery — "wives submit to your husbands," "slaves obey your masters" — appear primarily in the non-Pauline letters, not in the seven letters almost certainly written by Paul himself. The historical attribution is not a minor academic question. It changes what you're reading and who you're reading it from.</p>
+
+  <p>The day of the crucifixion differs between the Synoptic Gospels and John — the Synoptics place it the day after the Passover meal, John places it on the day of preparation before the meal. The Temple cleansing appears at the end of Jesus's ministry in the Synoptics and at the beginning in John. These are not resolvable by harmonization. They reflect different communities, different theological programs, different understandings of what was most significant about the same events.</p>
+
+  <p>None of this is new. Scholars have known it for centuries. The Chicago Statement was written in 1978 precisely because it was known.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <p>Here is what I've been sitting with: when the inerrancy frame comes off, what's actually in front of you?</p>
+
+  <p>The two Genesis creation accounts are not competing scientific claims. They are two theological portraits of God — the first transcendent and systematic, creating by speech, everything ordered and good; the second intimate and improvising, walking in the garden, surprised by what the humans do, forming the man from dirt with something like hands. Together they are a meditation on what kind of thing God is — whether the ground of being is remote or near, whether creation is command or craft, whether the relationship between God and the human creature is administrative or personal. They are asking that question from two angles. They are not trying to answer the same question about the order of events.</p>
+
+  <p>Reading them as competing scientific accounts — which the inerrancy framework requires, because it must then defend their compatibility — misses entirely what they are doing. They are not biology. They are not cosmology in the modern sense. They are thinking about God, with everything available to the people doing the thinking, as honestly as they could.</p>
+
+  <p>The census story is even more interesting once you stop trying to manage it. It is a front-row seat to a tradition revising its own theology. The earlier writers were honest about something troubling in their picture of God — that sometimes God seemed to incite disaster directly, without a mediating cause, and that this sat uneasily with their growing sense of God's character. The later writers were honest enough to change it. They didn't delete the earlier account. They let both stand, in the same canon, with the revision visible. That is not intellectual dishonesty. That is a tradition taking itself seriously enough to show its work.</p>
+
+  <p>The Psalms, Job, Ecclesiastes, the prophetic literature — these are people thinking at the outer edge of what they knew how to think. The questions in them are live: What is God? What is evil? Why do the righteous suffer? What does it mean to be human? These are not the questions of a tradition delivering settled answers. They are the questions of people who have encountered something they cannot fully account for and are working out what they believe about it, honestly, in writing, knowing their writing might outlast them.</p>
+
+  <p>Read as inerrant propositions to be defended, these texts require enormous amounts of energy to protect them from themselves. Read as meditation literature — as serious people working through the hardest questions they knew — they are still worth inheriting. Maybe more so.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <p>Origen didn't need the texts to be inerrant because he wasn't reading them for propositions. He was reading them as a record of the Logos working through human minds over time — teaching at different levels, to different readers, in different eras. The tensions and contradictions were not problems to explain away. They were signs that the literal surface was not the whole meaning. The real reading was always underneath, in what the text was reaching toward, in the questions it was opening rather than the facts it was reporting.</p>
+
+  <p>He was condemned for other things, three hundred years after his death. But his way of reading the text — allegorical, layered, expecting the real meaning to be deeper than the letter — was never entirely suppressed. It kept surfacing in the mystics, in the margins of the tradition, in people who found the inerrancy framework too small a container for what they were actually encountering.</p>
+
+  <p>I think the tradition was always a living inquiry. The Chronicles writer revising Samuel is the tradition doing what the Logos tradition would predict: thinking more carefully about what it actually believes, letting the earlier account stand, letting the revision stand, trusting future readers to do what serious readers do — sit with both, follow the tension, go deeper.</p>
+
+  <p>That's what the text is actually doing. Not delivering settled answers from a pure and uncorrupted source. Thinking out loud, across centuries, about the things that matter most. The inerrancy frame doesn't protect that. It closes it off.</p>
+
+  <p>When the frame comes off, you don't lose the tradition. You get more of it.</p>
+
+  <div class="post-footer">
+    <div class="author-line">David Jivan · May 2026</div>
+    <a class="back-link" href="/">davidjivan.net</a>
+  </div>
+
+</div>
+
+</body>
+</html>
