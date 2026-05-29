@@ -434,7 +434,7 @@ body {
     <div class="menu-item" onclick="openPanel('posts')" role="button" tabindex="0" aria-label="Posts">
       <span class="menu-num">01</span>
       <span class="menu-name">Posts</span>
-      <span class="menu-status">6 entries</span>
+      <span class="menu-status" id="post-count">— entries</span>
       <span class="menu-arrow">→</span>
     </div>
     <div class="menu-item" onclick="openPanel('bio')" role="button" tabindex="0" aria-label="Bio">
@@ -473,32 +473,7 @@ body {
   <div class="ov-body">
     <p class="ov-desc">Consciousness, the Logos, early Christian theology, and whatever else won't leave me alone.</p>
     <div class="divider">────────────────────────────────────────</div>
-    <div class="post-list">
-      <a class="post-card" href="/posts/who-gives-a-fuck-about-a-johannine-comma.html">
-        <div class="post-title">Who gives a f*ck about a Johannine comma?</div>
-        <div class="post-meta">May 2026 · history</div>
-      </a>
-      <a class="post-card" href="/posts/origen-crash-course.html">
-        <div class="post-title">Origen crash course — a study guide</div>
-        <div class="post-meta">2026 · study guide · theology</div>
-      </a>
-      <a class="post-card" href="/posts/what-the-text-is-actually-doing.html">
-        <div class="post-title">What the text is actually doing</div>
-        <div class="post-meta">May 2026 · history</div>
-      </a>
-      <a class="post-card" href="/posts/the-text-has-always-been-in-process.html">
-        <div class="post-title">The text has always been in process</div>
-        <div class="post-meta">May 2026 · history</div>
-      </a>
-      <a class="post-card" href="/posts/the-man-they-burned-made-your-bible.html">
-        <div class="post-title">The man they burned made your Bible</div>
-        <div class="post-meta">May 2026 · history</div>
-      </a>
-      <a class="post-card" href="/posts/does-christianity-hinge-on-the-resurrection.html">
-        <div class="post-title">Does Christianity hinge on the literal resurrection?</div>
-        <div class="post-meta">May 2026 · theology</div>
-      </a>
-    </div>
+    <div class="post-list" id="post-list"></div>
   </div>
 </div>
 
@@ -642,6 +617,19 @@ body {
       document.body.style.overflow = '';
     }
   });
+
+  fetch('/posts.json')
+    .then(r => r.json())
+    .then(posts => {
+      document.getElementById('post-count').textContent = posts.length + ' entries';
+      document.getElementById('post-list').innerHTML = posts.map(p => {
+        const meta = [p.date, ...p.tags].join(' · ');
+        return `<a class="post-card" href="/posts/${p.slug}.html">
+          <div class="post-title">${p.title}</div>
+          <div class="post-meta">${meta}</div>
+        </a>`;
+      }).join('');
+    });
 </script>
 </body>
 </html>
