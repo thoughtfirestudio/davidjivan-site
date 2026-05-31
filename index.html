@@ -182,8 +182,27 @@ body {
   <div class="post-list" id="post-list"></div>
 </div>
 
+<!-- READING ORDER -->
+<div class="menu" style="border-top: 1px solid var(--border); padding-top: 32px;">
+  <div class="menu-label">// start here</div>
+  <div style="font-size: 12px; color: var(--text-dim); line-height: 1.8; font-weight: 300; margin-bottom: 16px; max-width: 520px;">If you're new, this is the thread. Each piece builds on the last.</div>
+  <div class="post-list" id="reading-order"></div>
+</div>
+
 
 <script>
+  const readingOrder = [
+    { n: "1", slug: "the-bible-is-the-inerrant-word-of-god", title: "The Bible is the inerrant Word of God" },
+    { n: "2", slug: "the-text-has-always-been-in-process", title: "The text has always been in process" },
+    { n: "3", slug: "the-man-they-burned-made-your-bible", title: "The man they burned made your Bible" },
+    { n: "4", slug: "who-gives-a-fuck-about-a-johannine-comma", title: "Who gives a f*ck about a Johannine comma?" },
+    { n: "5", slug: "the-first-one-they-killed", title: "The first one they killed" },
+    { n: "6", slug: "does-christianity-hinge-on-the-resurrection", title: "Does Christianity hinge on the literal resurrection?" },
+    { n: "7", slug: "origen-crash-course", title: "Origen crash course — a study guide" },
+    { n: "8", slug: "there-are-no-particles", title: "There are no particles" },
+    { n: "9", slug: "the-logos-was-toward-god", title: "The Logos was toward God" }
+  ];
+
   fetch('/posts.json')
     .then(r => r.json())
     .then(posts => {
@@ -192,6 +211,12 @@ body {
         return `<a class="post-card" href="/posts/${p.slug}.html">
           <div class="post-title">${p.title}</div>
           <div class="post-meta">${meta}</div>
+        </a>`;
+      }).join('');
+
+      document.getElementById('reading-order').innerHTML = readingOrder.map(r => {
+        return `<a class="post-card" href="/posts/${r.slug}.html">
+          <div class="post-title">${r.n}. ${r.title}</div>
         </a>`;
       }).join('');
     });
