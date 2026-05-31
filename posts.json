@@ -1,5 +1,11 @@
 [
   {
+    "title": "The Logos lineage",
+    "slug": "the-logos-lineage",
+    "date": "June 2026",
+    "tags": ["history", "theology"]
+  },
+  {
     "title": "The Logos was toward God",
     "slug": "the-logos-was-toward-god",
     "date": "June 2026",
@@ -22,6 +28,18 @@
     "slug": "who-gives-a-fuck-about-a-johannine-comma",
     "date": "May 2026",
     "tags": ["history"]
+  },
+  {
+    "title": "Pseudo-Dionysius crash course — a study guide",
+    "slug": "pseudo-dionysius-crash-course",
+    "date": "2026",
+    "tags": ["study guide", "theology"]
+  },
+  {
+    "title": "Philo crash course — a study guide",
+    "slug": "philo-crash-course",
+    "date": "2026",
+    "tags": ["study guide", "theology"]
   },
   {
     "title": "Eckhart crash course — a study guide",
