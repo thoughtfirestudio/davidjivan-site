@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Logos Was Toward God — David Jivan</title>
+<meta name="description" content="The most famous sentence in the New Testament has been mistranslated for centuries. The Greek says something more precise, more philosophically loaded, and stranger than 'the Word was with God, and the Word was God.' What the Author actually wrote — and what it does to everything downstream.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+
+:root {
+  --bg:         #0f0f0f;
+  --surface:    #161616;
+  --border:     #272727;
+  --border-hi:  #3a3a3a;
+  --text:       #c8c4bb;
+  --text-dim:   #666560;
+  --text-hi:    #e8e5de;
+  --accent:     #6b9e6b;
+  --accent-dim: #3d5c3d;
+  --font: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  --dur: 0.15s;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+a { text-decoration: none; color: inherit; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100dvh;
+}
+
+/* ─── TOPBAR ─────────────────────────────────────────────── */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(15,15,15,0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar-logo {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-hi);
+}
+
+.topbar-back {
+  font-size: 11px;
+  color: var(--text-dim);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  letter-spacing: 0.06em;
+  transition: color var(--dur), border-color var(--dur);
+  cursor: pointer;
+}
+.topbar-back:hover { color: var(--text); border-color: var(--border-hi); }
+
+/* ─── POST HEADER ────────────────────────────────────────── */
+.post-header {
+  padding: 48px 24px 36px;
+  border-bottom: 1px solid var(--border);
+  max-width: 720px;
+}
+
+.post-eyebrow {
+  font-size: 10px;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  margin-bottom: 20px;
+}
+.post-eyebrow::before { content: '> '; color: var(--text-dim); }
+
+.post-title {
+  font-size: clamp(18px, 4vw, 26px);
+  font-weight: 700;
+  color: var(--text-hi);
+  letter-spacing: 0.03em;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.post-meta {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+}
+
+/* ─── ARTICLE ────────────────────────────────────────────── */
+.article {
+  max-width: 720px;
+  padding: 40px 24px 96px;
+}
+
+.article p {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--text);
+  margin-bottom: 1.6em;
+  font-weight: 300;
+}
+
+.article p:first-child {
+  font-size: 15px;
+  color: rgba(200,196,187,0.85);
+}
+
+.article h2 {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 3em 0 1.2em;
+  padding-top: 2em;
+  border-top: 1px solid var(--border);
+}
+
+.article h2::before { content: '// '; color: var(--text-dim); }
+
+.article blockquote {
+  margin: 2em 0;
+  padding: 16px 20px;
+  border-left: 2px solid var(--accent-dim);
+  background: var(--surface);
+}
+
+.article blockquote p {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-bottom: 0;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.article em {
+  color: var(--text-hi);
+  font-style: italic;
+}
+
+.article strong {
+  color: var(--text-hi);
+  font-weight: 500;
+}
+
+/* ─── DIVIDER ────────────────────────────────────────────── */
+.divider {
+  font-size: 10px;
+  color: var(--border-hi);
+  margin: 2.5em 0;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+}
+
+/* ─── POST FOOTER ────────────────────────────────────────── */
+.post-footer {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid var(--border);
+}
+
+.author-line {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  margin-bottom: 16px;
+}
+
+.back-link {
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  transition: color var(--dur);
+}
+.back-link:hover { color: var(--text-hi); }
+.back-link::before { content: '← '; color: var(--text-dim); }
+
+/* ─── RESPONSIVE ─────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .post-header { padding: 36px 20px 28px; }
+  .article { padding: 32px 20px 72px; }
+}
+
+</style>
+<script defer src="https://analytics.thoughtfire.studio/script.js" data-website-id="79251aec-d611-4b63-9fb8-61478eb8f8ef"></script>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="topbar-logo" href="/">David Jivan</a>
+  <a class="topbar-back" href="/">← home</a>
+</div>
+
+<div class="post-header">
+  <div class="post-eyebrow">theology · June 2026</div>
+  <h1 class="post-title">The Logos Was Toward God</h1>
+  <div class="post-meta">David Jivan · davidjivan.net</div>
+</div>
+
+<div class="article">
+
+  <p>The most famous sentence in the New Testament has been flattened by every major English translation for four hundred years.</p>
+
+  <p>You know it, probably: <em>In the beginning was the Word, and the Word was with God, and the Word was God.</em> The King James gave it that shape in 1611. Every mainstream translation since has kept the same structure. And every one of them collapses the two most precise philosophical moves the sentence makes.</p>
+
+  <p>The Greek says something different. Something more careful. And once you hear what it's actually doing, the entire downstream theology shifts.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <p>Here is John 1:1 in the Greek: <em>En archē ēn ho Logos, kai ho Logos ēn pros ton Theon, kai Theos ēn ho Logos.</em></p>
+
+  <p>Three clauses. Three claims. Each one philosophically load-bearing.</p>
+
+  <p>The rendering I've landed on, after sitting with the Greek for a while: <em>In the beginning was the Logos, and the Logos was toward God, and what God was, the Logos was.</em></p>
+
+  <p>That probably looks strange. Let me take it apart.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <h2>Toward</h2>
+
+  <p>The second clause: <em>ho Logos ēn pros ton Theon.</em> Every major translation renders <em>pros</em> as "with." The Word was <em>with</em> God.</p>
+
+  <p>But <em>pros</em> doesn't mean "with." Not really. Greek has a word for "alongside" — <em>para</em>. It has a word for "inside" — <em>en</em>. The Author chose neither. <em>Pros</em> means <em>toward</em>. It's directional. It implies face-to-face orientation. Not mere proximity but permanent relation — distinction and intimacy held together. The Logos is not sitting next to God. The Logos is <em>facing</em> God, in a posture of eternal mutual beholding.</p>
+
+  <p>This matters because "with" sounds like two things in the same room. "Toward" sounds like a relationship. A directionality. Something alive in its orientation. The Logos is not absorbed into undifferentiated unity with God — that would collapse the distinction. And it is not a separate entity parked alongside God — that would split the unity. It is in permanent face-to-face relation. Distinct but intimate. Always toward.</p>
+
+  <p>That preposition is doing work that four centuries of English translation have quietly erased.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <h2>What God was</h2>
+
+  <p>The third clause is where the real precision lives, and where the collapse is worst.</p>
+
+  <p><em>Kai Theos ēn ho Logos.</em> Standard translation: "and the Word was God." Clean, bold, memorable. And wrong — or rather, too crude to carry what the Greek is doing.</p>
+
+  <p>In Greek, the definite article matters. In the second clause, the Author writes <em>ton Theon</em> — <strong>the</strong> God, with the article. A specific referent. The one the Logos is oriented toward. In the third clause, the Author writes <em>Theos</em> — God without the article. No "the." Just <em>Theos</em>, functioning as a qualitative predicate. Not "the Logos was <em>the</em> God" — that would be an identity statement, making the Logos simply equivalent to God with no remainder. Instead: "the Logos was <em>God</em>" in the way that something participates in a nature. The Logos is divine. The Logos is of the same substance. What God <em>was</em>, the Logos was.</p>
+
+  <p>The Jehovah's Witnesses tried to solve this by translating it "the Word was <em>a</em> god" — which catches the missing article but produces the opposite error, implying a lesser, created being. That's not what the Greek is doing either.</p>
+
+  <p>What the Greek is doing is this: the Logos shares fully in the divine nature without being the totality of the divine. It is divine without exhausting divinity. This is one of the most precise formulations in ancient literature, and the standard English translation — "the Word was God" — flattens it into what looks like a simple identity statement.</p>
+
+  <p>"What God was, the Logos was" holds the distinction. The Logos is not <em>less than</em> God. And the Logos is not <em>identical to</em> God. The Logos is what God is — participating fully in the divine nature while remaining in relationship with the one it is toward.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <h2>What the sentence does</h2>
+
+  <p>Put the whole thing together: <em>the Logos was toward God, and what God was, the Logos was.</em></p>
+
+  <p>This sentence encodes, in a single line of Greek, a relationship that the tradition would spend three centuries trying to formalize into doctrine. The Logos is distinct from God — it is "toward" God, in relation, not the same as God. And the Logos is divine — what God was, the Logos was, sharing the nature completely. Both claims hold simultaneously. They are not a contradiction to be solved or a mystery to be confessed. They are a precise description of a particular kind of relationship.</p>
+
+  <p>Distinction without separation. Intimacy without identity.</p>
+
+  <p>The councils of Nicaea and Chalcedon would eventually try to formalize this in the language of <em>homoousios</em> — "same substance" — and the elaborate Christological definitions that followed. But the Author of the Fourth Gospel had already said it more economically, more precisely, in one sentence, by choosing his preposition and dropping his article. The theology was in the grammar.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <h2>The question that opens</h2>
+
+  <p>Here is where it gets interesting for me, and where I don't have a clean answer.</p>
+
+  <p>If the Logos is "toward" God — facing God, in permanent relation — then who is God in this sentence? What is <em>ton Theon</em>, the one the Logos is oriented toward?</p>
+
+  <p>The tradition calls this figure "the Father." And "Father" is not a casual word. It is personal. It implies a subject who generates, who relates, who faces. The apophatic tradition — Eckhart, the Cappadocians, the mystics — calls the same ground something less personal: Being itself, the Ground, the in-which. Not a being among beings but the condition for any being at all.</p>
+
+  <p>These point at the same thing. They don't describe the same thing.</p>
+
+  <p>"Being" is impersonal. "Father" is relational. If I'm honest about what I think consciousness-first metaphysics implies — that awareness is the irreducible given, that subjectivity is fundamental rather than emergent — then "Father" might actually be closer to the truth than "Ground." If consciousness is what's most real, then personhood is not a late product of neural complexity. It is a feature of the substrate itself. The personal language isn't anthropomorphism projected upward. The impersonal language might be abstraction projected downward.</p>
+
+  <p>Eckhart held both. He distinguished the <em>Gottheit</em> — the Godhead, the apophatic desert beyond all names — from <em>Gott</em> — God as Father, as the first movement of self-expression, where the Trinity emerges. The Godhead is beyond personhood. God-the-Father is personhood at its source. Both are true. Both are inadequate. Eckhart did not resolve the tension. He sat in it. "God is closer to me than I am to myself" and "the Godhead is a desert into which no one has ever penetrated" are both his sentences.</p>
+
+  <p>I think this tension is not a flaw in the system. I think it is the system working correctly at its limit. Every personal predicate is inadequate to what it's pointing at. Every impersonal predicate strips out the subjectivity that, on a consciousness-first account, is the most fundamental thing there is. The truth is at the limit of both, where language runs out but the orientation doesn't.</p>
+
+  <p><em>Pros ton Theon.</em> Toward. Not arrived. Not contained. Oriented.</p>
+
+  <div class="divider">────────────────────────────────────────────────────────</div>
+
+  <p>What stays with me about the first verse of the Fourth Gospel is that the Author got there before the councils, before the creeds, before the centuries of debate about what this sentence means. The precision was already in the grammar. The theology was already in the preposition. And every major translation smoothed it into something easier to say and harder to think.</p>
+
+  <p><em>The Logos was toward God, and what God was, the Logos was.</em></p>
+
+  <p>I keep sitting with that sentence. It's doing more than I can unpack in a single pass. The distinction without separation. The participation without identity. The directionality that is not arrival but permanent orientation. This is the grammar of the relationship between consciousness and its rational structure — between Being and the Logos — and the Author encoded it in one line of Greek before anyone had the philosophical vocabulary to say what he had done.</p>
+
+  <p>I'm not done with it. I don't think anyone is.</p>
+
+  <div class="post-footer">
+    <div class="author-line">David Jivan · June 2026</div>
+    <a class="back-link" href="/">davidjivan.net</a>
+  </div>
+
+</div>
+
+</body>
+</html>
