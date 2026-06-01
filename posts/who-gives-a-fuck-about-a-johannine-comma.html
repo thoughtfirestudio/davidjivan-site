@@ -7,200 +7,12 @@
 <meta name="description" content="The one verse in the whole New Testament that states the Trinity outright is also the one verse that wasn't there. The story of how it got in is messier — and more human — than the legend that gets repeated.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
-<style>
-
-:root {
-  --bg:         #0f0f0f;
-  --surface:    #161616;
-  --border:     #272727;
-  --border-hi:  #3a3a3a;
-  --text:       #c8c4bb;
-  --text-dim:   #666560;
-  --text-hi:    #e8e5de;
-  --accent:     #6b9e6b;
-  --accent-dim: #3d5c3d;
-  --font: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
-  --dur: 0.15s;
-}
-
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
-a { text-decoration: none; color: inherit; }
-
-body {
-  font-family: var(--font);
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100dvh;
-}
-
-/* ─── TOPBAR ─────────────────────────────────────────────── */
-.topbar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: rgba(15,15,15,0.92);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--border);
-  padding: 14px 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.topbar-logo {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-hi);
-}
-
-.topbar-back {
-  font-size: 11px;
-  color: var(--text-dim);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 6px 14px;
-  letter-spacing: 0.06em;
-  transition: color var(--dur), border-color var(--dur);
-  cursor: pointer;
-}
-.topbar-back:hover { color: var(--text); border-color: var(--border-hi); }
-
-/* ─── POST HEADER ────────────────────────────────────────── */
-.post-header {
-  padding: 48px 24px 36px;
-  border-bottom: 1px solid var(--border);
-  max-width: 720px;
-}
-
-.post-eyebrow {
-  font-size: 10px;
-  color: var(--accent);
-  letter-spacing: 0.12em;
-  margin-bottom: 20px;
-}
-.post-eyebrow::before { content: '> '; color: var(--text-dim); }
-
-.post-title {
-  font-size: clamp(18px, 4vw, 26px);
-  font-weight: 700;
-  color: var(--text-hi);
-  letter-spacing: 0.03em;
-  line-height: 1.25;
-  margin-bottom: 20px;
-}
-
-.post-meta {
-  font-size: 10px;
-  color: var(--text-dim);
-  letter-spacing: 0.08em;
-}
-
-/* ─── ARTICLE ────────────────────────────────────────────── */
-.article {
-  max-width: 720px;
-  padding: 40px 24px 96px;
-}
-
-.article p {
-  font-size: 14px;
-  line-height: 1.9;
-  color: var(--text);
-  margin-bottom: 1.6em;
-  font-weight: 300;
-}
-
-.article p:first-child {
-  font-size: 15px;
-  color: rgba(200,196,187,0.85);
-}
-
-.article h2 {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin: 3em 0 1.2em;
-  padding-top: 2em;
-  border-top: 1px solid var(--border);
-}
-
-.article h2::before { content: '// '; color: var(--text-dim); }
-
-.article blockquote {
-  margin: 2em 0;
-  padding: 16px 20px;
-  border-left: 2px solid var(--accent-dim);
-  background: var(--surface);
-}
-
-.article blockquote p {
-  font-size: 13px;
-  color: var(--text-dim);
-  margin-bottom: 0;
-  font-style: italic;
-  line-height: 1.8;
-}
-
-.article em {
-  color: var(--text-hi);
-  font-style: italic;
-}
-
-.article strong {
-  color: var(--text-hi);
-  font-weight: 500;
-}
-
-/* ─── DIVIDER ────────────────────────────────────────────── */
-.divider {
-  font-size: 10px;
-  color: var(--border-hi);
-  margin: 2.5em 0;
-  overflow: hidden;
-  white-space: nowrap;
-  letter-spacing: 0.04em;
-}
-
-/* ─── POST FOOTER ────────────────────────────────────────── */
-.post-footer {
-  margin-top: 3em;
-  padding-top: 2em;
-  border-top: 1px solid var(--border);
-}
-
-.author-line {
-  font-size: 10px;
-  color: var(--text-dim);
-  letter-spacing: 0.08em;
-  margin-bottom: 16px;
-}
-
-.back-link {
-  font-size: 11px;
-  color: var(--accent);
-  letter-spacing: 0.06em;
-  transition: color var(--dur);
-}
-.back-link:hover { color: var(--text-hi); }
-.back-link::before { content: '← '; color: var(--text-dim); }
-
-/* ─── RESPONSIVE ─────────────────────────────────────────── */
-@media (max-width: 480px) {
-  .post-header { padding: 36px 20px 28px; }
-  .article { padding: 32px 20px 72px; }
-}
-
-</style>
+<link rel="stylesheet" href="/style.css">
 <script defer src="https://analytics.thoughtfire.studio/script.js" data-website-id="79251aec-d611-4b63-9fb8-61478eb8f8ef"></script>
 </head>
 <body>
 
-<div class="topbar">
+<div class="topbar topbar--sticky">
   <a class="topbar-logo" href="/">David Jivan</a>
   <a class="topbar-back" href="/">← home</a>
 </div>
@@ -213,63 +25,153 @@ body {
 
 <div class="article">
 
-  <p>There's a Vampire Weekend song where Ezra Koenig opens by asking who gives a fuck about an Oxford comma, and the whole point is that the question answers itself. Nobody does. It's a punctuation mark. You'd have to be a particular kind of person to care.</p>
+  <p class="reveal">There's a Vampire Weekend song where Ezra Koenig opens by asking who gives a fuck about an Oxford comma, and the whole point is that the question answers itself. Nobody does. It's a punctuation mark. You'd have to be a particular kind of person to care.</p>
 
-  <p>So here is a particular kind of person caring about a different comma.</p>
+  <p class="reveal" style="--i:1">So here is a particular kind of person caring about a different comma.</p>
 
-  <p>The one I want to talk about is called the <em>Comma Johanneum</em> — the Johannine Comma — and the word "comma" here doesn't mean punctuation at all. In older usage a comma was a short clause, a fragment of a sentence. This one is a fragment of First John, chapter five. And unlike the Oxford comma, people did, in fact, give a fuck about it. Popes did. Reformers did. Erasmus nearly wrecked his reputation over it. It is, by a decent margin, the single most consequential clause in the history of the printed Bible.</p>
+  <p class="reveal" style="--i:2">The one I want to talk about is called the <em>Comma Johanneum</em> — the Johannine Comma — and the word "comma" here doesn't mean punctuation at all. In older usage a comma was a short clause, a fragment of a sentence. This one is a fragment of First John, chapter five. And unlike the Oxford comma, people did, in fact, give a fuck about it. Popes did. Reformers did. Erasmus nearly wrecked his reputation over it. It is, by a decent margin, the single most consequential clause in the history of the printed Bible.</p>
 
-  <p>It is also, almost certainly, not original.</p>
+  <p class="reveal" style="--i:3">It is also, almost certainly, not original.</p>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <div class="divider reveal">────────────────────────────────────────────────────────</div>
 
-  <p>Here is the clause, as it lands in the King James:</p>
+  <p class="kicker reveal">The verse</p>
 
-  <blockquote><p>For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one.</p></blockquote>
+  <p class="reveal">Here is the clause, as it lands in the King James:</p>
 
-  <p>Sit with what that sentence is doing. It is the only place in the entire New Testament where the doctrine of the Trinity is stated outright — three named persons, one essence, in a single line. Everywhere else the church had to <em>build</em> the Trinity, argue it across three centuries of councils and anathemas, assemble it out of scattered hints and prepositions. But right here, apparently, the author just says it. Plainly. Done.</p>
+  <blockquote class="reveal"><p>For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one.</p></blockquote>
 
-  <p>That's the tell, actually. It's too convenient. The fathers who fought the great fourth-century battles over the nature of Christ — the men who would have killed for a clean proof-text — never quote it. Not once. Athanasius doesn't reach for it. The defenders of Nicaea don't deploy it. You do not leave the nuclear option in the drawer during the war you are fighting. The simplest explanation for their silence is that they didn't have it.</p>
+  <div class="thesis reveal">
+    <div class="thesis-mark">"</div>
+    <div class="thesis-quote">It is the only place in the entire New Testament where the doctrine of the Trinity is stated outright.</div>
+  </div>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <p class="reveal">Sit with what that sentence is doing. It is the only place in the entire New Testament where the doctrine of the Trinity is stated outright — three named persons, one essence, in a single line. Everywhere else the church had to <em>build</em> the Trinity, argue it across three centuries of councils and anathemas, assemble it out of scattered hints and prepositions. But right here, apparently, the author just says it. Plainly. Done.</p>
 
-  <p>So where did it come from.</p>
+  <div class="callout callout--accent reveal">
+    That's the tell, actually. It's too convenient. The fathers who fought the great fourth-century battles over the nature of Christ — the men who would have killed for a clean proof-text — never quote it. Not once. Athanasius doesn't reach for it. The defenders of Nicaea don't deploy it. You do not leave the nuclear option in the drawer during the war you are fighting. The simplest explanation for their silence is that they didn't have it.
+  </div>
 
-  <p>The honest answer is: the Latin, and late. The earliest reasonably clear sighting is in a Latin work tied to Priscillian, near the end of the fourth century — and there it reads less like a quotation than like an <em>interpretation</em> of the author's actual line about the three witnesses, the Spirit and the water and the blood. From there it seeps into a few Old Latin manuscripts, drifts up out of the margins, and over the following centuries hardens into the running text of Latin Bibles. It was not in Jerome's original Vulgate. The prologue floating around under Jerome's name that defends the Comma is itself a forgery.</p>
+  <div class="divider reveal">────────────────────────────────────────────────────────</div>
 
-  <p>In Greek — the language the author actually wrote in — it simply isn't there. Not in the fourth-century codices. Not in anything early. It surfaces in a literal handful of Greek manuscripts, most of them with the clause crammed into the margin by a later hand, and the few that carry it in the body of the text are late, medieval, and visibly bent toward the Latin. The earliest of those continuous-text Greek witnesses is centuries after the doctrine it supposedly proves was already settled.</p>
+  <p class="kicker reveal">So where did it come from</p>
 
-  <p>A clause that states the central mystery of the faith. Absent from the Greek. Present in the Latin only after late antiquity. This is the thing the King James hands you as scripture.</p>
+  <p class="reveal">The honest answer is: the Latin, and late. The earliest reasonably clear sighting is in a Latin work tied to Priscillian, near the end of the fourth century — and there it reads less like a quotation than like an <em>interpretation</em> of the author's actual line about the three witnesses, the Spirit and the water and the blood. From there it seeps into a few Old Latin manuscripts, drifts up out of the margins, and over the following centuries hardens into the running text of Latin Bibles. It was not in Jerome's original Vulgate. The prologue floating around under Jerome's name that defends the Comma is itself a forgery.</p>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <p class="reveal">In Greek — the language the author actually wrote in — it simply isn't there. Not in the fourth-century codices. Not in anything early. It surfaces in a literal handful of Greek manuscripts, most of them with the clause crammed into the margin by a later hand, and the few that carry it in the body of the text are late, medieval, and visibly bent toward the Latin. The earliest of those continuous-text Greek witnesses is centuries after the doctrine it supposedly proves was already settled.</p>
 
-  <p>Now the part that gets told as a campfire story, and the part I want to tell more carefully — because I've repeated the campfire version myself, and it's wrong in a way that matters.</p>
+  <div class="timeline reveal">
+    <div class="tl-item">
+      <div class="tl-when">~380 CE</div>
+      <div class="tl-who">Priscillian</div>
+      <div class="tl-body">Earliest sighting — Latin, reads as interpretation not quotation</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">5th–9th c.</div>
+      <div class="tl-who">Old Latin manuscripts</div>
+      <div class="tl-body">Seeps in from margins into running text of Latin Bibles</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">4th c. original</div>
+      <div class="tl-who">Jerome's Vulgate</div>
+      <div class="tl-body">Not in the original; the prologue defending it is <em>itself a forgery</em></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">Medieval</div>
+      <div class="tl-who">Greek margins</div>
+      <div class="tl-body">Handful of manuscripts — clause crammed in by a later hand</div>
+    </div>
+    <div class="tl-item tl-item--active">
+      <div class="tl-when">Late continuous text</div>
+      <div class="tl-who">Greek witnesses</div>
+      <div class="tl-body">Centuries after the doctrine was already settled</div>
+    </div>
+  </div>
 
-  <p>The campfire version goes like this. Erasmus, assembling his Greek New Testament in 1516, leaves the Comma out, because it isn't in his Greek sources. His critics scream. He makes a bet: produce me a single Greek manuscript with the verse and I'll put it in. One conveniently appears. He keeps his word, through gritted teeth, and that's how the Trinity's only proof-text entered the printed Bible.</p>
+  <p class="reveal">A clause that states the central mystery of the faith. Absent from the Greek. Present in the Latin only after late antiquity. This is the thing the King James hands you as scripture.</p>
 
-  <p>It's a great story. The trouble is the wager almost certainly never happened.</p>
+  <div class="divider reveal">────────────────────────────────────────────────────────</div>
 
-  <p>The line about Erasmus <em>promising</em> to include the verse if a manuscript turned up was treated as fact for a long time — it's in older editions of the standard textbooks — until the Erasmus scholar Henk Jan de Jonge went back to what Erasmus actually wrote and found no such promise in those terms. What Erasmus seems to have done is quieter and, to me, more interesting than a bet. He bowed to pressure. He put the verse in his 1522 edition not because he was beaten in a wager and not because he'd been convinced, but to stop the slander, to avoid the whisper that he was soft on Arianism, to make the noise go away — all while recording his doubts about the thing in his own notes. He included a verse he didn't believe, on purpose, to protect himself. That's not a bet lost. That's a man choosing peace over the text. I find I understand it completely, and that's the uncomfortable part.</p>
+  <p class="kicker reveal">The campfire story and the real one</p>
 
-  <p>There was a manuscript. It's called Codex Montfortianus, and it sits in Dublin now. It's a sixteenth-century book — late by any measure, contemporary with the controversy itself. And the Comma <em>in</em> it gives the game away: the Greek is missing the little articles that natural Greek would carry, the unmistakable fingerprint of something translated <em>out of Latin into</em> Greek rather than written in Greek to begin with. Erasmus himself suspected it had been cooked up to corner him.</p>
+  <p class="reveal">Now the part that gets told as a campfire story, and the part I want to tell more carefully — because I've repeated the campfire version myself, and it's wrong in a way that matters.</p>
 
-  <p>Here's where I have to be precise, because precision is the whole point of the exercise. That the clause in Montfortianus is a back-translation from Latin — that's well supported; you can see it in the grammar. That the <em>entire manuscript was produced to order</em>, fabricated specifically to trap Erasmus — that's the suspicion, his and others', and it's plausible, but it is not proven. I stated it once as flat fact. It isn't one. The defensible version is narrower and somehow worse: a demonstrably late book, carrying a demonstrably Latin-derived reading, used to leverage a verse into the Greek tradition that the Greek tradition never had.</p>
+  <div class="hinge reveal">
+    <div class="hinge-cell">
+      <div class="hinge-tag">The campfire story</div>
+      <div class="hinge-title">The wager</div>
+      <div class="hinge-body">Erasmus, assembling his Greek New Testament in 1516, leaves the Comma out, because it isn't in his Greek sources. His critics scream. He makes a bet: produce me a single Greek manuscript with the verse and I'll put it in. One conveniently appears. He keeps his word, through gritted teeth, and that's how the Trinity's only proof-text entered the printed Bible.</div>
+    </div>
+    <div class="hinge-cell">
+      <div class="hinge-tag">What actually happened</div>
+      <div class="hinge-title">Quiet capitulation</div>
+      <div class="hinge-body">The Erasmus scholar Henk Jan de Jonge went back to what Erasmus actually wrote and found no such promise in those terms. Erasmus bowed to pressure. He put the verse in his 1522 edition not because he was beaten in a wager and not because he'd been convinced, but to stop the slander, to avoid the whisper that he was soft on Arianism, to make the noise go away — all while recording his doubts about the thing in his own notes. He included a verse he didn't believe, on purpose, to protect himself. That's not a bet lost. That's a man choosing peace over the text. I find I understand it completely, and that's the uncomfortable part.</div>
+    </div>
+  </div>
 
-  <p>Once it was in Erasmus, it was in the Textus Receptus. Once it was in the Textus Receptus, it was in the King James. Once it was in the King James, it was, for millions of people, the unalterable word of God.</p>
+  <p class="hinge-cap reveal">It's a great story. The trouble is the wager almost certainly never happened.</p>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <p class="reveal">There was a manuscript. It's called Codex Montfortianus, and it sits in Dublin now. It's a sixteenth-century book — late by any measure, contemporary with the controversy itself. And the Comma <em>in</em> it gives the game away: the Greek is missing the little articles that natural Greek would carry, the unmistakable fingerprint of something translated <em>out of Latin into</em> Greek rather than written in Greek to begin with. Erasmus himself suspected it had been cooked up to corner him.</p>
 
-  <p>So — who gives a fuck about a Johannine comma?</p>
+  <div class="callout callout--accent reveal">
+    Here's where I have to be precise, because precision is the whole point of the exercise. That the clause in Montfortianus is a back-translation from Latin — that's well supported; you can see it in the grammar. That the <em>entire manuscript was produced to order</em>, fabricated specifically to trap Erasmus — that's the suspicion, his and others', and it's plausible, but it is not proven. I stated it once as flat fact. It isn't one. The defensible version is narrower and somehow worse: a demonstrably late book, carrying a demonstrably Latin-derived reading, used to leverage a verse into the Greek tradition that the Greek tradition never had.
+  </div>
 
-  <p>The flip answer the song sets you up for is: nobody, it's a clause, relax. And for most clauses that's right. The overwhelming bulk of the New Testament is stable across the manuscripts; this is not a story about the Bible dissolving in your hands. "In the beginning was the Logos" is not in dispute. This is one clause, and the doctrine it states survives perfectly well without it, taught the long hard way across the actual undisputed text.</p>
+  <p class="kicker reveal">The chain</p>
 
-  <p>But here's who gave a fuck, historically: people with power and a stake in certainty. The Comma is what happens when a tradition needs a sentence to exist so badly that, across enough centuries and enough hands, it eventually does. A margin note becomes a verse. A Latin gloss becomes Greek. A scholar's quiet capitulation becomes "the received text." Nobody sat down to forge scripture in a single villainous afternoon. It accreted. It got <em>wanted</em> into being.</p>
+  <p class="reveal">Once it was in Erasmus, it was in the Textus Receptus. Once it was in the Textus Receptus, it was in the King James. Once it was in the King James, it was, for millions of people, the unalterable word of God.</p>
 
-  <p>And that, weirdly, is the thing I keep landing on instead of being scandalized by it. The Comma is a small, clear, almost diagrammatic case of the larger pattern — the text was never a sealed object dropped intact from the sky. It was always alive in human hands, growing toward what its communities needed it to say. If the Logos is the living principle working its way through history rather than hovering above it, you would expect its textual trace to look exactly like this: contested, additive, marked all over with the fingerprints of the people who couldn't bear to leave it as it was. A perfectly preserved verse with no human trace on it would be the strange thing. It would be a Logos that never actually entered history — which is the one thing the Logos is supposed to do.</p>
+  <div class="timeline reveal">
+    <div class="tl-item">
+      <div class="tl-when">1522</div>
+      <div class="tl-who">Erasmus</div>
+      <div class="tl-body">Included the Comma in his third edition despite his own doubts.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">1550s–1630s</div>
+      <div class="tl-who">Textus Receptus</div>
+      <div class="tl-body">Standardized as the "received text" of the Greek New Testament.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">1611</div>
+      <div class="tl-who">King James Bible</div>
+      <div class="tl-body">Canonical English. The verse now carried the full weight of scripture.</div>
+    </div>
+    <div class="tl-item tl-item--active">
+      <div class="tl-when">1611–present</div>
+      <div class="tl-who">"The unalterable word of God"</div>
+      <div class="tl-body">For millions of people, a clause that entered the tradition through pressure, late Latin, and a suspicious manuscript became the very definition of unchangeable truth.</div>
+    </div>
+  </div>
 
-  <p>The verse that most directly says <em>three are one</em> is the verse that most clearly shows the many hands. There's a joke in there somewhere, and I don't think it's entirely on us.</p>
+  <div class="divider reveal">────────────────────────────────────────────────────────</div>
 
-  <p>Who gives a fuck about a Johannine comma. I do, apparently. Now you might too — and not for the reason anyone defending it ever intended.</p>
+  <p class="kicker reveal">So — who gives a fuck</p>
+
+  <p class="reveal">The flip answer the song sets you up for is: nobody, it's a clause, relax. And for most clauses that's right. The overwhelming bulk of the New Testament is stable across the manuscripts; this is not a story about the Bible dissolving in your hands. "In the beginning was the Logos" is not in dispute. This is one clause, and the doctrine it states survives perfectly well without it, taught the long hard way across the actual undisputed text.</p>
+
+  <p class="reveal">But here's who gave a fuck, historically: people with power and a stake in certainty. The Comma is what happens when a tradition needs a sentence to exist so badly that, across enough centuries and enough hands, it eventually does. A margin note becomes a verse. A Latin gloss becomes Greek. A scholar's quiet capitulation becomes "the received text." Nobody sat down to forge scripture in a single villainous afternoon. It accreted. It got <em>wanted</em> into being.</p>
+
+  <div class="thesis reveal">
+    <div class="thesis-mark">"</div>
+    <div class="thesis-quote">It got <em>wanted</em> into being.</div>
+  </div>
+
+  <div class="callout reveal">
+    And that, weirdly, is the thing I keep landing on instead of being scandalized by it. The Comma is a small, clear, almost diagrammatic case of the larger pattern — the text was never a sealed object dropped intact from the sky. It was always alive in human hands, growing toward what its communities needed it to say. If the Logos is the living principle working its way through history rather than hovering above it, you would expect its textual trace to look exactly like this: contested, additive, marked all over with the fingerprints of the people who couldn't bear to leave it as it was. A perfectly preserved verse with no human trace on it would be the strange thing. It would be a Logos that never actually entered history — which is the one thing the Logos is supposed to do.
+  </div>
+
+  <div class="thesis reveal">
+    <div class="thesis-mark">"</div>
+    <div class="thesis-quote">The verse that most directly says <em>three are one</em> is the verse that most clearly shows the many hands.</div>
+    <div class="thesis-close">There's a joke in there somewhere, and I don't think it's entirely on us.</div>
+  </div>
+
+  <p class="reveal">Who gives a fuck about a Johannine comma. I do, apparently. Now you might too — and not for the reason anyone defending it ever intended.</p>
+
+  <div class="colophon reveal">
+    <p><span class="sig">Sources:</span> Henk Jan de Jonge — Erasmus scholarship, debunking the wager myth · Raymond Brown — Comma traced to Priscillian · Erasmus's own annotations on 1 John 5:7 · Codex Montfortianus, Trinity College Dublin</p>
+  </div>
 
   <div class="post-footer">
     <div class="author-line">David Jivan · May 2026</div>
@@ -278,5 +180,6 @@ body {
 
 </div>
 
+<script src="/components.js"></script>
 </body>
 </html>

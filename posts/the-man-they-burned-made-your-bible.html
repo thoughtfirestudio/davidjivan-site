@@ -7,200 +7,12 @@
 <meta name="description" content="William Tyndale was executed as a heretic in 1536. Within a year the church was distributing his translation. 83% of the King James Bible is his language — with the dangerous parts surgically removed by royal instruction.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
-<style>
-
-:root {
-  --bg:         #0f0f0f;
-  --surface:    #161616;
-  --border:     #272727;
-  --border-hi:  #3a3a3a;
-  --text:       #c8c4bb;
-  --text-dim:   #666560;
-  --text-hi:    #e8e5de;
-  --accent:     #6b9e6b;
-  --accent-dim: #3d5c3d;
-  --font: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
-  --dur: 0.15s;
-}
-
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
-a { text-decoration: none; color: inherit; }
-
-body {
-  font-family: var(--font);
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100dvh;
-}
-
-/* ─── TOPBAR ─────────────────────────────────────────────── */
-.topbar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: rgba(15,15,15,0.92);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--border);
-  padding: 14px 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.topbar-logo {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-hi);
-}
-
-.topbar-back {
-  font-size: 11px;
-  color: var(--text-dim);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 6px 14px;
-  letter-spacing: 0.06em;
-  transition: color var(--dur), border-color var(--dur);
-  cursor: pointer;
-}
-.topbar-back:hover { color: var(--text); border-color: var(--border-hi); }
-
-/* ─── POST HEADER ────────────────────────────────────────── */
-.post-header {
-  padding: 48px 24px 36px;
-  border-bottom: 1px solid var(--border);
-  max-width: 720px;
-}
-
-.post-eyebrow {
-  font-size: 10px;
-  color: var(--accent);
-  letter-spacing: 0.12em;
-  margin-bottom: 20px;
-}
-.post-eyebrow::before { content: '> '; color: var(--text-dim); }
-
-.post-title {
-  font-size: clamp(18px, 4vw, 26px);
-  font-weight: 700;
-  color: var(--text-hi);
-  letter-spacing: 0.03em;
-  line-height: 1.25;
-  margin-bottom: 20px;
-}
-
-.post-meta {
-  font-size: 10px;
-  color: var(--text-dim);
-  letter-spacing: 0.08em;
-}
-
-/* ─── ARTICLE ────────────────────────────────────────────── */
-.article {
-  max-width: 720px;
-  padding: 40px 24px 96px;
-}
-
-.article p {
-  font-size: 14px;
-  line-height: 1.9;
-  color: var(--text);
-  margin-bottom: 1.6em;
-  font-weight: 300;
-}
-
-.article p:first-child {
-  font-size: 15px;
-  color: rgba(200,196,187,0.85);
-}
-
-.article h2 {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin: 3em 0 1.2em;
-  padding-top: 2em;
-  border-top: 1px solid var(--border);
-}
-
-.article h2::before { content: '// '; color: var(--text-dim); }
-
-.article blockquote {
-  margin: 2em 0;
-  padding: 16px 20px;
-  border-left: 2px solid var(--accent-dim);
-  background: var(--surface);
-}
-
-.article blockquote p {
-  font-size: 13px;
-  color: var(--text-dim);
-  margin-bottom: 0;
-  font-style: italic;
-  line-height: 1.8;
-}
-
-.article em {
-  color: var(--text-hi);
-  font-style: italic;
-}
-
-.article strong {
-  color: var(--text-hi);
-  font-weight: 500;
-}
-
-/* ─── DIVIDER ────────────────────────────────────────────── */
-.divider {
-  font-size: 10px;
-  color: var(--border-hi);
-  margin: 2.5em 0;
-  overflow: hidden;
-  white-space: nowrap;
-  letter-spacing: 0.04em;
-}
-
-/* ─── POST FOOTER ────────────────────────────────────────── */
-.post-footer {
-  margin-top: 3em;
-  padding-top: 2em;
-  border-top: 1px solid var(--border);
-}
-
-.author-line {
-  font-size: 10px;
-  color: var(--text-dim);
-  letter-spacing: 0.08em;
-  margin-bottom: 16px;
-}
-
-.back-link {
-  font-size: 11px;
-  color: var(--accent);
-  letter-spacing: 0.06em;
-  transition: color var(--dur);
-}
-.back-link:hover { color: var(--text-hi); }
-.back-link::before { content: '← '; color: var(--text-dim); }
-
-/* ─── RESPONSIVE ─────────────────────────────────────────── */
-@media (max-width: 480px) {
-  .post-header { padding: 36px 20px 28px; }
-  .article { padding: 32px 20px 72px; }
-}
-
-</style>
+<link rel="stylesheet" href="/style.css">
 <script defer src="https://analytics.thoughtfire.studio/script.js" data-website-id="79251aec-d611-4b63-9fb8-61478eb8f8ef"></script>
 </head>
 <body>
 
-<div class="topbar">
+<div class="topbar topbar--sticky">
   <a class="topbar-logo" href="/">David Jivan</a>
   <a class="topbar-back" href="/">← home</a>
 </div>
@@ -213,107 +25,224 @@ body {
 
 <div class="article">
 
-  <p>I just pre-ordered a leather-bound 500th anniversary edition of Tyndale's New Testament. I'd heard the name. I hadn't known what the man actually did — what it cost him, and what happened to his work after the church burned him for producing it.</p>
+  <!-- ═══ INTRO ═══ -->
 
-  <p>I've been sitting with it since.</p>
+  <p class="reveal" style="--i:0">I just pre-ordered a leather-bound 500th anniversary edition of Tyndale's New Testament. I'd heard the name. I hadn't known what the man actually did — what it cost him, and what happened to his work after the church burned him for producing it.</p>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <p class="reveal" style="--i:1">I've been sitting with it since.</p>
 
-  <p>Tyndale was born around 1494 in Gloucestershire. By the time he was working seriously on translation he had seven languages — Greek, Hebrew, Latin, Italian, Spanish, French, English. Not a collector of languages. A man who actually worked in them.</p>
+  <div class="divider reveal" style="--i:2">────────────────────────────────────────────────────────</div>
 
-  <p>He went to the Bishop of London, Cuthbert Tunstall, in 1523. He had a straightforward proposal: he wanted to translate the New Testament directly from the Greek into English so that ordinary English people could read it. In 1523, there was one church in England: the Catholic Church. Henry VIII had not yet broken with Rome — that was still eleven years away. The Catholic Church's position, in practice if not always in formal doctrine, was that the Latin Vulgate was the authoritative text and clergy were the authoritative interpreters. Tyndale thought this was wrong. He thought the ploughboy in the field had a right to the text.</p>
+  <!-- ═══ TYNDALE'S BACKGROUND + TUNSTALL REFUSAL ═══ -->
 
-  <p>This had been tried before. John Wycliffe had produced English translations of the New Testament — from the Latin, not the Greek — around 1382. The church declared him a heretic, burned his books, and decades after his death the Council of Constance ordered his remains exhumed and incinerated. Tyndale knew this history. Going to the Greek rather than the Latin raised the stakes further.</p>
+  <p class="reveal" style="--i:0">Tyndale was born around 1494 in Gloucestershire. By the time he was working seriously on translation he had seven languages — Greek, Hebrew, Latin, Italian, Spanish, French, English. Not a collector of languages. A man who actually worked in them.</p>
 
-  <p>Tunstall refused.</p>
+  <p class="reveal" style="--i:1">He went to the Bishop of London, Cuthbert Tunstall, in 1523. He had a straightforward proposal: he wanted to translate the New Testament directly from the Greek into English so that ordinary English people could read it. In 1523, there was one church in England: the Catholic Church. Henry VIII had not yet broken with Rome — that was still eleven years away. The Catholic Church's position, in practice if not always in formal doctrine, was that the Latin Vulgate was the authoritative text and clergy were the authoritative interpreters. Tyndale thought this was wrong. He thought the ploughboy in the field had a right to the text.</p>
 
-  <p>Tyndale left England in 1524 and never came back.</p>
+  <!-- ═══ WYCLIFFE PRECEDENT ═══ -->
 
-  <p>He went to the continent — likely passed through Luther's orbit at some point, though the extent of direct contact is unclear — and got to work. By 1526 he had finished the New Testament, translated directly from Erasmus's Greek text. It was printed in Cologne, then Worms. Then it was smuggled into England in bales of cloth and sacks of flour.</p>
+  <div class="callout reveal" style="--i:2">
+    This had been tried before. John Wycliffe had produced English translations of the New Testament — from the Latin, not the Greek — around <strong>1382</strong>. The church declared him a heretic, burned his books, and decades after his death the Council of Constance ordered his remains <strong>exhumed and incinerated</strong>. Tyndale knew this history. Going to the Greek rather than the Latin raised the stakes further.
+  </div>
 
-  <p>The church bought up copies to burn them. Tunstall himself sourced a large quantity through a merchant named Packington, paid market price, and had them destroyed publicly as a warning. Packington, for his part, had quietly gotten the money from buyers who gave it directly to Tyndale. Tyndale used it to fund a better, revised edition.</p>
+  <p class="reveal" style="--i:3">Tunstall refused.</p>
 
-  <p>The church literally financed the project it was burning.</p>
+  <p class="reveal" style="--i:4">Tyndale left England in 1524 and never came back.</p>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <p class="reveal" style="--i:0">He went to the continent — likely passed through Luther's orbit at some point, though the extent of direct contact is unclear — and got to work. By 1526 he had finished the New Testament, translated directly from Erasmus's Greek text. It was printed in Cologne, then Worms. Then it was smuggled into England in bales of cloth and sacks of flour.</p>
 
-  <p>By 1530 Tyndale had finished the Pentateuch — translated from Hebrew, not the Latin. He was living in Antwerp, working, surviving on patronage. He was being hunted.</p>
+  <p class="reveal" style="--i:1">The church bought up copies to burn them. Tunstall himself sourced a large quantity through a merchant named Packington, paid market price, and had them destroyed publicly as a warning. Packington, for his part, had quietly gotten the money from buyers who gave it directly to Tyndale. Tyndale used it to fund a better, revised edition.</p>
 
-  <p>Thomas More — yes, the Thomas More, the martyr the Catholics canonized, the humanist who wrote <em>Utopia</em> — wrote ferocious polemics against him. They exchanged pamphlets. More called Tyndale a heretic. Tyndale called the institutional church a corruption.</p>
+  <!-- ═══ IRONY CALLOUT ═══ -->
 
-  <p>In 1535 a man named Henry Phillips befriended Tyndale in Antwerp and betrayed him. Tyndale was arrested and imprisoned at Vilvoorde Castle.</p>
+  <div class="callout callout--accent reveal" style="--i:2">
+    The church literally financed the project it was burning.
+  </div>
 
-  <p>He was there for about sixteen months. Then, on October 6, 1536, he was strangled and his body was burned at the stake.</p>
+  <div class="divider reveal" style="--i:3">────────────────────────────────────────────────────────</div>
 
-  <p>His last recorded words: <em>Lord, open the King of England's eyes.</em></p>
+  <!-- ═══ PENTATEUCH → EXECUTION → AFTERMATH TIMELINE ═══ -->
 
-  <p>Within a year, Henry VIII had authorized "Matthew's Bible" — an English Bible for general use — which was substantially Tyndale's translation, published under a pseudonym by his colleague John Rogers. Henry had broken with Rome in 1534; the Church of England was three years old and had no use for the Catholic ban on English translation. By 1539, a revised version, the Great Bible, was placed in every parish church in England. It was primarily Tyndale's work.</p>
+  <p class="reveal" style="--i:0">By 1530 Tyndale had finished the Pentateuch — translated from Hebrew, not the Latin. He was living in Antwerp, working, surviving on patronage. He was being hunted.</p>
 
-  <p>Matthew's Bible was not the end of the chain. More translations followed — the Geneva Bible in 1560, the Bishops' Bible in 1568. When King James I commissioned a fresh translation in 1604, the scholars working on it drew on seventy-five years of English Bibles, all of them built on Tyndale's foundation. The King James Version appeared in 1611. By one word-matching study, about 83 percent of its New Testament is Tyndale's actual language.</p>
+  <div class="reveal" style="--i:1">
+    <div class="kicker">From Antwerp to the King James</div>
+    <div class="section-title">Betrayal, execution, <em>absorption</em></div>
+  </div>
 
-  <p>Executed as a heretic in October 1536. Church distributing his translation by 1539.</p>
+  <div class="timeline reveal" style="--i:2">
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+    <div class="tl-item">
+      <div class="tl-when">c. 1530</div>
+      <div class="tl-who">Thomas More's polemics</div>
+      <div class="tl-body">Thomas More — yes, the Thomas More, the martyr the Catholics canonized, the humanist who wrote <em>Utopia</em> — wrote ferocious polemics against him. They exchanged pamphlets. More called Tyndale a heretic. Tyndale called the institutional church a corruption.</div>
+    </div>
 
-  <p>There's a pattern in this that I keep finding. The tradition tries to kill what it cannot contain. Then, when the killing doesn't work, it absorbs what it tried to destroy — usually without acknowledging what happened.</p>
+    <div class="tl-item">
+      <div class="tl-when">1535 · Antwerp</div>
+      <div class="tl-who">Henry Phillips's betrayal</div>
+      <div class="tl-body">A man named Henry Phillips befriended Tyndale in Antwerp and betrayed him. Tyndale was arrested and imprisoned at Vilvoorde Castle. He was there for about sixteen months.</div>
+    </div>
 
-  <p>Origen was condemned three centuries after his death because his theology didn't leave room for the institutional hell that held empire together. But he survived in the mystics, in the margins, in texts that kept being copied because people kept finding them true. Eckhart was condemned after his death. Gregory of Nyssa held essentially Origen's universalism and was not only never condemned but venerated as a saint and Doctor of the Church — which tells me the suppression was never a clean campaign. Doctrines fell for tangled reasons: Justinian's politics, monastic feuds, christological proxy wars. "Defense of power" is one thread, not the master key.</p>
+    <div class="tl-item tl-item--active">
+      <div class="tl-when">October 6, 1536 · Vilvoorde</div>
+      <div class="tl-who">Execution</div>
+      <div class="tl-body">He was strangled and his body was burned at the stake. His last recorded words: <em>Lord, open the King of England's eyes.</em></div>
+    </div>
 
-  <p>Tyndale is the same shape, compressed into one lifetime. The institution burns the man and then deploys his work. The people who ordered his execution were, within three years, handing his sentences to every priest in England.</p>
+    <div class="tl-item">
+      <div class="tl-when">1537</div>
+      <div class="tl-who">Matthew's Bible authorized</div>
+      <div class="tl-body">Within a year, Henry VIII had authorized "Matthew's Bible" — an English Bible for general use — which was substantially Tyndale's translation, published under a pseudonym by his colleague John Rogers. Henry had broken with Rome in 1534; the Church of England was three years old and had no use for the Catholic ban on English translation.</div>
+    </div>
 
-  <p>This is not a gotcha. It's something more interesting than a gotcha. The tradition absorbed what it tried to destroy, which means the tradition's own sacred text — the one millions have treated as pure and authoritative for four centuries — is in large part the work of a man it killed for heresy. By one word-matching study, about 83 percent of the King James New Testament is Tyndale's actual language. The phrases we now hear as "biblical English" — <em>salt of the earth, let there be light, the spirit is willing but the flesh is weak, fight the good fight</em> — are his. Not ancient. Not timeless. His. A specific man's specific choices in specific years when he was being hunted.</p>
+    <div class="tl-item">
+      <div class="tl-when">1539</div>
+      <div class="tl-who">Great Bible in every parish</div>
+      <div class="tl-body">A revised version, the Great Bible, was placed in every parish church in England. It was primarily Tyndale's work.</div>
+    </div>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+    <div class="tl-item">
+      <div class="tl-when">1611</div>
+      <div class="tl-who">King James Version</div>
+      <div class="tl-body">Matthew's Bible was not the end of the chain. More translations followed — the Geneva Bible in 1560, the Bishops' Bible in 1568. When King James I commissioned a fresh translation in 1604, the scholars working on it drew on seventy-five years of English Bibles, all of them built on Tyndale's foundation. The King James Version appeared in 1611. By one word-matching study, about <em>83 percent of its New Testament is Tyndale's actual language</em>.</div>
+    </div>
 
-  <p>Here is what stopped me when I started looking at <em>which</em> choices Tyndale made.</p>
+  </div>
 
-  <p>The Greek word <em>ekklesia</em> — which appears throughout the New Testament wherever we would now say "church" — Tyndale translated as <em>congregation</em>. Not "church." Not an institutional hierarchy with a seat in Rome. A gathering of people.</p>
+  <!-- ═══ THESIS: EXECUTED / DISTRIBUTED ═══ -->
 
-  <p>The Greek <em>presbyteros</em> — Tyndale translated as <em>elder</em>. Not "priest." Not someone with sacramental authority to mediate between you and God.</p>
+  <div class="thesis reveal" style="--i:0">
+    <div class="thesis-mark">"</div>
+    <div class="thesis-quote">Executed as a heretic in October 1536. Church distributing his translation by 1539.</div>
+  </div>
 
-  <p>The Greek <em>metanoia</em> — Tyndale translated as <em>repentance</em>. The Vulgate had it as <em>do penance</em> — which was the textual ground of the entire sacramental confession system, including the sale of indulgences. Go back to the Greek and the word means something like <em>a turning of the mind</em>. An interior reorientation. Not a transaction.</p>
+  <div class="divider reveal" style="--i:1">────────────────────────────────────────────────────────</div>
 
-  <p>Three translation choices. Three words. And together they dismantle the entire architecture of institutional control the Latin Vulgate had been built to support.</p>
+  <!-- ═══ PATTERN SECTION ═══ -->
 
-  <p>This is what going upstream does. The Latin wasn't just a translation — it had become load-bearing for institutional power. Every time a priest told his parishioners that <em>the church</em> mediated their access to God, or that <em>the priest</em> alone could administer <em>penance</em> through the sacrament, there was a Greek text behind it that didn't quite say what the Latin said it said. Tyndale knew this. That's why Tunstall refused him. That's why More wrote polemics against him. That's why he was eventually strangled in Belgium and his body set on fire.</p>
+  <p class="reveal" style="--i:0">There's a pattern in this that I keep finding. The tradition tries to kill what it cannot contain. Then, when the killing doesn't work, it absorbs what it tried to destroy — usually without acknowledging what happened.</p>
 
-  <p>The threat wasn't literary. It was structural.</p>
+  <p class="reveal" style="--i:1">Origen was condemned three centuries after his death because his theology didn't leave room for the institutional hell that held empire together. But he survived in the mystics, in the margins, in texts that kept being copied because people kept finding them true. Eckhart was condemned after his death. Gregory of Nyssa held essentially Origen's universalism and was not only never condemned but venerated as a saint and Doctor of the Church — which tells me the suppression was never a clean campaign. Doctrines fell for tangled reasons: Justinian's politics, monastic feuds, christological proxy wars. "Defense of power" is one thread, not the master key.</p>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <p class="reveal" style="--i:2">Tyndale is the same shape, compressed into one lifetime. The people who ordered his execution were, within three years, handing his sentences to every priest in England.</p>
 
-  <p>There's a document somewhere in the king's papers — or there was — with the actual instructions written down.</p>
+  <div class="thesis reveal" style="--i:3">
+    <div class="thesis-mark">"</div>
+    <div class="thesis-quote">The institution burns the man and then deploys his work.</div>
+  </div>
 
-  <p>Rule 3. The translators of the King James Bible were told, explicitly, before they began: <em>"The Old Ecclesiastical Words to be kept, viz. the Word Church not to be changed into Congregation."</em></p>
+  <p class="reveal" style="--i:0">This is not a gotcha. It's something more interesting than a gotcha. The tradition absorbed what it tried to destroy, which means the tradition's own sacred text — the one millions have treated as pure and authoritative for four centuries — is in large part the work of a man it killed for heresy. By one word-matching study, about 83 percent of the King James New Testament is Tyndale's actual language. The phrases we now hear as "biblical English" — <em>salt of the earth, let there be light, the spirit is willing but the flesh is weak, fight the good fight</em> — are his. Not ancient. Not timeless. His. A specific man's specific choices in specific years when he was being hunted.</p>
 
-  <p>That's not interpretation. That's a royal instruction. In writing. With James's name behind it.</p>
+  <div class="divider reveal" style="--i:1">────────────────────────────────────────────────────────</div>
 
-  <p>They took 83% of Tyndale's sentences. His rhythms, his cadences, his ear. The English-speaking world still reads the Bible in the language William Tyndale built while hiding from the people who would eventually burn him. But the words that made the Greek dangerous — the specific translations that stripped the institutional church of its claim to be the only church, that flattened the hierarchy from priests to elders — those words were removed. By written instruction. Deliberately.</p>
+  <!-- ═══ THREE DANGEROUS TRANSLATIONS ═══ -->
 
-  <p><em>Ekklesia</em> goes back to "church." <em>Presbyteros</em> goes back to "bishop" and "priest." The teeth Tyndale put into the text by going upstream to the Greek — the precise thing that made his translation structurally threatening — were pulled out by a different institution, seventy-five years later. The authority that killed him was Catholic and imperial; the authority that issued Rule 3 was Protestant and royal. The same move, across two opposed institutions — which, if anything, sharpens the point.</p>
+  <p class="reveal" style="--i:0">Here is what stopped me when I started looking at <em>which</em> choices Tyndale made.</p>
 
-  <p>This is what I keep coming back to. The domestication wasn't accidental. It wasn't a translation committee making different judgment calls. It was surgery, performed with the king's written authorization, on the ecclesiastical vocabulary Tyndale had deliberately avoided. They absorbed his language and removed the dangerous parts first.</p>
+  <div class="reveal" style="--i:1">
+    <div class="kicker">The dangerous translations</div>
+    <div class="section-title">Three words that <em>dismantled</em> the architecture</div>
+  </div>
 
-  <p>Which means we've been reading a version of Tyndale — a Tyndale with the edges filed off — for four hundred years, and calling it Scripture. The words are his. The power structure underneath the words is exactly what he died trying to dismantle.</p>
+  <div class="cards reveal" style="--i:2">
+    <div class="card">
+      <div class="card-who">ekklesia</div>
+      <div class="card-label">Greek → Tyndale: congregation</div>
+      <div class="card-body">Appears throughout the New Testament wherever we would now say "church." Tyndale translated it as <em>congregation</em>. Not "church." Not an institutional hierarchy with a seat in Rome. A gathering of people.</div>
+    </div>
+    <div class="card">
+      <div class="card-who">presbyteros</div>
+      <div class="card-label">Greek → Tyndale: elder</div>
+      <div class="card-body">Tyndale translated it as <em>elder</em>. Not "priest." Not someone with sacramental authority to mediate between you and God.</div>
+    </div>
+    <div class="card">
+      <div class="card-who">metanoia</div>
+      <div class="card-label">Greek → Tyndale: repentance</div>
+      <div class="card-body">The Vulgate had it as <em>do penance</em> — the textual ground of the entire sacramental confession system, including the sale of indulgences. Go back to the Greek and the word means something like <em>a turning of the mind</em>. An interior reorientation. Not a transaction.</div>
+    </div>
+  </div>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <p class="reveal" style="--i:0">Three translation choices. Three words. And together they dismantle the entire architecture of institutional control the Latin Vulgate had been built to support.</p>
 
-  <p>I've been interested for a while in the gap between what texts actually say and what institutions make them say. The Origen case. The Logos tradition that ran through the first three centuries and then got systematically replaced with something that served different purposes. Going upstream — back to the Greek, back to the primary sources — tends to reveal that what was presented as eternal and essential is often quite recent and quite deliberately constructed.</p>
+  <p class="reveal" style="--i:1">This is what going upstream does. The Latin wasn't just a translation — it had become load-bearing for institutional power. Every time a priest told his parishioners that <em>the church</em> mediated their access to God, or that <em>the priest</em> alone could administer <em>penance</em> through the sacrament, there was a Greek text behind it that didn't quite say what the Latin said it said. Tyndale knew this. That's why Tunstall refused him. That's why More wrote polemics against him. That's why he was eventually strangled in Belgium and his body set on fire.</p>
 
-  <p>Tyndale is the same argument made with fire.</p>
+  <p class="reveal" style="--i:2">The threat wasn't literary. It was structural.</p>
 
-  <p>He didn't think he was doing something radical. He thought he was doing something obvious — giving ordinary people access to what the text actually said. <em>I will cause a boy that driveth the plough to know more of the Scripture than thou dost.</em> He said that to a cleric who accused him of undermining the church's authority. He wasn't wrong about what he was doing. The boy with the plough reading <em>metanoia</em> as <em>a turning of the mind</em> rather than <em>go to confession and pay the priest</em> — that's not a small thing.</p>
+  <div class="divider reveal" style="--i:3">────────────────────────────────────────────────────────</div>
 
-  <p>The institution knew it wasn't a small thing. That's why it acted the way it did.</p>
+  <!-- ═══ RULE 3 ═══ -->
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <p class="reveal" style="--i:0">There's a document somewhere in the king's papers — or there was — with the actual instructions written down.</p>
 
-  <p>I don't know what William Tyndale would make of the way his work has been used since. The translation he died for has become, in some communities, exactly the kind of sacred closed object he was trying to open. The KJV as infallible, the Greek behind it irrelevant. The irony is precise.</p>
+  <!-- ═══ RULE 3 CALLOUT ═══ -->
 
-  <p>What I know is that the discovery feeling I had — finding out that the man the church burned is the man who wrote the sentences the church now treats as holy — that feeling was not nothing. It was the feeling of a floor dropping out and something more solid appearing underneath.</p>
+  <div class="callout callout--accent reveal" style="--i:1">
+    <strong>Rule 3.</strong> The translators of the King James Bible were told, explicitly, before they began: <em>"The Old Ecclesiastical Words to be kept, viz. the Word Church not to be changed into Congregation."</em>
+  </div>
 
-  <p>The tradition has been doing this for a long time. Trying to kill the thing that actually sustains it. Failing. Then distributing the work without mentioning the execution.</p>
+  <p class="reveal" style="--i:2">That's not interpretation. That's a royal instruction. In writing. With James's name behind it.</p>
 
-  <p>It's a strange way to run an institution. It's a stranger thing to notice, once you've started noticing it.</p>
+  <p class="reveal" style="--i:3">They took 83% of Tyndale's sentences. His rhythms, his cadences, his ear. The English-speaking world still reads the Bible in the language William Tyndale built while hiding from the people who would eventually burn him. But the words that made the Greek dangerous — the specific translations that stripped the institutional church of its claim to be the only church, that flattened the hierarchy from priests to elders — those words were removed. By written instruction. Deliberately.</p>
+
+  <!-- ═══ HINGE: TYNDALE vs KJV ═══ -->
+
+  <div class="reveal" style="--i:0">
+    <div class="kicker">The surgery</div>
+    <div class="section-title">Tyndale's Greek vs. <em>King James domestication</em></div>
+  </div>
+
+  <div class="hinge reveal" style="--i:1">
+    <div class="hinge-cell">
+      <div class="hinge-tag">Tyndale (1526)</div>
+      <div class="hinge-title">The Greek, direct</div>
+      <div class="hinge-body"><em>ekklesia</em> → congregation<br><em>presbyteros</em> → elder<br><em>metanoia</em> → repentance</div>
+    </div>
+    <div class="hinge-cell">
+      <div class="hinge-tag">King James (1611, Rule 3)</div>
+      <div class="hinge-title">The domestication</div>
+      <div class="hinge-body"><em>ekklesia</em> → church<br><em>presbyteros</em> → priest / bishop<br><em>metanoia</em> → repentance (kept) — but the church vocabulary restored</div>
+    </div>
+  </div>
+
+  <p class="reveal" style="--i:2"><em>Ekklesia</em> goes back to "church." <em>Presbyteros</em> goes back to "bishop" and "priest." The teeth Tyndale put into the text by going upstream to the Greek — the precise thing that made his translation structurally threatening — were pulled out by a different institution, seventy-five years later. The authority that killed him was Catholic and imperial; the authority that issued Rule 3 was Protestant and royal. The same move, across two opposed institutions — which, if anything, sharpens the point.</p>
+
+  <p class="reveal" style="--i:3">This is what I keep coming back to. The domestication wasn't accidental. It wasn't a translation committee making different judgment calls. It was surgery, performed with the king's written authorization, on the ecclesiastical vocabulary Tyndale had deliberately avoided. They absorbed his language and removed the dangerous parts first.</p>
+
+  <p class="reveal" style="--i:4">Which means we've been reading a version of Tyndale — a Tyndale with the edges filed off — for four hundred years, and calling it Scripture. The words are his. The power structure underneath the words is exactly what he died trying to dismantle.</p>
+
+  <div class="divider reveal" style="--i:5">────────────────────────────────────────────────────────</div>
+
+  <!-- ═══ CLOSING ═══ -->
+
+  <p class="reveal" style="--i:0">I've been interested for a while in the gap between what texts actually say and what institutions make them say. The Origen case. The Logos tradition that ran through the first three centuries and then got systematically replaced with something that served different purposes. Going upstream — back to the Greek, back to the primary sources — tends to reveal that what was presented as eternal and essential is often quite recent and quite deliberately constructed.</p>
+
+  <p class="reveal" style="--i:1">Tyndale is the same argument made with fire.</p>
+
+  <p class="reveal" style="--i:2">He didn't think he was doing something radical. He thought he was doing something obvious — giving ordinary people access to what the text actually said. <em>I will cause a boy that driveth the plough to know more of the Scripture than thou dost.</em> He said that to a cleric who accused him of undermining the church's authority. He wasn't wrong about what he was doing. The boy with the plough reading <em>metanoia</em> as <em>a turning of the mind</em> rather than <em>go to confession and pay the priest</em> — that's not a small thing.</p>
+
+  <p class="reveal" style="--i:3">The institution knew it wasn't a small thing. That's why it acted the way it did.</p>
+
+  <div class="divider reveal" style="--i:4">────────────────────────────────────────────────────────</div>
+
+  <p class="reveal" style="--i:0">I don't know what William Tyndale would make of the way his work has been used since. The translation he died for has become, in some communities, exactly the kind of sacred closed object he was trying to open. The KJV as infallible, the Greek behind it irrelevant. The irony is precise.</p>
+
+  <p class="reveal" style="--i:1">What I know is that the discovery feeling I had — finding out that the man the church burned is the man who wrote the sentences the church now treats as holy — that feeling was not nothing. It was the feeling of a floor dropping out and something more solid appearing underneath.</p>
+
+  <!-- ═══ CLOSING THESIS ═══ -->
+
+  <div class="thesis reveal" style="--i:2">
+    <div class="thesis-mark">"</div>
+    <div class="thesis-quote">The tradition has been doing this for a long time. Trying to kill the thing that actually sustains it. Failing. Then distributing the work without mentioning the execution.</div>
+  </div>
+
+  <p class="reveal" style="--i:0">It's a strange way to run an institution. It's a stranger thing to notice, once you've started noticing it.</p>
+
+  <!-- ═══ COLOPHON ═══ -->
+
+  <div class="colophon reveal" style="--i:1">
+    <p><span class="sig">Sources:</span> Rule 3 of the KJV translation instructions (1604) · David Daniell, <em>William Tyndale: A Biography</em> (Yale, 1994) · Tyndale's New Testament (1526)</p>
+  </div>
 
   <div class="post-footer">
     <div class="author-line">David Jivan · May 2026</div>
@@ -322,5 +251,6 @@ body {
 
 </div>
 
+<script src="/components.js"></script>
 </body>
 </html>

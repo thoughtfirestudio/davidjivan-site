@@ -7,200 +7,12 @@
 <meta name="description" content="The claim that Christianity hinges on a physical resurrection is itself a theological position with a genealogy. Justin, Clement, and Origen built something different.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
-<style>
-
-:root {
-  --bg:         #0f0f0f;
-  --surface:    #161616;
-  --border:     #272727;
-  --border-hi:  #3a3a3a;
-  --text:       #c8c4bb;
-  --text-dim:   #666560;
-  --text-hi:    #e8e5de;
-  --accent:     #6b9e6b;
-  --accent-dim: #3d5c3d;
-  --font: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
-  --dur: 0.15s;
-}
-
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
-a { text-decoration: none; color: inherit; }
-
-body {
-  font-family: var(--font);
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100dvh;
-}
-
-/* ─── TOPBAR ─────────────────────────────────────────────── */
-.topbar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: rgba(15,15,15,0.92);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--border);
-  padding: 14px 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.topbar-logo {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-hi);
-}
-
-.topbar-back {
-  font-size: 11px;
-  color: var(--text-dim);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 6px 14px;
-  letter-spacing: 0.06em;
-  transition: color var(--dur), border-color var(--dur);
-  cursor: pointer;
-}
-.topbar-back:hover { color: var(--text); border-color: var(--border-hi); }
-
-/* ─── POST HEADER ────────────────────────────────────────── */
-.post-header {
-  padding: 48px 24px 36px;
-  border-bottom: 1px solid var(--border);
-  max-width: 720px;
-}
-
-.post-eyebrow {
-  font-size: 10px;
-  color: var(--accent);
-  letter-spacing: 0.12em;
-  margin-bottom: 20px;
-}
-.post-eyebrow::before { content: '> '; color: var(--text-dim); }
-
-.post-title {
-  font-size: clamp(18px, 4vw, 26px);
-  font-weight: 700;
-  color: var(--text-hi);
-  letter-spacing: 0.03em;
-  line-height: 1.25;
-  margin-bottom: 20px;
-}
-
-.post-meta {
-  font-size: 10px;
-  color: var(--text-dim);
-  letter-spacing: 0.08em;
-}
-
-/* ─── ARTICLE ────────────────────────────────────────────── */
-.article {
-  max-width: 720px;
-  padding: 40px 24px 96px;
-}
-
-.article p {
-  font-size: 14px;
-  line-height: 1.9;
-  color: var(--text);
-  margin-bottom: 1.6em;
-  font-weight: 300;
-}
-
-.article p:first-child {
-  font-size: 15px;
-  color: rgba(200,196,187,0.85);
-}
-
-.article h2 {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin: 3em 0 1.2em;
-  padding-top: 2em;
-  border-top: 1px solid var(--border);
-}
-
-.article h2::before { content: '// '; color: var(--text-dim); }
-
-.article blockquote {
-  margin: 2em 0;
-  padding: 16px 20px;
-  border-left: 2px solid var(--accent-dim);
-  background: var(--surface);
-}
-
-.article blockquote p {
-  font-size: 13px;
-  color: var(--text-dim);
-  margin-bottom: 0;
-  font-style: italic;
-  line-height: 1.8;
-}
-
-.article em {
-  color: var(--text-hi);
-  font-style: italic;
-}
-
-.article strong {
-  color: var(--text-hi);
-  font-weight: 500;
-}
-
-/* ─── DIVIDER ────────────────────────────────────────────── */
-.divider {
-  font-size: 10px;
-  color: var(--border-hi);
-  margin: 2.5em 0;
-  overflow: hidden;
-  white-space: nowrap;
-  letter-spacing: 0.04em;
-}
-
-/* ─── POST FOOTER ────────────────────────────────────────── */
-.post-footer {
-  margin-top: 3em;
-  padding-top: 2em;
-  border-top: 1px solid var(--border);
-}
-
-.author-line {
-  font-size: 10px;
-  color: var(--text-dim);
-  letter-spacing: 0.08em;
-  margin-bottom: 16px;
-}
-
-.back-link {
-  font-size: 11px;
-  color: var(--accent);
-  letter-spacing: 0.06em;
-  transition: color var(--dur);
-}
-.back-link:hover { color: var(--text-hi); }
-.back-link::before { content: '← '; color: var(--text-dim); }
-
-/* ─── RESPONSIVE ─────────────────────────────────────────── */
-@media (max-width: 480px) {
-  .post-header { padding: 36px 20px 28px; }
-  .article { padding: 32px 20px 72px; }
-}
-
-</style>
+<link rel="stylesheet" href="/style.css">
 <script defer src="https://analytics.thoughtfire.studio/script.js" data-website-id="79251aec-d611-4b63-9fb8-61478eb8f8ef"></script>
 </head>
 <body>
 
-<div class="topbar">
+<div class="topbar topbar--sticky">
   <a class="topbar-logo" href="/">David Jivan</a>
   <a class="topbar-back" href="/">← home</a>
 </div>
@@ -213,55 +25,110 @@ body {
 
 <div class="article">
 
-  <p>People say this to me as though they're placing a bet and waiting to see if I'll fold.</p>
+  <p class="reveal" style="--i:0">People say this to me as though they're placing a bet and waiting to see if I'll fold.</p>
 
-  <p><em>Christianity hinges on the literal, physical resurrection. You believe that or you don't. Everything else is decoration.</em></p>
+  <p class="reveal" style="--i:1"><em>Christianity hinges on the literal, physical resurrection. You believe that or you don't. Everything else is decoration.</em></p>
 
-  <p>I've sat with this for a long time. And here's what I've come to think: the question itself is a trap — not because the resurrection doesn't matter, but because the question assumes a version of Christianity that is much younger than it claims to be.</p>
+  <p class="reveal" style="--i:2">I've sat with this for a long time. And here's what I've come to think: the question itself is a trap — not because the resurrection doesn't matter, but because the question assumes a version of Christianity that is much younger than it claims to be.</p>
 
-  <p>The claim that Christianity <em>essentially</em> hinges on one event being physically exactly as described is a specific theological position with a specific genealogy. It runs primarily through post-Reformation Protestant categories, shaped by Anselm's satisfaction theory of atonement in the 11th century. Before that framework existed, the question barely had this shape.</p>
+  <p class="reveal" style="--i:3">The claim that Christianity <em>essentially</em> hinges on one event being physically exactly as described is a specific theological position with a specific genealogy. It runs primarily through post-Reformation Protestant categories, shaped by Anselm's satisfaction theory of atonement in the 11th century. Before that framework existed, the question barely had this shape.</p>
 
-  <p>It had not always been there.</p>
+  <p class="reveal" style="--i:4">It had not always been there.</p>
 
-  <p>The first serious Christian theologians — the people doing rigorous intellectual work in the first three centuries, before the councils narrowed the conversation — were not primarily interested in the resurrection as a legal proof. They were interested in the Logos.</p>
+  <p class="reveal" style="--i:5">The first serious Christian theologians — the people doing rigorous intellectual work in the first three centuries, before the councils narrowed the conversation — were not primarily interested in the resurrection as a legal proof. They were interested in the Logos.</p>
 
-  <p>Justin Martyr, writing around 150 CE, argued that Socrates was a Christian before Christ. Not as a metaphor. As a philosophical claim: those who live according to reason participate in the Logos — the rational ground of all things — regardless of when or where they lived. He states it plainly in his <em>First Apology</em>, Chapter 46: "Those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus."</p>
+  <div class="kicker reveal" style="--i:6">The Logos tradition</div>
 
-  <p>Origen of Alexandria — to my mind, the early church's most ambitious system-builder, the first to attempt a complete Christian metaphysics, origin through return, as a single structure — built his entire system around <em>apokatastasis</em>: the restoration of all things to God. Not as a sentimental hope. As a logical entailment. If the Logos is the ground in which all things subsist — "in him we live and move and have our being," as Paul quotes a Greek poet at Athens — then permanent exclusion from that ground is incoherent. Like asking whether a wave can be permanently exiled from the ocean.</p>
+  <div class="cards reveal" style="--i:7">
+    <div class="card">
+      <div class="card-who">Justin Martyr</div>
+      <div class="card-year">~150 CE</div>
+      <div class="card-label">Logos spermatikos</div>
+      <div class="card-body">Argued that Socrates was a Christian before Christ. Not as a metaphor. As a philosophical claim: those who live according to reason participate in the Logos — the rational ground of all things — regardless of when or where they lived.<span class="card-quote">"Those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus." — First Apology, Ch. 46</span></div>
+    </div>
+    <div class="card">
+      <div class="card-who">Origen of Alexandria</div>
+      <div class="card-year">~184–253 CE</div>
+      <div class="card-label">apokatastasis</div>
+      <div class="card-body">The early church's most ambitious system-builder, the first to attempt a complete Christian metaphysics — origin through return — as a single structure. Built his entire system around <em>apokatastasis</em>: the restoration of all things to God. Not as a sentimental hope. As a logical entailment. If the Logos is the ground in which all things subsist — "in him we live and move and have our being," as Paul quotes a Greek poet at Athens — then permanent exclusion from that ground is incoherent. Like asking whether a wave can be permanently exiled from the ocean.</div>
+    </div>
+  </div>
 
-  <p>Origen's theology doesn't hinge on a physical resurrection. It hinges on what kind of thing ultimate reality is.</p>
+  <div class="thesis reveal" style="--i:8">
+    <div class="thesis-mark">*</div>
+    <div class="thesis-quote">Origen's theology doesn't hinge on a physical resurrection. It hinges on <em>what kind of thing ultimate reality is</em>.</div>
+  </div>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <div class="divider reveal" style="--i:0">────────────────────────────────────────────────────────</div>
 
-  <p>Here is the part that stopped me cold when I first ran into it.</p>
+  <p class="reveal" style="--i:1">Here is the part that stopped me cold when I first ran into it.</p>
 
-  <p>Origen was condemned in 553 CE — three hundred years after his death. Apokatastasis was among the charges, along with the pre-existence of souls and the nature of the resurrected body; and whether those anti-Origenist anathemas were formal acts of the Fifth Ecumenical Council itself, or promulgated by bishops in synod around it, is still debated by historians. Emperor Justinian needed doctrinal uniformity, and the anathemas ran precisely:</p>
+  <p class="reveal" style="--i:2">Origen was condemned in 553 CE — three hundred years after his death. Apokatastasis was among the charges, along with the pre-existence of souls and the nature of the resurrected body; and whether those anti-Origenist anathemas were formal acts of the Fifth Ecumenical Council itself, or promulgated by bishops in synod around it, is still debated by historians. Emperor Justinian needed doctrinal uniformity, and the anathemas ran precisely:</p>
 
-  <blockquote><p>"If anyone says or holds that the punishment of demons and of impious men is only temporary, and will one day have an end, and that a restoration will take place of demons and of impious men, let him be anathema."</p></blockquote>
+  <div class="callout callout--accent reveal" style="--i:3">"If anyone says or holds that the punishment of demons and of impious men is only temporary, and will one day have an end, and that a restoration will take place of demons and of impious men, let him be anathema."</div>
 
-  <p>Note what is load-bearing there. The theological stakes were real — justice, the seriousness of freedom, the moral weight of choice. Those were genuinely held. But read structurally, hell also functioned as the institution's final sanction — which gives the condemnation a motive beyond the theological one. A theology in which even the worst sinners are eventually restored to the ground of their own being is a theology in which that sanction has no teeth.</p>
+  <p class="reveal" style="--i:4">Note what is load-bearing there. The theological stakes were real — justice, the seriousness of freedom, the moral weight of choice. Those were genuinely held. But read structurally, hell also functioned as the institution's final sanction — which gives the condemnation a motive beyond the theological one. A theology in which even the worst sinners are eventually restored to the ground of their own being is a theology in which that sanction has no teeth.</p>
 
-  <p>I read this less as the defeat of a heresy than as the defense of power.</p>
+  <div class="thesis reveal" style="--i:5">
+    <div class="thesis-mark">*</div>
+    <div class="thesis-quote">I read this less as the defeat of a heresy than as <em>the defense of power</em>.</div>
+  </div>
 
-  <p>And so the Logos tradition — the richest intellectual current in early Christianity, running from Heraclitus through the Stoics through Philo through Justin through Clement through Origen — went underground. The resurrection became the hinge, I'd argue, because the hinge needed a point. The Logos is a harder thing to make institutional machinery out of.</p>
+  <p class="reveal" style="--i:6">And so the Logos tradition — the richest intellectual current in early Christianity, running from Heraclitus through the Stoics through Philo through Justin through Clement through Origen — went underground.</p>
 
-  <div class="divider">────────────────────────────────────────────────────────</div>
+  <div class="kicker reveal" style="--i:7">What the hinge became</div>
 
-  <p>I want to be honest about what I hold and what I don't.</p>
+  <div class="hinge reveal" style="--i:8">
+    <div class="hinge-cell">
+      <div class="hinge-tag">What won</div>
+      <div class="hinge-title">Resurrection as hinge</div>
+      <div class="hinge-body">The resurrection became the hinge because the hinge needed a point. A single event, physically verifiable in principle, around which institutional machinery — creeds, enforcement, membership tests — could be built.</div>
+    </div>
+    <div class="hinge-cell">
+      <div class="hinge-tag">What was suppressed</div>
+      <div class="hinge-title">Logos as hinge</div>
+      <div class="hinge-body">The Logos is a harder thing to make institutional machinery out of. A cosmological substrate, a rational ground pervading all things — it doesn't lend itself to loyalty tests or boundary policing.</div>
+    </div>
+  </div>
 
-  <p>I don't dismiss the testimony. Paul's account in 1 Corinthians 15 is within two decades of the events — possibly fifteen years — and "most of whom are still alive" is not the language of metaphor. Something happened. Something real enough to crack history open for the people who witnessed it. I sit with that genuinely open.</p>
+  <div class="divider reveal" style="--i:0">────────────────────────────────────────────────────────</div>
 
-  <p>What I don't hold is that Paul's frame — <em>if Christ has not been raised, your faith is futile</em> — is the only architecture Christianity ever produced. Origen's doesn't hinge on it in the same way. Justin's doesn't. Clement's doesn't. The Christianity that ran for three centuries before the councils is not the Christianity that won institutional backing, and those are not the same thing.</p>
+  <p class="reveal" style="--i:1">I want to be honest about what I hold and what I don't.</p>
 
-  <p>The question I keep returning to is deeper than the empty tomb: what kind of thing is ultimate reality, and can consciousness be permanently extinguished? If you follow the Logos tradition seriously — and I have been, for a while now — those questions have answers that don't depend on any single historical event being physically exactly as described.</p>
+  <div class="callout reveal" style="--i:2">I don't dismiss the testimony. Paul's account in 1 Corinthians 15 is within two decades of the events — possibly fifteen years — and "most of whom are still alive" is not the language of metaphor. Something happened. Something real enough to crack history open for the people who witnessed it. I sit with that genuinely open.</div>
 
-  <p>I'm still working out what that means. There's more to the thread than I can put in one essay. But the thread is real, it runs through primary sources most people have never encountered, and it connects to things happening in contemporary philosophy of mind that I find genuinely surprising.</p>
+  <div class="kicker reveal" style="--i:3">Two frames</div>
 
-  <p>What I've come to believe is that the suppression wasn't final. The tradition survived — underground, in the mystics, in the margins — and it's recoverable. Not as an academic exercise. As a living framework for people who find materialism hollow and inherited religion too small.</p>
+  <div class="hinge reveal" style="--i:4">
+    <div class="hinge-cell">
+      <div class="hinge-tag">Paul's frame</div>
+      <div class="hinge-title">If Christ has not been raised, your faith is futile</div>
+      <div class="hinge-body">A specific theological position — powerful, early, sincere. But not the only architecture Christianity ever produced.</div>
+    </div>
+    <div class="hinge-cell">
+      <div class="hinge-tag">Pre-council frame</div>
+      <div class="hinge-title">What kind of thing is ultimate reality?</div>
+      <div class="hinge-body">Origen's doesn't hinge on it in the same way. Justin's doesn't. Clement's doesn't. The Christianity that ran for three centuries before the councils is not the Christianity that won institutional backing, and those are not the same thing.</div>
+    </div>
+  </div>
 
-  <p>If you've read this far and this thread feels like something you've been looking for, there's a project underway. The <a href="https://logosarchive.org" style="color:var(--accent);">LogosArchive</a> is where the primary sources live — 160+ pre-Nicene texts with commentary, built for people who aren't classicists. The essays go deeper than this one. And I'm building a course on the Logos tradition from Heraclitus through Origen — thinking out loud with the actual texts.</p>
+  <div class="thesis reveal" style="--i:5">
+    <div class="thesis-mark">*</div>
+    <div class="thesis-quote">The question I keep returning to is deeper than the empty tomb: <em>what kind of thing is ultimate reality, and can consciousness be permanently extinguished?</em></div>
+    <div class="thesis-close">If you follow the Logos tradition seriously — and I have been, for a while now — those questions have answers that don't depend on any single historical event being physically exactly as described.</div>
+  </div>
 
-  <p>If that's yours, <a href="/patron" style="color:var(--accent);">come see what's being built</a>.</p>
+  <p class="reveal" style="--i:6">I'm still working out what that means. There's more to the thread than I can put in one essay. But the thread is real, it runs through primary sources most people have never encountered, and it connects to things happening in contemporary philosophy of mind that I find genuinely surprising.</p>
+
+  <p class="reveal" style="--i:7">What I've come to believe is that the suppression wasn't final. The tradition survived — underground, in the mystics, in the margins — and it's recoverable. Not as an academic exercise. As a living framework for people who find materialism hollow and inherited religion too small.</p>
+
+  <p class="reveal" style="--i:8">If you've read this far and this thread feels like something you've been looking for, there's a project underway. The <a href="https://logosarchive.org" style="color:var(--accent);">LogosArchive</a> is where the primary sources live — 160+ pre-Nicene texts with commentary, built for people who aren't classicists. The essays go deeper than this one. And I'm building a course on the Logos tradition from Heraclitus through Origen — thinking out loud with the actual texts.</p>
+
+  <p class="reveal" style="--i:9">If that's yours, <a href="/patron" style="color:var(--accent);">come see what's being built</a>.</p>
+
+  <div class="colophon reveal" style="--i:10">
+    <p>Sources: <span class="sig">Justin Martyr</span>, First Apology · <span class="sig">Origen of Alexandria</span>, De Principiis · <span class="sig">Paul</span>, 1 Corinthians 15 · Acts 17:28 · Second Council of Constantinople (553 CE)</p>
+  </div>
 
   <div class="post-footer">
     <div class="author-line">David Jivan · May 2026</div>
@@ -270,5 +137,6 @@ body {
 
 </div>
 
+<script src="/components.js"></script>
 </body>
 </html>
