@@ -1,5 +1,17 @@
 [
   {
+    "title": "God didn't make the world",
+    "slug": "god-didnt-make-the-world",
+    "date": "June 2026",
+    "tags": ["theology", "philosophy"]
+  },
+  {
+    "title": "Only God is infinite",
+    "slug": "only-god-is-infinite",
+    "date": "June 2026",
+    "tags": ["theology", "philosophy"]
+  },
+  {
     "title": "The Logos lineage",
     "slug": "the-logos-lineage",
     "date": "June 2026",
@@ -34,6 +46,12 @@
     "slug": "pseudo-dionysius-crash-course",
     "date": "2026",
     "tags": ["study guide", "theology"]
+  },
+  {
+    "title": "Cantor crash course — a study guide",
+    "slug": "cantor-crash-course",
+    "date": "2026",
+    "tags": ["study guide", "philosophy"]
   },
   {
     "title": "Philo crash course — a study guide",
