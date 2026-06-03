@@ -64,7 +64,7 @@ body {
   display: flex;
   width: max-content;
   gap: 60px;
-  animation: banner-scroll 120s linear infinite;
+  animation: banner-scroll 180s linear infinite;
   will-change: transform;
 }
 .banner:hover .banner-track {
