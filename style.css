@@ -361,7 +361,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1px;
-  margin-top: 28px;
+  margin: 28px 0;
   background: var(--border);
   border: 1px solid var(--border);
 }
