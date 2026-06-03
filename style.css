@@ -270,6 +270,22 @@ body {
   font-weight: 500;
 }
 
+.article a:not(.card) {
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent-dim);
+  transition: color var(--dur), border-color var(--dur);
+}
+
+.article a:not(.card):hover {
+  color: var(--accent-bright);
+  border-color: var(--accent-bright);
+}
+
+.article a:not(.card) em,
+.article a:not(.card) strong {
+  color: inherit;
+}
+
 /* ─── DIVIDER ───────────────────────────────────────────── */
 .divider {
   font-size: 10px;
