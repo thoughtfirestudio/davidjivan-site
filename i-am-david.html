@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>identifying...</title>
+<link rel="stylesheet" href="/style.css">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<div style="display:flex; align-items:center; justify-content:center; min-height:100vh; flex-direction:column; gap:16px; padding:24px; text-align:center;">
+  <pre style="color: var(--accent, #6b9e6b); font-size: 12px; margin: 0;">// flagging this browser as david</pre>
+  <pre id="status" style="color: var(--dim, #888); font-size: 11px; margin: 0;">setting cookie...</pre>
+</div>
+<script>
+(function () {
+  document.cookie = 'dj_self=1; path=/; max-age=31536000; SameSite=Lax';
+  var has = document.cookie.split('; ').some(function (c) { return c === 'dj_self=1'; });
+  var s = document.getElementById('status');
+  if (has) {
+    s.textContent = 'dj_self=1 set. your traffic will be excluded from analytics. redirecting...';
+    setTimeout(function () { location.href = '/'; }, 1500);
+  } else {
+    s.textContent = 'cookie failed to set — check browser settings';
+  }
+})();
+</script>
+</body>
+</html>
