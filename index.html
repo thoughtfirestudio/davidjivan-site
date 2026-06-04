@@ -34,7 +34,7 @@
 
 <!-- HERO -->
 <div class="hero">
-  <div class="hero-prompt">thinker Â· nomad Â· writer</div>
+  <div class="hero-prompt">thinker · nomad · writer</div>
   <div class="hero-title">David Jivan<span class="cursor"></span></div>
   <div class="hero-sub">I am a nerd who talks about Consciousness, the Logos, early Christian theology, and other things I think about while roaming the country in a fifth wheel with my family in tow</div>
 </div>
@@ -62,10 +62,10 @@
     { n: "5", slug: "the-first-one-they-killed", title: "The first one they killed" },
     { n: "6", slug: "does-christianity-hinge-on-the-resurrection", title: "Does Christianity hinge on the literal resurrection?" },
     { n: "7", slug: "the-logos-lineage", title: "The Logos lineage" },
-    { n: "8", slug: "philo-crash-course", title: "Philo crash course â€” a study guide" },
-    { n: "9", slug: "origen-crash-course", title: "Origen crash course â€” a study guide" },
-    { n: "10", slug: "pseudo-dionysius-crash-course", title: "Pseudo-Dionysius crash course â€” a study guide" },
-    { n: "11", slug: "eckhart-crash-course", title: "Eckhart crash course â€” a study guide" },
+    { n: "8", slug: "philo-crash-course", title: "Philo crash course — a study guide" },
+    { n: "9", slug: "origen-crash-course", title: "Origen crash course — a study guide" },
+    { n: "10", slug: "pseudo-dionysius-crash-course", title: "Pseudo-Dionysius crash course — a study guide" },
+    { n: "11", slug: "eckhart-crash-course", title: "Eckhart crash course — a study guide" },
     { n: "12", slug: "there-are-no-particles", title: "There are no particles" },
     { n: "13", slug: "the-logos-was-toward-god", title: "The Logos was toward God" }
   ];
@@ -74,7 +74,7 @@
     .then(r => r.json())
     .then(posts => {
       document.getElementById('post-list').innerHTML = posts.map(p => {
-        const meta = [p.date, ...p.tags].join(' Â· ');
+        const meta = [p.date, ...p.tags].join(' · ');
         return `<a class="post-card" href="/posts/${p.slug}.html">
           <div class="post-title">${p.title}</div>
           <div class="post-meta">${meta}</div>
