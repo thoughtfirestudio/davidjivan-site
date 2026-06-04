@@ -398,6 +398,31 @@ body {
 .back-link::before { content: '\2190 '; color: var(--text-dim); }
 
 
+/* ─── ARTICLE FLOW RHYTHM ───────────────────────────────────
+   Block components in article flow get symmetric vertical
+   margins so paragraphs sit at a uniform distance regardless
+   of which component is the neighbor. Wins on specificity over
+   per-component margin rules in the library below.
+   ─────────────────────────────────────────────────────────── */
+.article > .callout,
+.article > .cards,
+.article > .hinge,
+.article > .timeline,
+.article > .disclaim-list,
+.article > .text-cards,
+.article > .parallel-box,
+.article > .parallel-list,
+.article > .channel-list,
+.article > .flag-card,
+.article > .transmission-box,
+.article > .toc,
+.article > .toggle,
+.article > blockquote {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
 /* ═══════════════════════════════════════════════════════════
    COMPONENT LIBRARY
    Architecture borrowed from the "Off the Scale" template,
