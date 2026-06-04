@@ -418,8 +418,8 @@ body {
 .article > .toc,
 .article > .toggle,
 .article > blockquote {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 
