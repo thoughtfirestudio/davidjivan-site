@@ -1,5 +1,23 @@
 [
   {
+    "title": "Maximus the Confessor Crash Course",
+    "slug": "maximus-crash-course",
+    "date": "June 2026",
+    "tags": ["theology", "history", "study guide"]
+  },
+  {
+    "title": "The Measurement Problem and Why It Matters",
+    "slug": "the-measurement-problem",
+    "date": "June 2026",
+    "tags": ["physics", "philosophy", "consciousness"]
+  },
+  {
+    "title": "What Paul Didn't Write",
+    "slug": "what-paul-didnt-write",
+    "date": "June 2026",
+    "tags": ["theology", "history"]
+  },
+  {
     "title": "I don't know shit about shit",
     "slug": "i-dont-know-shit-about-shit",
     "date": "June 2026",
