@@ -1,0 +1,82 @@
+---
+title: What I Mean When I Say "God"
+description: I thought I'd have to leave this word behind when the version of Christianity I grew up in collapsed. Turns out the word was pointing at something realer than that version knew.
+date: June 2026
+tags: [foundations, vocabulary]
+---
+
+I need to tell you what I mean by this word, because I know what you heard when you read it.
+
+:::divider
+
+## The God you were handed
+
+I am writing this in 2026 from the United States. I grew up in the Western world. I went to public school where we stood, put our hand over our heart, faced the flag, and recited the Pledge of Allegiance &mdash; concluding that we were &ldquo;one nation under God.&rdquo;
+
+I sang &ldquo;He&rsquo;s got the whole world in His hands&rdquo; before I had any idea what the line meant. It was just there. In the songs. In the prayers before baseball games. In the assumption that of course there is a God and of course that God is watching you. It was the wallpaper of American civil religion &mdash; pervasive and invisible.
+
+The word &ldquo;God&rdquo; was everywhere and it was nowhere. Never defined. Never questioned in the spaces where it was used. Just assumed.
+
+Then I left the version of Christianity I grew up in. And I thought the word went with it. If that God &mdash; the one on the wallpaper, the one who was keeping score, the one who fit so neatly into the cultural machinery &mdash; if that God turned out not to be real in the way I&rsquo;d been taught, then what was the point of saying the word at all?
+
+Turns out the word was pointing at something realer than that version knew. It always had been. I just needed to figure out what I&rsquo;d actually been pointing at all those years.
+
+:::divider
+
+## What I mean
+
+I don&rsquo;t have a perfect word for it. Words are made for describing things *within* reality, and this is not within reality &mdash; reality is within it. Every word we try will fail at the edges. That&rsquo;s fine. The point isn&rsquo;t to capture it. The point is to get close enough that you recognize what I&rsquo;m talking about.
+
+I mean: the ground of awareness. The in-which. That which is prior to everything that can be named, and in which everything that can be named appears. Not a thing. Not a being among beings. Not the oldest, biggest, most powerful member of the category &ldquo;things that exist.&rdquo; Not a being who *has* consciousness, but consciousness itself &mdash; the medium, the field, the condition.
+
+The line from Paul&rsquo;s speech in Athens gets at it: &ldquo;In him we live and move and have our being&rdquo; (Acts 17:28). Paul was quoting the Greek poets &mdash; he knew his audience would recognize the shape of what it pointed at, even if they couldn&rsquo;t name it either. It&rsquo;s the best one-line description I know: not a being who made the world, but that in which the world &mdash; and you, and I, and everything &mdash; lives and moves and has its being.
+
+I don&rsquo;t mean &ldquo;container&rdquo; &mdash; that makes God sound like a box the world sits in, something spatial that contains other spatial things. I don&rsquo;t mean &ldquo;substance&rdquo; &mdash; that makes God sound like stuff. Those are both spatial, material words, and God is not spatial or material. The closest I can get is: everything that is, is *in* God, and God is *in* everything that is. Not as a thing inside a thing, but as the reality that makes the thing possible. The canvas in the painting. The silence in the music. The awareness in the experience.
+
+Words fail. I&rsquo;m okay with that. The apophatic tradition has been okay with it for two thousand years. Let the word point and then fail. What it points at is real.
+
+:::divider
+
+## But is that pantheism?
+
+Yes and no. Let me give pantheism its due first &mdash; it deserves more than a quick dismissal.
+
+Pantheism carries a beautiful intuition: that God and the world are not two separate things. That the sacred is not distant but present &mdash; here, in the rock, in the tree, in the stranger&rsquo;s face. The pantheist sees a world that is not abandoned, a creation that is not orphaned. There is a real holiness in that vision, and I honor it. It is better than the deist God who wound the clock and left. It is better than the God who is so utterly other that nothing on earth can participate in the divine at all.
+
+The limit comes when the intuition gets flattened. If everything is God without remainder &mdash; the rock is God, the cancer is God, the atrocity is God &mdash; then the word &ldquo;God&rdquo; loses its referent. It stops naming anything distinctive and becomes a synonym for &ldquo;the universe&rdquo; with emotional coloring. That&rsquo;s not wrong, exactly. It&rsquo;s just not doing the work the word &ldquo;God&rdquo; is reaching for.
+
+The work the word is reaching for is this: to name what is *prior* to everything, not identical with the sum of everything. The pantheist says &ldquo;God is the world.&rdquo; I say &ldquo;the world is *in* God.&rdquo; The difference is subtle and it is everything.
+
+The wave is not other than the water. But the water is not the wave. The water is more &mdash; it is the medium the wave appears in. God is the medium, not the sum of the contents. God is the in-which, not the everything.
+
+Pantheism stops one level too early. It identifies the Ground with the render. I go one level deeper: the render is real, structured, lawful, consequential &mdash; and it appears *within* God, not *as* God. The distinction is the railing that keeps the framework from collapsing into &ldquo;everything is God and therefore nothing is God.&rdquo;
+
+:::divider
+
+## Personal or impersonal?
+
+This is the one I hold most honestly.
+
+I have a personal relationship with God. That is my experience, not my argument. I pray. I sense presence. I experience being met. I tell my kids that God loves them, that God is in them and in me and in every stranger and in every thing, that they are children of God and always have been. I mean that. I live from that.
+
+But I also know: my experience does not prove anything about the nature of God. It is possible that God is impersonal &mdash; awareness without a who, a field without a face &mdash; and that my psyche, being so thoroughly personal, experiences an impersonal reality as personal because that is the only way it knows how to be in relationship with anything at all. The tradition has a name for this: God condescends to our capacity. The infinite meets us where we are.
+
+I cannot rule that out. And I do not need to.
+
+Because here is the other side: if consciousness is what is most real &mdash; if the ground of everything is not dead matter but awareness itself &mdash; then personhood may not be a late product of neural complexity. It may be a feature of the substrate itself. We are so deeply personal &mdash; consciousness localized, with desire, with love, with the capacity to recognize and be recognized &mdash; that it strains credibility to imagine the Ground that produces all of that is somehow *less* than personal. Less capable of relation. Less alive.
+
+I lean toward personal. I do not resolve it here. But I lean, and I own the lean.
+
+:::divider
+
+## I am keeping the word
+
+For a while I thought I would have to leave &ldquo;God&rdquo; behind. When the version of Christianity I grew up in collapsed &mdash; when the God who was watching, judging, keeping score, the God who fit so neatly into the pledge and the prayers and the cultural machinery &mdash; when that God turned out not to be real in the way I had been taught, I thought the word went with it. If that God isn&rsquo;t real, why say the word at all?
+
+But the word stayed. Because the thing it points at stayed. And I realized: I am not leaving this word. I am reclaiming it. The same way I am reclaiming &ldquo;Christian&rdquo; &mdash; not as a return to the narrowed version I left, but as a claim that the tradition was wider and deeper than that version ever let on, and that I belong to the wider one.
+
+I tell my kids: you are a child of God. God loves you. God is in you, and in me, and in every stranger, and in every thing &mdash; and every thing is in God. Not as a theology lesson. As a fact I want them to live from.
+
+And I know: my words cannot fully describe what any of that means. They can point. They can gesture. They can fail honestly. But God is not meant to be described. God is meant to be experienced. That is the key.
+
+And maybe &mdash; just maybe &mdash; that is why any of this exists in the first place. You. Me. The whole wild, broken, beautiful creation. Not so it could be explained, but so it could be lived.

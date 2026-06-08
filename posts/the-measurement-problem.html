@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Measurement Problem and Why It Matters — David Jivan</title>
-<meta name="description" content="Schrödinger's cat was a complaint, not a celebration. Ninety years later, the measurement problem is still open, every honest interpretation pays a visible price, and decoherence didn't close it.">
+<title>The Measurement Problem and Why It Matters &mdash; David Jivan</title>
+<meta name="description" content="Schr&ouml;dinger's cat was a complaint, not a celebration. Ninety years later, the measurement problem is still open, every honest interpretation pays a visible price, and decoherence didn't close it.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
@@ -14,323 +14,281 @@
 
 <div class="topbar topbar--sticky">
   <a class="topbar-logo" href="/">David Jivan</a>
-  <a class="topbar-back" href="/">← home</a>
+  <a class="topbar-back" href="/">&larr; home</a>
 </div>
 
 <div class="post-header">
-  <div class="post-eyebrow">physics · philosophy · June 2026</div>
+  <div class="post-eyebrow">physics &middot; philosophy &middot; June 2026</div>
   <h1 class="post-title">The Measurement Problem and Why It Matters</h1>
-  <div class="post-meta">David Jivan · davidjivan.net</div>
+  <div class="post-meta">David Jivan &middot; davidjivan.net</div>
 </div>
 
 <div class="article">
 
-  <!-- ── OPENING: THE CAT ─────────────────────────────────── -->
-
   <p class="reveal" style="--i:0">You already half-know this one.</p>
 
-  <p class="reveal" style="--i:1">A cat in a steel chamber. A vial of poison wired to a Geiger counter. A radioactive atom that might or might not have decayed in the past hour. If the atom decays, the counter trips, the hammer falls, the flask shatters, the cat is dead. If it doesn't, the cat is alive. You leave the box sealed for an hour and then ask: what is the state of the cat?</p>
+  <p>A cat in a steel chamber. A vial of poison wired to a Geiger counter. A radioactive atom that might or might not have decayed in the past hour. If the atom decays, the counter trips, the hammer falls, the flask shatters, the cat is dead. If it doesn't, the cat is alive. You leave the box sealed for an hour and then ask: what is the state of the cat?</p>
 
-  <p class="reveal" style="--i:2">If you take Copenhagen quantum mechanics at its word — the version Bohr and Heisenberg were teaching in 1935, the version most popularizers still repeat — the answer is that the cat is in a superposition. Alive <em>and</em> dead, in Schrödinger's own words "mixed or smeared out in equal parts," until someone opens the box. That's the part where you nod along, because everyone knows quantum physics is weird, and the cat is the standard image of the weirdness.</p>
+  <p>If you take Copenhagen quantum mechanics at its word &mdash; the version Bohr and Heisenberg were teaching in 1935, the version most popularizers still repeat &mdash; the answer is that the cat is in a superposition. Alive <em>and</em> dead, in Schr&ouml;dinger's own words "mixed or smeared out in equal parts," until someone opens the box. That's the part where you nod along, because everyone knows quantum physics is weird, and the cat is the standard image of the weirdness.</p>
 
-  <p class="reveal" style="--i:3">Here is what almost nobody tells you. Erwin Schrödinger, who came up with the cat in 1935, was not celebrating quantum weirdness. He was making fun of it. The German is <em>burleske Fälle</em> — burlesque cases. He meant it the way you mean it in English: ridiculous, absurd, a stage farce. He was constructing a reductio: <em>if your interpretation of quantum mechanics says my cat is in a smeared-out half-alive half-dead state until I look, your interpretation has a problem</em>.</p>
+  <p>Here is what almost nobody tells you. Erwin Schr&ouml;dinger, who came up with the cat in 1935, was not celebrating quantum weirdness. He was making fun of it. The German is <em>burleske F&auml;lle</em> &mdash; burlesque cases. He meant it the way you mean it in English: ridiculous, absurd, a stage farce. He was constructing a reductio: <em>if your interpretation of quantum mechanics says my cat is in a smeared-out half-alive half-dead state until I look, your interpretation has a problem</em>.</p>
 
-  <p class="reveal" style="--i:4">The cat was a complaint. It got remembered as a poster.</p>
+  <p>The cat was a complaint. It got remembered as a poster.</p>
 
-  <div class="callout reveal" style="--i:5">The inversion is structural. The most famous popular image of quantum physics is one of its founders pointing at a place where the theory cannot say something it needs to say — and the cultural memory has stripped the complaint and kept the strangeness, like an inside joke nobody remembered was a joke.</div>
+  <div class="callout">
+    The inversion is structural. The most famous popular image of quantum physics is one of its founders pointing at a place where the theory cannot say something it needs to say &mdash; and the cultural memory has stripped the complaint and kept the strangeness, like an inside joke nobody remembered was a joke.
+  </div>
 
-  <p class="reveal" style="--i:6">The thing Schrödinger was pointing at has a name. It is called the <em>measurement problem</em>. And ninety years later, it has not been solved. There is a popular version of the story in which it got cleared up by something called decoherence in the 1980s and 90s, and I want to walk through why working physicists in foundations — including the ones who developed decoherence — explicitly reject that story. But first, the problem itself.</p>
+  <p>The thing Schr&ouml;dinger was pointing at has a name. It is called the <em>measurement problem</em>. And ninety years later, it has not been solved. There is a popular version of the story in which it got cleared up by something called decoherence in the 1980s and 90s, and I want to walk through why working physicists in foundations &mdash; including the ones who developed decoherence &mdash; explicitly reject that story. But first, the problem itself.</p>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── THE PROBLEM CLEANLY STATED ───────────────────────── -->
+  <h2>Three things <em>that cannot all be true</em></h2>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">the problem</div>
-    <h2 class="section-title">Three things <em>that cannot all be true</em></h2>
-  </div>
+  <p>The cleanest formulation of the measurement problem I know is Tim Maudlin's, from a 1995 paper called <em>Three Measurement Problems</em>. Maudlin teaches philosophy of physics at NYU. The paper is now the standard way the problem gets introduced in foundations courses. Three propositions, each of which looks obviously true. None of which can all be true together. Every interpretation of quantum mechanics is a choice about which one to drop.</p>
 
-  <p class="reveal" style="--i:1">The cleanest formulation of the measurement problem I know is Tim Maudlin's, from a 1995 paper called <em>Three Measurement Problems</em>. Maudlin teaches philosophy of physics at NYU. The paper is now the standard way the problem gets introduced in foundations courses. Three propositions, each of which looks obviously true. None of which can all be true together. Every interpretation of quantum mechanics is a choice about which one to drop.</p>
-
-  <div class="cards reveal" style="--i:2">
-    <div class="card">
-      <div class="card-tag">A — completeness</div>
-      <div class="card-body">The wave function is a complete description of a physical system. There is nothing more to the system that the wave function leaves out — no hidden facts, no extra variables, no truth-of-the-matter the math doesn't capture.</div>
+  <div class="cards">
+    <div class="card reveal">
+      <div class="card-who">A &mdash; completeness</div>
+      <p class="card-body">The wave function is a complete description of a physical system. There is nothing more to the system that the wave function leaves out &mdash; no hidden facts, no extra variables, no truth-of-the-matter the math doesn't capture.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">B — linear evolution</div>
-      <div class="card-body">The wave function always evolves according to the Schrödinger equation. Smoothly, deterministically, never branching, never jumping. The equation that governs quantum systems is the equation, all the way through.</div>
+    <div class="card reveal">
+      <div class="card-who">B &mdash; linear evolution</div>
+      <p class="card-body">The wave function always evolves according to the Schr&ouml;dinger equation. Smoothly, deterministically, never branching, never jumping. The equation that governs quantum systems is the equation, all the way through.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">C — definite outcomes</div>
-      <div class="card-body">Measurements have single, definite results. You open the box and find a live cat or a dead cat, not a smeared one. The pointer rests at a single number. There is a fact of the matter about what happened.</div>
+    <div class="card reveal">
+      <div class="card-who">C &mdash; definite outcomes</div>
+      <p class="card-body">Measurements have single, definite results. You open the box and find a live cat or a dead cat, not a smeared one. The pointer rests at a single number. There is a fact of the matter about what happened.</p>
     </div>
   </div>
 
-  <p class="reveal" style="--i:3">The logic is mechanical. If the wave function is complete (A), and it evolves linearly forever (B), then a superposition of "atom decayed" and "atom didn't decay" becomes a superposition of "cat dead" and "cat alive" — and there is nothing in the equations that ever ends that superposition. You can run the math out as far as you like. You get a superposition of the cat <em>and</em> the experimenter looking at the cat <em>and</em> the colleague the experimenter calls about it. The math just keeps spreading. It never selects.</p>
+  <p>The logic is mechanical. If the wave function is complete (A), and it evolves linearly forever (B), then a superposition of "atom decayed" and "atom didn't decay" becomes a superposition of "cat dead" and "cat alive" &mdash; and there is nothing in the equations that ever ends that superposition. You can run the math out as far as you like. You get a superposition of the cat <em>and</em> the experimenter looking at the cat <em>and</em> the colleague the experimenter calls about it. The math just keeps spreading. It never selects.</p>
 
-  <p class="reveal" style="--i:4">But observation does select. You open the box; the cat is one thing or the other. That is (C), and it is not in dispute. The contradiction is right there on the surface of the theory. David Albert puts it bluntly in his 1992 textbook <em>Quantum Mechanics and Experience</em>: "the dynamics and the postulate of collapse are flatly in contradiction with one another."</p>
+  <p>But observation does select. You open the box; the cat is one thing or the other. That is (C), and it is not in dispute. The contradiction is right there on the surface of the theory. David Albert puts it bluntly in his 1992 textbook <em>Quantum Mechanics and Experience</em>: "the dynamics and the postulate of collapse are flatly in contradiction with one another."</p>
 
-  <p class="reveal" style="--i:5">So one of the three has to go. That is the measurement problem in one breath. The math gives you everything; the world gives you one thing; nothing in the math explains the difference.</p>
+  <p>So one of the three has to go. That is the measurement problem in one breath. The math gives you everything; the world gives you one thing; nothing in the math explains the difference.</p>
 
-  <div class="callout callout--accent reveal" style="--i:6">This is not a fringe formulation. Maudlin's three-proposition framing is the standard way foundations of physics is taught. If you ever see the measurement problem presented as a single unresolved puzzle rather than a forced choice between three named costs, the writer has either skipped a step or hasn't read the field.</div>
+  <div class="callout callout--accent">
+    This is not a fringe formulation. Maudlin's three-proposition framing is the standard way foundations of physics is taught. If you ever see the measurement problem presented as a single unresolved puzzle rather than a forced choice between three named costs, the writer has either skipped a step or hasn't read the field.
+  </div>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── THE HEISENBERG CUT / SHIFTY SPLIT ────────────────── -->
+  <h2>Bell on what physics <em>is not allowed to look like</em></h2>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">the shifty split</div>
-    <h2 class="section-title">Bell on what physics <em>is not allowed to look like</em></h2>
-  </div>
+  <p>Bell saw the whole thing differently. And he was furious about it.</p>
 
-  <p class="reveal" style="--i:1">Bell saw the whole thing differently. And he was furious about it.</p>
+  <p>To do quantum mechanics in practice, you draw a line. On one side: the quantum system &mdash; the electron, the atom, the photon. On the other: the classical apparatus &mdash; the detector, the dial, the experimenter. The math is quantum on one side and classical on the other, and you connect them with something called the <em>measurement postulate</em>: when the quantum side meets the classical side, the wave function collapses and you get a definite reading.</p>
 
-  <p class="reveal" style="--i:2">To do quantum mechanics in practice, you draw a line. On one side: the quantum system — the electron, the atom, the photon. On the other: the classical apparatus — the detector, the dial, the experimenter. The math is quantum on one side and classical on the other, and you connect them with something called the <em>measurement postulate</em>: when the quantum side meets the classical side, the wave function collapses and you get a definite reading.</p>
+  <p>Where do you draw the line? Physicists call this the <em>Heisenberg cut</em>. Heisenberg himself said you could put it almost anywhere. Below the atom. At the detector. At the retina. In the experimenter's brain. The predictions come out the same wherever you draw it &mdash; as long as you draw it <em>somewhere</em>. Von Neumann proved this in 1932. The cut is mathematically movable. That is a theorem.</p>
 
-  <p class="reveal" style="--i:3">Where do you draw the line? Physicists call this the <em>Heisenberg cut</em>. Heisenberg himself said you could put it almost anywhere. Below the atom. At the detector. At the retina. In the experimenter's brain. The predictions come out the same wherever you draw it — as long as you draw it <em>somewhere</em>. Von Neumann proved this in 1932. The cut is mathematically movable. That is a theorem.</p>
+  <p>In 1990, John Bell &mdash; the Bell of Bell's theorem &mdash; wrote a furious short essay called <em>Against Measurement</em>. He called the movable cut the <em>shifty split</em> and said it was a scandal. A proper physics, he argued, should not depend on where you draw a line that doesn't exist in nature. He listed the words that should not appear in a fundamental physical theory: <em>system, apparatus, environment, microscopic, macroscopic, reversible, irreversible, observable, information, measurement</em>. Every one of those words is doing a job the fundamental theory cannot itself justify. They're placeholders for the thing the math leaves out.</p>
 
-  <p class="reveal" style="--i:4">In 1990, John Bell — the Bell of Bell's theorem — wrote a furious short essay called <em>Against Measurement</em>. He called the movable cut the <em>shifty split</em> and said it was a scandal. A proper physics, he argued, should not depend on where you draw a line that doesn't exist in nature. He listed the words that should not appear in a fundamental physical theory: <em>system, apparatus, environment, microscopic, macroscopic, reversible, irreversible, observable, information, measurement</em>. Every one of those words is doing a job the fundamental theory cannot itself justify. They're placeholders for the thing the math leaves out.</p>
+  <p>Bell wasn't anti-physics. He thought quantum mechanics was the most successful physical theory ever built. But he also said it was "unprofessionally vague." It works. It just doesn't tell you what it's about. The shifty split is the symptom. The measurement problem is the disease.</p>
 
-  <p class="reveal" style="--i:5">Bell wasn't anti-physics. He thought quantum mechanics was the most successful physical theory ever built. But he also said it was "unprofessionally vague." It works. It just doesn't tell you what it's about. The shifty split is the symptom. The measurement problem is the disease.</p>
-
-  <p class="reveal" style="--i:6">Bell summed it up in a line worth memorizing: either the wave function, as given by the Schrödinger equation, is not everything, or it is not right. That's the measurement problem in eighteen words.</p>
+  <p>Bell summed it up in a line worth memorizing: either the wave function, as given by the Schr&ouml;dinger equation, is not everything, or it is not right. That's the measurement problem in eighteen words.</p>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── DECOHERENCE DETOUR ───────────────────────────────── -->
+  <h2>Decoherence is real. <em>It does not solve the problem.</em></h2>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">the part you may have heard</div>
-    <h2 class="section-title">Decoherence is real. <em>It does not solve the problem.</em></h2>
+  <p>Here is where, in most popular accounts, the story ends. You may have read that physicists figured this out in the seventies and eighties; that something called <em>decoherence</em> explains why we don't see smeared-out cats; that the measurement problem turns out to have been a confusion, and we can all relax.</p>
+
+  <p>This is not what the foundations literature actually says.</p>
+
+  <p>Decoherence is real. It was developed by H. D. Zeh in 1970, deepened by Erich Joos and Wojciech Zurek through the eighties, and it does important work. Here is what it does. A quantum system that interacts with a large, messy environment &mdash; air molecules, thermal radiation, dust &mdash; rapidly becomes entangled with all of it. The off-diagonal terms in the reduced density matrix, the part of the math that encodes interference between branches, fall off exponentially fast. In a fraction of a second, a macroscopic superposition becomes empirically indistinguishable from a classical mixture of separate outcomes. That is why you do not see Schr&ouml;dinger-cat interference in your kitchen. The interference is technically still there; the environment has hidden it in correlations so spread out that no experiment can recover them.</p>
+
+  <p>This is genuinely important. It explains the <em>quantum-to-classical transition</em> &mdash; why the world looks classical at our scale even though the underlying physics is quantum. It tells you why interference experiments are so hard to run on large systems. It picks out which set of states (the "pointer basis") looks stable to observers. None of that is in dispute.</p>
+
+  <p>What decoherence does not do is select an outcome. The global wave function &mdash; the system plus the environment &mdash; is still a pure superposition. The reduced density matrix only looks like a mixture if you trace out, by hand, the environmental degrees of freedom you can't measure. Physicists call this an <em>improper</em> mixture. It has the same matrix entries as a classical probability distribution over definite outcomes, but it is not a classical probability distribution over definite outcomes. The universe, on the linear dynamics, is still in all of them at once. Decoherence has just moved the contradiction to a bigger system.</p>
+
+  <div class="callout callout--accent">
+    This is not some fringe reading. The physicists who built decoherence say the same thing. Zurek says it. Zeh said it. Schlosshauer's standard survey in <em>Reviews of Modern Physics</em>: "Many authors agree that decoherence does not solve the measurement problem." Bacciagaluppi wrote the <em>Stanford Encyclopedia</em> entry on decoherence, and he puts it as cleanly as anyone: "It does explain why we do not observe superpositions of measurement results, but it does not explain why we do observe measurement results in the first place." Sheesh. If you've read otherwise, you were reading marketing, not the foundations literature.
   </div>
-
-  <p class="reveal" style="--i:1">Here is where, in most popular accounts, the story ends. You may have read that physicists figured this out in the seventies and eighties; that something called <em>decoherence</em> explains why we don't see smeared-out cats; that the measurement problem turns out to have been a confusion, and we can all relax.</p>
-
-  <p class="reveal" style="--i:2">This is not what the foundations literature actually says.</p>
-
-  <p class="reveal" style="--i:3">Decoherence is real. It was developed by H. D. Zeh in 1970, deepened by Erich Joos and Wojciech Zurek through the eighties, and it does important work. Here is what it does. A quantum system that interacts with a large, messy environment — air molecules, thermal radiation, dust — rapidly becomes entangled with all of it. The off-diagonal terms in the reduced density matrix, the part of the math that encodes interference between branches, fall off exponentially fast. In a fraction of a second, a macroscopic superposition becomes empirically indistinguishable from a classical mixture of separate outcomes. That is why you do not see Schrödinger-cat interference in your kitchen. The interference is technically still there; the environment has hidden it in correlations so spread out that no experiment can recover them.</p>
-
-  <p class="reveal" style="--i:4">This is genuinely important. It explains the <em>quantum-to-classical transition</em> — why the world looks classical at our scale even though the underlying physics is quantum. It tells you why interference experiments are so hard to run on large systems. It picks out which set of states (the "pointer basis") looks stable to observers. None of that is in dispute.</p>
-
-  <p class="reveal" style="--i:5">What decoherence does not do is select an outcome. The global wave function — the system plus the environment — is still a pure superposition. The reduced density matrix only looks like a mixture if you trace out, by hand, the environmental degrees of freedom you can't measure. Physicists call this an <em>improper</em> mixture. It has the same matrix entries as a classical probability distribution over definite outcomes, but it is not a classical probability distribution over definite outcomes. The universe, on the linear dynamics, is still in all of them at once. Decoherence has just moved the contradiction to a bigger system.</p>
-
-  <div class="callout callout--accent reveal" style="--i:6">This is not some fringe reading. The physicists who built decoherence say the same thing. Zurek says it. Zeh said it. Schlosshauer's standard survey in <em>Reviews of Modern Physics</em>: "Many authors agree that decoherence does not solve the measurement problem." Bacciagaluppi wrote the <em>Stanford Encyclopedia</em> entry on decoherence, and he puts it as cleanly as anyone: "It does explain why we do not observe superpositions of measurement results, but it does not explain why we do observe measurement results in the first place." Sheesh. If you've read otherwise, you were reading marketing, not the foundations literature.</div>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── THE INTERPRETATIONS AND THEIR PRICES ─────────────── -->
+  <h2>Every interpretation <em>pays a visible price</em></h2>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">the menu and what each option costs</div>
-    <h2 class="section-title">Every interpretation <em>pays a visible price</em></h2>
-    <p class="lede">The three propositions again. Every interpretation drops at least one. Here is the menu, with the bill attached.</p>
-  </div>
+  <p>Every interpretation drops at least one. Here is the menu, with the bill attached.</p>
 
-  <div class="cards reveal" style="--i:1">
-    <div class="card">
-      <div class="card-tag">Many-Worlds (Everett, Wallace)</div>
-      <div class="card-body"><strong>Drops C — definite outcomes.</strong> The wave function never collapses. Every possible outcome happens, in its own branch. The version you experience is one branch among an unimaginable number. The price: a proliferation of unobservable parallel worlds, and a still-contested account of why the Born probabilities come out the way they do. David Wallace's decision-theoretic derivation in <em>The Emergent Multiverse</em> (2012) is rigorous and disputed.</div>
+  <div class="cards">
+    <div class="card reveal">
+      <div class="card-who">Many-Worlds (Everett, Wallace)</div>
+      <p class="card-body"><strong>Drops C &mdash; definite outcomes.</strong> The wave function never collapses. Every possible outcome happens, in its own branch. The version you experience is one branch among an unimaginable number. The price: a proliferation of unobservable parallel worlds, and a still-contested account of why the Born probabilities come out the way they do. David Wallace's decision-theoretic derivation in <em>The Emergent Multiverse</em> (2012) is rigorous and disputed.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">Bohmian mechanics (de Broglie, Bohm)</div>
-      <div class="card-body"><strong>Drops A — completeness.</strong> The wave function is real, but particles also have definite positions at all times. The wave function "guides" the particles via a pilot wave. The math reproduces standard quantum mechanics. The price: explicit, ineliminable non-locality. The pilot wave acts faster than light. You buy determinate outcomes by giving up locality.</div>
+    <div class="card reveal">
+      <div class="card-who">Bohmian mechanics (de Broglie, Bohm)</div>
+      <p class="card-body"><strong>Drops A &mdash; completeness.</strong> The wave function is real, but particles also have definite positions at all times. The wave function "guides" the particles via a pilot wave. The math reproduces standard quantum mechanics. The price: explicit, ineliminable non-locality. The pilot wave acts faster than light. You buy determinate outcomes by giving up locality.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">GRW / Continuous Spontaneous Localization</div>
-      <div class="card-body"><strong>Drops B — linear evolution.</strong> The Schrödinger equation is modified by a tiny stochastic collapse term — rare, random, more frequent as you scale up to macroscopic systems. The cat doesn't stay in superposition because the math has been changed so it can't. The price: you are modifying the most precisely confirmed equation in physics, and you have to do it carefully enough not to break the predictions that have already been tested.</div>
+    <div class="card reveal">
+      <div class="card-who">GRW / Continuous Spontaneous Localization</div>
+      <p class="card-body"><strong>Drops B &mdash; linear evolution.</strong> The Schr&ouml;dinger equation is modified by a tiny stochastic collapse term &mdash; rare, random, more frequent as you scale up to macroscopic systems. The cat doesn't stay in superposition because the math has been changed so it can't. The price: you are modifying the most precisely confirmed equation in physics, and you have to do it carefully enough not to break the predictions that have already been tested.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">QBism (Fuchs, Mermin)</div>
-      <div class="card-body"><strong>Drops "observer-independent."</strong> The wave function is not a description of physical reality. It is a tool for an agent to update their beliefs about what they will see. Quantum states are personal, like Bayesian probabilities. The price: there is no observer-independent quantum world. Reality, in any strong sense, becomes agent-relative.</div>
+    <div class="card reveal">
+      <div class="card-who">QBism (Fuchs, Mermin)</div>
+      <p class="card-body"><strong>Drops "observer-independent."</strong> The wave function is not a description of physical reality. It is a tool for an agent to update their beliefs about what they will see. Quantum states are personal, like Bayesian probabilities. The price: there is no observer-independent quantum world. Reality, in any strong sense, becomes agent-relative.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">Relational QM (Rovelli)</div>
-      <div class="card-body"><strong>Drops "observer-independent" — differently.</strong> Quantum states are not properties of systems in themselves; they are properties of systems relative to other systems. Two observers can have non-equivalent accounts of the same event and both be right. The price: no view from nowhere. Carlo Rovelli's <em>Helgoland</em> (2020) is the accessible book-length statement.</div>
+    <div class="card reveal">
+      <div class="card-who">Relational QM (Rovelli)</div>
+      <p class="card-body"><strong>Drops "observer-independent" &mdash; differently.</strong> Quantum states are not properties of systems in themselves; they are properties of systems relative to other systems. Two observers can have non-equivalent accounts of the same event and both be right. The price: no view from nowhere. Carlo Rovelli's <em>Helgoland</em> (2020) is the accessible book-length statement.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">Superdeterminism (Hossenfelder, Palmer, 't Hooft)</div>
-      <div class="card-body"><strong>Drops "freedom of measurement choice."</strong> The experimenter's choices about what to measure are correlated, at the deepest level, with the systems they measure — by initial conditions, fourteen billion years ago. Howard Wiseman has called the position "belief in ubiquitous alien mind-control." Hossenfelder publishes it seriously in <em>Frontiers in Physics</em>. The Bell-test mainstream rejects it sharply. I don't have a settled view on whether this is a real option or a refusal to do science.</div>
+    <div class="card reveal">
+      <div class="card-who">Superdeterminism (Hossenfelder, Palmer, 't Hooft)</div>
+      <p class="card-body"><strong>Drops "freedom of measurement choice."</strong> The experimenter's choices about what to measure are correlated, at the deepest level, with the systems they measure &mdash; by initial conditions, fourteen billion years ago. Howard Wiseman has called the position "belief in ubiquitous alien mind-control." Hossenfelder publishes it seriously in <em>Frontiers in Physics</em>. The Bell-test mainstream rejects it sharply. I don't have a settled view on whether this is a real option or a refusal to do science.</p>
     </div>
   </div>
 
-  <p class="reveal" style="--i:2">Here's what's not on the list: an interpretation that pays no price. There isn't one. Every position drops something the others keep. No free lunch. You just figure out which cost you can live with.</p>
+  <p>Here's what's not on the list: an interpretation that pays no price. There isn't one. Every position drops something the others keep. No free lunch. You just figure out which cost you can live with.</p>
 
-  <div class="callout reveal" style="--i:3">A note on a recent result, because the press got it slightly wrong. In 2020, an experiment deep under Gran Sasso in Italy — a sensitive germanium detector buried in a mountain to filter cosmic rays — ruled out one specific spontaneous-collapse model: the parameter-free version of the Diósi-Penrose proposal that connects collapse to gravitational effects. Real news. Also slightly oversold. Catalina Curceanu, who led the experiment, was careful to say afterward that Penrose's original non-stochastic version was <em>not</em> ruled out by the result. The press routinely conflated the two. The interpretive market is still open.</div>
+  <div class="callout">
+    A note on a recent result, because the press got it slightly wrong. In 2020, an experiment deep under Gran Sasso in Italy &mdash; a sensitive germanium detector buried in a mountain to filter cosmic rays &mdash; ruled out one specific spontaneous-collapse model: the parameter-free version of the Di&oacute;si-Penrose proposal that connects collapse to gravitational effects. Real news. Also slightly oversold. Catalina Curceanu, who led the experiment, was careful to say afterward that Penrose's original non-stochastic version was <em>not</em> ruled out by the result. The press routinely conflated the two. The interpretive market is still open.
+  </div>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── POST-2018 NO-GO ──────────────────────────────────── -->
+  <h2>After 2018, it got <em>worse</em></h2>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">tightening the screws</div>
-    <h2 class="section-title">After 2018, it got <em>worse</em></h2>
+  <p>The situation has not stabilized. If anything, the last seven years have closed off escape routes the older debate assumed were still open.</p>
+
+  <p>In 2018, Daniela Frauchiger and Renato Renner published a paper in <em>Nature Communications</em> with a disarming title: <em>Quantum theory cannot consistently describe the use of itself</em>. The setup is a thought-experiment in the Wigner's-friend genre &mdash; observers observing observers observing quantum systems. The authors showed that if you assume universal quantum mechanics (the theory applies to observers too, not just to the systems they observe) plus a couple of natural-looking assumptions about reasoning from inside the theory, you derive a contradiction. The participants reach formally incompatible conclusions about what happened.</p>
+
+  <p>In 2020, a group led by Kok-Wei Bong sharpened this in <em>Nature Physics</em> with what they called <em>Local Friendliness</em> inequalities. The setup is cleaner than Frauchiger-Renner and the result is sharper: it is formally impossible to simultaneously hold universal quantum mechanics, locality, observer-independent facts, and freedom of measurement choice. The Local Friendliness inequalities are strictly stronger than Bell's &mdash; every Bell-violating correlation is Local-Friendliness-violating, but not vice versa.</p>
+
+  <p>In 2019, Massimiliano Proietti and colleagues at Heriot-Watt ran the first experimental Wigner's-friend test, using entangled photons as proxy "friends," and violated the relevant inequality by five standard deviations. The abstract is plain: "if one holds fast to the assumptions of locality and free choice, this result implies that quantum theory should be interpreted in an observer-dependent way." Fedrizzi, one of the experimentalists, put it less guardedly in a public summary: "Two different observers are entitled to their own facts." Howard Wiseman, in <em>Quanta Magazine</em>: "We've actually found out something even more profound about reality than from Bell's theorem."</p>
+
+  <div class="callout">
+    In plain English: as of 2026, you cannot simultaneously hold all of the following &mdash; one observer-independent world, locally separate parts, universal quantum mechanics, and the idea that observers can in principle agree on facts. At least one has to give. The theorems are not contested in the foundations community. They are textbook material now, less than a decade old.
   </div>
-
-  <p class="reveal" style="--i:1">The situation has not stabilized. If anything, the last seven years have closed off escape routes the older debate assumed were still open.</p>
-
-  <p class="reveal" style="--i:2">In 2018, Daniela Frauchiger and Renato Renner published a paper in <em>Nature Communications</em> with a disarming title: <em>Quantum theory cannot consistently describe the use of itself</em>. The setup is a thought-experiment in the Wigner's-friend genre — observers observing observers observing quantum systems. The authors showed that if you assume universal quantum mechanics (the theory applies to observers too, not just to the systems they observe) plus a couple of natural-looking assumptions about reasoning from inside the theory, you derive a contradiction. The participants reach formally incompatible conclusions about what happened.</p>
-
-  <p class="reveal" style="--i:3">In 2020, a group led by Kok-Wei Bong sharpened this in <em>Nature Physics</em> with what they called <em>Local Friendliness</em> inequalities. The setup is cleaner than Frauchiger-Renner and the result is sharper: it is formally impossible to simultaneously hold universal quantum mechanics, locality, observer-independent facts, and freedom of measurement choice. The Local Friendliness inequalities are strictly stronger than Bell's — every Bell-violating correlation is Local-Friendliness-violating, but not vice versa.</p>
-
-  <p class="reveal" style="--i:4">In 2019, Massimiliano Proietti and colleagues at Heriot-Watt ran the first experimental Wigner's-friend test, using entangled photons as proxy "friends," and violated the relevant inequality by five standard deviations. The abstract is plain: "if one holds fast to the assumptions of locality and free choice, this result implies that quantum theory should be interpreted in an observer-dependent way." Fedrizzi, one of the experimentalists, put it less guardedly in a public summary: "Two different observers are entitled to their own facts." Howard Wiseman, in <em>Quanta Magazine</em>: "We've actually found out something even more profound about reality than from Bell's theorem."</p>
-
-  <div class="callout reveal" style="--i:5">In plain English: as of 2026, you cannot simultaneously hold all of the following — one observer-independent world, locally separate parts, universal quantum mechanics, and the idea that observers can in principle agree on facts. At least one has to give. The theorems are not contested in the foundations community. They are textbook material now, less than a decade old.</div>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── THE 2025 SURVEY ──────────────────────────────────── -->
+  <h2>A field that <em>does not agree with itself</em></h2>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">how working physicists actually divide</div>
-    <h2 class="section-title">A field that <em>does not agree with itself</em></h2>
-  </div>
+  <p>In July 2025, <em>Nature</em> published the largest survey ever taken of physicists' views on the foundations of quantum mechanics. More than 1,100 respondents. The earlier benchmark &mdash; the much-cited Schlosshauer-Kofler-Zeilinger snapshot from 2013 &mdash; surveyed thirty-three people at a single conference. This one is about thirty-five times larger, and the picture it returns is much sharper.</p>
 
-  <p class="reveal" style="--i:1">In July 2025, <em>Nature</em> published the largest survey ever taken of physicists' views on the foundations of quantum mechanics. More than 1,100 respondents. The earlier benchmark — the much-cited Schlosshauer-Kofler-Zeilinger snapshot from 2013 — surveyed thirty-three people at a single conference. This one is about thirty-five times larger, and the picture it returns is much sharper.</p>
-
-  <div class="cards reveal" style="--i:2">
-    <div class="card">
-      <div class="card-tag">Copenhagen</div>
-      <div class="card-body">36%. Still the plurality, but well short of a majority. Rob Spekkens, quoted in the <em>Nature</em> coverage: "Most physicists are drinking the Kool-Aid of Copenhagen philosophy."</div>
+  <div class="cards">
+    <div class="card reveal">
+      <div class="card-who">Copenhagen</div>
+      <p class="card-body">36%. Still the plurality, but well short of a majority. Rob Spekkens, quoted in the <em>Nature</em> coverage: "Most physicists are drinking the Kool-Aid of Copenhagen philosophy."</p>
     </div>
-    <div class="card">
-      <div class="card-tag">QBism / epistemic / relational</div>
-      <div class="card-body">17%. The "wave function is information, not reality" cluster, including QBism and Rovelli's relational quantum mechanics. Up sharply since 2013.</div>
+    <div class="card reveal">
+      <div class="card-who">QBism / epistemic / relational</div>
+      <p class="card-body">17%. The "wave function is information, not reality" cluster, including QBism and Rovelli's relational quantum mechanics. Up sharply since 2013.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">Many-Worlds</div>
-      <div class="card-body">15%. Strong in cosmology and quantum gravity communities; weaker elsewhere. Growing, especially among younger physicists in foundations.</div>
+    <div class="card reveal">
+      <div class="card-who">Many-Worlds</div>
+      <p class="card-body">15%. Strong in cosmology and quantum gravity communities; weaker elsewhere. Growing, especially among younger physicists in foundations.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">Bohmian</div>
-      <div class="card-body">7%. Persistent minority. Disproportionately represented among philosophers of physics relative to working physicists.</div>
+    <div class="card reveal">
+      <div class="card-who">Bohmian</div>
+      <p class="card-body">7%. Persistent minority. Disproportionately represented among philosophers of physics relative to working physicists.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">Spontaneous collapse</div>
-      <div class="card-body">4%. GRW, CSL, and the Penrose lineage. The smallest named camp, but the only one in principle experimentally distinguishable from the others.</div>
+    <div class="card reveal">
+      <div class="card-who">Spontaneous collapse</div>
+      <p class="card-body">4%. GRW, CSL, and the Penrose lineage. The smallest named camp, but the only one in principle experimentally distinguishable from the others.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">Other / no view</div>
-      <div class="card-body">The remainder. Some respondents explicitly chose "no interpretation"; some chose options the survey did not list.</div>
+    <div class="card reveal">
+      <div class="card-who">Other / no view</div>
+      <p class="card-body">The remainder. Some respondents explicitly chose "no interpretation"; some chose options the survey did not list.</p>
     </div>
   </div>
 
-  <p class="reveal" style="--i:3">The headline finding is not the percentages. The headline finding is the number that should be on the wall of every philosophy-of-physics seminar: when asked whether they believed their own preferred interpretation was actually <em>correct</em>, only 24% of respondents said yes.</p>
+  <p>The headline finding is not the percentages. The headline finding is the number that should be on the wall of every philosophy-of-physics seminar: when asked whether they believed their own preferred interpretation was actually <em>correct</em>, only 24% of respondents said yes.</p>
 
-  <p class="reveal" style="--i:4">Three quarters of the working physicists who picked an interpretation, picked one they do not believe is true. Wild. They are holding it for reasons short of belief — pragmatic, historical, aesthetic, "it was what I was taught."</p>
+  <p>Three quarters of the working physicists who picked an interpretation, picked one they do not believe is true. Wild. They are holding it for reasons short of belief &mdash; pragmatic, historical, aesthetic, "it was what I was taught."</p>
 
-  <p class="reveal" style="--i:5">I read this as the field telling the truth about itself for the first time in a while. The measurement problem is not solved. The professionals know it is not solved. The interpretive marketplace is real and unsettled. The popular story — quantum physics is weird but the experts have it under control — does not survive contact with the data.</p>
+  <p>I read this as the field telling the truth about itself for the first time in a while. The measurement problem is not solved. The professionals know it is not solved. The interpretive marketplace is real and unsettled. The popular story &mdash; quantum physics is weird but the experts have it under control &mdash; does not survive contact with the data.</p>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── CONSCIOUSNESS LINEAGE, CORRECTED ─────────────────── -->
+  <h2>What the consciousness-first people <em>actually say</em></h2>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">a lineage that needs cleaning up</div>
-    <h2 class="section-title">What the consciousness-first people <em>actually say</em></h2>
+  <p>I'm going to land near consciousness-first metaphysics. This is exactly where popular accounts go off the rails. Let me clear the floor first.</p>
+
+  <p>If you read enough popular philosophy of science, you eventually run into a tidy story that goes something like this: John von Neumann proved that conscious observation causes wave function collapse, Eugene Wigner developed the idea, and everyone working in consciousness-and-physics today is in that lineage. I have repeated some version of that story myself, including in earlier writing on this site, and I want to walk it back. None of those three claims is quite right.</p>
+
+  <p>Von Neumann, in chapter six of <em>Mathematical Foundations</em> (1932), proved that the cut between the quantum system and the classical observer is mathematically movable up and down the observation chain. He did not argue that the cut <em>must</em> rest at consciousness. That reading is Wigner's &mdash; from his 1961 essay <em>Remarks on the Mind-Body Question</em>. And Wigner himself walked it back through the late 70s and early 80s, after Zeh's decoherence paper gave him an alternative. Adam Becker's careful 2025 historical work lays the full lineage out. The short version: the consciousness-causes-collapse position was Wigner's projection onto von Neumann, and Wigner himself stopped holding it.</p>
+
+  <p>There is a real contemporary consciousness-collapse minority &mdash; Henry Stapp's <em>Mindful Universe</em>, David Chalmers and Kelvin McQueen's 2022 Oxford volume <em>Consciousness and the Collapse of the Wave Function</em>. They drop B at the place where the physical chain meets a conscious observer. The price is explicit and they pay it. It is a real, serious, small position. It is not crackpot, but it should be reported as a minority.</p>
+
+  <p>And here is the part popular accounts keep getting wrong: Hoffman and Kastrup are not in the consciousness-collapse lineage at all. Hoffman's conscious-agent theory derives the structure of quantum mechanics from networks of conscious agents &mdash; the wave function is emergent, not something agents collapse. Kastrup explicitly aligns analytic idealism with Rovelli's relational quantum mechanics: on his view there is no observer-independent world to collapse in the first place. The popular reading &mdash; <em>idealism means consciousness causes collapse</em> &mdash; is wrong. It misreads both philosophers and gives ammunition to the entirely reasonable suspicion that this whole conversation is quantum-woo all the way down.</p>
+
+  <div class="callout callout--accent">
+    The honest version: consciousness-first positions are not a magic solution to the measurement problem. None of them dissolves it. What they do is decline to pretend it is already closed. They pay a different price than the materialist positions pay, and they make their price visible.
   </div>
-
-  <p class="reveal" style="--i:1">I'm going to land near consciousness-first metaphysics. This is exactly where popular accounts go off the rails. Let me clear the floor first.</p>
-
-  <p class="reveal" style="--i:2">If you read enough popular philosophy of science, you eventually run into a tidy story that goes something like this: John von Neumann proved that conscious observation causes wave function collapse, Eugene Wigner developed the idea, and everyone working in consciousness-and-physics today is in that lineage. I have repeated some version of that story myself, including in earlier writing on this site, and I want to walk it back. None of those three claims is quite right.</p>
-
-  <p class="reveal" style="--i:3">Von Neumann, in chapter six of <em>Mathematical Foundations</em> (1932), proved that the cut between the quantum system and the classical observer is mathematically movable up and down the observation chain. He did not argue that the cut <em>must</em> rest at consciousness. That reading is Wigner's — from his 1961 essay <em>Remarks on the Mind-Body Question</em>. And Wigner himself walked it back through the late 70s and early 80s, after Zeh's decoherence paper gave him an alternative. Adam Becker's careful 2025 historical work lays the full lineage out. The short version: the consciousness-causes-collapse position was Wigner's projection onto von Neumann, and Wigner himself stopped holding it.</p>
-
-  <p class="reveal" style="--i:4">There is a real contemporary consciousness-collapse minority — Henry Stapp's <em>Mindful Universe</em>, David Chalmers and Kelvin McQueen's 2022 Oxford volume <em>Consciousness and the Collapse of the Wave Function</em>. They drop B at the place where the physical chain meets a conscious observer. The price is explicit and they pay it. It is a real, serious, small position. It is not crackpot, but it should be reported as a minority.</p>
-
-  <p class="reveal" style="--i:5">And here is the part popular accounts keep getting wrong: Hoffman and Kastrup are not in the consciousness-collapse lineage at all. Hoffman's conscious-agent theory derives the structure of quantum mechanics from networks of conscious agents — the wave function is emergent, not something agents collapse. Kastrup explicitly aligns analytic idealism with Rovelli's relational quantum mechanics: on his view there is no observer-independent world to collapse in the first place. The popular reading — <em>idealism means consciousness causes collapse</em> — is wrong. It misreads both philosophers and gives ammunition to the entirely reasonable suspicion that this whole conversation is quantum-woo all the way down.</p>
-
-  <div class="callout callout--accent reveal" style="--i:6">The honest version: consciousness-first positions are not a magic solution to the measurement problem. None of them dissolves it. What they do is decline to pretend it is already closed. They pay a different price than the materialist positions pay, and they make their price visible.</div>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── LANDING: THE SEAM ────────────────────────────────── -->
+  <h2>The seam, and what it <em>is and isn't</em></h2>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">where I've gotten</div>
-    <h2 class="section-title">The seam, and what it <em>is and isn't</em></h2>
+  <p>Here is where I've gotten, with the appropriate flags. Mark this as a reading, not a result of the physics.</p>
+
+  <p>I read the measurement problem as the place where quantum mechanics turns transparent about what it cannot say on its own. The math is exquisite. The empirical predictions are the most accurate in the history of science. But the math, taken on its own, does not select an outcome. Something else does. Whether that something is the branching of worlds, the placement of hidden variables, a small modification to the linear dynamics, an agent's update of their information, the relativity of facts to systems, the unfreedom of choice, or the role of awareness &mdash; none of these is given by the formalism. The formalism stops, and one of the prices has to be paid.</p>
+
+  <p>In the language I've been working in across these essays &mdash; the three levels I sketched in <a href="/posts/there-are-no-particles.html">There Are No Particles</a> &mdash; I read this as physics being honest about its own scope. Level 1 is the render-order: the lawful, rational structure of physical reality. Quantum field theory describes Level 1 with stunning precision. <em>I read this as</em> the seam where Level 1 stops being self-sufficient. The formalism keeps evolving superpositions; the formalism does not contain the moment when one branch becomes the one that happened.</p>
+
+  <p>That moment is real. You are reading these sentences in a single definite world, not in a smeared superposition of all the worlds in which you decided to start reading and all the ones in which you decided to skip this. The single definite world is what physics, on the linear dynamics, cannot derive. Something is happening that the level the math describes does not capture.</p>
+
+  <div class="thesis reveal">
+    <div class="thesis-mark">&ldquo;</div>
+    <p class="thesis-quote">The measurement problem is the place where the most successful physical theory ever built admits, on its own internal logic, that it is describing the <em>render</em> and not the ground in which the render appears.</p>
+    <p class="thesis-close">I read this as overlay, not as something the physics establishes. The physics establishes the gap. What the gap means is the question physics cannot close from inside itself.</p>
   </div>
 
-  <p class="reveal" style="--i:1">Here is where I've gotten, with the appropriate flags. Mark this as a reading, not a result of the physics.</p>
+  <p>A consciousness-first reading does not solve the measurement problem. I want to be clean about that. Saying "consciousness is the ground in which the field appears" does not tell you why the cat is alive rather than dead. It does not pick out one outcome from the superposition. What it does do is stop pretending the problem is already closed. It treats the seam as a seam, rather than smoothing it over with vocabulary the field itself does not allow.</p>
 
-  <p class="reveal" style="--i:2">I read the measurement problem as the place where quantum mechanics turns transparent about what it cannot say on its own. The math is exquisite. The empirical predictions are the most accurate in the history of science. But the math, taken on its own, does not select an outcome. Something else does. Whether that something is the branching of worlds, the placement of hidden variables, a small modification to the linear dynamics, an agent's update of their information, the relativity of facts to systems, the unfreedom of choice, or the role of awareness — none of these is given by the formalism. The formalism stops, and one of the prices has to be paid.</p>
+  <p>A consciousness-first reading does something else, too. It removes the embarrassment from the question that keeps coming up in foundations and that nobody quite knows what to do with &mdash; the role of the observer, the relationality of measurement, the agent-relativity that the post-2018 no-go results keep forcing back into the picture. On a materialist commitment, the observer is an awkward bulge in an otherwise impersonal theory. On a consciousness-first commitment, the observer is just what the render looks like from inside one of its perspectives, and the relationality of measurement is the relationality you would expect when reality is constituted from the side of consciousness rather than from the side of stuff.</p>
 
-  <p class="reveal" style="--i:3">In the language I've been working in across these essays — the three levels I sketched in <a href="/posts/there-are-no-particles.html">There Are No Particles</a> — I read this as physics being honest about its own scope. Level 1 is the render-order: the lawful, rational structure of physical reality. Quantum field theory describes Level 1 with stunning precision. <em>I read this as</em> the seam where Level 1 stops being self-sufficient. The formalism keeps evolving superpositions; the formalism does not contain the moment when one branch becomes the one that happened.</p>
+  <p>The convergence with the Logos tradition I keep returning to lands here too, at the same seam. John 1:3 &mdash; "all things came into being through the Logos" &mdash; maps cleanly at Level 1 onto the field-theoretic structure. Acts 17:28 &mdash; "in him we live and move and have our being" &mdash; is making a different claim, about the ground prior to the field. The measurement problem is the place where physics, working entirely on its own terms with no help from theology, runs into the edge of its own description and cannot continue. <em>Structurally</em>, it is the empirical shape of where Level 1 stops being self-sufficient. That is overlay, not result.</p>
 
-  <p class="reveal" style="--i:4">That moment is real. You are reading these sentences in a single definite world, not in a smeared superposition of all the worlds in which you decided to start reading and all the ones in which you decided to skip this. The single definite world is what physics, on the linear dynamics, cannot derive. Something is happening that the level the math describes does not capture.</p>
-
-  <div class="thesis reveal" style="--i:5">
-    <div class="thesis-mark">"</div>
-    <div class="thesis-quote">The measurement problem is the place where the most successful physical theory ever built admits, on its own internal logic, that it is describing the <em>render</em> and not the ground in which the render appears.</div>
-    <div class="thesis-close">I read this as overlay, not as something the physics establishes. The physics establishes the gap. What the gap means is the question physics cannot close from inside itself.</div>
-  </div>
-
-  <p class="reveal" style="--i:6">A consciousness-first reading does not solve the measurement problem. I want to be clean about that. Saying "consciousness is the ground in which the field appears" does not tell you why the cat is alive rather than dead. It does not pick out one outcome from the superposition. What it does do is stop pretending the problem is already closed. It treats the seam as a seam, rather than smoothing it over with vocabulary the field itself does not allow.</p>
-
-  <p class="reveal" style="--i:7">A consciousness-first reading does something else, too. It removes the embarrassment from the question that keeps coming up in foundations and that nobody quite knows what to do with — the role of the observer, the relationality of measurement, the agent-relativity that the post-2018 no-go results keep forcing back into the picture. On a materialist commitment, the observer is an awkward bulge in an otherwise impersonal theory. On a consciousness-first commitment, the observer is just what the render looks like from inside one of its perspectives, and the relationality of measurement is the relationality you would expect when reality is constituted from the side of consciousness rather than from the side of stuff.</p>
-
-  <p class="reveal" style="--i:8">The convergence with the Logos tradition I keep returning to lands here too, at the same seam. John 1:3 — "all things came into being through the Logos" — maps cleanly at Level 1 onto the field-theoretic structure. Acts 17:28 — "in him we live and move and have our being" — is making a different claim, about the ground prior to the field. The measurement problem is the place where physics, working entirely on its own terms with no help from theology, runs into the edge of its own description and cannot continue. <em>Structurally</em>, it is the empirical shape of where Level 1 stops being self-sufficient. That is overlay, not result.</p>
-
-  <p class="reveal" style="--i:9">I don't claim this closes anything. I claim it makes the open thing legibly open, instead of pretending it is already closed.</p>
+  <p>I don't claim this closes anything. I claim it makes the open thing legibly open, instead of pretending it is already closed.</p>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── WHAT'S STILL OPEN ────────────────────────────────── -->
+  <h2>Things I genuinely <em>don't know</em></h2>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">still open</div>
-    <h2 class="section-title">Things I genuinely <em>don't know</em></h2>
-  </div>
+  <p>A few things I want to leave open, because they are open.</p>
 
-  <p class="reveal" style="--i:1">A few things I want to leave open, because they are open.</p>
-
-  <div class="cards reveal" style="--i:2">
-    <div class="card">
-      <div class="card-tag">whether physics will close it</div>
-      <div class="card-body">Whether the measurement problem will be solved inside physics one day, or whether it marks a permanent limit on what a third-person formal theory can describe. I lean toward the latter. I am not certain.</div>
+  <div class="cards">
+    <div class="card reveal">
+      <div class="card-who">whether physics will close it</div>
+      <p class="card-body">Whether the measurement problem will be solved inside physics one day, or whether it marks a permanent limit on what a third-person formal theory can describe. I lean toward the latter. I am not certain.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">whether Many-Worlds is a solution</div>
-      <div class="card-body">Whether Wallace's decision-theoretic derivation of the Born rule inside Many-Worlds amounts to a real solution or just an elegant relabeling. The literature is divided. I read it as relabeling. Reasonable people disagree.</div>
+    <div class="card reveal">
+      <div class="card-who">whether Many-Worlds is a solution</div>
+      <p class="card-body">Whether Wallace's decision-theoretic derivation of the Born rule inside Many-Worlds amounts to a real solution or just an elegant relabeling. The literature is divided. I read it as relabeling. Reasonable people disagree.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">how to read observer-dependence</div>
-      <div class="card-body">Whether the observer-dependence the Wigner's-friend experiments reveal is best read as agent-relative facts (QBism), system-relative facts (Rovelli, and Kastrup on Rovelli), or facts that depend on consciousness in some stronger sense (Stapp, Chalmers-McQueen). I am closer to the relational reading. I hold it lightly.</div>
+    <div class="card reveal">
+      <div class="card-who">how to read observer-dependence</div>
+      <p class="card-body">Whether the observer-dependence the Wigner's-friend experiments reveal is best read as agent-relative facts (QBism), system-relative facts (Rovelli, and Kastrup on Rovelli), or facts that depend on consciousness in some stronger sense (Stapp, Chalmers-McQueen). I am closer to the relational reading. I hold it lightly.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">whether superdeterminism is science</div>
-      <div class="card-body">Whether Hossenfelder is right that superdeterminism deserves a serious hearing, or whether the Bell-test mainstream is right that it is essentially a refusal to do science. I do not have a settled view.</div>
+    <div class="card reveal">
+      <div class="card-who">whether superdeterminism is science</div>
+      <p class="card-body">Whether Hossenfelder is right that superdeterminism deserves a serious hearing, or whether the Bell-test mainstream is right that it is essentially a refusal to do science. I do not have a settled view.</p>
     </div>
-    <div class="card">
-      <div class="card-tag">what the 24% number means</div>
-      <div class="card-body">Whether the survey's finding that only a quarter of physicists believe their own preferred interpretation is correct should be read as intellectual humility, paralysis, or the field's quiet recognition that the question isn't going to be settled by physics alone. I read it as the third, but the data does not force it.</div>
+    <div class="card reveal">
+      <div class="card-who">what the 24% number means</div>
+      <p class="card-body">Whether the survey's finding that only a quarter of physicists believe their own preferred interpretation is correct should be read as intellectual humility, paralysis, or the field's quiet recognition that the question isn't going to be settled by physics alone. I read it as the third, but the data does not force it.</p>
     </div>
   </div>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <!-- ── CLOSING: BACK TO THE CAT ─────────────────────────── -->
+  <p>Schr&ouml;dinger died in 1961. The reductio he intended in 1935 has had ninety years to land and has not. The cat is still being taught the wrong way around &mdash; as a celebration of strangeness instead of as a complaint about an unfinished theory.</p>
 
-  <div class="section reveal" style="--i:0">
-    <div class="kicker">back to the cat</div>
-  </div>
+  <p>What Schr&ouml;dinger saw, and what working physicists in foundations still say out loud when they are not being asked to perform for a popular audience, is that something in the theory has to give. The math keeps evolving the wave function. Observation keeps finding one outcome. The dynamics and the postulate of collapse, as Albert put it, are flatly in contradiction with one another. You have to drop something. The question is what.</p>
 
-  <p class="reveal" style="--i:1">Schrödinger died in 1961. The reductio he intended in 1935 has had ninety years to land and has not. The cat is still being taught the wrong way around — as a celebration of strangeness instead of as a complaint about an unfinished theory.</p>
+  <p>What I think &mdash; <em>now</em>, provisionally &mdash; is this. The measurement problem is real. "Decoherence solved it" is a story working foundations researchers explicitly reject. Every honest interpretation pays a visible price. And the place where the field is genuinely unsettled is exactly the place where a consciousness-first reading stops being embarrassing and starts being one option among several the data does not exclude. The convergence at Level 1 is real. The seam at the measurement problem is where Level 1 stops being self-sufficient. That is structurally where I locate it. It is overlay, not result.</p>
 
-  <p class="reveal" style="--i:2">What Schrödinger saw, and what working physicists in foundations still say out loud when they are not being asked to perform for a popular audience, is that something in the theory has to give. The math keeps evolving the wave function. Observation keeps finding one outcome. The dynamics and the postulate of collapse, as Albert put it, are flatly in contradiction with one another. You have to drop something. The question is what.</p>
+  <p>I don't know exactly how that lands for you. I know I would have wanted somebody to write this down for me about ten years ago, before I spent a long time being convinced the question was closed by people who were quoting popular science books at me rather than the literature. The question is not closed. The cat is not what you were told the cat was. And the place where the cleanest physical theory ever built turns transparent about what it cannot say on its own is exactly the place where the more interesting conversation begins.</p>
 
-  <p class="reveal" style="--i:3">What I think — <em>now</em>, provisionally — is this. The measurement problem is real. "Decoherence solved it" is a story working foundations researchers explicitly reject. Every honest interpretation pays a visible price. And the place where the field is genuinely unsettled is exactly the place where a consciousness-first reading stops being embarrassing and starts being one option among several the data does not exclude. The convergence at Level 1 is real. The seam at the measurement problem is where Level 1 stops being self-sufficient. That is structurally where I locate it. It is overlay, not result.</p>
-
-  <p class="reveal" style="--i:4">I don't know exactly how that lands for you. I know I would have wanted somebody to write this down for me about ten years ago, before I spent a long time being convinced the question was closed by people who were quoting popular science books at me rather than the literature. The question is not closed. The cat is not what you were told the cat was. And the place where the cleanest physical theory ever built turns transparent about what it cannot say on its own is exactly the place where the more interesting conversation begins.</p>
-
-  <!-- ── COLOPHON ─────────────────────────────────────────── -->
-
-  <div class="colophon reveal" style="--i:5">
-    <p><span class="sig">Sources</span> — Schrödinger, <em>Die gegenwärtige Situation in der Quantenmechanik</em> (1935; Trimmer trans. 1980) · Maudlin, <em>Three Measurement Problems</em> (1995) · Bell, <em>Against Measurement</em> (1990) · Albert, <em>Quantum Mechanics and Experience</em> (1992) · Schlosshauer, <em>Decoherence, the Measurement Problem, and Interpretations of Quantum Mechanics</em>, Rev. Mod. Phys. (2005) · Adler, <em>Why Decoherence Has Not Solved the Measurement Problem</em> (2003) · Bacciagaluppi, SEP entry on decoherence · Frauchiger &amp; Renner, <em>Nature Communications</em> 9:3711 (2018) · Bong et al., <em>Nature Physics</em> 16:1199 (2020) · Proietti et al., <em>Science Advances</em> 5:eaaw9832 (2019) · Donadi, Curceanu et al., <em>Nature Physics</em> 17:74 (2020) · Wallace, <em>The Emergent Multiverse</em> (2012) · Rovelli, <em>Helgoland</em> (2020) · Kastrup, <em>The Idea of the World</em> (2019) · Chalmers &amp; McQueen, <em>Consciousness and the Collapse of the Wave Function</em> (2022) · Becker, <em>Between Myth and History: von Neumann on Consciousness in QM</em>, philsci-archive 26289 (2025) · Castelvecchi, <em>Nature</em> d41586-025-02342-y (July 2025) · companion: <a href="/posts/there-are-no-particles.html">There Are No Particles</a></p>
+  <div class="colophon reveal">
+    <p><span class="sig">Sources</span> &mdash; Schr&ouml;dinger, <em>Die gegenw&auml;rtige Situation in der Quantenmechanik</em> (1935; Trimmer trans. 1980) &middot; Maudlin, <em>Three Measurement Problems</em> (1995) &middot; Bell, <em>Against Measurement</em> (1990) &middot; Albert, <em>Quantum Mechanics and Experience</em> (1992) &middot; Schlosshauer, <em>Decoherence, the Measurement Problem, and Interpretations of Quantum Mechanics</em>, Rev. Mod. Phys. (2005) &middot; Adler, <em>Why Decoherence Has Not Solved the Measurement Problem</em> (2003) &middot; Bacciagaluppi, SEP entry on decoherence &middot; Frauchiger &amp; Renner, <em>Nature Communications</em> 9:3711 (2018) &middot; Bong et al., <em>Nature Physics</em> 16:1199 (2020) &middot; Proietti et al., <em>Science Advances</em> 5:eaaw9832 (2019) &middot; Donadi, Curceanu et al., <em>Nature Physics</em> 17:74 (2020) &middot; Wallace, <em>The Emergent Multiverse</em> (2012) &middot; Rovelli, <em>Helgoland</em> (2020) &middot; Kastrup, <em>The Idea of the World</em> (2019) &middot; Chalmers &amp; McQueen, <em>Consciousness and the Collapse of the Wave Function</em> (2022) &middot; Becker, <em>Between Myth and History: von Neumann on Consciousness in QM</em>, philsci-archive 26289 (2025) &middot; Castelvecchi, <em>Nature</em> d41586-025-02342-y (July 2025) &middot; companion: <a href="/posts/there-are-no-particles.html">There Are No Particles</a></p>
   </div>
 
   <div class="post-footer">
-    <div class="author-line">David Jivan · June 2026</div>
+    <div class="author-line">David Jivan &middot; June 2026</div>
     <a class="back-link" href="/">davidjivan.net</a>
   </div>
 

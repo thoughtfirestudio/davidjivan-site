@@ -3,156 +3,227 @@
     "title": "What I Mean When I Say \"God\"",
     "slug": "what-i-mean-when-i-say-god",
     "date": "June 2026",
-    "tags": ["foundations", "vocabulary"]
+    "tags": [
+      "foundations",
+      "vocabulary"
+    ]
   },
   {
     "title": "Paul Crash Course — a study guide",
     "slug": "paul-crash-course",
     "date": "2026",
-    "tags": ["study guide", "history", "theology"]
+    "tags": [
+      "study guide",
+      "history",
+      "theology"
+    ]
   },
   {
     "title": "The Word \"Soul\" Is a Wreck",
     "slug": "the-word-soul-is-a-wreck",
     "date": "June 2026",
-    "tags": ["foundations", "vocabulary"]
+    "tags": [
+      "foundations",
+      "vocabulary"
+    ]
   },
   {
     "title": "Maximus the Confessor Crash Course",
     "slug": "maximus-crash-course",
-    "date": "June 2026",
-    "tags": ["theology", "history", "study guide"]
+    "date": "2026",
+    "tags": [
+      "study guide",
+      "theology"
+    ]
   },
   {
     "title": "The Measurement Problem and Why It Matters",
     "slug": "the-measurement-problem",
     "date": "June 2026",
-    "tags": ["physics", "philosophy", "consciousness"]
+    "tags": [
+      "physics",
+      "philosophy"
+    ]
   },
   {
     "title": "What Paul Didn't Write",
     "slug": "what-paul-didnt-write",
     "date": "June 2026",
-    "tags": ["theology", "history"]
+    "tags": [
+      "theology",
+      "history"
+    ]
   },
   {
     "title": "I don't know shit about shit",
     "slug": "i-dont-know-shit-about-shit",
     "date": "June 2026",
-    "tags": ["meta", "disclaimer"]
+    "tags": [
+      "meta",
+      "disclaimer"
+    ]
   },
   {
     "title": "The God who didn't have to fight",
     "slug": "the-god-who-didnt-have-to-fight",
     "date": "June 2026",
-    "tags": ["theology", "history"]
+    "tags": [
+      "theology",
+      "history"
+    ]
   },
   {
     "title": "God didn't make the world",
     "slug": "god-didnt-make-the-world",
     "date": "June 2026",
-    "tags": ["theology", "philosophy"]
+    "tags": [
+      "theology",
+      "philosophy"
+    ]
   },
   {
     "title": "Only God is infinite",
     "slug": "only-god-is-infinite",
     "date": "June 2026",
-    "tags": ["theology", "philosophy"]
+    "tags": [
+      "theology",
+      "philosophy"
+    ]
   },
   {
     "title": "The Logos lineage",
     "slug": "the-logos-lineage",
     "date": "June 2026",
-    "tags": ["history", "theology"]
+    "tags": [
+      "history",
+      "theology"
+    ]
   },
   {
     "title": "The Logos was toward God",
     "slug": "the-logos-was-toward-god",
     "date": "June 2026",
-    "tags": ["theology"]
+    "tags": [
+      "theology"
+    ]
   },
   {
     "title": "There are no particles",
     "slug": "there-are-no-particles",
     "date": "June 2026",
-    "tags": ["philosophy"]
+    "tags": [
+      "philosophy"
+    ]
   },
   {
     "title": "The first one they killed",
     "slug": "the-first-one-they-killed",
     "date": "May 2026",
-    "tags": ["history"]
+    "tags": [
+      "history"
+    ]
   },
   {
     "title": "Who gives a f*ck about a Johannine comma?",
     "slug": "who-gives-a-fuck-about-a-johannine-comma",
     "date": "May 2026",
-    "tags": ["history"]
+    "tags": [
+      "history"
+    ]
   },
   {
     "title": "Pseudo-Dionysius crash course — a study guide",
     "slug": "pseudo-dionysius-crash-course",
     "date": "2026",
-    "tags": ["study guide", "theology"]
+    "tags": [
+      "study guide",
+      "theology"
+    ]
   },
   {
     "title": "Cappadocians crash course — a study guide",
     "slug": "cappadocians-crash-course",
     "date": "2026",
-    "tags": ["study guide", "theology"]
+    "tags": [
+      "study guide",
+      "theology"
+    ]
   },
   {
     "title": "Eriugena crash course — a study guide",
     "slug": "eriugena-crash-course",
     "date": "2026",
-    "tags": ["study guide", "theology"]
+    "tags": [
+      "study guide",
+      "theology"
+    ]
   },
   {
     "title": "Cantor crash course — a study guide",
     "slug": "cantor-crash-course",
     "date": "2026",
-    "tags": ["study guide", "philosophy"]
+    "tags": [
+      "study guide",
+      "philosophy"
+    ]
   },
   {
     "title": "Philo crash course — a study guide",
     "slug": "philo-crash-course",
     "date": "2026",
-    "tags": ["study guide", "theology"]
+    "tags": [
+      "study guide",
+      "theology"
+    ]
   },
   {
     "title": "Eckhart crash course — a study guide",
     "slug": "eckhart-crash-course",
     "date": "2026",
-    "tags": ["study guide", "theology"]
+    "tags": [
+      "study guide",
+      "theology"
+    ]
   },
   {
     "title": "Origen crash course — a study guide",
     "slug": "origen-crash-course",
     "date": "2026",
-    "tags": ["study guide", "theology"]
+    "tags": [
+      "study guide",
+      "theology"
+    ]
   },
   {
     "title": "The Bible is the inerrant Word of God",
     "slug": "the-bible-is-the-inerrant-word-of-god",
     "date": "May 2026",
-    "tags": ["theology"]
+    "tags": [
+      "history"
+    ]
   },
   {
     "title": "Your Bible has been edited",
     "slug": "your-bible-has-been-edited",
     "date": "May 2026",
-    "tags": ["history"]
+    "tags": [
+      "history"
+    ]
   },
   {
     "title": "The man they burned made your Bible",
     "slug": "the-man-they-burned-made-your-bible",
     "date": "May 2026",
-    "tags": ["history"]
+    "tags": [
+      "history"
+    ]
   },
   {
     "title": "Do you believe Jesus rose from the dead?",
     "slug": "does-christianity-hinge-on-the-resurrection",
     "date": "May 2026",
-    "tags": ["theology"]
+    "tags": [
+      "theology"
+    ]
   }
 ]
