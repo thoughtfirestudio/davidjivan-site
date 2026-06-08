@@ -1,5 +1,21 @@
 [
   {
+    "title": "There's more than one God in the Bible",
+    "slug": "theres-more-than-one-god-in-the-bible",
+    "date": "June 2026",
+    "tags": [
+      "bible"
+    ]
+  },
+  {
+    "title": "Abraham came from Ur",
+    "slug": "abraham-came-from-ur",
+    "date": "June 2026",
+    "tags": [
+      "bible"
+    ]
+  },
+  {
     "title": "What I Mean When I Say \"God\"",
     "slug": "what-i-mean-when-i-say-god",
     "date": "June 2026",
@@ -15,7 +31,8 @@
     "tags": [
       "study guide",
       "history",
-      "theology"
+      "theology",
+      "bible"
     ]
   },
   {
@@ -51,7 +68,8 @@
     "date": "June 2026",
     "tags": [
       "theology",
-      "history"
+      "history",
+      "bible"
     ]
   },
   {
@@ -128,7 +146,8 @@
     "slug": "who-gives-a-fuck-about-a-johannine-comma",
     "date": "May 2026",
     "tags": [
-      "history"
+      "history",
+      "bible"
     ]
   },
   {
@@ -199,7 +218,8 @@
     "slug": "the-bible-is-the-inerrant-word-of-god",
     "date": "May 2026",
     "tags": [
-      "history"
+      "history",
+      "bible"
     ]
   },
   {
@@ -207,7 +227,8 @@
     "slug": "your-bible-has-been-edited",
     "date": "May 2026",
     "tags": [
-      "history"
+      "history",
+      "bible"
     ]
   },
   {
@@ -215,7 +236,8 @@
     "slug": "the-man-they-burned-made-your-bible",
     "date": "May 2026",
     "tags": [
-      "history"
+      "history",
+      "bible"
     ]
   },
   {
@@ -223,7 +245,8 @@
     "slug": "does-christianity-hinge-on-the-resurrection",
     "date": "May 2026",
     "tags": [
-      "theology"
+      "theology",
+      "bible"
     ]
   }
 ]
