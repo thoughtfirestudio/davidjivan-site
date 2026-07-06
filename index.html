@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -36,7 +36,7 @@
 <div class="hero">
   <div class="hero-prompt">thinker · nomad · writer</div>
   <div class="hero-title">David Jivan<span class="cursor"></span></div>
-  <div class="hero-sub">I am a nerd who talks about Consciousness, the Logos, early Christian theology, and other things I think about while roaming the country in a fifth wheel with my family in tow</div>
+  <div class="hero-sub">The thing you were given doesn't work. Here's exactly why — no hedging, no mystery, just the logic. And here's what's actually on the other side.</div>
 </div>
 
 <!-- POSTS -->
@@ -55,22 +55,34 @@
 
 <script>
   const readingOrder = [
-    { n: "1", slug: "the-bible-is-the-inerrant-word-of-god", title: "The Bible is the inerrant Word of God" },
-    { n: "2", slug: "your-bible-has-been-edited", title: "Your Bible has been edited" },
-    { n: "3", slug: "the-man-they-burned-made-your-bible", title: "The man they burned made your Bible" },
-    { n: "4", slug: "who-gives-a-fuck-about-a-johannine-comma", title: "Who gives a f*ck about a Johannine comma?" },
-    { n: "5", slug: "the-first-one-they-killed", title: "The first one they killed" },
-    { n: "6", slug: "does-christianity-hinge-on-the-resurrection", title: "Do you believe Jesus rose from the dead?" },
-    { n: "7", slug: "the-logos-lineage", title: "The Logos lineage" },
-    { n: "8", slug: "philo-crash-course", title: "Philo crash course — a study guide" },
-    { n: "9", slug: "origen-crash-course", title: "Origen crash course — a study guide" },
-    { n: "10", slug: "pseudo-dionysius-crash-course", title: "Pseudo-Dionysius crash course — a study guide" },
-    { n: "11", slug: "eckhart-crash-course", title: "Eckhart crash course — a study guide" },
-    { n: "12", slug: "there-are-no-particles", title: "There are no particles" },
-    { n: "13", slug: "the-logos-was-toward-god", title: "The Logos was toward God" },
-    { n: "14", slug: "the-word-soul-is-a-wreck", title: "The Word \"Soul\" Is a Wreck" },
-    { n: "15", slug: "what-i-mean-when-i-say-god", title: "What I Mean When I Say \"God\"" },
-    { n: "16", slug: "paul-crash-course", title: "Paul crash course — a study guide" }
+    { section: "// the moral problem", posts: [
+      { n: "1", slug: "the-god-who-would-torture-you-forever", title: "The God who would torture you forever" },
+      { n: "2", slug: "why-evangelical-christianity-needs-god-to-be-a-monster", title: "Why evangelical Christianity needs God to be a monster" }
+    ]},
+    { section: "// the textual problem", posts: [
+      { n: "3", slug: "the-bible-is-the-inerrant-word-of-god", title: "The Bible is the inerrant Word of God" },
+      { n: "4", slug: "your-bible-has-been-edited", title: "Your Bible has been edited" },
+      { n: "5", slug: "the-man-they-burned-made-your-bible", title: "The man they burned made your Bible" },
+      { n: "6", slug: "who-gives-a-fuck-about-a-johannine-comma", title: "Who gives a f*ck about a Johannine comma?" }
+    ]},
+    { section: "// the divine command problem", posts: [
+      { n: "7", slug: "the-god-who-commanded-genocide", title: "The God who commanded genocide" }
+    ]},
+    { section: "// the double standard", posts: [
+      { n: "8", slug: "cut-the-mormons-some-slack", title: "Cut the Mormons some slack!" }
+    ]},
+    { section: "// the recovery", posts: [
+      { n: "9", slug: "the-first-one-they-killed", title: "The first one they killed" },
+      { n: "10", slug: "does-christianity-hinge-on-the-resurrection", title: "Do you believe Jesus rose from the dead?" },
+      { n: "11", slug: "there-are-no-particles", title: "There are no particles" },
+      { n: "12", slug: "the-logos-lineage", title: "The Logos lineage" },
+      { n: "13", slug: "the-logos-was-toward-god", title: "The Logos was toward God" },
+      { n: "14", slug: "what-i-mean-when-i-say-god", title: "What I Mean When I Say \"God\"" },
+      { n: "15", slug: "the-word-soul-is-a-wreck", title: "The Word \"Soul\" Is a Wreck" },
+      { n: "16", slug: "the-measurement-problem", title: "The Measurement Problem" },
+      { n: "17", slug: "the-god-who-didnt-have-to-fight", title: "The God who didn't have to fight" },
+      { n: "18", slug: "i-dont-know-shit-about-shit", title: "I don't know shit about shit" }
+    ]}
   ];
 
   fetch('/posts.json')
@@ -84,10 +96,14 @@
         </a>`;
       }).join('');
 
-      document.getElementById('reading-order').innerHTML = readingOrder.map(r => {
-        return `<a class="post-card" href="/posts/${r.slug}.html">
-          <div class="post-title">${r.n}. ${r.title}</div>
-        </a>`;
+      document.getElementById('reading-order').innerHTML = readingOrder.map(section => {
+        const label = `<div class="menu-label" style="margin-top: 8px;">${section.section}</div>`;
+        const items = section.posts.map(r => {
+          return `<a class="post-card" href="/posts/${r.slug}.html">
+            <div class="post-title">${r.n}. ${r.title}</div>
+          </a>`;
+        }).join('');
+        return label + items;
       }).join('');
     });
 </script>
