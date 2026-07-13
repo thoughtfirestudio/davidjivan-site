@@ -5,8 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>David Jivan</title>
 <meta name="description" content="I am a nerd who talks about Consciousness, the Logos, early Christian theology, and other things I think about while roaming the country in a fifth wheel with my family in tow.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 <script defer src="/track.js"></script>
 </head>
@@ -20,9 +18,9 @@
 
 <!-- HERO -->
 <div class="hero">
-  <div class="hero-prompt">thinker · nomad · writer</div>
+  <div class="hero-prompt">thinker Â· nomad Â· writer</div>
   <div class="hero-title">David Jivan<span class="cursor"></span></div>
-  <div class="hero-sub">The thing you were given doesn't work. Here's exactly why — no hedging, no mystery, just the logic. And here's what's actually on the other side.</div>
+  <div class="hero-sub">The thing you were given doesn't work. Here's exactly why â€” no hedging, no mystery, just the logic. And here's what's actually on the other side.</div>
 </div>
 
 <!-- POSTS -->
@@ -76,7 +74,7 @@
     .then(r => r.json())
     .then(posts => {
       document.getElementById('post-list').innerHTML = posts.map(p => {
-        const meta = [p.date, ...p.tags].join(' · ');
+        const meta = [p.date, ...p.tags].join(' Â· ');
         return `<a class="post-card" href="/posts/${p.slug}.html">
           <div class="post-title">${p.title}</div>
           <div class="post-meta">${meta}</div>
