@@ -95,8 +95,6 @@ What I've come to believe is that the suppression wasn't final &mdash; and wasn'
 
 The full arc &mdash; from Heraclitus through Maximus to Eckhart &mdash; is traced in [The Logos lineage](/posts/the-logos-lineage.html). The [LogosArchive](https://logosarchive.org) is where the primary sources live &mdash; 160+ pre-Nicene texts with commentary, built for people who aren't classicists.
 
-If that's yours, [come see what's being built](/patron).
-
 :::colophon
 <span class="sig">Sources</span> — Justin Martyr, First Apology &middot; Origen of Alexandria, De Principiis &middot; Paul, 1 Corinthians 15 &middot; Acts 17:28 &middot; Second Council of Constantinople (553 CE)
 :::end
