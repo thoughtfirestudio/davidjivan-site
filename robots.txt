@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Sitemap: https://davidjivan.net/sitemap.xml
+
+# LLM crawlers
+User-agent: GPTBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+# Disallow internal pages
+Disallow: /i-am-david.html
+Disallow: /reader/
+Disallow: /showcase.html

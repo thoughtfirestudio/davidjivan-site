@@ -1,0 +1,31 @@
+# David Jivan
+> Consciousness, the Logos, early Christian theology — worked out on the road in real time. Intellectually honest enough for the atheist to respect. Rooted enough in the tradition for the Christian to recognize.
+
+## About
+- [About](https://davidjivan.net/about.html): What I actually think — metaphysics, Logos Christianity, the indwelling axis, and where I'm heterodox.
+
+## Start here — The syllogisms (the permission structure)
+- [The God who would torture you forever](https://davidjivan.net/posts/the-god-who-would-torture-you-forever.html): A perfectly just being cannot inflict infinite punishment for finite sins. This makes the standard evangelical position logically untenable. The first of three syllogisms.
+- [The God who commanded genocide](https://davidjivan.net/posts/the-god-who-commanded-genocide.html): A perfectly good God cannot command chattel slavery or infant slaughter. The literal text says God did. Either the text is flawed or the God it describes is not perfectly good.
+- [Why evangelical Christianity needs God to be a monster](https://davidjivan.net/posts/why-evangelical-christianity-needs-god-to-be-a-monster.html): The cross has a genealogy — and the reading that won requires hell. Before Anselm, the tradition had other ways of understanding Calvary.
+
+## The recovery — What's on the other side
+- [The Logos lineage](https://davidjivan.net/posts/the-logos-lineage.html): The Logos tradition runs for 1,800 years from Heraclitus through the Stoics through Philo to the author of John, the pre-Nicene fathers, and the mystics. This is the map.
+- [There are no particles](https://davidjivan.net/posts/there-are-no-particles.html): Quantum field theory says there are no particles, only fields — possibly one field. The Logos tradition said the same thing two thousand years earlier. The convergence is real, and it stops before it reaches God.
+- [The theologian who said hell was the scourge of love](https://davidjivan.net/posts/theologian-scourge-of-love-isaac-of-nineveh.html): Isaac of Nineveh, 7th-century bishop in a cave in Iran — the tradition's strongest witness.
+- [What I Mean When I Say "God"](https://davidjivan.net/posts/what-i-mean-when-i-say-god.html): Not a being among beings. The ground of awareness. The in-which.
+- [Do you believe Jesus rose from the dead?](https://davidjivan.net/posts/does-christianity-hinge-on-the-resurrection.html): What I hold honestly about the resurrection — and what I don't.
+
+## The Bible — Getting honest about the text
+- [The Bible is the inerrant Word of God](https://davidjivan.net/posts/the-bible-is-the-inerrant-word-of-god.html): The inerrancy framework has a genealogy — and what it forecloses is how the tradition's most serious readers actually engaged the text.
+- [What Paul Didn't Write](https://davidjivan.net/posts/what-paul-didnt-write.html): The most-quoted Pauline verses about wives submitting and women keeping silent aren't from Paul.
+- [There's more than one God in the Bible](https://davidjivan.net/posts/theres-more-than-one-god-in-the-bible.html): Deuteronomy 32 preserves a divine council. The scribes kept the older grammar.
+
+## Consciousness and physics
+- [The Measurement Problem](https://davidjivan.net/posts/the-measurement-problem.html): Schrodinger's cat was a complaint, not a celebration. The measurement problem is still open — every honest interpretation pays a visible price.
+- [The Word "Soul" Is a Wreck](https://davidjivan.net/posts/the-word-soul-is-a-wreck.html): I need this word, but it carries baggage it didn't start with. Here's what I actually mean.
+
+## Site metadata
+- Posts are plain HTML with semantic markup
+- Full post index at `posts.json` (JSON array of {title, slug, date, tags})
+- No paywalls, no ads, no tracking beyond self-hosted analytics
