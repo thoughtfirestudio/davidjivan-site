@@ -1,4 +1,4 @@
----
+﻿---
 title: "Do you believe Jesus rose from the dead?"
 description: The actual question I've been asked in Sunday school classrooms, over coffee, and late at night. How the question itself is a trap — and what a consciousness-first framework does to it.
 date: May 2026
@@ -91,7 +91,7 @@ If you follow the Logos tradition seriously &mdash; and I have been, for a while
 
 I'm still working out what that means. There's more to the thread than I can put in one essay. But the thread is real, it runs through primary sources most people have never encountered, and it connects to things happening in contemporary philosophy of mind that I find pretty wild.
 
-What I've come to believe is that the suppression wasn't final &mdash; and wasn't even the whole story. The tradition survived underground in the Latin West ([Pseudo-Dionysius](/posts/pseudo-dionysius-crash-course.html) through [Eriugena](/posts/eriugena-crash-course.html) through [Eckhart](/posts/eckhart-crash-course.html)) and openly in the Greek East (the [Cappadocians](/posts/cappadocians-crash-course.html) through Maximus). It's recoverable. Not as an academic exercise. As a living framework for people who find materialism hollow and inherited religion too small.
+What I've come to believe is that the suppression wasn't final &mdash; and wasn't even the whole story. The tradition survived underground in the Latin West (Pseudo-Dionysius through Eriugena through Eckhart) and openly in the Greek East (the Cappadocians through Maximus). It's recoverable. Not as an academic exercise. As a living framework for people who find materialism hollow and inherited religion too small.
 
 The full arc &mdash; from Heraclitus through Maximus to Eckhart &mdash; is traced in [The Logos lineage](/posts/the-logos-lineage.html). The [LogosArchive](https://logosarchive.org) is where the primary sources live &mdash; 160+ pre-Nicene texts with commentary, built for people who aren't classicists.
 

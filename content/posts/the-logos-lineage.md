@@ -1,4 +1,4 @@
----
+﻿---
 title: The Logos lineage
 description: The Logos tradition is a single intellectual current that runs for 1,800 years — from Heraclitus to Eckhart. It was built in the open, suppressed, carried forward by the orthodox East, and transmitted underground to the Latin West. This is the map.
 date: June 2026
@@ -103,7 +103,7 @@ Origen was condemned. But three things he cared about most &mdash; participation
 
     Gregory of Nyssa is the figure everything turns on. He held *apokatastasis* &mdash; universal restoration &mdash; and was never condemned. He developed *epektasis*: the soul&rsquo;s infinite progress into the inexhaustible divine ground, a participation that deepens forever without arrival. That &ldquo;without arrival&rdquo; is the railing against monism &mdash; the soul never becomes identical with what it participates in. Nyssa stated the structural equivalent of &ldquo;the soul that doesn&rsquo;t forget is still a soul&rdquo; fifteen centuries early. Basil seeded the essence-energies distinction: God&rsquo;s essence is unknowable; what we know and participate in are God&rsquo;s activities. Nazianzus established the apophatic ground for theology itself &mdash; language reaching toward what exceeds it, and the darkness that is not failure but the presence of what is too full for any container.
 
-    Deep dive: [Cappadocians crash course](/posts/cappadocians-crash-course.html)
+    Deep dive: the Cappadocians crash course (in review)
 
 - when: c. 500 CE &middot; Syria (identity unknown)
   who: Pseudo-Dionysius the Areopagite
@@ -112,7 +112,7 @@ Origen was condemned. But three things he cared about most &mdash; participation
 
     Dionysius secures the apophatic ground &mdash; what the three-level ontology calls Level 0: the in-which, prior to all structure, not available as an object. His idiom (&ldquo;beyond being,&rdquo; &ldquo;the ray of darkness&rdquo;) is his own. What it points at is the same commitment: God cannot be reified, cannot be captured in a name, and the refusal to reify it is what keeps participation from collapsing into identity.
 
-    Deep dive: [Pseudo-Dionysius crash course](/posts/pseudo-dionysius-crash-course.html)
+    Deep dive: the Pseudo-Dionysius crash course (in review)
 
 - when: c. 580&ndash;662 CE
   who: Maximus the Confessor

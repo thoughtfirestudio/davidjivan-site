@@ -1,4 +1,4 @@
----
+﻿---
 title: "God didn't make the world"
 description: "The maker-artifact picture of creation is younger than it looks and less honest than its alternative. What if creation is not something God did, but something God is doing — from the inside?"
 date: June 2026
@@ -172,7 +172,7 @@ This piece is about God &mdash; what the three-level ontology I've been building
 The related pieces, for where these other claims live:
 
 - The QFT convergence, and where it stops, lives in [There are no particles](/posts/there-are-no-particles.html).
-- The two-infinities distinction that prevents the "creation is God" collapse lives in [Cantor crash course](/posts/cantor-crash-course.html).
+- The two-infinities distinction that prevents the "creation is God" collapse lives in the Cantor study guide (in review).
 - The argument that "infinite" is not one word &mdash; and "three" might not be either &mdash; is in [Only God is infinite](/posts/only-god-is-infinite.html).
 
 :::divider

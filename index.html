@@ -73,7 +73,7 @@
   fetch('/posts.json')
     .then(r => r.json())
     .then(posts => {
-      document.getElementById('post-list').innerHTML = posts.map(p => {
+      document.getElementById('post-list').innerHTML = posts.filter(p => !p.draft).map(p => {
         const meta = [p.date, ...p.tags].join(' · ');
         return `<a class="post-card" href="/posts/${p.slug}.html">
           <div class="post-title">${p.title}</div>

@@ -1,4 +1,4 @@
----
+﻿---
 title: Only God is infinite
 description: "A friend says only God is infinite, as though that settles something. It doesn't — because 'infinite' is not one word. And 'three' might not be either."
 date: June 2026
@@ -40,7 +40,7 @@ Georg Cantor, in the 1880s, didn't just prove that infinite sets exist. He prove
 
 These are not two sizes. They are two categorically different things wearing one word. The friend's syllogism &mdash; "only God is infinite; therefore number must be finite" &mdash; trades on treating them as one. Once you distinguish, the syllogism dissolves. The transfinite was never competing with God. It was never on the same scale.
 
-The full study guide is [here](/posts/cantor-crash-course.html).
+The full study guide is in review.
 
 :::divider
 
