@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Athens Has to Do With Jerusalem</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #faf8f4;
+    --text: #1a1a1a;
+    --text-muted: #666;
+    --accent: #8b6b4a;
+    --accent-light: #d4c4b0;
+    --bar-bg: #e8e4dd;
+    --font-size: 18px;
+    --line-height: 1.8;
+    --max-width: 640px;
+    --transition: 0.15s ease;
+  }
+
+  html { font-size: var(--font-size); scroll-behavior: smooth; }
+
+  body {
+    font-family: "Charter", "Georgia", "Bitstream Charter", "Times New Roman", serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: var(--line-height);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  }
+
+  ::selection {
+    background: #d4c4b0;
+    color: #1a1a1a;
+  }
+
+  /* Progress bar */
+  #progress {
+    position: fixed;
+    top: 0; left: 0;
+    height: 2px;
+    background: var(--accent);
+    z-index: 100;
+    transition: width 0.1s linear;
+  }
+
+  /* Controls bar */
+  #controls {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: rgba(250, 248, 244, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid var(--bar-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px 16px;
+    z-index: 99;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  #controls button {
+    background: none;
+    border: 1px solid var(--bar-bg);
+    color: var(--text-muted);
+    width: 40px;
+    height: 36px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: -apple-system, "Segoe UI", sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition);
+  }
+
+  #controls button:hover {
+    background: var(--bar-bg);
+    color: var(--text);
+    border-color: var(--accent-light);
+  }
+
+  #controls button:active {
+    transform: scale(0.95);
+    transition: transform 0.05s;
+  }
+
+  #controls .size-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    min-width: 48px;
+    text-align: center;
+    font-family: -apple-system, "Segoe UI", sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  #controls .divider {
+    width: 1px;
+    height: 16px;
+    background: var(--bar-bg);
+    margin: 0 8px;
+  }
+
+  /* Article */
+  article {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 80px 24px 120px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 0.35em;
+    letter-spacing: -0.01em;
+    color: #111;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    font-style: italic;
+    font-family: -apple-system, "Segoe UI", sans-serif;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 2.8em 0 0.6em;
+    letter-spacing: -0.005em;
+    color: #111;
+  }
+
+  p {
+    margin-bottom: 1.2em;
+  }
+
+  strong { font-weight: 600; color: #111; }
+
+  blockquote {
+    margin: 1.6em 0;
+    padding-left: 1.2em;
+    border-left: 2px solid var(--accent-light);
+    color: #555;
+    font-style: italic;
+  }
+
+  /* Tap highlight */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Mobile */
+  @media (max-width: 600px) {
+    :root { --font-size: 17px; }
+    article { padding: 48px 18px 110px; }
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.15rem; }
+    #controls { padding: 8px 12px; gap: 2px; }
+    #controls button { width: 36px; height: 32px; font-size: 14px; }
+    #controls .size-label { min-width: 40px; font-size: 12px; }
+  }
+
+  /* Print */
+  @media print {
+    #progress, #controls { display: none; }
+    body { background: #fff; color: #000; }
+    article { padding: 0; max-width: none; }
+  }
+</style>
+</head>
+<body>
+
+<div id="progress"></div>
+
+<article>
+  <h1>What Athens Has to Do With Jerusalem</h1>
+  <p class="subtitle">Why I&rsquo;m with Origen on the oldest question in Christian theology</p>
+
+  <h2>The fault line</h2>
+  <p>There&rsquo;s a question running underneath the first three centuries of Christian thought. It&rsquo;s never fully resolved, and honestly, it&rsquo;s still live right now:</p>
+  <p>What do you do with Greek philosophy?</p>
+  <p>On one side: it&rsquo;s preparation. A language. A set of tools and concepts that the gospel can inhabit, transform, and fulfill. The Greeks were reaching toward something real&nbsp;&mdash;&nbsp;the Logos, the rational structure of everything&nbsp;&mdash;&nbsp;and Christ is what they were reaching toward. Philosophy was a schoolmaster. The words they developed can carry Christian meaning.</p>
+  <p>On the other side: it&rsquo;s poison. A competing system. Athens and Jerusalem have nothing to do with each other. The gospel doesn&rsquo;t need Greek conceptual scaffolding&nbsp;&mdash;&nbsp;it&rsquo;s its own thing, and trying to fit it into philosophical categories just corrupts it. The philosophers asked interesting questions. The answers are revelation, not reason.</p>
+  <p>This isn&rsquo;t an academic footnote. Which side you take determines basically everything about how you do theology. It determines what words you can use, what arguments count, what Christianity even <em>is</em>.</p>
+
+  <h2>The two camps</h2>
+  <p><strong>Alexandria:</strong> Justin Martyr, Clement, Origen.</p>
+  <p>Justin was a philosopher before he was a Christian. He wore the philosopher&rsquo;s cloak&nbsp;&mdash;&nbsp;the pallium&nbsp;&mdash;&nbsp;and kept wearing it after his conversion. He taught Christianity as the true philosophy. His argument: the Logos was active before the incarnation. Socrates was a Christian before Christ. &ldquo;Those who lived according to reason are Christians, even if they were thought atheists.&rdquo; The seeds of the Logos are everywhere. The gospel completes what reason began.</p>
+  <p>Clement went further. He ran a school in Alexandria that taught Greek philosophy alongside Christian doctrine. His students read Homer and Plato and the Stoics. Philosophy, he said, was a &ldquo;schoolmaster to bring the Greek mind to Christ, as the Law brought the Hebrews.&rdquo; It&rsquo;s the same argument Paul makes about the Law in Galatians&nbsp;&mdash;&nbsp;but applied to philosophy. The preparation is different for different peoples. For Jews, it was the Torah. For Greeks, it was Plato.</p>
+  <p>Origen went furthest of all. He took the entire Greek philosophical toolkit&nbsp;&mdash;&nbsp;metaphysics, cosmology, the nature of the soul, the structure of being&nbsp;&mdash;&nbsp;and built a complete Christian system with it. Origin through return. Pre-existent souls. Universal restoration. The Logos as the rational structure of all reality. Allegorical reading of scripture. This wasn&rsquo;t Christianity borrowing a few terms from philosophy. It was Christianity articulated <em>in</em> philosophical language, through philosophical categories, as a philosophical system. The most ambitious synthesis anyone had attempted.</p>
+  <p><strong>Carthage&thinsp;/&thinsp;Rome:</strong> Tertullian.</p>
+  <p>Tertullian looked at all this and said: absolutely not.</p>
+  <blockquote>&ldquo;What has Athens to do with Jerusalem? What has the Academy to do with the Church?&rdquo;</blockquote>
+  <p>His questions are rhetorical&nbsp;&mdash;&nbsp;the answer is &ldquo;nothing.&rdquo; Philosophy is the source of all heresy. Plato invented the demiurge. The Stoics invented a material God. The Gnostics&nbsp;&mdash;&nbsp;the biggest threat to early Christianity&nbsp;&mdash;&nbsp;were basically Platonists with Christian names. Every time the church borrows from philosophy, it gets corrupted. The gospel doesn&rsquo;t need Aristotle. It has Christ.</p>
+  <p>His most famous line: &ldquo;I believe because it is absurd&rdquo; (<em>credo quia absurdum</em>). He probably never said those exact words, but the spirit is right. Faith is not philosophy. The incarnation is not rational. God becoming a man and dying on a cross is not the kind of thing philosophy can prepare you for. It&rsquo;s an offense. A scandal. You don&rsquo;t reason your way to it. You encounter it.</p>
+
+  <h2>What I actually think</h2>
+  <p>I&rsquo;m with Alexandria. Specifically with Origen. Here&rsquo;s why&nbsp;&mdash;&nbsp;not as a finished argument, but as where I&rsquo;ve gotten.</p>
+  <p><strong>The words have to come from somewhere.</strong> Every theological claim Christianity has ever made uses vocabulary that predates the gospel. Logos. Spirit. Person. Substance. Nature. Incarnation. Deification. These are all Greek philosophical terms that got baptized. Not Hebrew ones. Not Aramaic ones. Greek ones. The choice was never &ldquo;philosophy or pure revelation.&rdquo; The choice was always &ldquo;which philosophical vocabulary are you using, and do you know you&rsquo;re using it?&rdquo;</p>
+  <p>Tertullian thought he was escaping philosophy. He wasn&rsquo;t. He was using Latin philosophical terms while arguing against Greek ones. You can&rsquo;t opt out of language. You can only choose your language and be honest about where it came from.</p>
+  <p><strong>The Logos is Reason.</strong> This is John 1:1. Not a later corruption. The opening of the gospel itself. &ldquo;In the beginning was the Logos.&rdquo; The author of John knew exactly what he was doing. Every educated Greek reader knew that Logos meant the rational ordering principle of the cosmos&nbsp;&mdash;&nbsp;Heraclitus, the Stoics, Philo. John took that word and said: <em>this</em> is Christ. Not &ldquo;Christ replaces the Logos.&rdquo; Not &ldquo;the Logos was wrong and Christ is right.&rdquo; This&nbsp;&mdash;&nbsp;this thing you&rsquo;ve been reaching toward, this rational structure of everything&nbsp;&mdash;&nbsp;this became flesh and lived among us.</p>
+  <p>That move&nbsp;&mdash;&nbsp;appropriating the highest concept in Greek philosophy and identifying it with Jesus&nbsp;&mdash;&nbsp;is either the boldest synthesis in intellectual history or the most dangerous conflation. I think it&rsquo;s the former. And it means the Tertullian position was already rejected by the author of John before Tertullian was born.</p>
+  <p><strong>The fathers weren&rsquo;t naive.</strong> Justin, Clement, and Origen didn&rsquo;t just absorb philosophy uncritically. They argued with it constantly. Origen rejected the Stoic idea that God is material. He rejected the Platonic idea that matter is eternal. He rejected the Gnostic idea that the material world was made by a lesser god. The synthesis wasn&rsquo;t passive absorption. It was critical engagement. They took what was true, rejected what wasn&rsquo;t, and transformed what could be transformed.</p>
+  <p>This is exactly what you do when you&rsquo;re bilingual. You don&rsquo;t just transliterate. You think in both languages and let each one change how you use the other.</p>
+  <p><strong>The alternative is worse.</strong> Every attempt to do theology without philosophy just smuggles in a philosophy you&rsquo;re not being honest about. The fundamentalists who say &ldquo;no creed but the Bible&rdquo; are using a 19th-century Scottish common-sense epistemology they&rsquo;ve never examined. The &ldquo;Bible-only&rdquo; churches are reading scripture through an interpretive framework they didn&rsquo;t choose and don&rsquo;t know they have. You can&rsquo;t escape philosophy. You can only be honest about which one you&rsquo;re using.</p>
+  <p>Origen was honest. He knew he was using Plato and Aristotle and the Stoics. He said so. He argued about it. He took positions&nbsp;&mdash;&nbsp;this part of Plato is right, this part is wrong, this part needs to be transformed. That&rsquo;s what intellectual honesty looks like. Not pretending to have pure access to unmediated truth. Naming your tools and showing your work.</p>
+
+  <h2>Where this leaves me</h2>
+  <p>My whole project sits on the Alexandrian side of this fault line. The Logos is Reason. Philosophy was preparation. The Greek philosophical vocabulary&nbsp;&mdash;&nbsp;Logos, ousia, hypostasis, nous, theoria, theosis, kenosis&nbsp;&mdash;&nbsp;these are vessels that can carry Christian content. Not perfectly. Not without adaptation. But genuinely.</p>
+  <p>The question I&rsquo;m still sitting with: how much transformation is too much? At what point does the baptism change the meaning so thoroughly that you&rsquo;re no longer saying what the original concept said? When Origen says the Logos is the rational structure of reality, is that still Heraclitus&rsquo;s Logos, or is it something new that&rsquo;s just wearing the old word? And if it <em>is</em> something new&nbsp;&mdash;&nbsp;if Christian Logos is fundamentally different from Stoic Logos&nbsp;&mdash;&nbsp;then isn&rsquo;t Tertullian partly right? Doesn&rsquo;t the gospel break the philosophical categories rather than fulfill them?</p>
+  <p>I think the answer is: both. The categories get stretched. They don&rsquo;t break&nbsp;&mdash;&nbsp;they get expanded to hold more than they were designed for. The word &ldquo;Logos&rdquo; in John means something Heraclitus couldn&rsquo;t have meant. But it&rsquo;s not a rejection of what Heraclitus meant. It&rsquo;s a fulfillment that required stretching the concept past its original boundaries.</p>
+  <p>This is what incarnation always does. The infinite enters the finite. The container gets stretched. The word &ldquo;God&rdquo; means something different after Christ than it meant before. The philosophical vocabulary doesn&rsquo;t dissolve. It gets expanded. The old words carry new weight. That&rsquo;s not corruption. That&rsquo;s what happens when the Ground expresses itself in human language.</p>
+  <p>Tertullian was afraid of that stretching. He thought it would break the container. Origen thought the container was made to be stretched. I&rsquo;m with Origen. Not because it&rsquo;s safe. Because the alternative&nbsp;&mdash;&nbsp;a Christianity that won&rsquo;t think&nbsp;&mdash;&nbsp;isn&rsquo;t actually Christianity. It&rsquo;s just fear wearing theological language.</p>
+</article>
+
+<div id="controls">
+  <button id="btn-smaller" title="Smaller text" aria-label="Decrease font size">A&#x2212;</button>
+  <span class="size-label" id="size-label">18px</span>
+  <button id="btn-bigger" title="Larger text" aria-label="Increase font size">A+</button>
+  <span class="divider"></span>
+  <button id="btn-reset" title="Reset" aria-label="Reset font size" style="font-size:12px;width:auto;padding:0 12px;">Reset</button>
+</div>
+
+<script>
+  const root = document.documentElement;
+  const progress = document.getElementById('progress');
+  const label = document.getElementById('size-label');
+  const minSize = 14, maxSize = 28, defaultSize = 18;
+  let size = parseInt(getComputedStyle(root).getPropertyValue('--font-size')) || defaultSize;
+
+  function setSize(s) {
+    size = Math.max(minSize, Math.min(maxSize, s));
+    root.style.setProperty('--font-size', size + 'px');
+    label.textContent = size + 'px';
+    localStorage.setItem('reader-font-size', size);
+  }
+
+  document.getElementById('btn-smaller').addEventListener('click', () => setSize(size - 1));
+  document.getElementById('btn-bigger').addEventListener('click', () => setSize(size + 1));
+  document.getElementById('btn-reset').addEventListener('click', () => setSize(defaultSize));
+
+  // Keyboard shortcuts
+  document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === '+' || e.key === '=') { e.preventDefault(); setSize(size + 1); }
+    if (e.key === '-') { e.preventDefault(); setSize(size - 1); }
+    if (e.key === '0') { e.preventDefault(); setSize(defaultSize); }
+  });
+
+  // Restore saved size
+  const saved = localStorage.getItem('reader-font-size');
+  if (saved) setSize(parseInt(saved));
+
+  // Progress bar
+  function updateProgress() {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docHeight > 0 ? Math.min(100, (scrollTop / docHeight) * 100) : 0;
+    progress.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', updateProgress, { passive: true });
+  updateProgress();
+</script>
+
+</body>
+</html>
