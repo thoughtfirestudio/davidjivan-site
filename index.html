@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>David Jivan</title>
-<meta name="description" content="Working out what can honestly be believed — about consciousness, the Logos, and the Christianity that got buried.">
+<meta name="description" content="Working through what can honestly be believed — about consciousness, the Logos, and what early Christianity actually said.">
 <meta property="og:title" content="David Jivan">
-<meta property="og:description" content="Working out what can honestly be believed — about consciousness, the Logos, and the Christianity that got buried.">
+<meta property="og:description" content="Working through what can honestly be believed — about consciousness, the Logos, and what early Christianity actually said.">
 <meta property="og:url" content="https://davidjivan.net/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="David Jivan">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="David Jivan">
-<meta name="twitter:description" content="Working out what can honestly be believed — about consciousness, the Logos, and the Christianity that got buried.">
+<meta name="twitter:description" content="Working through what can honestly be believed.">
 <link rel="canonical" href="https://davidjivan.net/">
 <script type="application/ld+json">
 {
@@ -20,10 +20,9 @@
   "@type": "WebSite",
   "name": "David Jivan",
   "url": "https://davidjivan.net/",
-  "description": "Working out what can honestly be believed — about consciousness, the Logos, and the Christianity that got buried."
+  "description": "Working through what can honestly be believed — about consciousness, the Logos, and what early Christianity actually said."
 }
 </script>
-
 <link rel="stylesheet" href="/style.css">
 <script defer src="/track.js"></script>
 </head>
@@ -34,75 +33,28 @@
   <div class="topbar-url">davidjivan.net</div>
 </div>
 
-<div class="hero">
+<div class="hero" style="padding-bottom: 24px;">
   <div class="hero-title">David Jivan</div>
-  <div class="hero-sub">Husband, father, human being. I think about consciousness, the Logos, and what can honestly be believed. This is where I write it down.</div>
+  <div class="hero-sub">Husband, father, human being. I'm working through what can honestly be believed — about consciousness, the Logos, and what early Christianity actually said.</div>
 </div>
 
-<div class="menu">
-  <div class="menu-label">Start here</div>
-  <div style="font-size: 12px; color: var(--text-dim); line-height: 1.8; margin-bottom: 16px; max-width: 520px;">If you're new, this is the thread. The axioms first — the framework. Then the syllogisms that clear the ground. Then the recovery.</div>
-  <div class="post-list" id="reading-order"></div>
+<div class="menu" style="padding-top: 0;">
+  <div class="post-list">
+    <a class="post-card" href="/posts/logos-idealism-axioms.html">
+      <div class="post-title">Logos Idealism — The Axioms</div>
+      <div class="post-meta">The framework. Three axioms, one metaphor.</div>
+    </a>
+    <a class="post-card" href="/about.html">
+      <div class="post-title">What I Think</div>
+      <div class="post-meta">The position, stated plainly.</div>
+    </a>
+  </div>
 </div>
 
-<div class="menu" style="border-top: 1px solid var(--border); padding-top: 32px;">
-  <div class="menu-label">All posts</div>
-  <div class="post-list" id="post-list"></div>
+<div style="max-width: 640px; margin: 32px auto; padding: 0 24px; font-size: 13px; color: var(--text-dim); font-family: var(--font-ui);">
+  No schedule. I write when there's something to say.
 </div>
 
-<script>
-  const readingOrder = [
-    { section: "The framework", posts: [
-      { n: "1", slug: "logos-idealism-axioms", title: "Logos Idealism — The Axioms" },
-      { n: "2", slug: "why-idealism", title: "Why \"Idealism\"" }
-    ]},
-    { section: "The syllogisms", posts: [
-      { n: "3", slug: "the-god-who-would-torture-you-forever", title: "The God who would torture you forever" },
-      { n: "4", slug: "why-evangelical-christianity-needs-god-to-be-a-monster", title: "Why evangelical Christianity needs God to be a monster" },
-      { n: "5", slug: "the-bible-is-the-inerrant-word-of-god", title: "The Bible is the inerrant Word of God" },
-      { n: "6", slug: "the-god-who-commanded-genocide", title: "The God who commanded genocide" },
-      { n: "7", slug: "cut-the-mormons-some-slack", title: "Cut the Mormons some slack!" }
-    ]},
-    { section: "The recovery", posts: [
-      { n: "8", slug: "the-logos-lineage", title: "The Logos lineage" },
-      { n: "9", slug: "theologian-scourge-of-love-isaac-of-nineveh", title: "The theologian who said hell was the scourge of love" },
-      { n: "10", slug: "there-are-no-particles", title: "There are no particles" },
-      { n: "11", slug: "the-measurement-problem", title: "The Measurement Problem" },
-      { n: "12", slug: "what-i-mean-when-i-say-god", title: "What I Mean When I Say \"God\"" },
-      { n: "13", slug: "the-word-soul-is-a-wreck", title: "The Word \"Soul\" Is a Wreck" },
-      { n: "14", slug: "the-logos-was-toward-god", title: "The Logos was toward God" },
-      { n: "15", slug: "does-christianity-hinge-on-the-resurrection", title: "Do you believe Jesus rose from the dead?" },
-      { n: "16", slug: "the-god-who-didnt-have-to-fight", title: "The God who didn't have to fight" },
-      { n: "17", slug: "god-didnt-make-the-world", title: "God didn't make the world" },
-      { n: "18", slug: "only-god-is-infinite", title: "Only God is infinite" }
-    ]},
-    { section: "Meta", posts: [
-      { n: "19", slug: "i-dont-know-shit-about-shit", title: "I don't know shit about shit" }
-    ]}
-  ];
-
-  fetch('/posts.json')
-    .then(r => r.json())
-    .then(posts => {
-      document.getElementById('post-list').innerHTML = posts.filter(p => !p.draft).map(p => {
-        const meta = [p.date, ...p.tags].join(' · ');
-        return `<a class="post-card" href="/posts/${p.slug}.html">
-          <div class="post-title">${p.title}</div>
-          <div class="post-meta">${meta}</div>
-        </a>`;
-      }).join('');
-
-      document.getElementById('reading-order').innerHTML = readingOrder.map(section => {
-        const label = `<div class="menu-label" style="margin-top: 8px;">${section.section}</div>`;
-        const items = section.posts.map(r => {
-          return `<a class="post-card" href="/posts/${r.slug}.html">
-            <div class="post-title">${r.n}. ${r.title}</div>
-          </a>`;
-        }).join('');
-        return label + items;
-      }).join('');
-    });
-</script>
 <script src="/components.js"></script>
 </body>
 </html>
