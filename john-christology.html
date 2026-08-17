@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The John Museum — Jesus's Relationship to God in John</title>
+<meta name="description" content="An interactive walk through the Gospel of John's own words: what John actually says about Jesus's relationship to God, read closely. Walk the argument, follow the tradition, examine every source.">
+<style>
+  :root{
+    --night:#171310; --panel:#201A15; --panel2:#262019;
+    --ink:#E8DFD0; --mute:#9C9183; --brass:#B08D3E; --signal:#D6885F;
+    --line:rgba(232,223,208,.14); --line-strong:rgba(232,223,208,.28);
+    --display:Georgia,'Times New Roman',serif;
+    --body:Georgia,'Times New Roman',serif;
+    --data:'SF Mono','Cascadia Code',Consolas,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--night);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  ::selection{background:rgba(176,141,62,.35)}
+  a{color:var(--brass);text-decoration:none;border-bottom:1px solid var(--line-strong);transition:color .2s,border-color .2s}
+  a:hover{color:var(--ink);border-color:var(--brass)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+
+  /* ── rail ─────────────────────────────── */
+  .rail{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(23,19,16,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+  .rail-in{max-width:1200px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;gap:16px}
+  .rail-name{font-family:var(--data);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass);white-space:nowrap}
+  .rail-acts{display:flex;gap:2px;flex:1;overflow-x:auto;scrollbar-width:none}
+  .rail-acts::-webkit-scrollbar{display:none}
+  .rail-acts a{font-family:var(--data);font-size:11px;letter-spacing:.12em;color:var(--mute);padding:6px 10px;border:1px solid transparent;border-radius:2px;white-space:nowrap}
+  .rail-acts a:hover{color:var(--ink);border-color:var(--line-strong)}
+  .rail-acts a.on{color:var(--brass);border-color:var(--brass)}
+  .progress{position:absolute;left:0;bottom:-1px;height:2px;background:var(--brass);width:0%}
+  .mode-btn{font-family:var(--data);font-size:11px;letter-spacing:.08em;color:var(--ink);background:transparent;border:1px solid var(--line-strong);border-radius:2px;padding:8px 12px;min-height:44px;cursor:pointer;white-space:nowrap;transition:border-color .2s,color .2s}
+  .mode-btn:hover{border-color:var(--brass);color:var(--brass)}
+  .mode-btn.on{color:var(--night);background:var(--brass);border-color:var(--brass)}
+  .room-jump{display:flex;gap:8px}
+  .room-jump button{font-family:var(--data);font-size:11px;letter-spacing:.08em;color:var(--ink);background:transparent;border:1px solid var(--line-strong);border-radius:2px;padding:8px 12px;min-height:44px;cursor:pointer;transition:border-color .2s,color .2s}
+  .room-jump button:hover{border-color:var(--brass);color:var(--brass)}
+  .room-jump button:focus-visible,a:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+
+  /* story mode: hide the scholarly apparatus by default */
+  body.story .step .note, body.story .step .qgr, body.story .step .qtr, body.story .quote .src, body.story .step-link, body.story .so-what .lbl{display:none}
+  body.story .so-what{margin-top:0;background:var(--panel2);border-left:3px solid var(--brass)}
+  body.story .so-what .lbl{display:none}
+  body.story .so-what p{font-size:17px}
+
+  /* ── hero ─────────────────────────────── */
+  .hero{min-height:92vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 24px 80px;position:relative}
+  .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 40%,rgba(176,141,62,.10),transparent 70%)}
+  .hero-in{position:relative}
+  .eyebrow{font-family:var(--data);font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--mute);margin-bottom:28px}
+  .hero h1{font-family:var(--display);font-size:clamp(40px,7vw,76px);line-height:1.06;font-weight:400;letter-spacing:-.01em;margin-bottom:20px}
+  .hero h1 em{font-style:italic;color:var(--brass)}
+  .hero p.sub{font-size:clamp(17px,2.2vw,21px);color:var(--mute);max-width:560px;margin:0 auto 32px}
+  .meta{font-family:var(--data);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:44px}
+  .meta span::before{content:"·";margin-right:18px;color:var(--brass)}
+  .meta span:first-child::before{content:"";margin:0}
+  .cta{display:inline-block;font-family:var(--data);font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--night);background:var(--brass);border:1px solid var(--brass);padding:14px 28px;border-radius:2px;min-height:48px}
+  .cta:hover{background:var(--ink);border-color:var(--ink);color:var(--night)}
+
+  /* ── acts ─────────────────────────────── */
+  .act{padding:96px 0 40px;border-top:1px solid var(--line);scroll-margin-top:70px}
+  .act-head{max-width:640px;margin-bottom:48px}
+  .act-num{font-family:var(--data);font-size:12px;letter-spacing:.3em;color:var(--brass);text-transform:uppercase;margin-bottom:12px}
+  .act h2{font-family:var(--display);font-size:clamp(28px,4.5vw,44px);font-weight:400;line-height:1.12;margin-bottom:14px}
+  .act-intro{color:var(--mute);font-size:18px}
+  .step{padding:36px 0;border-top:1px solid var(--line)}
+  .step:first-of-type{border-top:0}
+  .step-top{display:flex;gap:20px;align-items:baseline;margin-bottom:10px}
+  .step-no{font-family:var(--data);font-size:13px;color:var(--brass);letter-spacing:.1em;min-width:44px}
+  .step h3{font-family:var(--display);font-size:22px;font-weight:400;line-height:1.3}
+  .step .claim{font-size:18px;line-height:1.6;margin-bottom:10px}
+  .step .evid{color:var(--mute);margin-bottom:16px}
+  .step .note{font-size:14px;line-height:1.55;color:var(--mute);background:rgba(176,141,62,.07);border:1px solid var(--line);border-left:2px solid var(--brass);border-radius:2px;padding:12px 16px;margin-bottom:14px}
+  .step .note .lbl{display:block;font-family:var(--data);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass);margin-bottom:6px}
+  .so-what{margin-top:36px;background:var(--panel2);border:1px solid var(--line-strong);border-radius:3px;padding:26px 28px}
+  .so-what .lbl{display:block;font-family:var(--data);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass);margin-bottom:10px}
+  .so-what p{font-size:17px;line-height:1.6;color:var(--ink)}
+
+  /* ── plain words ──────────────────────── */
+  .plainwords{padding:110px 0;border-top:1px solid var(--line);background:radial-gradient(ellipse 60% 50% at 50% 0%,rgba(176,141,62,.06),transparent 65%)}
+  .plain-card{max-width:720px;background:var(--panel);border:1px solid var(--line-strong);border-left:3px solid var(--brass);border-radius:3px;padding:40px 44px;margin:0 auto}
+  .plain-card p{font-size:18px;line-height:1.7;margin-bottom:16px}
+  .plain-card p:last-child{margin-bottom:0}
+
+  /* ── gloss & modal ────────────────────── */
+  .gloss{font-style:inherit;color:var(--brass);background:none;border:0;border-bottom:1px dotted var(--brass);padding:0 1px;cursor:pointer;font-size:inherit;line-height:inherit}
+  .gloss:hover{color:var(--ink);border-bottom-style:solid}
+  .gloss:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+  .modal{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:24px}
+  .modal[hidden]{display:none}
+  .modal-bg{position:absolute;inset:0;background:rgba(12,9,7,.78);backdrop-filter:blur(4px)}
+  .modal-card{position:relative;background:var(--panel);border:1px solid var(--line-strong);border-top:3px solid var(--brass);border-radius:4px;max-width:640px;width:100%;max-height:84vh;overflow:auto;padding:36px 40px}
+  .modal-close{position:absolute;top:14px;right:16px;font-family:var(--data);font-size:18px;color:var(--mute);background:none;border:1px solid var(--line-strong);border-radius:2px;width:44px;height:44px;cursor:pointer;line-height:1}
+  .modal-close:hover{color:var(--ink);border-color:var(--brass)}
+  .modal-card h3{font-family:var(--display);font-size:24px;font-weight:400;line-height:1.3;margin:8px 0 14px}
+  .modal-card p{margin-bottom:14px;line-height:1.65}
+  .modal-card p:last-child{margin-bottom:0}
+  .modal-card .g-table{width:100%;border-collapse:collapse;margin:10px 0 16px;font-family:var(--data);font-size:14px}
+  .modal-card .g-table td{border:1px solid var(--line);padding:8px 10px;color:var(--ink)}
+  .modal-card .g-table td:first-child{color:var(--brass);white-space:nowrap}
+
+  /* ── greek room ───────────────────────── */
+  .greek{padding:110px 0;border-top:1px solid var(--line)}
+  .greek .act-head{max-width:640px;margin-bottom:40px}
+  .lessons{border-top:1px solid var(--line)}
+  .lesson{border-bottom:1px solid var(--line)}
+  .lesson summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;gap:16px;padding:20px 4px;font-family:var(--display);font-size:20px;color:var(--ink)}
+  .lesson summary::-webkit-details-marker{display:none}
+  .lesson summary .ln{font-family:var(--data);font-size:12px;letter-spacing:.18em;color:var(--brass);min-width:34px}
+  .lesson summary:hover{color:var(--brass)}
+  .lesson[open] summary{color:var(--brass)}
+  .lesson .lb{padding:4px 4px 30px;max-width:680px}
+  .lesson .lb p{margin-bottom:12px;line-height:1.65}
+  .lesson .lb em{color:var(--brass)}
+  .lesson .g-table{width:100%;border-collapse:collapse;margin:12px 0 16px;font-family:var(--data);font-size:14px}
+  .lesson .g-table td{border:1px solid var(--line);padding:7px 10px;color:var(--ink)}
+  .lesson .g-table td:first-child{color:var(--brass);white-space:nowrap}
+  .greek-code{font-family:var(--data);font-size:15px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--brass);border-radius:2px;padding:14px 16px;margin:12px 0;line-height:1.7;overflow-x:auto}
+  .greek-code .off{color:var(--mute);text-decoration:line-through;text-decoration-color:rgba(201,111,74,.6)}
+  .greek-note{font-size:13px;color:var(--mute);font-family:var(--data);letter-spacing:.02em;line-height:1.6}
+
+  /* ── outline ──────────────────────────── */
+  .outline{padding:110px 0 40px;border-top:1px solid var(--line)}
+  .out-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+  .out-card{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--brass);border-radius:3px;padding:20px 22px}
+  .out-card.lead{border-left-color:var(--signal);background:linear-gradient(180deg,rgba(201,111,74,.07),rgba(201,111,74,.02))}
+  .out-card .lbl{font-family:var(--data);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin-bottom:8px}
+  .out-card.lead .lbl{color:var(--signal)}
+  .out-card p{font-size:14.5px;line-height:1.6;color:var(--ink)}
+
+  /* ── counterweight variant ────────────── */
+  .counter-card.brass{background:linear-gradient(180deg,rgba(176,141,62,.08),rgba(176,141,62,.02));border-color:rgba(176,141,62,.4);margin-top:24px}
+  .quote{border-left:2px solid var(--brass);padding:14px 0 14px 22px;margin:18px 0 12px;font-style:italic;font-size:18px;line-height:1.6;color:var(--ink)}
+  .quote .src{display:block;font-style:normal;font-family:var(--data);font-size:12px;letter-spacing:.1em;color:var(--mute);margin-top:10px}
+  .qgr{display:block;font-style:italic;color:var(--brass);margin-top:8px;font-size:16px}
+  .qtr{display:block;font-style:italic;color:var(--mute);margin-top:4px;font-size:15px}
+  .wit .qgr{font-size:13px;color:var(--brass)}
+  .wit .qtr{font-size:12px}
+  .step-link{font-family:var(--data);font-size:12px;letter-spacing:.06em}
+
+  /* ── the thread ───────────────────────── */
+  .thread{padding:110px 0;border-top:1px solid var(--line);background:radial-gradient(ellipse 70% 60% at 50% 0%,rgba(176,141,62,.08),transparent 65%)}
+  .thread .wrap{max-width:1200px}
+  .thread-head{text-align:center;max-width:640px;margin:0 auto 56px}
+  .thread-line{display:flex;gap:0;align-items:stretch;overflow-x:auto;scroll-snap-type:x mandatory;padding:24px 0 40px;scrollbar-width:none}
+  .thread-line::-webkit-scrollbar{display:none}
+  .wit{flex:1 0 280px;max-width:300px;scroll-snap-align:center;background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:28px 24px;position:relative;margin:0 6px;transition:transform .25s,border-color .25s}
+  .wit:hover{transform:translateY(-4px);border-color:var(--brass)}
+  .wit::before{content:"";position:absolute;top:-13px;left:24px;width:1px;height:12px;background:var(--line-strong)}
+  .wit:first-child::before{display:none}
+  .wit .era{font-family:var(--data);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass);margin-bottom:8px}
+  .wit h4{font-family:var(--display);font-size:19px;font-weight:400;margin-bottom:6px}
+  .wit .role{font-family:var(--data);font-size:11px;color:var(--mute);margin-bottom:16px;letter-spacing:.06em}
+  .wit blockquote{font-style:italic;font-size:15px;line-height:1.55;color:var(--ink)}
+  .wit .take{font-size:14px;color:var(--mute);margin-top:14px}
+  .thread-hint{font-family:var(--data);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);text-align:center;margin-top:-16px}
+
+  /* ── sources ──────────────────────────── */
+  .sources{padding:110px 0 60px;border-top:1px solid var(--line)}
+  .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:36px}
+  .filters button{font-family:var(--data);font-size:12px;letter-spacing:.08em;color:var(--mute);background:transparent;border:1px solid var(--line-strong);border-radius:2px;padding:9px 14px;min-height:44px;cursor:pointer;transition:color .2s,border-color .2s}
+  .filters button:hover{color:var(--ink)}
+  .filters button.on{color:var(--night);background:var(--brass);border-color:var(--brass)}
+  .filters button:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+  .src-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+  .src-card{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:22px 20px;display:flex;flex-direction:column;gap:8px}
+  .src-card[hidden]{display:none}
+  .src-card .cat{font-family:var(--data);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass)}
+  .src-card h4{font-family:var(--display);font-size:17px;font-weight:400;line-height:1.35}
+  .src-card .what{font-size:13.5px;color:var(--mute)}
+  .src-card .used{font-size:14px}
+  .src-card .q{font-style:italic;font-size:14px;line-height:1.55;border-left:2px solid var(--line-strong);padding-left:12px;color:var(--ink)}
+  .src-card .lk{font-family:var(--data);font-size:12px;margin-top:auto;padding-top:8px}
+
+  /* ── counterweight ────────────────────── */
+  .counter{padding:110px 0;border-top:1px solid var(--line)}
+  .counter-card{max-width:760px;margin:0 auto;background:linear-gradient(180deg,rgba(201,111,74,.08),rgba(201,111,74,.02));border:1px solid rgba(201,111,74,.35);border-radius:3px;padding:44px 40px}
+  .counter-card .eyebrow{color:var(--signal);margin-bottom:16px}
+  .counter-card h2{font-family:var(--display);font-size:clamp(26px,4vw,38px);font-weight:400;line-height:1.15;margin-bottom:16px}
+  .counter-card p{color:var(--ink);margin-bottom:14px}
+  .counter-card .names{font-family:var(--data);font-size:12px;letter-spacing:.08em;color:var(--mute)}
+
+  /* ── footer ───────────────────────────── */
+  footer{border-top:1px solid var(--line);padding:56px 0 80px;text-align:center}
+  footer p{color:var(--mute);font-size:14px;margin-bottom:8px}
+  footer .fn{font-family:var(--data);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+
+  @media (max-width:560px){
+    body{font-size:16px}
+    .rail-name{display:none}
+    .room-jump button.prev span{display:none}
+    .step-top{flex-direction:column;gap:6px}
+    .step h3{font-size:20px}
+    .quote{padding-left:16px}
+    .counter-card{padding:32px 24px}
+    .wit{flex-basis:240px;min-width:240px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *{transition:none!important;animation:none!important}
+  }
+</style>
+</head>
+<body class="story">
+
+<header class="rail">
+  <div class="rail-in">
+    <div class="rail-name">The John Museum</div>
+    <nav class="rail-acts" id="actMap" aria-label="Exhibition rooms"></nav>
+    <div class="room-jump">
+      <button class="prev" aria-label="Previous room">← <span>Prev</span></button>
+      <button class="next" aria-label="Next room"><span>Next</span> →</button>
+    </div>
+    <button class="mode-btn" id="modeBtn" aria-pressed="true">Just the story</button>
+    <div class="progress" id="progress"></div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-in wrap">
+    <div class="eyebrow">An exhibition · one argument · one gospel</div>
+    <h1>Does John make Jesus <em>God</em>?</h1>
+    <p class="sub">Walk the Gospel of John closely and a surprising answer emerges — not the one we were taught. What John actually says about Jesus and God is stranger, older, and more beautiful than the shortcut. And it changes what the gospel is asking of you.</p>
+    <div class="meta">
+      <span>4 points · 16 steps</span><span>40+ sources</span><span>one gospel, read closely</span>
+    </div>
+    <a class="cta" href="#act-1">Begin the walk</a>
+  </div>
+</section>
+
+<!-- OUTLINE -->
+<section class="outline" id="outline">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="eyebrow">The argument, at a glance</div>
+      <h2>One claim, three threads</h2>
+      <p class="act-intro">Read it like an essay: the claim first, then the evidence, point by point.</p>
+    </div>
+    <div class="out-grid">
+      <div class="out-card lead"><div class="lbl">The claim</div><p>No part of John describes Jesus as the very God of Israel. The reading that fits every passage is a hybrid Logos/image Christology — Jesus as the divine Logos and the divine image.</p></div>
+      <div class="out-card"><div class="lbl">A · The Logos</div><p>A distinct, subordinate being who can bear the title theos — John 1:1's grammar, read the same way in the tradition that runs from Philo before him to Justin, Origen, and Eusebius after.</p></div>
+      <div class="out-card"><div class="lbl">B · The Image</div><p>To see him is to see the Father — oneness as mutual indwelling, and the image shared: you become a child of God.</p></div>
+      <div class="out-card"><div class="lbl">C · The Name</div><p>The angel who bears the divine name — Thomas's confession, and the "I am" that is a code, not a claim.</p></div>
+      <div class="out-card"><div class="lbl">D · What it means</div><p>The Trinity is a later answer to a later question. John's own gospel: image, indwelling, divinization.</p></div>
+      <div class="out-card"><div class="lbl">The honest wall</div><p>Divine identity (Hurtado, Bauckham) and Romans 9:5 — the strongest counter-evidence, displayed fairly.</p></div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <!-- Acts render here -->
+  <div id="acts"></div>
+</main>
+
+<!-- PLAIN WORDS -->
+<section class="plainwords" id="plainwords">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="eyebrow">The whole thing, in plain words</div>
+      <h2>What this is actually saying</h2>
+    </div>
+    <div class="plain-card">
+      <p>John's Jesus is not God-the-Father wearing a costume. He's the image of God — the one who carries God's presence so completely that to see him is to see the Father, and who says the same oneness is open to anyone who follows him. You become a child of God. That's the gospel John is actually laying down.</p>
+      <p>The Trinity — one being, three persons — is a later answer to a later question, born in the second century out of Greek philosophy. It may be true. But it's not what John wrote. And knowing the difference isn't losing anything. It's finally hearing the gospel's own voice.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GREEK ROOM -->
+<section class="greek" id="greek">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="eyebrow">The Greek room</div>
+      <h2>Learn the grammar behind the walk</h2>
+      <p class="act-intro">You don't need to read Greek to hear what John is saying — you need about twenty words and three ideas. Six short lessons, no homework. Click a lesson to open it.</p>
+    </div>
+    <div class="lessons">
+      <details class="lesson" open>
+        <summary><span class="ln">01</span>The alphabet — sound it out</summary>
+        <div class="lb">
+          <p>Greek has 24 letters. This exhibit uses about fifteen of them. Learn these and you can sound out every Greek word in the museum:</p>
+          <div style="overflow-x:auto">
+          <table class="g-table">
+            <tr><td>α a</td><td>β b</td><td>γ g</td><td>δ d</td><td>ε e</td><td>ζ z</td><td>η ē (long e)</td></tr>
+            <tr><td>θ th</td><td>ι i</td><td>κ k</td><td>λ l</td><td>μ m</td><td>ν n</td><td>ξ x</td></tr>
+            <tr><td>ο o</td><td>π p</td><td>ρ r</td><td>σ ς s</td><td>τ t</td><td>υ u/y</td><td>φ ph</td></tr>
+            <tr><td>χ ch</td><td>ψ ps</td><td>ω ō (long o)</td><td>ει \u201Cay\u201D</td><td>ου \u201Coo\u201D</td><td>αι \u201Ceye\u201D</td><td>—</td></tr>
+          </table>
+          </div>
+          <p>Now read the exhibit's vocabulary aloud: <em>theos</em> (God), <em>logos</em> (word), <em>kyrios</em> (lord), <em>ēn</em> (was), <em>kai</em> (and), <em>sarx</em> (flesh), <em>aiōn</em> (age). That's the whole museum in seven words.</p>
+        </div>
+      </details>
+      <details class="lesson">
+        <summary><span class="ln">02</span>The article — ho, hē, to, and the three jobs</summary>
+        <div class="lb">
+          <p><em>ho / hē / to</em> = \u201Cthe\u201D (masculine / feminine / neuter). Same idea as English — but Greek nouns also change their endings to show their <em>job</em> in the sentence. You need three jobs:</p>
+          <table class="g-table">
+            <tr><td>nominative</td><td>ho theos</td><td>\u201Cthe God\u201D — the subject</td></tr>
+            <tr><td>genitive</td><td>tou theou</td><td>\u201Cof the God\u201D — possession</td></tr>
+            <tr><td>accusative</td><td>ton theon</td><td>\u201Cthe God\u201D — the object</td></tr>
+          </table>
+          <p>That's why \u201Cthe God\u201D keeps changing shape: <em>ho theos</em>, <em>tou theou</em>, <em>ton theon</em> — same word, three jobs. In John 1:1 the Word is \u201Cwith <em>ton theon</em>\u201D — accusative, article present. The article declines. Its <em>absence</em> is the signal.</p>
+        </div>
+      </details>
+      <details class="lesson">
+        <summary><span class="ln">03</span>Why Greek drops the article</summary>
+        <div class="lb">
+          <p>Here's the correction that matters: <em>anarthrous</em> — no article — does <em>not</em> automatically mean \u201Cnot God.\u201D Greek drops articles constantly. Paul writes \u201Cfrom <em>theos</em> our Father\u201D (Rom 1:7) with no article, and it's unambiguously the true God.</p>
+          <p>So the rule \u201Carticle = the God, no article = a god\u201D is too flat. The real signals are the <em>construction</em> (where the word sits), the <em>context</em>, and the <em>contrast</em> inside the sentence. That's the next lesson.</p>
+          <p class="greek-note">Counter-example to remember: Rom 1:7 — \u201Cἀπὸ θεοῦ πατρὸς ἡμῶν\u201D — \u201Cfrom God our Father,\u201D anarthrous, meaning the God of Israel.</p>
+        </div>
+      </details>
+      <details class="lesson">
+        <summary><span class="ln">04</span>The predicate — the John 1:1 machinery</summary>
+        <div class="lb">
+          <p>Word order matters. In \u201Ckai <em>theos</em> ēn ho logos,\u201D the word <em>theos</em> comes <em>before</em> the verb <em>ēn</em> (\u201Cwas\u201D) and refers back to \u201Cthe Word\u201D (<em>ho logos</em>, article present).</p>
+          <p>When a predicate word precedes the verb, Greek often drops its article even when the thing is definite — and grammarians (Colwell, then Harner) showed the result reads as <em>qualitative</em>: it describes the kind, not the identity. The whole sentence, three clauses:</p>
+          <p>Fairness note: this grammar isn't the contested part. Daniel Wallace — the best-known defender of \u201Cthe Word was God\u201D — agrees the anarthrous predicate nominative is qualitative. He reads it as the Word sharing the divine essence, a distinct person. The real disagreement is what \u201Cqualitative\u201D meant to a first-century Jew — see Point A, A7.</p>
+          <div class="greek-code">
+<span style="color:var(--mute)">1 ·</span> en archē ēn ho logos — "in the beginning was the Word"<br>
+<span style="color:var(--mute)">2 ·</span> kai ho logos ēn pros <span style="color:var(--brass)">ton theon</span> — "the Word was with <span style="color:var(--brass)">the</span> God" <span style="color:var(--mute)">— article present; inside the preposition, after the verb</span><br>
+<span style="color:var(--mute)">3 ·</span> kai <span style="color:var(--brass)">theos</span> ēn ho logos — "and <span style="color:var(--brass)">divine</span> was the Word" <span style="color:var(--mute)">— no article; before the verb: the predicate</span>
+          </div>
+          <p>Only clause 3 puts <em>theos</em> before the verb. Clause 2's <em>ton theon</em> is a prepositional object — arthrous, definite, the God the Word is with. The contrast between the two clauses is the whole point.</p>
+          <p>Read it aloud and the structure does the work: <em>ho logos</em> keeps its article in both clauses where it appears — <em>ho logos</em>... <em>ho logos</em>. And <em>theos</em>? Bare, once, in the middle. The ear catches what the eye can miss. If John had meant \u201Cthe Word was <em>the</em> God,\u201D the rhythm would have demanded the article — and it isn't there.</p>
+          <p>Compare the two lines John could have written:</p>
+          <div class="greek-code">kai theos ēn ho logos — \u201Cand <em>divine</em> was the Word\u201D <span class="off">— what John wrote</span></div>
+          <div class="greek-code">kai ho theos ēn ho logos — \u201Cand <em>THE God</em> was the Word\u201D <span class="off">— what John didn't write</span></div>
+          <p>That's the whole exhibit in two lines: same words, one little article, two completely different claims.</p>
+        </div>
+      </details>
+      <details class="lesson">
+        <summary><span class="ln">05</span>Doxologies — the Romans 9:5 payoff</summary>
+        <div class="lb">
+          <p>When the New Testament blesses God — \u201CBlessed be <em>the God</em> and Father of our Lord Jesus Christ\u201D — it normally uses the article: <em>ho theos eulogētos</em> (1 Pet 1:3; 2 Cor 1:3; Rom 1:25).</p>
+          <p>Paul's line in Romans 9:5 is the odd one out: <em>theos eulogētos</em>, <em>anarthrous</em>. Which cuts two ways — it's why some read it as a blessing of the Father, and it's why most read it as a predication of Christ: \u201Cwho is God over all, blessed.\u201D Same missing article, different construction, different outcome. The grammar is a pattern, not a machine.</p>
+          <p>The full debate is on the counterweight wall → <a href="#counter">Romans 9:5</a>.</p>
+        </div>
+      </details>
+      <details class="lesson">
+        <summary><span class="ln">06</span>The twenty words that carry the exhibit</summary>
+        <div class="lb">
+          <table class="g-table">
+            <tr><td>theos</td><td>god / God / divine</td><td>kai</td><td>and</td></tr>
+            <tr><td>logos</td><td>word</td><td>ēn</td><td>was</td></tr>
+            <tr><td>kyrios</td><td>lord</td><td>eimi</td><td>I am</td></tr>
+            <tr><td>ho / hē / to</td><td>the</td><td>pantōn</td><td>of all</td></tr>
+            <tr><td>eulogētos</td><td>blessed</td><td>gnōmē</td><td>mind, will</td></tr>
+            <tr><td>poieō</td><td>to make</td><td>poiētēs / poiētikos</td><td>maker / capable of making</td></tr>
+            <tr><td>sarx</td><td>flesh</td><td>aiōn</td><td>age</td></tr>
+            <tr><td>arthron / anarthros</td><td>joint, article / without article</td><td>ōn</td><td>being (from eimi)</td></tr>
+          </table>
+          <p>Learn these and the argument stops being Greek to you. <em>Arthron</em> is where English gets \u201Carticle\u201D — and arthritis: the joint.</p>
+        </div>
+      </details>
+      <details class="lesson">
+        <summary><span class="ln">07</span>The parallel — John 10:33</summary>
+        <div class="lb">
+          <p>The Jews' accusation against Jesus uses the exact grammar the whole exhibit is about — twice, in parallel:</p>
+          <div class="greek-code">σὺ ἄνθρωπος ὢν ποιεῖς σεαυτὸν θεόν<br><span style="color:var(--mute)">sy anthrōpos ōn poieis seauton theon</span><br><span style="color:var(--mute)">you · a human · being · you make · yourself · a god</span></div>
+          <p><em>Anthrōpos</em> — \u201Ca human\u201D — no article. <em>Theon</em> — \u201Ca god\u201D — no article. The charge itself says: \u201CYou, being a human, make yourself a god.\u201D If they had wanted to accuse him of claiming to be <em>the</em> God, they had the word for it — <em>ton theon</em>. They didn't use it.</p>
+          <p>So even the accusation runs on the same anarthrous grammar as John 1:1 — which is exactly why Jesus answers with Psalm 82: \u201Cyour own law says humans can be gods.\u201D See Point B, B2.</p>
+        </div>
+      </details>
+      <details class="lesson">
+        <summary><span class="ln">08</span>The other passages, at a glance</summary>
+        <div class="lb">
+          <p>Every John passage in the exhibit, with its Greek, in one table:</p>
+          <table class="g-table">
+            <tr><td>John 1:1</td><td>καὶ θεὸς ἦν ὁ λόγος — kai theos ēn ho logos</td><td>no article — divine, the predicate</td></tr>
+            <tr><td>John 10:30</td><td>ἐγὼ καὶ ὁ πατὴρ ἕν ἐσμεν — egō kai ho patēr hen esmen</td><td>one thing (hen), not one person — indwelling</td></tr>
+            <tr><td>John 10:34</td><td>ἐγὼ εἶπα· θεοί ἐστε — egō eipa: theoi este</td><td>\u201Cyou are gods\u201D — Ps 82, humans bearing the word</td></tr>
+            <tr><td>John 14:9</td><td>ὁ ἑωρακὼς ἐμὲ ἑώρακεν τὸν πατέρα — ho heōrakōs eme heōraken ton patera</td><td>seen me, seen the Father — image logic</td></tr>
+            <tr><td>John 17:21</td><td>ἵνα πάντες ἓν ὦσιν — hina pantes hen ōsin</td><td>oneness extended to followers</td></tr>
+            <tr><td>John 20:28</td><td>ὁ κύριός μου καὶ ὁ θεός μου — ho kyrios mou kai ho theos mou</td><td>both articles — Thomas addresses both</td></tr>
+            <tr><td>John 8:58</td><td>πρὶν Ἀβραὰμ γενέσθαι ἐγώ εἰμι — prin Abraam genesthai egō eimi</td><td>\u201CI am\u201D — the coded divine-name pointer</td></tr>
+          </table>
+          <p>The pattern: the article appears exactly where the definite God is meant — and stays off everywhere the Word's own divine quality is being named.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- THE THREAD -->
+<section class="thread" id="thread">
+  <div class="wrap">
+    <div class="thread-head">
+      <div class="eyebrow">The signature exhibit</div>
+      <h2>The tradition ran from Philo before John to Justin, Origen, and Eusebius after — all reading the same missing article.</h2>
+    </div>
+    <div class="thread-line" id="threadLine"></div>
+    <div class="thread-hint">scroll the chain →</div>
+  </div>
+</section>
+
+<!-- SOURCES -->
+<section class="sources" id="sources">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="eyebrow">The archive</div>
+      <h2>Every source, open for inspection</h2>
+      <p class="act-intro">Every source this reading rests on — each with a link to the text, or the passage as it appears here.</p>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="src-grid" id="srcGrid"></div>
+  </div>
+</section>
+
+<!-- COUNTERWEIGHT -->
+<section class="counter" id="counter">
+  <div class="wrap">
+    <div class="counter-card">
+      <div class="eyebrow">The museum's other voice</div>
+      <h2>Scholarship disagrees with itself here.</h2>
+      <p>The reading you've just walked — divine <em>agency</em>, a subordinate Logos who bears the title — faces a strong rival school: divine <em>identity</em>. Larry Hurtado (<em>Lord Jesus Christ</em>) and Richard Bauckham (<em>Jesus and the God of Israel</em>) argue that first-century believers included Jesus <em>within</em> the identity of the one God — not as a second being beside him.</p>
+      <p>Both can't be right. The exhibit shows you the evidence; the argument is still open.</p>
+      <div class="names">HURTADO 2003 · BAUCKHAM 2008 — THE DIVINE-IDENTITY SCHOOL</div>
+    </div>
+    <div class="counter-card brass">
+      <div class="eyebrow">The question everyone asks</div>
+      <h2>What about Romans 9:5?</h2>
+      <p>Paul writes of Christ: \u201Cwho is over all, God blessed forever\u201D — <em>ho ōn epi pantōn Theos eulogētos</em>. Isn't that Paul calling Jesus God?</p>
+      <p>Two readings, split by a comma that isn't in the original:</p>
+      <p><em>Christological</em> (the majority): \u201Cthe Christ... who is over all, God blessed\u201D — Christ called <em>theos</em>. <em>Doxological</em>: \u201Cthe Christ according to the flesh — God who is over all be blessed\u201D — a blessing of the Father, the way Paul blesses God elsewhere.</p>
+      <p>The twist: blessing-formulas in the New Testament are normally <em>arthrous</em> — 1 Pet 1:3: \u201CBlessed be <em>the God</em> and Father of our Lord Jesus Christ.\u201D Paul's anarthrous <em>theos eulogētos</em> is the odd one — a real argument that it's a predication of Christ, not a blessing of the Father. The same missing article, working differently in a different construction.</p>
+      <p>Either way, it's Paul — a different author, a different document. The museum's claim is scoped to the Gospel of John. And even at its highest, Romans 9:5 ascribes divine <em>status</em> within first-century Jewish monotheism; the machinery of one-<em>ousia</em> Trinitarianism is still two centuries away. It's the divine-identity school's strongest text — and it belongs here, on the wall of honest disagreement.</p>
+      <div class="names">ROMANS 9:5 · <a href="https://biblehub.com/text/romans/9-5.htm" target="_blank" rel="noopener">open the Greek interlinear ↗</a> · LEARN THE GRAMMAR IN THE GREEK ROOM</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Walking the evidence — the walk began with <a href="https://www.youtube.com/watch?v=3lLsIEqv2nU" target="_blank" rel="noopener">Dan McClellan's close reading of John</a>, the study library holds the full record</p>
+  <p class="fn">The John Museum · davidjivan.net</p>
+</footer>
+
+<!-- GLOSS MODAL -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-bg" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="glossTitle">
+    <button class="modal-close" data-close aria-label="Close">×</button>
+    <div class="eyebrow" style="margin-bottom:0">Greek crash course</div>
+    <h3 id="glossTitle"></h3>
+    <div id="glossBody"></div>
+  </div>
+</div>
+
+<script>
+const DATA = {
+steps:[
+{act:1,no:"A1",roomTitle:"The Logos — a distinct, subordinate being who can bear the title theos",roomIntro:"The grammar of John 1:1, set in the tradition it belongs to — Philo before John, and Justin, Origen, Eusebius after, reading the gospel the same way. Then the modern counter-reading, stated fairly.",
+ title:"John 1:1 — the missing article",
+ claim:"The NRSV's \u201Cthe word was God\u201D (capital G) is a bad translation.",
+ evid:"Theos is {{anarthrous}} — no definite article. The missing article alone proves nothing: Greek drops it constantly, even for the true God (Rom 1:7 — see the Greek Room, lesson 3). What makes it qualitative here is the predicate position, the contrast with \u201Cthe God\u201D in the same verse, and how four centuries of readers took it. The Word shares the quality of God; it is not identified as the God of Israel.",
+ quote:"{{kai theos ēn ho logos}} — \u201Cand the word was divine / a god\u201D",
+ quoteSrc:"John 1:1, Greek",
+ link:"https://www.biblegateway.com/passage/?search=John+1:1&version=NRSVUE",linkLabel:"John 1:1 · NRSVUE"},
+{act:1,no:"A2",
+ title:"Philo — the second God",
+ claim:"Philo wrote decades before the Gospel of John — and he already called the Logos \u201Cthe second God.\u201D",
+ evid:"Alexandria, first half of the first century CE. Philo reads his Greek Bible closely and draws the line by the article: where the text says \u201Cthe God\u201D — with the article — that's the true God. Where it says simply \u201Ctheos,\u201D that's the Logos: God's Word, the chief divine being, distinct and subordinate — explicitly the \u201Csecond God.\u201D That's the tradition John is writing in.",
+ note:"Context — Philo's Bible is the Septuagint, and that fact is the argument. The anarthrous-vs-arthrous theos distinction is Greek grammar — it cannot exist in Hebrew. His crux text proves it: the Hebrew of Genesis 31:13 says \u201CI am the God of Bethel\u201D; the Greek reads \u201CI am the God who appeared to you in the place of God.\u201D Philo never works from Hebrew scrolls — his Hebrew etymologies are often wrong — and he treats the Greek translation as inspired, the work of prophets. (The \u201Csecond God\u201D line in Questions and Answers survives only in Armenian — the Greek is lost.) So the \u201Csecond God\u201D theology was born in the Greek-reading Jewish world of Alexandria: the same textual world the Gospel of John is written in. The divine-agency reading isn't a modern imposition — it's native to the language the gospel actually speaks.",
+ quote:"He that is truly God is one, but those that are improperly so called are more than one... Here it gives the title of God to his chief word.",
+ quoteGr:"Ὁ μὲν ὄντως ὢν θεὸς εἷς ἐστιν· οἱ δ' ἐν καταχρήσει λεγόμενοι πλείους.",
+ quoteTr:"Ho men ontōs ōn theos heis estin; hoi d' en katachrēsei legomenoi pleious.",
+ quoteSrc:"Philo, On Dreams 1.229 (Greek: Loeb, Colson & Whitaker)",
+ link:"https://www.earlyjewishwritings.com/philo.html",linkLabel:"Philo (Yonge trans.)"},
+{act:1,no:"A3",
+ title:"Justin — another God, united in will",
+ claim:"There is \u201Canother God and Lord under the creator of all things.\u201D",
+ evid:"In Dialogue with Trypho, Justin argues the Word is distinct from the creator \u201Cin number, but not in mind.\u201D {{gnome}} means mind/will — not essence; translators read Trinitarianism in. The Logos bears the title theos because he performs the Father's will.",
+ note:"Justin is reading the same Greek grammar a century after John, in the same way Philo did. And gnome — sometimes rendered \u201Cessence\u201D — actually means mind or will. Read it right, and Justin isn't saying the Word is the creator. He's saying the Word is the creator's own mind, in action.",
+ quote:"...distinct from God the creator... that is in number, but not in mind.",
+ quoteSrc:"Justin, Dialogue with Trypho 56 (Greek: Marcovich, PTS 47 — wording to verify)",
+ link:"https://www.newadvent.org/fathers/01285.htm",linkLabel:"Dialogue with Trypho 55–68"},
+{act:1,no:"A4",
+ title:"Origen — theos, but not ho theos",
+ claim:"A century later, Origen draws the same line: the Father is ho theos; the Logos is theos.",
+ evid:"In his Commentary on John, Origen reads John 1:1c exactly as Philo and Justin did — the Logos is \u201CGod\u201D (theos) without the article, while only the Father is \u201Cthe God\u201D (ho theos), the true God. The Logos is divine by participation: distinct, subordinate, the bearer of the title. The chain runs unbroken from Alexandria into the third century.",
+ note:"Origen is the link the popular story skips: the same grammar Philo read before John, and Justin after, was still being read the same way two centuries on — before the creedal debates began reframing it.",
+ quote:"theos, not ho theos — only the Father is \u201Cthe God,\u201D the true God (paraphrase of Origen, Commentary on John, Book 2)",
+ quoteSrc:"Origen, Commentary on John, Book 2 (on John 1:1; Greek original)"},
+{act:1,no:"A5",
+ title:"Eusebius — after Nicaea, still no article",
+ claim:"John deliberately avoided saying \u201Cthe word was the God,\u201D lest he assert the Word is the God over all.",
+ evid:"Writing after Nicaea, Eusebius still reads the anarthrous theos as marking the Son as the image of the Father — and attacks Marcellus for merging God and Word (Sabellianism). Even \u201Cmaker and fashioner of all things\u201D uses adjectives ({{poietikos}}, demiourgikos), not the creator nouns poietes and demiourgos.",
+ note:"Eusebius is writing after Nicaea — after the church officially declared Jesus \u201Cvery God of very God.\u201D And even he says John carefully avoided calling the Word \u201Cthe God over all.\u201D If the creed had been a straight reading of John, the man who wrote the creed's history would have been the first to say so.",
+ quote:"John [avoided] saying \u201Cthe word was the God,\u201D with the addition of the article, lest he assert that the word was the God who is over all.",
+ quoteSrc:"Eusebius, On Ecclesiastical Theology 2.14 (Greek: GCS, ed. Klostermann)",
+ noLink:"print: GCS, ed. Klostermann — no free English text online"},
+{act:1,no:"A6",
+ title:"The verdict — a tradition, not a coincidence",
+ claim:"In the 1st-century framework of divine mediation, John 1:1 means the Logos is \u201Cdeity, divine, or a god\u201D — not the God of Israel.",
+ evid:"The tradition runs before John and after him: Philo in Alexandria, then John writing within it — probably aware of Philo — then Justin, Origen, and Eusebius reading the gospel the same way. Not five scholars who happened to agree. A living stream of reading, inherited and passed on."},
+{act:1,no:"A7",
+ title:"The modern counter-reading — where it actually disagrees",
+ claim:"Daniel Wallace, the grammar's most famous defender, AGREES the anarthrous theos is qualitative. The fight is about what \u201Cqualitative\u201D means.",
+ evid:"Wallace (Greek Grammar Beyond the Basics) reads the anarthrous predicate nominative as focusing on nature and essence: the Word shares the Father's divine essence — truly God, yet a distinct person. The article, he argues, would collapse the persons into one (Sabellianism); he rejects \u201Ca god\u201D and warns against \u201Cdivine\u201D in English. So the real dispute with him isn't the grammar — it's what \u201Cqualitative\u201D meant to a first-century Jew. Wallace reads full Trinitarian essence back into the word; this tradition reads a wider divine category, with the Word a distinct, subordinate being who bears the title.",
+ note:"Why the category matters: our modern map says God is one thing and gods are fake. A first-century Jew's map was wider — \u201Cdivine\u201D was a category with room in it, and the article — in context — was the pointer to the top of the list."},
+{act:2,no:"B1",roomTitle:"The Image — to see him is to see the Father",roomIntro:"The ancient logic of images: a deity's image carries the deity's presence. John works it out through three chapters — and then extends it to you.",
+ title:"John 14 — image Christology",
+ claim:"\u201CWhoever has seen me has seen the Father.\u201D",
+ evid:"This rests on the same mutual indwelling — the intuitive logic of divine images: in the ancient world, seeing a deity's image was seeing the deity.",
+ link:"https://www.biblegateway.com/passage/?search=John+14:5-11&version=NRSVUE",linkLabel:"John 14:5–11 · NRSVUE"},
+{act:2,no:"B2",
+ title:"John 10:30–38 — oneness is indwelling",
+ claim:"\u201CThe Father and I are one\u201D is explained in v38 as mutual indwelling.",
+ evid:"The Jews' accusation — \u201Cyou make yourself God\u201D — is itself {{anarthrous}} (theon, parallel to anarthrous anthropos): \u201Cmaking yourself divine or a god,\u201D not the very God of Israel.",
+ quote:"{{John 10:33}}: 'you, though only a human, are making yourself God' — σὺ ἄνθρωπος ὢν ποιεῖς σεαυτὸν θεόν · sy anthrōpos ōn poieis seauton theon",
+ quoteSrc:"John 10:33 — both nouns anarthrous: 'a human,' 'a god'",
+ link:"https://www.biblegateway.com/passage/?search=John+10:30-38&version=NRSVUE",linkLabel:"John 10:30–38 · NRSVUE"},
+{act:2,no:"B3",
+ title:"Psalm 82 — humans can be gods",
+ claim:"Jesus answers with the LXX: \u201CYou are gods.\u201D",
+ evid:"Rabbinic tradition read Psalm 82 as Israel at Sinai — receiving the word of God made them immortal gods until the golden calf. Jesus's point: your own scriptures say humans become gods, and that word is standing before you right now. John's soteriology is divinization (John 1:12: children of God).",
+ note:"The rabbis read Psalm 82 as Israel at Sinai: people who received God's word and became, for a moment, gods — until the golden calf. Jesus quotes it back: your own tradition says humans can bear the divine word. That word is standing here.",
+ quote:"Is it not written in your law, \u201CI said, You are gods\u201D? If those to whom the word of God came were called gods and the scripture cannot be annulled...",
+ quoteSrc:"John 10:34–35, quoting Psalm 82:6",
+ link:"https://www.biblegateway.com/passage/?search=John+10:34&version=NRSVUE",linkLabel:"John 10:34 · NRSVUE"},
+{act:2,no:"B4",
+ title:"John 17 — oneness, extended",
+ claim:"Jesus prays three times that his followers be one with him precisely as he is one with the Father.",
+ evid:"Mutual indwelling, extended to believers — the engine of John's divinization: children of God become one as he is one with the Father.",
+ link:"https://www.biblegateway.com/passage/?search=John+17:11-23&version=NRSVUE",linkLabel:"John 17 · NRSVUE"},
+{act:2,no:"B5",
+ title:"The animate image — the thread made plain",
+ claim:"The image isn't a metaphor here. It's the ancient world's most literal logic.",
+ evid:"A deity's image carried the deity's presence — see the image, see the god. Humanity was made in the divine image (Genesis 1:26); Jesus is called the image; and the gospel's promise is that the image is shared, not hoarded: you become a child of God, one with him as he is one with the Father. That's why the oneness texts and the image texts are one argument.",
+ note:"The same thread runs through Genesis 1's \u201Cimage of God\u201D — the living idol placed in the cosmic temple, the priestly answer to the gods who needed manufactured images. John's Jesus is that image, walking."},
+{act:3,no:"C1",roomTitle:"The Name — the angel who bears it",roomIntro:"A template older than the gospel: an angel can carry the divine name and act with God's authority. Thomas's confession and the \u201CI am\u201D read by that light.",
+ title:"The divine-name template",
+ claim:"An angel can bear the divine name — and act as God.",
+ evid:"Exodus 23:20–21: the angel with the name in him does what only God does (\u201Che will not pardon your transgression,\u201D echoing Joshua 24:19). The template runs through the Apocalypse of Abraham's Yahoel and b. Sanhedrin 38b's Metatron — \u201Cwhose name is like his master's\u201D — and the angel of the burning bush, who speaks as God by bearing the name.",
+ note:"The Talmud is rabbinic literature from centuries after Jesus — but it preserves a template far older: an angel can carry God's own name and act with God's authority. This is the mental furniture John is working with.",
+ quote:"Behold, I send an angel before you... Take heed of him and obey his voice. Do not defy him, for he will not pardon your transgression, for my name is in him.",
+ quoteSrc:"Exodus 23:20–21",
+ link:"https://www.sefaria.org/Sanhedrin.38b",linkLabel:"b. Sanhedrin 38b · Sefaria"},
+{act:3,no:"C2",
+ title:"Thomas — \u201CMy Lord and my God\u201D",
+ claim:"Thomas isn't calling Jesus ho theos.",
+ evid:"The confession is {{arthrous}} — ho theos mou — but Thomas finally gets what Philip missed in John 14: to see Jesus is to see the Father, because the Father dwells in him. He addresses both: my Lord, and my God.",
+ quote:"Ho kyrios mou kai ho theos mou... I look at my Lord and I also see my God. I confess the two of you.",
+ quoteSrc:"John 20:28 (Greek + reading)",
+ link:"https://www.biblegateway.com/passage/?search=John+20:26-29&version=NRSVUE",linkLabel:"John 20:26–29 · NRSVUE"},
+{act:3,no:"C3",
+ title:"John 8:58 — \u201CI am,\u201D with a wink",
+ claim:"{{ego eimi}} is a coded reference to the divine name — not the name itself.",
+ evid:"The tetragrammaton is never translated ego eimi. The LXX renders ehyeh asher ehyeh (Ex 3:14) as ego eimi ho on; ani hu (Deut 32:39; Isa 43:10) also becomes ego eimi. So Jesus winks: \u201Cguess who is the authorized bearer of the divine name\u201D — the angel-of-the-Lord template, which early Christians identified as Jesus.",
+ note:"The detail that matters: the Greek Bible never translates the divine name as \u201CI am.\u201D When it renders God's words at the bush — \u201CI will be what I will be\u201D — it writes \u201CI am the one who is,\u201D ego eimi ho on. So \u201CI am\u201D is a code, not a name. Jesus says the code — and the wink tells you who's carrying the name.",
+ quote:"God says in Hebrew, \u201CEheieh asher eheieh\u201D... In the ancient Greek translation: \u201CI am the one who is\u201D... \u201CEgo eimi ho on.\u201D",
+ quoteSrc:"Exodus 3:14 (LXX)",
+ link:"https://www.biblegateway.com/passage/?search=Exodus+3:14&version=LXE",linkLabel:"Exodus 3:14 · LXX (Brenton)"},
+{act:4,no:"D1",roomTitle:"What it means — no Trinity in this gospel",roomIntro:"End to end, the reading holds. What arrives later is philosophy, not exegesis.",
+ title:"The synthesis",
+ claim:"End to end, John never identifies Jesus as the very God of Israel.",
+ evid:"Only in the late 2nd century do the apologists import Greek ontological thinking and merge Jesus and God into one being (ousia) — that idea \u201Cis not anywhere in the Gospel of John.\u201D The best reading is the hybrid Logos/image framework: the mutual indwelling as a conceptual elaboration of the animate divine image — the messenger of Yahweh."}
+],
+soWhat:{
+1:"Philo wrote before John, in the Logos tradition John was part of — and probably aware of. Justin, Origen, and Eusebius came after, reading John the same way. A tradition, not a coincidence. Even the modern defender of \u201Cthe Word was God\u201D agrees the grammar is qualitative — the fight is what \u201Cqualitative\u201D means. The Word is divine. It isn't \u201Cthe\u201D God.",
+2:"\u201CI and the Father are one\u201D was never a math problem. It's the logic of images: to see him is to see the Father — and the oneness is on offer. The gospel's big promise isn't \u201CJesus is God\u201D; it's \u201Cyou can be one with him the way he is one with the Father.\u201D",
+3:"The \u201CI am\u201D isn't Jesus announcing he's God. It's a wink at a template older than the gospel: angels could carry God's own name and act with God's authority. Jesus carries it fully — so fully that Thomas ends up confessing both of them.",
+4:"Put it together and John's Jesus is the image and the bearer: the one in whom you see the Father, the one through whom you become a child of God. That's not less than the Trinity. It's older than it. And it's the whole point."
+},
+witnesses:[
+{era:"1st century CE · Alexandria",name:"Philo",role:"The exegete",
+ quote:"He that is truly God is one, but those that are improperly so called are more than one.",
+ quoteGr:"Ὁ μὲν ὄντως ὢν θεὸς εἷς ἐστιν· οἱ δ' ἐν καταχρήσει λεγόμενοι πλείους.",
+ quoteTr:"Ho men ontōs ōn theos heis estin; hoi d' en katachrēsei legomenoi pleious.",
+ take:"The article marks the true God; anarthrous theos marks the chief Word — the \u201Csecond God.\u201D All of it read in the Septuagint."},
+{era:"late 1st century CE",name:"John",role:"The gospel",
+ quote:"{{kai theos ēn ho logos}}",
+ take:"No article. The Word is divine — a god — not the God of Israel."},
+{era:"2nd century CE · Rome",name:"Justin Martyr",role:"The apologist",
+ quote:"another God and Lord under the creator of all things... distinct in number, but not in mind.",
+ take:"The Logos bears the title theos because he performs the Father's will."},
+{era:"3rd century CE · Alexandria",name:"Origen",role:"The exegete's heir",
+ quote:"theos, not ho theos — only the Father is \u201Cthe God,\u201D the true God (paraphrase)",
+ take:"The Logos is divine by participation: distinct, subordinate, the chain unbroken."},
+{era:"4th century CE · post-Nicaea",name:"Eusebius",role:"The historian",
+ quote:"lest he assert that the word was the God who is over all",
+ take:"Even after the creed, the article debate survives."}
+],
+sources:[
+{cat:"Scholars",name:"Dan McClellan",what:"Bible scholar; host of Data Over Dogma",used:"The close reading this walk started from",
+ link:"https://www.youtube.com/watch?v=3lLsIEqv2nU",linkLabel:"the source video"},
+{cat:"Scholars",name:"Daniel Wallace",what:"Evangelical New Testament scholar; Greek Grammar Beyond the Basics (1996)",used:"Agrees the grammar is qualitative; reads it as the Word sharing the divine essence — the genuine dispute is what \u201Cqualitative\u201D meant in the 1st century",
+ link:"https://www.google.com/search?q=%22Greek+Grammar+Beyond+the+Basics%22+Wallace+John+1:1",linkLabel:"find the grammar"},
+{cat:"Scholars",name:"Philo of Alexandria",what:"Jewish philosopher, 1st century CE",used:"Read from at length; the Logos argument's cornerstone",
+ link:"https://www.earlyjewishwritings.com/philo.html",linkLabel:"Philo (Yonge trans.)"},
+{cat:"Scholars",name:"Justin Martyr",what:"2nd-century apologist",used:"Read from — Dialogue with Trypho 56 & 61",
+ link:"https://www.newadvent.org/fathers/01285.htm",linkLabel:"Dialogue with Trypho"},
+{cat:"Scholars",name:"Origen",what:"Church father; Commentary on John, Book 2",used:"In the chain — theos but not ho theos; the Logos divine by participation",
+ noLink:"see Point A, A4"},
+{cat:"Scholars",name:"Eusebius of Caesarea",what:"Church historian",used:"Read from — On Ecclesiastical Theology 2.14",
+ noLink:"print: GCS, ed. Klostermann"},
+{cat:"Scholars",name:"Allie Beth Stuckey",what:"Commentator",used:"Referenced via a prior debate on theosis",
+ noLink:"prior video — see the channel"},
+{cat:"Scholars",name:"Jacob Hansen",what:"Co-speaker in that debate",used:"Referenced via the same debate",
+ noLink:"prior video — see the channel"},
+{cat:"Scholars",name:"Rav Idit & Rav Ditha",what:"Babylonian rabbis",used:"Quoted via b. Sanhedrin 38b",
+ link:"https://www.sefaria.org/Sanhedrin.38b",linkLabel:"Sanhedrin 38b"},
+{cat:"Books & Articles",name:"Philo, On Dreams 1.228–230",what:"Treatise",used:"Read from; quoted at length",
+ quote:"He that is truly God is one, but those that are improperly so called are more than one.",
+ link:"https://www.earlyjewishwritings.com/philo.html",linkLabel:"Philo (Yonge trans.)"},
+{cat:"Books & Articles",name:"Philo, Questions and Answers on Genesis 2.62",what:"Treatise — the Logos as \u201Csecond God\u201D",used:"Read from; quoted",
+ quote:"Nothing mortal can be made in the likeness of the most high one and father of the universe, but only in that of the second God, who is his logos.",
+ link:"https://www.earlyjewishwritings.com/philo.html",linkLabel:"Philo (Yonge trans.)"},
+{cat:"Books & Articles",name:"Justin Martyr, Dialogue with Trypho 56 & 61",what:"Apology",used:"Read from; quoted at length",
+ quote:"There exists and is mentioned in scripture another God and Lord under the creator of all things.",
+ link:"https://www.newadvent.org/fathers/01285.htm",linkLabel:"Dialogue with Trypho 55–68"},
+{cat:"Books & Articles",name:"Eusebius, On Ecclesiastical Theology 2.14",what:"Theology, written after Nicaea",used:"Read from; quoted at length",
+ quote:"Lest he assert that the word was the God who is over all.",
+ noLink:"print only: GCS, ed. Klostermann"},
+{cat:"Books & Articles",name:"McClellan, Adonai's Divine Images (SBL Press, 2023)",what:"His monograph (titled Adonai's Divine Images — Adonai, \u201Cthe Lord,\u201D the traditional euphemism for the name we call Yahweh) — ch. 5 on the angel of the Lord / divine name",used:"The framework this reading builds on",
+ link:"https://www.google.com/search?q=%22Adonai%27s+Divine+Images%22+McClellan",linkLabel:"find the book"},
+{cat:"Books & Articles",name:"Apocalypse of Abraham (chs. 10–18)",what:"Pseudepigraphon — the angel Yahoel",used:"Referenced (Yahoel; Abraham's \u201Cday\u201D)",
+ quote:"[the angel] whose name is like the name of God",
+ noLink:"print: Charlesworth, OTP vol. 1 (Rubinkiewicz trans.)"},
+{cat:"Books & Articles",name:"Babylonian Talmud, Sanhedrin 38b",what:"Rabbinic literature",used:"Quoted — the Metatron passage",
+ quote:"The angel Metatron, whose name is like the name of his master... for my name is in him.",
+ link:"https://www.sefaria.org/Sanhedrin.38b",linkLabel:"Sanhedrin 38b · Sefaria"},
+{cat:"Biblical Texts",name:"John 1:1",what:"The gospel's opening line",used:"Quoted (key) — the anarthrous theos analysis",
+ quote:"kai theos ēn ho logos",
+ link:"https://www.biblegateway.com/passage/?search=John+1:1&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"John 1:12",what:"Children of God",used:"Referenced — divinization",
+ link:"https://www.biblegateway.com/passage/?search=John+1:12&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"John 10:30–38",what:"\u201CI and the Father are one\u201D",used:"Quoted (key) — oneness as mutual indwelling; the Ps 82 answer",
+ quote:"Though only a human, you are making yourself God.",
+ link:"https://www.biblegateway.com/passage/?search=John+10:30-38&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"John 14:5–11",what:"\u201CWhoever has seen me has seen the Father\u201D",used:"Quoted (key) — image Christology",
+ link:"https://www.biblegateway.com/passage/?search=John+14:5-11&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"John 17:11, 20–23",what:"The high-priestly prayer",used:"Quoted — oneness extended to followers",
+ link:"https://www.biblegateway.com/passage/?search=John+17:11-23&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"John 20:26–29",what:"Thomas's confession",used:"Quoted (key) — ho theos mou re-read",
+ quote:"My Lord and my God.",
+ link:"https://www.biblegateway.com/passage/?search=John+20:26-29&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"John 8:56–59",what:"\u201CBefore Abraham was, I am\u201D",used:"Quoted (key) — ego eimi as coded reference",
+ quote:"\u201CDivine name\u201D — and winking at the folks.",
+ link:"https://www.biblegateway.com/passage/?search=John+8:56-59&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Psalm 82:6",what:"\u201CYou are gods\u201D",used:"Quoted — humans as gods; the divinization hinge",
+ quote:"I said, \u201CYou are gods.\u201D",
+ link:"https://www.biblegateway.com/passage/?search=Psalm+82:6&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Exodus 23:20–21",what:"The angel who bears the name",used:"Quoted — the divine-name template",
+ quote:"For my name is in him.",
+ link:"https://www.biblegateway.com/passage/?search=Exodus+23:20-21&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Exodus 3:2, 6",what:"The burning bush",used:"Referenced — the angel who speaks as God",
+ link:"https://www.biblegateway.com/passage/?search=Exodus+3:2-6&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Exodus 3:14",what:"ehyeh asher ehyeh",used:"Quoted — LXX ego eimi ho on",
+ quote:"I am the one who is.",
+ link:"https://www.biblegateway.com/passage/?search=Exodus+3:14&version=LXE",linkLabel:"LXX (Brenton)"},
+{cat:"Biblical Texts",name:"Exodus 24:1",what:"\u201CCome up to the Lord\u201D",used:"Quoted inside the Sanhedrin 38b passage",
+ link:"https://www.sefaria.org/Sanhedrin.38b",linkLabel:"Sanhedrin 38b"},
+{cat:"Biblical Texts",name:"Genesis 31:13",what:"Jacob at Bethel",used:"Quoted — Philo's exegetical crux",
+ quote:"I am the God who appeared to you in the place of God.",
+ link:"https://www.biblegateway.com/passage/?search=Genesis+31:13&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Genesis 9:6",what:"\u201CIn the image of God\u201D",used:"Quoted via Philo (QG 2.62)",
+ link:"https://www.biblegateway.com/passage/?search=Genesis+9:6&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Joshua 24:19",what:"\u201CHe will not pardon your transgression\u201D",used:"Referenced — parallel to Ex 23:21",
+ link:"https://www.biblegateway.com/passage/?search=Joshua+24:19&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Deuteronomy 32:39",what:"ani hu",used:"Quoted — LXX ego eimi",
+ link:"https://www.biblegateway.com/passage/?search=Deuteronomy+32:39&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Isaiah 43:10",what:"ani hu",used:"Quoted — LXX ego eimi",
+ link:"https://www.biblegateway.com/passage/?search=Isaiah+43:10&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Joshua 5",what:"The commander of the Lord's army",used:"Referenced via Justin's list of titles",
+ link:"https://www.biblegateway.com/passage/?search=Joshua+5:13-15&version=NRSVUE",linkLabel:"NRSVUE"},
+{cat:"Biblical Texts",name:"Romans 9:5",what:"Paul's doxology — \u201Cwho is over all, God blessed forever\u201D",used:"The classic counter-text: two readings (Christological vs. doxological), and the anarthrous doxology argument",
+ quote:"ho ōn epi pantōn Theos eulogētos — \u201Cwho is over all, God blessed forever\u201D",
+ link:"https://biblehub.com/text/romans/9-5.htm",linkLabel:"Greek interlinear"},
+{cat:"Translations & Tools",name:"NRSV Updated Edition (NRSVUE)",what:"Modern English translation",used:"Quoted for John 1:1; critiqued — capital-G \u201CGod\u201D obscures the Greek",
+ link:"https://www.biblegateway.com/versions/New-Revised-Standard-Version-Updated-Edition-NRSVUE-Bible",linkLabel:"Bible Gateway"},
+{cat:"Translations & Tools",name:"Septuagint (LXX)",what:"Greek translation",used:"Read from throughout — the authoritative text for Philo's world",
+ link:"https://www.biblegateway.com/versions/Brentons-English-Septuagint-LXX-Bible",linkLabel:"Brenton's LXX"},
+{cat:"Translations & Tools",name:"Greek text of John (SBLGNT)",what:"Original language",used:"The anarthrous/arthrous theos analysis",
+ link:"https://www.biblegateway.com/passage/?search=John+1:1&version=SBLGNT",linkLabel:"SBLGNT"},
+{cat:"Translations & Tools",name:"gnome (γνώμη)",what:"Greek term",used:"Lexical analysis: \u201Cmind/will,\u201D not \u201Cessence\u201D",
+ noLink:"see the Greek Room — gnōmē"},
+{cat:"Other",name:"Council of Nicaea (325 CE)",what:"Historical council",used:"Context — Eusebius writing after it",
+ noLink:"context"},
+{cat:"Other",name:"Trinitarian framework",what:"Theological system",used:"Argued against throughout — the anachronism claim",
+ noLink:"see the argument"},
+{cat:"Other",name:"Rabbinic exegesis of Psalm 82",what:"Interpretive tradition",used:"Summarized — Israel at Sinai, the golden calf",
+ noLink:"summarized, not quoted"},
+{cat:"Other",name:"Metatron",what:"Angel in Sanhedrin 38b",used:"Quoted — \u201Cwhose name is like his master's\u201D",
+ link:"https://www.sefaria.org/Sanhedrin.38b",linkLabel:"Sanhedrin 38b"},
+{cat:"Other",name:"Yahoel",what:"Angel in Apocalypse of Abraham",used:"Referenced — the divine-name bearer",
+ noLink:"print: Charlesworth, OTP vol. 1"},
+{cat:"Other",name:"Tetragrammaton / divine name",what:"The four-letter name",used:"Analyzed — never translated ego eimi",
+ noLink:"see Point C, C3"},
+{cat:"Other",name:"Action Comics #1",what:"Comic book",used:"The closing joke",
+ noLink:"\u201Cthe fifth for this video\u201D"}
+]
+};
+/* ── render ─────────────────────────────── */
+const GLOSS = {
+"anarthrous":{t:"anarthrous — \u201Cwithout the article\u201D",body:`
+<p>The word itself is the lesson: <em>a</em> + <em>arthron</em> — \u201Cwithout the joint.\u201D In Greek grammar, an <em>arthron</em> is the little word for \u201Cthe\u201D: <em>ho</em>, <em>hē</em>, <em>to</em>.</p>
+<p>English has the same word — but Greek used it far more, and sometimes its presence or absence was the whole point.</p>
+<p>The whole trick in one verse, John 1:1: the Word is \u201Cwith <em>the</em> God\u201D — article present, that's the God of Israel. But the Word itself is called <em>theos</em> — no article. <em>Anarthrous.</em></p>
+<p>One correction before this gets too flat: Greek drops the article <em>a lot</em>. Anarthrous <em>theos</em> can still mean the true God — Paul writes \u201Cfrom <em>theos</em> our Father\u201D (Rom 1:7), no article, unambiguously the God of Israel. The signal is never the absence alone; it's the <em>construction</em> (predicate position), the <em>context</em>, and the <em>contrast</em> inside the sentence. The Greek Room, lesson 3, unpacks it.</p>
+<p>The everyday version: \u201CHe's <em>a</em> genius\u201D vs \u201CHe's <em>the</em> genius.\u201D Same word, completely different claim. John writes the first about the Word — divine, a god, sharing the quality of God — not \u201Cthe God\u201D himself.</p>`},
+"arthrous":{t:"arthrous — \u201Cwith the article\u201D",body:`
+<p><em>Arthrous</em> just means the word carries its article — \u201Cthe.\u201D In John 20:28, Thomas's confession uses the arthrous form: <em>ho theos mou</em>, \u201Cmy God,\u201D with the article in front.</p>
+<p>That contrast is the whole argument: anarthrous <em>theos</em> = the category, the quality — divine. Arthrous <em>ho theos</em> = the specific one — the God of Israel.</p>`},
+"kai theos ēn ho logos":{t:"kai theos ēn ho logos — word by word",body:`
+<table class="g-table"><tr><td>kai</td><td>and</td></tr><tr><td>theos</td><td>God / divine — <em>no article</em></td></tr><tr><td>ēn</td><td>was</td></tr><tr><td>ho logos</td><td>the Word — <em>the article marks it</em></td></tr></table>
+<p>One layer deeper: <em>theos</em> also sits <em>before</em> the verb — a predicate position where Greek often drops the article even for definite things, and grammarians (Colwell, then Harner) read the result as <em>qualitative</em>: the Word shares the quality of deity. The contrast with the article is what makes it visible.</p>
+<p>If John meant \u201Cthe Word was <em>the</em> God,\u201D Greek would write <em>kai ho theos ēn ho logos</em> — article on both sides. He didn't. The missing article is the whole exhibit.</p>
+<p>English Bibles that print \u201Cthe Word was God\u201D with a capital G are making a choice the Greek doesn't force.</p>`},
+"theos":{t:"theos — god / God / divine",body:`
+<p><em>Theos</em> is the Greek word for \u201Cgod.\u201D It's used for the true God, for pagan gods, and — in John — for the Word.</p>
+<p>Greek decided which one you meant with the article: <em>ho theos</em> = \u201Cthe God\u201D; bare <em>theos</em> = \u201Cdivine, a god, deity.\u201D The article is the pointer.</p>`},
+"ego eimi":{t:"ego eimi — \u201CI am\u201D",body:`
+<p><em>Ego eimi</em> is plain Greek for \u201CI am.\u201D The interesting part is the Old Greek translation: when God tells Moses \u201CI will be what I will be,\u201D the Greek Bible renders it <em>ego eimi ho on</em> — \u201CI am the one who is.\u201D</p>
+<p>And here's the detail that matters: the divine name itself (YHWH) is never translated <em>ego eimi</em>. So when Jesus says \u201CI am\u201D in John 8:58, it's a code, not a name — a wink at the bearer-of-the-name template.</p>`},
+"gnome":{t:"gnōmē (γνώμη) — mind, will, intention",body:`
+<p><em>Gnōmē</em> means mind, will, intention — the sense of a thing. Some translators render it \u201Cessence\u201D when Justin writes that the Word is distinct from God \u201Cin number, but not in gnōmē.\u201D</p>
+<p>That's a loaded choice. Read it right, and Justin isn't saying the Word shares God's being — he's saying the Word is God's own mind, in action. Will, not substance.</p>`},
+"poietikos":{t:"poiētikos — \u201Ccapable of making\u201D",body:`
+<p>From <em>poiein</em>, \u201Cto make.\u201D <em>Poiētikos</em> is the adjective — \u201Ccharacterized by the capacity to make.\u201D The noun — <em>poiētēs</em>, \u201Cthe Maker\u201D — is what you'd call the Creator himself.</p>
+<p>Eusebius catches the tradition using the <em>adjective</em> for the Son: the Word does the making but is never named \u201Cthe Maker.\u201D Grammar doing theology.</p>`},
+"John 10:33":{t:"John 10:33 — the accusation, word by word",body:`
+<table class="g-table">
+<tr><td>σὺ (sy)</td><td>you</td></tr>
+<tr><td>ἄνθρωπος (anthrōpos)</td><td>a human — <em>no article</em></td></tr>
+<tr><td>ὢν (ōn)</td><td>being</td></tr>
+<tr><td>ποιεῖς (poieis)</td><td>you make</td></tr>
+<tr><td>σεαυτὸν (seauton)</td><td>yourself</td></tr>
+<tr><td>θεόν (theon)</td><td>a god — <em>no article</em></td></tr>
+</table>
+<p>Read it aloud: \u201Csy anthrōpos ōn poieis seauton theon\u201D — \u201Cyou, being a human, make yourself a god.\u201D Both sides of the parallel are anarthrous: <em>a</em> human, <em>a</em> god.</p>
+<p>If the charge were \u201Cyou make yourself <em>the</em> God,\u201D Greek would say <em>ton theon</em>. It doesn't. Even the accusation runs on the same grammar as John 1:1 — which is exactly why Jesus answers with Psalm 82: \u201Cyour own law says humans can be gods.\u201D</p>`}
+};
+
+function glossText(s){
+  if(!s) return '';
+  let out = esc(s);
+  out = out.replace(/\{\{([^}]+)\}\}/g, (m,term)=>{
+    const key = term.trim();
+    const g = GLOSS[key];
+    if(!g) return esc(term);
+    return `<button type="button" class="gloss" data-g="${esc(key)}" aria-label="Explain: ${esc(g.t)}">${esc(term)}</button>`;
+  });
+  return out;
+}
+
+const modal = document.getElementById('modal');
+function openGloss(key){
+  const g = GLOSS[key];
+  if(!g) return;
+  document.getElementById('glossTitle').textContent = g.t;
+  document.getElementById('glossBody').innerHTML = g.body;
+  modal.hidden = false;
+  document.body.style.overflow = 'hidden';
+  modal.querySelector('.modal-close').focus();
+}
+function closeGloss(){
+  modal.hidden = true;
+  document.body.style.overflow = '';
+}
+document.addEventListener('click', e=>{
+  const chip = e.target.closest('.gloss');
+  if(chip){ openGloss(chip.dataset.g); return; }
+  if(e.target.closest('[data-close]')) closeGloss();
+});
+document.addEventListener('keydown', e=>{ if(e.key==='Escape' && !modal.hidden) closeGloss(); });
+
+const modeBtn = document.getElementById('modeBtn');
+function setMode(depth){
+  document.body.classList.toggle('story', !depth);
+  modeBtn.classList.toggle('on', depth);
+  modeBtn.textContent = depth ? 'Just the story' : 'Show the scholarship';
+  modeBtn.setAttribute('aria-pressed', String(depth));
+  try{ localStorage.setItem('jm-depth', depth ? '1' : '0'); }catch(e){}
+}
+modeBtn.addEventListener('click', ()=> setMode(document.body.classList.contains('story')));
+setMode(localStorage.getItem('jm-depth') === '1');
+
+const actsEl = document.getElementById('acts');
+const mapEl = document.getElementById('actMap');
+const lineEl = document.getElementById('threadLine');
+const gridEl = document.getElementById('srcGrid');
+const filtEl = document.getElementById('filters');
+
+const ACTS = ['The Logos','The Image','The Name','What it means'];
+
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+
+function renderActs(){
+  const groups = {};
+  DATA.steps.forEach(s=>{(groups[s.act] = groups[s.act] || []).push(s)});
+  Object.keys(groups).forEach(k=>{
+    const steps = groups[k];
+    const sec = document.createElement('section');
+    sec.className = 'act'; sec.id = 'act-'+k;
+    sec.innerHTML = `<div class="act-head">
+      <div class="act-num">Point ${['A','B','C','D'][k-1]} · ${ACTS[k-1]||''}</div>
+      <h2>${esc(steps[0].roomTitle)}</h2>
+      <p class="act-intro">${esc(steps[0].roomIntro)}</p>
+    </div>` + (DATA.soWhat[k]?`
+      <div class="so-what"><span class="lbl">In plain words</span><p>${esc(DATA.soWhat[k])}</p></div>`:'') + steps.map((s,i)=>`
+      <article class="step">
+        <div class="step-top">
+          <div class="step-no">${s.no||String(s.n).padStart(2,'0')}</div>
+          <h3>${esc(s.title)}</h3>
+        </div>
+        <p class="claim">${glossText(s.claim)}</p>
+        <p class="evid">${glossText(s.evid)}</p>
+        ${s.note?`<p class="note"><span class="lbl">Context</span>${glossText(s.note)}</p>`:''}
+        ${s.quote?`<blockquote class="quote">${glossText(s.quote)}${s.quoteGr?`<span class="qgr">${esc(s.quoteGr)}</span>`:''}${s.quoteTr?`<span class="qtr">${esc(s.quoteTr)}</span>`:''}<span class="src">${esc(s.quoteSrc||'')}</span></blockquote>`:''}
+        ${s.link?`<div class="step-link"><a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.linkLabel||'open the text')} ↗</a></div>`:''}
+      </article>`).join('');
+    actsEl.appendChild(sec);
+  });
+  ACTS.forEach((a,i)=>{
+    const el = document.createElement('a');
+    el.href = '#act-'+(i+1); el.textContent = 'ABCD'[i];
+    mapEl.appendChild(el);
+  });
+}
+
+function renderThread(){
+  lineEl.innerHTML = DATA.witnesses.map(w=>`
+    <article class="wit">
+      <div class="era">${esc(w.era)}</div>
+      <h4>${esc(w.name)}</h4>
+      <div class="role">${esc(w.role)}</div>
+      <blockquote>${glossText(w.quote)}${w.quoteGr?`<span class="qgr">${esc(w.quoteGr)}</span>`:''}${w.quoteTr?`<span class="qtr">${esc(w.quoteTr)}</span>`:''}</blockquote>
+      <p class="take">${esc(w.take)}</p>
+    </article>`).join('');
+}
+
+let filter = 'All';
+const CATS = ['All','Scholars','Books & Articles','Biblical Texts','Translations & Tools','Other'];
+function renderFilters(){
+  filtEl.innerHTML = CATS.map(c=>`<button data-cat="${c}" class="${c===filter?'on':''}">${c}</button>`).join('');
+  filtEl.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{
+    filter = b.dataset.cat;
+    filtEl.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+    renderGrid();
+  }));
+}
+function renderGrid(){
+  const list = filter==='All' ? DATA.sources : DATA.sources.filter(s=>s.cat===filter);
+  gridEl.innerHTML = list.map(s=>`
+    <article class="src-card">
+      <div class="cat">${esc(s.cat)}</div>
+      <h4>${esc(s.name)}</h4>
+      ${s.what?`<div class="what">${esc(s.what)}</div>`:''}
+      ${s.used?`<div class="used">${esc(s.used)}</div>`:''}
+      ${s.quote?`<div class="q">${esc(s.quote)}</div>`:''}
+      ${s.link?`<div class="lk"><a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.linkLabel||'open source')} ↗</a></div>`:`<div class="lk" style="color:var(--mute)">${esc(s.noLink||'print / see transcript')}</div>`}
+    </article>`).join('') || `<p class="act-intro" style="grid-column:1/-1">Nothing in this category — yet.</p>`;
+}
+
+/* ── rail behaviour ─────────────────────── */
+const acts = () => [...document.querySelectorAll('.act')];
+const mapLinks = () => [...mapEl.querySelectorAll('a')];
+function onScroll(){
+  const y = window.scrollY;
+  const h = document.documentElement.scrollHeight - innerHeight;
+  document.getElementById('progress').style.width = (h>0?(y/h)*100:0)+'%';
+  let cur = 0;
+  acts().forEach((a,i)=>{ if(y >= a.offsetTop - 120) cur = i });
+  mapLinks().forEach((l,i)=>l.classList.toggle('on', i===cur));
+  const g = document.getElementById('greek');
+  const gl = mapLinks()[mapLinks().length-1];
+  if(gl && g) gl.classList.toggle('on', y >= g.offsetTop - 120 && y < g.offsetTop + g.offsetHeight - 120);
+}
+function jump(d){
+  const list = acts();
+  let cur = 0;
+  list.forEach((a,i)=>{ if(scrollY >= a.offsetTop - 100) cur = i });
+  const next = Math.min(Math.max(cur+d,0), list.length-1);
+  list[next].scrollIntoView({behavior: prefersReduced()?'auto':'smooth'});
+}
+function prefersReduced(){return matchMedia('(prefers-reduced-motion: reduce)').matches}
+document.querySelector('.prev').addEventListener('click',()=>jump(-1));
+document.querySelector('.next').addEventListener('click',()=>jump(1));
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowDown'||e.key==='ArrowRight'){e.preventDefault();jump(1)}
+  if(e.key==='ArrowUp'||e.key==='ArrowLeft'){e.preventDefault();jump(-1)}
+});
+addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+renderActs(); renderThread(); renderFilters(); renderGrid();
+mapEl.insertAdjacentHTML('beforeend','<a href="#greek">GREEK</a>'); onScroll();
+</script>
+</body>
+</html>
