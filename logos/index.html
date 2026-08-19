@@ -578,7 +578,7 @@ steps:[
 {act:2,no:"B5",
  title:"The animate image — the thread made plain",
  claim:"The image isn't a metaphor here. It's the ancient world's most literal logic.",
- evid:"A deity's image carried the deity's presence — see the image, see the god. Humanity was made in the divine image (Genesis 1:26); Jesus is called the image; and the gospel's promise is that the image is shared, not hoarded: you become a child of God, one with him as he is one with the Father. That's why the oneness texts and the image texts are one argument.",
+ evid:"A deity's image carried the deity's presence — see the image, see the god. Humanity was made in the divine image (Genesis 1:26); Jesus is called the image; and the gospel's promise is {{participation}} — the image is shared, not hoarded: you become a child of God, one with him as he is one with the Father. That's why the oneness texts and the image texts are one argument.",
  note:"The same thread runs through Genesis 1's \u201Cimage of God\u201D — the living idol placed in the cosmic temple, the priestly answer to the gods who needed manufactured images. John's Jesus is that image, walking."},
 {act:3,no:"C1",roomTitle:"The Name — the angel who bears it",roomIntro:"A template older than the gospel: an angel can carry the divine name and act with God's authority. Thomas's confession and the \u201CI am\u201D read by that light.",
  title:"The divine-name template",
@@ -610,7 +610,7 @@ steps:[
 ],
 soWhat:{
 1:"Philo wrote before John, in the Logos tradition John was part of — and probably aware of. Justin, Origen, and Eusebius came after, reading John the same way. A tradition, not a coincidence. Even the modern defender of \u201Cthe Word was God\u201D agrees the grammar is qualitative — the fight is what \u201Cqualitative\u201D means. The Word is divine. It isn't \u201Cthe\u201D God.",
-2:"\u201CI and the Father are one\u201D was never a math problem. It's the logic of images: to see him is to see the Father — and the oneness is on offer. The gospel's big promise isn't \u201CJesus is God\u201D; it's \u201Cyou can be one with him the way he is one with the Father.\u201D",
+2:"\u201CI and the Father are one\u201D was never a math problem. It's the logic of images: to see him is to see the Father — and the oneness is on offer. The gospel's big promise isn't \u201CJesus is God\u201D; it's {{participation}} — you're drawn into the life that flows between the Father and the Son.",
 3:"The \u201CI am\u201D isn't Jesus announcing he's God. It's a wink at a template older than the gospel: angels could carry God's own name and act with God's authority. Jesus carries it fully — so fully that Thomas ends up confessing both of them.",
 4:"Put it together and John's Jesus is the image and the bearer: the one in whom you see the Father, the one through whom you become a child of God. That's not less than the Trinity. It's older than it. And it's the whole point."
 },
@@ -781,7 +781,11 @@ const GLOSS = {
 <tr><td>θεόν (theon)</td><td>a god — <em>no article</em></td></tr>
 </table>
 <p>Read it aloud: \u201Csy anthrōpos ōn poieis seauton theon\u201D — \u201Cyou, being a human, make yourself a god.\u201D Both sides of the parallel are anarthrous: <em>a</em> human, <em>a</em> god.</p>
-<p>If the charge were \u201Cyou make yourself <em>the</em> God,\u201D Greek would say <em>ton theon</em>. It doesn't. Even the accusation runs on the same grammar as John 1:1 — which is exactly why Jesus answers with Psalm 82: \u201Cyour own law says humans can be gods.\u201D</p>`}
+<p>If the charge were \u201Cyou make yourself <em>the</em> God,\u201D Greek would say <em>ton theon</em>. It doesn't. Even the accusation runs on the same grammar as John 1:1 — which is exactly why Jesus answers with Psalm 82: \u201Cyour own law says humans can be gods.\u201D</p>`},
+"participation":{t:"participation (methexis) — sharing in the divine life",body:`
+<p><em>Participation</em> — Greek <em>methexis</em> — is the fathers' word for what John describes: being drawn into the life that flows between the Father and the Son, without ceasing to be yourself.</p>
+<p>It's the honest middle: not \u201Cyou become God\u201D — that blurs the persons. Not \u201Cyou just imitate Jesus\u201D — that shrinks the promise. Participation: the image is shared, not hoarded. You become a child of God, one with him as he is one with the Father.</p>
+<p>It's also the word Origen used for the Logos himself: divine <em>by participation</em>. The same word that describes the Word describes you — in him.</p>`}
 };
 
 function glossText(s){
@@ -850,7 +854,7 @@ function renderActs(){
       <h2>${esc(steps[0].roomTitle)}</h2>
       <p class="act-intro">${esc(steps[0].roomIntro)}</p>
     </div>` + (DATA.soWhat[k]?`
-      <div class="so-what"><span class="lbl">In plain words</span><p>${esc(DATA.soWhat[k])}</p></div>`:'') + steps.map((s,i)=>`
+      <div class="so-what"><span class="lbl">In plain words</span><p>${glossText(DATA.soWhat[k])}</p></div>`:'') + steps.map((s,i)=>`
       <article class="step">
         <div class="step-top">
           <div class="step-no">${s.no||String(s.n).padStart(2,'0')}</div>
