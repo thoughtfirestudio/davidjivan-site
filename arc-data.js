@@ -15,7 +15,8 @@ window.ARC = {
         "The divine council: El Elyon divides the nations, and Yahweh receives Jacob as his portion (Deut 32:8-9).",
         "The Bible still preserves the older world: Psalm 82, the council, the plural in Genesis 1:26."
       ],
-      chips: ["baal-cycle", "divine-council", "enuma-elish", "garden-of-eden", "adapa-myth", "sumerian-king-list"]
+      chips: ["baal-cycle", "divine-council", "enuma-elish", "garden-of-eden", "adapa-myth", "sumerian-king-list"],
+      roadmap: { url: "/bible", label: "the full bible roadmap" }
     },
     {
       n: 2,
@@ -28,7 +29,8 @@ window.ARC = {
         "Asherah, the consort, worshipped beside Yahweh until the reforms removed her.",
         "Exile → Deutero-Isaiah: 'Yahwism went into exile; Judaism came back.' Monotheism was born in Babylon."
       ],
-      chips: ["original-gods-of-israel", "mark-smith-early-history-god", "flood-source-criticism", "babylonian-flood-myth", "comparative-flood-myths"]
+      chips: ["original-gods-of-israel", "mark-smith-early-history-god", "flood-source-criticism", "babylonian-flood-myth", "comparative-flood-myths"],
+      roadmap: { url: "/bible", label: "the full bible roadmap" }
     },
     {
       n: 3,
