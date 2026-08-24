@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">I grew up in a church that thought Mormonism was obviously false. Not worth taking seriously. A guy in upstate New York finds golden plates from an angel? A religion founded in the 19th century claiming to restore what Christianity lost? Witnesses who were all related to each other? Come on. We didn't even need arguments. The whole thing was self-evidently ridiculous.</p>
+  <p>I grew up in a church that thought Mormonism was obviously false. Not worth taking seriously. A guy in upstate New York finds golden plates from an angel? A religion founded in the 19th century claiming to restore what Christianity lost? Witnesses who were all related to each other? Come on. We didn't even need arguments. The whole thing was self-evidently ridiculous.</p>
 
   <p>Then I learned about the witnesses.</p>
 
@@ -66,7 +66,7 @@
 
   <p>And then there are the martyrs. Joseph Smith died at the hands of a mob in Carthage, Illinois. His brother Hyrum — one of the Eight Witnesses — died beside him. Mormons were driven from state to state by mob violence, persecuted, and killed. They didn't recant. Smith could have escaped. He went to Carthage knowing he wouldn't return.</p>
 
-  <div class="thesis reveal" style="--i:4">
+  <div class="thesis">
     <div class="thesis-mark">"</div>
     <div class="thesis-quote">If three witnesses, an angel, divine voices, an empty tomb, a transformed group of terrified deserters, and a willingness to die without recanting prove Christianity true — then three witnesses, an angel, divine voices, physical plates, a transfiguration witnessed by hundreds, and a willingness to die without recanting prove Mormonism true.</div>
     <div class="thesis-close">If the second set doesn't prove Mormonism, the first set can't prove Christianity. Same evidence structure. Same epistemic standards. You don't get to switch standards when the religion changes.</div>
@@ -114,7 +114,7 @@
 
   <!-- COLOPHON -->
 
-  <div class="colophon reveal" style="--i:3">
+  <div class="colophon">
     <p><span class="sig">Sources informing this piece</span> &mdash; Dan Vogel, <em>Early Mormon Documents</em> (Signature Books, 2003) · FAIR (fairlatterdaysaints.org) · Wikipedia: Book of Mormon Witnesses, Three Witnesses, Brigham Young · Alex O'Connor vs. Trent Horn debate on the resurrection</p>
   </div>
 
@@ -125,6 +125,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

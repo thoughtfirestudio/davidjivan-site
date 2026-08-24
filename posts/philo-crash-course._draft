@@ -24,7 +24,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">You cannot get from Heraclitus to the Gospel of John without passing through Philo of Alexandria. He is the hinge of the entire Logos tradition &mdash; a first-century Jewish philosopher who synthesized Platonic and Stoic philosophy with the Hebrew scriptures decades before the Fourth Gospel was written. His Logos theology gave the author of John the vocabulary for "In the beginning was the Logos." Without him, that opening sentence reads as poetry. With him, it reads as a precise metaphysical claim about the structure of reality.</p>
+  <p>You cannot get from Heraclitus to the Gospel of John without passing through Philo of Alexandria. He is the hinge of the entire Logos tradition &mdash; a first-century Jewish philosopher who synthesized Platonic and Stoic philosophy with the Hebrew scriptures decades before the Fourth Gospel was written. His Logos theology gave the author of John the vocabulary for "In the beginning was the Logos." Without him, that opening sentence reads as poetry. With him, it reads as a precise metaphysical claim about the structure of reality.</p>
 
   <p>Philo was born around 25 BCE into one of the wealthiest Jewish families in Alexandria &mdash; the intellectual capital of the Mediterranean world. His brother Alexander was one of the richest men in the city. His nephew Tiberius Julius Alexander would later become Roman prefect of Egypt and play a role in the siege of Jerusalem in 70 CE. Philo himself led the Jewish embassy to the Emperor Caligula around 40 CE, after anti-Jewish riots in Alexandria. He was a man of practical affairs, not only a philosopher. He died around 50 CE &mdash; before any Gospel was written, before Paul's letters were collected, before anything that would become the New Testament existed as a text. The direction of influence runs one way.</p>
 
@@ -323,25 +323,25 @@
   <p>Four books that provide the scholarly infrastructure for reading Philo seriously. Read them alongside the primary texts, not instead of them.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">David T. Runia</div>
       <div class="card-year">1986</div>
       <div class="card-label">Philo of Alexandria and the Timaeus of Plato</div>
       <p class="card-body">"The definitive study of Philo's Platonic background. Runia traces, passage by passage, how Philo reads the <em>Timaeus</em> &mdash; Plato's cosmological dialogue &mdash; through the lens of Genesis, and Genesis through the lens of the <em>Timaeus</em>. Essential for understanding why Philo's synthesis was philosophically serious rather than superficially eclectic. Dense but rewarding. If you read one secondary work on Philo, this is the one that shows you the engine."</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">David T. Runia</div>
       <div class="card-year">1993</div>
       <div class="card-label">Philo in Early Christian Literature</div>
       <p class="card-body">Traces Philo's influence on early Christian theology &mdash; how his Logos vocabulary, his allegorical method, and his philosophical framework were absorbed by Clement of Alexandria, Origen, Eusebius, Ambrose, and others. The transmission chain from Philo to the Christian intellectual tradition is documented here with scholarly precision. Read this after you have a working knowledge of the primary texts.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">"Adam Kamesar, ed."</div>
       <div class="card-year">2009</div>
       <div class="card-label">The Cambridge Companion to Philo</div>
       <p class="card-body">"Multi-author introduction covering Philo's philosophical, exegetical, historical, and political dimensions. Good for breadth &mdash; each chapter is by a different specialist, so you get multiple angles rather than a single interpretive line. Useful as a reference after encountering Philo in the primary texts. Not a substitute for reading him."</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">C.H. Dodd</div>
       <div class="card-year">1953</div>
       <div class="card-label">The Interpretation of the Fourth Gospel</div>
@@ -433,6 +433,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

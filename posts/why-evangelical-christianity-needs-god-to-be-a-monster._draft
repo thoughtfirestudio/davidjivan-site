@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">The crack was moral before it was intellectual.</p>
+  <p>The crack was moral before it was intellectual.</p>
 
   <p>The crack wasn't intellectual — it wasn't the birth narratives or the pseudepigrapha. Those came later. The crack was moral: the God I was being handed in the version of Christianity I grew up with would create conscious beings knowing most of them would end in eternal conscious torment. The math doesn't work. The character doesn't cohere. Whatever God is, it's not that.</p>
 
@@ -83,7 +83,7 @@
     </div>
   </div>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     The monster isn't incidental to penal substitution. It's structural. The cross as payment requires a debt. The debt requires a creditor. And in this frame, the creditor is God — the same God who will enforce eternal torment on anyone who doesn't accept the payment. The cross doesn't rescue you <em>from</em> God. It rescues you from what God will do to you if you refuse it.
   </div>
 
@@ -95,7 +95,7 @@
 
   <p>But there's a deeper lock. The system has built-in immunity to the moral objection I'm making. If your conscience says eternal torment is wrong, evangelicalism has an answer ready: your conscience is fallen. The heart is deceitful. "Lean not on your own understanding." The moral intuition that started my whole project — "I can't worship a God who does that" — is exactly the intuition the system was engineered to suppress. You're not supposed to trust it. You're supposed to submit it to the text, and the text — read plainly, interpreted literally — says hell is real, so your moral discomfort is proof of your rebellion, not evidence of a theological problem.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The system teaches you to distrust the one thing that could free you from it: your own sense that a loving God would not do this.</p>
     <p class="thesis-close"></p>
@@ -129,7 +129,7 @@
 
   <p>What this demonstrates: that the Ground is more fundamental than death. That consciousness — the thing you actually are, underneath the body, underneath the identity, underneath the fear — is not extinguished when the render kills the body. The cross is the proof-of-concept, not the payment. It shows what's always true, not what was uniquely true for one person on one afternoon.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The cross doesn't change God's mind about you. The cross shows you what God has always been: present, indwelling, not leaving — even when you're killing it.</p>
     <p class="thesis-close"></p>
@@ -145,7 +145,7 @@
 
   <p>I'm claiming the part of Christianity the institution tried to bury.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> — Anselm, <em>Cur Deus Homo</em> (c. 1098) &middot; Irenaeus, <em>Against Heresies</em> (c. 180) &middot; Origen, <em>On First Principles</em> (c. 220) &middot; 2 Corinthians 5:19 &middot; Acts 2:23–24 &middot; Gregory of Nyssa, <em>On the Soul and Resurrection</em></p>
   </div>
 
@@ -156,6 +156,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

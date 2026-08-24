@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">Deuteronomy 32:7 says something that should stop you cold if you let it. <em>"Ask your father, and he will show you; your elders, and they will tell you."</em> The text itself is flagging that what comes next is old. Older than the audience receiving it. Pay attention.</p>
+  <p>Deuteronomy 32:7 says something that should stop you cold if you let it. <em>"Ask your father, and he will show you; your elders, and they will tell you."</em> The text itself is flagging that what comes next is old. Older than the audience receiving it. Pay attention.</p>
 
   <p>What comes next is a poem. And the poem, in its oldest recoverable form, describes a scene most people who have read the Bible their whole lives have never seen &mdash; because their translation hid it from them.</p>
 
@@ -58,7 +58,7 @@
 
   <p>Here is what the Dead Sea Scrolls preserve, in the fragment known as 4QDeut<sup>j</sup>:</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">When the Most High (<em>El Elyon</em>) divided the nations, when he separated the sons of Adam, he fixed the boundaries of the peoples according to the number of the sons of God (<em>bene elohim</em>). For Yahweh's portion is his people, Jacob his allotted inheritance.</p>
     <p class="thesis-close"></p>
@@ -74,7 +74,7 @@
 
   <p>Most English Bibles translate from the Masoretic. The NRSV, to its credit, follows the Dead Sea Scrolls reading in the main text and notes the Masoretic variant. But for most readers, working from most translations, the older reading is invisible. Their Bible says "sons of Israel" and the whole thing reads like bookkeeping. The Dead Sea Scrolls show it was a scene in heaven.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     Your translation shapes your theology. Most people don't know they're reading an edited version. The Masoretic editors were not being dishonest &mdash; they were adjusting the text to fit a later, more strictly monotheistic theology. But the adjustment erased something the older text was openly saying. The Dead Sea Scrolls, predating the Masoretic tradition by centuries, preserve what was there before the edit.
   </div>
 
@@ -140,7 +140,7 @@
 
   <p>The flattening into "one God who is all of these things simultaneously, and if the portrait doesn't cohere, that's mystery" &mdash; that came later. The older poetry knew the difference. El Elyon divides. Yahweh receives. The Most High presides over a council. The God of Israel is one member of it. These are not modern critical inventions. They are the oldest recoverable layers of the text the scribes chose to preserve.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The distinction between the transcendent Ground and the active, participating presence was not a modern theological idea projected backward. It was in the oldest material. The tradition's most serious thinkers were recovering what the old poetry already knew.</p>
     <p class="thesis-close"></p>
@@ -160,7 +160,7 @@
 
   <p>Maybe it's convergence. Maybe it's inheritance. Either way, the idea that there's a difference between what God is in the deepest, most unreachable sense and what God does when showing up in history &mdash; that idea didn't start with the Greeks. It was in the poetry first.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> &mdash; Deuteronomy 32:8&ndash;9 (4QDeut<sup>j</sup>, Dead Sea Scrolls reading) &middot; Psalm 82 (NRSVUE) &middot; Mark S. Smith, <em>The Early History of God: Yahweh and the Other Deities in Ancient Israel</em> (2nd ed., 2002) &middot; Mark S. Smith, <em>God in Translation: Deities in Cross-Cultural Discourse in the Biblical World</em> (2008) &middot; Daniel O. McClellan, "The God of Israel and the Gods of the Nations" &middot; Michael Heiser, <em>The Unseen Realm</em> (2015) &middot; Genesis 3:8, 18:1&ndash;8, 32:24&ndash;30 &middot; Exodus 3:2&ndash;4 &middot; Genesis 16:7&ndash;13, 22:15&ndash;16 &middot; 2 Samuel 24:1 / 1 Chronicles 21:1 &middot; Companion pieces: <a href="/posts/the-bible-is-the-inerrant-word-of-god.html">The Bible is the inerrant Word of God</a>, <a href="/posts/the-god-who-didnt-have-to-fight.html">The God who didn't have to fight</a></p>
   </div>
 
@@ -171,6 +171,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

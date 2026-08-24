@@ -24,7 +24,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">Meister Eckhart (c. 1260&ndash;1328) is the figure who proves the Logos tradition did not die with Origen. Three centuries after Origen's condemnation, four centuries before the Enlightenment, a Dominican friar in the Rhineland stood in a pulpit and said things that sound like they came from the same source: the soul's ground is God's ground. There is a point in you that is uncreated and uncreatable. God is always giving birth to the Son &mdash; in you, now. He said these things in German, to ordinary people, and he meant them literally.</p>
+  <p>Meister Eckhart (c. 1260&ndash;1328) is the figure who proves the Logos tradition did not die with Origen. Three centuries after Origen's condemnation, four centuries before the Enlightenment, a Dominican friar in the Rhineland stood in a pulpit and said things that sound like they came from the same source: the soul's ground is God's ground. There is a point in you that is uncreated and uncreatable. God is always giving birth to the Son &mdash; in you, now. He said these things in German, to ordinary people, and he meant them literally.</p>
 
   <p>He held the most prestigious Dominican academic chair in Paris &mdash; twice, which was extremely rare. He served as Provincial of Saxonia, the administrative head of every Dominican house in the region. He was not a marginal mystic. He was one of the most credentialed intellectuals in medieval Europe, and when the Inquisition came for him, he did not recant. He defended himself vigorously, argued his statements were being taken out of context, and died during the trial. The papal bull <em>In Agro Dominico</em> (1329) condemned twenty-eight of his propositions &mdash; seventeen as heretical, eleven as "evil-sounding" &mdash; but it was addressed only to the Archdiocese of Cologne, never promulgated universally. Its actual juridical scope is debated by scholars to this day.</p>
 
@@ -317,25 +317,25 @@
   <p>Four books that map the terrain. Read them alongside the primary sources, not instead of them.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Bernard McGinn</div>
       <div class="card-year">2001</div>
       <div class="card-label">"The Mystical Thought of Meister Eckhart: The Man from Whom God Hid Nothing"</div>
       <p class="card-body">The standard secondary guide in English. McGinn is the foremost Eckhart scholar in the Anglophone world and has spent decades with both the German and Latin corpora. The book covers Eckhart's life, intellectual context, the key concepts (Gottheit, Grunt, Geburt, Gelassenheit, Durchbruch), and the trial. Reliable, thorough, and readable by a non-specialist. If you read one secondary work on Eckhart, this is the one.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">"Reiner Sch&uuml;rmann"</div>
       <div class="card-year">1978</div>
       <div class="card-label">"Meister Eckhart: Mystic and Philosopher"</div>
       <p class="card-body">"A philosophical reading of Eckhart through a Heideggerian lens. Sch&uuml;rmann argues that Eckhart's <em>Gelassenheit</em> anticipates Heidegger's later thought on releasement &mdash; that Eckhart is doing ontology, not piety. Dense, rewarding, and useful for readers who come to Eckhart from philosophy rather than theology. The emphasis on detachment as an ontological posture rather than a moral achievement is precisely right and illuminates the connection to non-dual idealism."</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Oliver Davies</div>
       <div class="card-year">1991</div>
       <div class="card-label">"Meister Eckhart: Mystical Theologian"</div>
       <p class="card-body">A shorter, more accessible introduction than McGinn. Davies situates Eckhart within the Dominican intellectual tradition and the broader medieval context. Good for getting oriented before the primary sources. Less philosophically ambitious than Sch&uuml;rmann but more historically grounded, and useful for understanding why a Dominican friar in the Rhineland was saying the things he was saying.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Amy Hollywood</div>
       <div class="card-year">1995</div>
       <div class="card-label">"The Soul as Virgin Wife: Mechthild of Magdeburg, Marguerite Porete, and Meister Eckhart"</div>
@@ -427,6 +427,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">I need this word back. Here's what's wrong with it and what I mean when I use it.</p>
+  <p>I need this word back. Here's what's wrong with it and what I mean when I use it.</p>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
@@ -116,7 +116,7 @@
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Terms</span> &mdash; <em>Nephesh</em> (Hebrew): the whole living creature, the life itself, the throat/appetite &middot; <em>Psych&#275;</em> (Greek): soul, life, self &mdash; carries different weight in Plato vs. the NT &middot; <em>Pneuma</em> (Greek): spirit, breath, the animating dimension; distinguished from psych&#275; by Paul &middot; <em>Nous</em> (Greek): mind, intellect; the mode of knowing that participates in the Logos &middot; <em>Theosis</em>: deification &mdash; the soul&rsquo;s transformation by participation in the divine life
 
 For the full three-level ontology (Ground, render, soul) and the amnesia&#8596;remembering axis, see <a href="/posts/the-logos-lineage.html">The Logos lineage</a>.</p>
@@ -129,6 +129,5 @@ For the full three-level ontology (Ground, render, soul) and the amnesia&#8596;r
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

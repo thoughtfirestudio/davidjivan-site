@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">Genesis 11:31. "Terah took his son Abram, his grandson Lot son of Haran, and his daughter-in-law Sarai, his son Abram's wife, and they went out together from Ur of the Chaldeans to go into the land of Canaan."</p>
+  <p>Genesis 11:31. "Terah took his son Abram, his grandson Lot son of Haran, and his daughter-in-law Sarai, his son Abram's wife, and they went out together from Ur of the Chaldeans to go into the land of Canaan."</p>
 
   <p>Whether or not Abraham is a historical individual &mdash; and the text gives you very little reason to insist either way &mdash; the authors made a choice to root the patriarchal origin in Mesopotamia. That choice is the point. Not because of what it says about Abraham. Because of what it says about the people writing.</p>
 
@@ -129,7 +129,7 @@
 
   <p>The Mesopotamian inheritance is not a scandal. It's not a problem to manage. The text practically tells you about it. The authors wanted you to know Abraham came from Ur.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The scribes are not hiding the inheritance. They are standing inside it and telling you what it means.</p>
     <p class="thesis-close">That's a different posture than copying, and a different posture than rejecting. It's what happens when a tradition takes its sources seriously enough to rewrite them &mdash; keeping the bones, changing the meaning, and trusting the reader to notice both.</p>
@@ -137,7 +137,7 @@
 
   <p>I keep coming back to this pattern in the Hebrew Bible: authors who are more sophisticated than the readings we've been given credit them for. They knew the source material. They preserved the tensions. They trusted the complexity. And when they named Ur "of the Chaldeans," they were winking at the audience &mdash; you know where this is. You know what we inherited. Now listen to what we did with it.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> &mdash; Genesis 1, 6&ndash;9, 11:31 (NRSVUE) &middot; <em>Atrahasis</em> (Lambert &amp; Millard, 1969; Dalley, <em>Myths from Mesopotamia</em>) &middot; <em>Epic of Gilgamesh</em>, Tablet XI (Andrew George, Penguin ed.) &middot; Mark Smith, <em>The Early History of God</em> &middot; John Walton, <em>Ancient Near Eastern Thought and the Old Testament</em> &middot; Richard Hess, "One Hundred Fifty Years of Comparative Studies on Genesis 1&ndash;11" &middot; Companion pieces: <a href="/posts/the-god-who-didnt-have-to-fight.html">The God who didn't have to fight</a>, <a href="/posts/god-didnt-make-the-world.html">God didn't make the world</a></p>
   </div>
 
@@ -148,6 +148,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

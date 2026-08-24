@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">There&rsquo;s a tradition. Most of the Christian intellectual world draws from it, and it&rsquo;s older than most of them realize. About 1,800 years. Built in the open by serious thinkers. Suppressed by institutions that couldn&rsquo;t use it. Survived underground through channels the institution didn&rsquo;t notice or couldn&rsquo;t stop. I&rsquo;ve been tracing it for a while. The shape keeps getting clearer.</p>
+  <p>There&rsquo;s a tradition. Most of the Christian intellectual world draws from it, and it&rsquo;s older than most of them realize. About 1,800 years. Built in the open by serious thinkers. Suppressed by institutions that couldn&rsquo;t use it. Survived underground through channels the institution didn&rsquo;t notice or couldn&rsquo;t stop. I&rsquo;ve been tracing it for a while. The shape keeps getting clearer.</p>
 
   <p>What follows is the map. Not a catalog of influences or a timeline of ideas. A single thread, handed from one mind to the next, sometimes openly and sometimes in disguise, for almost two millennia. Each figure inherited something, added something, and passed it forward. Some of them were celebrated in their lifetimes. Most were condemned after death. The thread survived anyway.</p>
 
@@ -195,7 +195,7 @@
 
   <p>The tradition keeps finding a way through because the claim at its center is not an institutional claim. It is a structural claim about what reality is, and structural claims do not need institutional permission to be true.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The tradition keeps surviving because &mdash; I think now, after tracing it for years &mdash; the <em>claim is real.</em></p>
     <p class="thesis-close">Not because institutions preserved it. They tried to kill it, repeatedly, and they had the power to do it. They controlled what got copied, what got taught, who got to speak. And the tradition survived anyway &mdash; in borrowed names, in unauthorized translations, in the minds of people who encountered the claim and recognized it as true before they knew it had a history.</p>
@@ -213,7 +213,7 @@
 
   <p>The lineage is the evidence.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> drawn on: Heraclitus, <em>Fragments</em> (DK 1, 2, 30, 50); Stoic <em>logos spermatikos</em> doctrine (Diogenes Laertius VII); Philo of Alexandria, <em>De Opificio Mundi</em>, <em>Legum Allegoriae</em>; the Gospel of John, prologue; Justin Martyr, <em>First Apology</em> 46, <em>Second Apology</em> 13; Clement of Alexandria, <em>Stromata</em>; Origen, <em>De Principiis</em>, <em>Commentary on John</em>; Basil of Caesarea, <em>Against Eunomius</em>; Gregory of Nyssa, <em>Life of Moses</em>, <em>On the Soul and the Resurrection</em>; Gregory of Nazianzus, <em>Theological Orations</em>; Pseudo-Dionysius, <em>Mystical Theology</em>, <em>Divine Names</em>; Maximus the Confessor, <em>Ambigua</em>; John Scotus Eriugena, <em>Periphyseon</em>; Meister Eckhart, German Sermons &amp; Latin Works. &mdash; David Jivan</p>
   </div>
 
@@ -224,6 +224,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

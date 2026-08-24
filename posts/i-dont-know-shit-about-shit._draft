@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">I don't know shit about shit.</p>
+  <p>I don't know shit about shit.</p>
 
   <p>If you've read anything else on this site, that shouldn't surprise you.</p>
 
@@ -92,7 +92,7 @@
 
   <p>The first list I hold because the evidence pulls in one direction hard enough that pretending otherwise would be dishonest. The second list I hold loose, because the evidence doesn't, and pretending otherwise would also be dishonest.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The same person wrote both lists. That is the posture of this whole site.</p>
     <p class="thesis-close"></p>
@@ -117,6 +117,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

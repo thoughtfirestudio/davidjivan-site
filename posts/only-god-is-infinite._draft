@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">A friend sent a voice memo last week. He'd been thinking about infinity, about number, about God. He's a serious person &mdash; reads widely, prays honestly, doesn't posture. The claim he landed on was this: only God is infinite. Creation is finite. Numbers are finite. That's the line. If you let infinity into creation, you blur the Creator/creation distinction, and you're on the road to pantheism.</p>
+  <p>A friend sent a voice memo last week. He'd been thinking about infinity, about number, about God. He's a serious person &mdash; reads widely, prays honestly, doesn't posture. The claim he landed on was this: only God is infinite. Creation is finite. Numbers are finite. That's the line. If you let infinity into creation, you blur the Creator/creation distinction, and you're on the road to pantheism.</p>
 
   <p>He said it as a conversation-ender. The kind of sentence that's meant to settle the question and let everyone go home. I've heard it before &mdash; from pastors, from theologians, from people I respect. It has the shape of a guardrail: God is infinite, we are not, and infinity is what makes God God.</p>
 
@@ -95,7 +95,7 @@
 
   <p>Cantor knew this would be the objection. He sent his distinction to Franzelin &mdash; a Vatican theologian, a cardinal, a man whose job was to guard the line between Creator and creation. Franzelin raised the pantheism worry directly. Christmas Day, 1885. Cantor sharpened the distinction in reply. Four days later Franzelin accepted: "no danger for religious truths." The pantheism charge was withdrawn. Not because the cardinal was soft. Because the precision was real. The cardinal stands in for the friend &mdash; devout, rigorous, moved by the precision when it was stated carefully enough.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     Whether the cosmos is physically infinite is a separate question. Physics has not settled it. Finite does not mean bounded &mdash; a closed curved space can be finite in volume with no edge. Cantor himself denied the universe is spatially infinite. The theological dissolution &mdash; infinity in creation does not crowd God because the infinities are categorically different &mdash; holds regardless. The physics question lives in a different lane.
   </div>
 
@@ -103,7 +103,7 @@
 
   <p>The friend's voice memo has been sitting in my phone for weeks now. I've listened to it three times. He's a good man &mdash; serious, honest, someone who prays like he means it. And the thing he said &mdash; "only God is infinite" &mdash; is true in a way he didn't intend. The Absolute is not on the scale. It never was. But saying "only God is infinite" as a way to close the conversation is different from saying it as a way to open it. Movement one closed the conversation he wanted to close. Movement two is the one he didn't know he was opening.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The infinity question taught one habit: before measuring anything, ask <em>what kind</em>.</p>
     <p class="thesis-close">"What kind of infinite?" dissolved a false binary. Applied to another number Christianity has been arguing about, the same question &mdash; "what kind of three?" &mdash; opens something that movement one's precision cannot close.</p>
@@ -194,7 +194,7 @@
 
   <p>This is heterodox. I know. The Cappadocian formula is orthodoxy. What I'm proposing is closer to what Eckhart called the <em>Gottheit</em> &mdash; the Godhead prior to the Trinity, the desert in which all distinctions dissolve &mdash; and what the consciousness-first commitment points toward: if awareness is fundamental and not produced by matter, then the deepest level of reality is not three persons in relation but the undifferentiated ground in which all structure, including the Logos, appears. Eckhart was condemned for this. I know where I'm standing.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     <strong>CONTESTED.</strong> This reading diverges from Nicene orthodoxy. The three-level topology maps the structure of reality, not the inner life of God as three co-equal persons. Calling it "the Trinity, understood correctly" would be dishonest. It is a different architecture, built from different commitments. I own that.
   </div>
 
@@ -206,7 +206,7 @@
 
   <p>The friend's sentence is still ringing in my ear. <em>Only God is infinite.</em> I agree with it now more than I did before I ran it down &mdash; and it means something different than he meant when he said it. The Absolute is not on the scale. It never was. And the number of persons in God might not be the kind of question a count can answer.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> &mdash; Georg Cantor, <em>Grundlagen einer allgemeinen Mannigfaltigkeitslehre</em> &middot; Cantor&ndash;Franzelin correspondence (1885&ndash;86) &middot; Aristotle, <em>Physics</em> III &middot; Theophilus of Antioch, <em>Ad Autolycum</em> &middot; Tertullian, <em>Adversus Praxean</em> &middot; Origen, <em>De Principiis</em> &middot; Niceno-Constantinopolitan Creed (381 CE) &middot; John Henry Newman, <em>An Essay on the Development of Christian Doctrine</em></p>
   </div>
 
@@ -217,6 +217,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

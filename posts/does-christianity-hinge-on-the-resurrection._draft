@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0"><em>Do you believe Jesus rose from the dead?</em></p>
+  <p><em>Do you believe Jesus rose from the dead?</em></p>
 
   <p>People ask this like they're placing a bet and waiting to see if I'll fold. The question comes with a framework already baked in: <em>Christianity hinges on the literal, physical resurrection. You believe that or you don't. Everything else is decoration.</em></p>
 
@@ -63,14 +63,14 @@
   <p>The first serious Christian theologians &mdash; the people doing rigorous intellectual work in the first three centuries, before the councils narrowed the conversation &mdash; were not primarily interested in the resurrection as a legal proof. They were interested in the Logos.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Justin Martyr</div>
       <div class="card-year">~150 CE</div>
       <div class="card-label">Logos spermatikos</div>
       <p class="card-body">Argued that Socrates was a Christian before Christ. Not as a metaphor. As a philosophical claim: those who live according to reason participate in the Logos &mdash; the rational ground of all things &mdash; regardless of when or where they lived.
       <span class="card-quote">"Those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus." &mdash; First Apology, Ch. 46</span></p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Origen of Alexandria</div>
       <div class="card-year">~184&ndash;253 CE</div>
       <div class="card-label">apokatastasis</div>
@@ -78,7 +78,7 @@
     </div>
   </div>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">Origen's theology doesn't hinge on a physical resurrection. It hinges on <em>what kind of thing ultimate reality is</em>.</p>
     <p class="thesis-close"></p>
@@ -90,13 +90,13 @@
 
   <p>Origen was condemned in 553. Three hundred years after he died. The charge list included apokatastasis, pre-existent souls, and the nature of the resurrected body. Whether the anathemas were formal acts of the council or documents Justinian pushed through alongside it is genuinely debated among historians &mdash; I don't pretend to settle it. What I read is this: Emperor Justinian needed doctrinal uniformity, and the anathemas ran precisely:</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     "If anyone says or holds that the punishment of demons and of impious men is only temporary, and will one day have an end, and that a restoration will take place of demons and of impious men, let him be anathema."
   </div>
 
   <p>Here's what's doing the work there. The theological stakes were real &mdash; justice, the seriousness of freedom, the moral weight of choice. Those were genuinely held. But read structurally, hell also functioned as the institution's final sanction &mdash; which gives the condemnation a motive beyond the theological one. A theology in which even the worst sinners are eventually restored to the ground of their own being is a theology in which that sanction has no teeth.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">I read this less as the defeat of a heresy than as <em>the defense of power</em>.</p>
     <p class="thesis-close"></p>
@@ -132,7 +132,7 @@
 
   <p>On that architecture, the resurrection is not the foundation. It is the signature. The thing that happened, the thing Paul wrote about within fifteen years, the thing that cracked history open &mdash; it was the signature of a deeper reality. The Logos demonstrated what it is. Death could not hold it. Not because death was a problem the Logos solved, but because death was never the kind of thing that could hold the Logos in the first place.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The question I keep returning to is deeper than the empty tomb: <em>what kind of thing is ultimate reality, and can consciousness be permanently extinguished?</em></p>
     <p class="thesis-close">If you follow the Logos tradition seriously &mdash; and I have been, for a while now &mdash; those questions have answers that don't depend on any single historical event being physically exactly as described. The answers depend on what kind of thing reality is. And the tradition has been pointing at the answer for two thousand years.</p>
@@ -144,7 +144,7 @@
 
   <p>The full arc &mdash; from Heraclitus through Maximus to Eckhart &mdash; is traced in <a href="/posts/the-logos-lineage.html">The Logos lineage</a>. The <a href="https://logosarchive.org">LogosArchive</a> is where the primary sources live &mdash; 160+ pre-Nicene texts with commentary, built for people who aren't classicists.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> — Justin Martyr, First Apology &middot; Origen of Alexandria, De Principiis &middot; Paul, 1 Corinthians 15 &middot; Acts 17:28 &middot; Second Council of Constantinople (553 CE)</p>
   </div>
 
@@ -155,6 +155,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

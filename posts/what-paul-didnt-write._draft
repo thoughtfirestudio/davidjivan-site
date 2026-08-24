@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">You have probably noticed it without saying it out loud.</p>
+  <p>You have probably noticed it without saying it out loud.</p>
 
   <p>The same letter-writer who said <em>there is no longer male and female; you are all one in Christ Jesus</em> also, supposedly, said <em>I permit no woman to teach or to have authority over a man; she is to keep silent</em>. The same one who greets a woman in Romans 16 as <em>prominent among the apostles</em>, and another as the deacon who has been a <em>benefactor of many, including myself</em>, also wrote &mdash; supposedly &mdash; that a bishop must be <em>the husband of one wife</em> who keeps his household in order. The same apostle who said <em>it is no longer I who live, but Christ who lives in me</em> wrote, supposedly, that women would be saved through childbearing if they continued in faith and modesty.</p>
 
@@ -103,7 +103,7 @@
 
   <p>Any one of these lines could be explained away &mdash; a secretary, a different mood, a late development. The case is the convergence: five independent variables shifting in the same direction at the same gradient, with the gradient correlating to a single underlying variable &mdash; distance from the historical Paul.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     A note worth flagging early. I'm not saying anyone sat in a room and forged these letters to oppress women. I am saying the further a letter sits from the historical Paul, the more restrictive its gender ethic becomes &mdash; and the data correlates with <em>authorship</em>, not with subject matter. The reading I'm proposing is institutional drift, not conspiracy. I'll come back to this.
   </div>
 
@@ -114,19 +114,19 @@
   <p>The "wives submit, husbands love, children obey, slaves obey, masters be just" passages &mdash; Col 3:18&ndash;4:1, Eph 5:21&ndash;6:9, 1 Pet 2:13&ndash;3:7, 1 Tim 2:8&ndash;15, Titus 2:1&ndash;10 &mdash; are called the household codes. They have a literary genealogy that runs straight through the non-Christian Greco-Roman world.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Aristotle, *Politics* 1.1253b</div>
       <p class="card-body">"The primary and smallest parts of the household are master and slave, husband and wife, father and children." Three relationships, in that order. Laid down in the fourth century BCE as the basic unit of Greek political theory.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Pseudo-Aristotle, *Oikonomika* 1.1343b</div>
       <p class="card-body">"Of household management there are three parts &mdash; one is the rule of a master over slaves, another of a father, and the third of a husband." The same three pairs, transmitted as part of the standard Greek philosophical curriculum.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Plutarch, *Conjugalia Praecepta* &sect;33 (c. 100 CE)</div>
       <p class="card-body">"If they submit (<em>hypotass&#333;</em>) themselves to their husbands, they are commended; but if they want to have control, they cut a sorrier figure than husbands controlled by them." Same verb as Ephesians 5:22. Same construction. Different religion.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Josephus, *Against Apion* 2.201 (c. 97 CE)</div>
       <p class="card-body">"A woman, says the Law, is inferior to the husband in all things. Let her therefore obey, not for her humiliation, but that she may be directed; for God has given authority to the man." Jewish, Greek-language, written within a decade of the Pastorals.</p>
     </div>
@@ -151,19 +151,19 @@
   <p>The text-critical case that these two verses were inserted later &mdash; by a scribe smoothing the letter to match the household-code consensus of the second century &mdash; is one of the strongest in the New Testament. The evidence stacks up cleanly:</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Codex Vaticanus, 4th c.</div>
       <p class="card-body">At the end of the line of 14:33, Vaticanus has a <em>distigme-obelus</em> &mdash; a tiny scribal mark of two dots and a horizontal bar. Philip Payne's database work shows that in five of the six other places this mark appears in the Vaticanus New Testament, it sits at a known textual disturbance. For sixteen hundred years, that mark has been pointing at these verses.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Codex Fuldensis, AD 546</div>
       <p class="card-body">Bishop Victor of Capua personally ordered 1 Corinthians 14:33&ndash;40 rewritten in the page margin &mdash; in a form that <em>omits verses 34&ndash;35</em>. A Latin bishop in the 6th century already knew these two verses were textually problematic enough to need correction.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Western manuscript family</div>
       <p class="card-body">Codex Claromontanus, Augiensis, Boernerianus, Old Latin <em>d</em> and <em>g</em>, minuscule 88, the Vulgate Reginensis &mdash; an entire stream of Western witnesses places the two verses <em>after verse 40</em> rather than after verse 33. Manuscripts do not float blocks of text around like that unless the block is unstable in the tradition.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Internal contradiction</div>
       <p class="card-body">1 Corinthians 11:5 &mdash; three chapters earlier, same letter &mdash; has women praying and prophesying aloud. The author of these verses either forgot what he wrote three chapters ago, or it is not the same author.</p>
     </div>
@@ -187,7 +187,7 @@
 
   <p>In the twentieth century, the United Bible Societies Greek New Testament &mdash; the standard scholarly Greek text &mdash; printed the masculine "Junias." Eldon Jay Epp's <em>Junia: The First Woman Apostle</em> walked through the UBS committee's own published minutes for the decision. The reason given, in the committee's own words, was that <em>"it seemed unlikely that a woman would be among those styled apostles."</em></p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">An editorial assumption &mdash; <em>it seemed unlikely</em> &mdash; masculinized her, against the unanimous patristic tradition and zero epigraphic attestations of the masculine form.</p>
     <p class="thesis-close">She was restored to the feminine in NA27 and UBS4 in 1993. For most of the twentieth century, your Bible called her Junias because a committee in the 1950s found the alternative culturally improbable.</p>
@@ -265,35 +265,35 @@
   <p>Run the cut on the indwelling axis. Strip out everything that does not appear in the undisputed seven. The participation Paul &mdash; the indwelling, the <em>Christ-in-you</em> texts that the rest of the work on this site has been built on &mdash; does not weaken. It <em>concentrates</em>.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Galatians 2:20</div>
       <p class="card-body"><em>"It is no longer I who live, but Christ who lives in me."</em> Undisputed. The single densest statement of the indwelling in the Pauline corpus. The "yet I live" clause built into the same sentence &mdash; the soul does not dissolve.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">1 Corinthians 2:16</div>
       <p class="card-body"><em>"But we have the mind of Christ."</em> Undisputed. Not borrowed knowledge. Participation in the Logos's own kind of knowing.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Romans 8:9&ndash;11</div>
       <p class="card-body">Three times in three verses: <em>the Spirit of God dwells in you, Christ is in you, the Spirit of him who raised Jesus from the dead dwells in you</em>. Undisputed. Christology and pneumatology collapse into one indwelling.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">2 Corinthians 13:5</div>
       <p class="card-body"><em>"Do you not realize that Jesus Christ is in you?"</em> Undisputed. Stated as the assumed condition, not the aspirational ideal.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Romans 6:3&ndash;5</div>
       <p class="card-body">Real union with Christ's death and resurrection through baptism. Undisputed. The participation is not metaphor; the soul is joined to what Christ underwent.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">1 Corinthians 6:17</div>
       <p class="card-body"><em>"But anyone united to the Lord becomes one spirit with him."</em> Undisputed. One spirit. Indwelling stated in the strongest possible terms.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Galatians 3:27&ndash;28</div>
       <p class="card-body"><em>"As many of you as were baptized into Christ have clothed yourselves with Christ. There is no longer Jew or Greek; there is no longer slave or free; there is no longer male and female, for all of you are one in Christ Jesus."</em> Undisputed. The new humanity in which the household-code categories dissolve.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Philippians 1:21</div>
       <p class="card-body"><em>"For to me, living is Christ and dying is gain."</em> Undisputed. Eight words. The whole indwelling axis compressed.</p>
     </div>
@@ -305,7 +305,7 @@
 
   <p>Colossians 1:15&ndash;20 and Ephesians 1:10 make the cosmic-Christ frame more lyrical and developed. They do not invent it. The substance is already there before you reach Colossians. <strong>The Logos-Christ does not require Colossians. The participation-Christ does not require the disputed letters at all.</strong></p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">What the cut removes is the institutional, the patriarchal, the cooled-down. What remains is <em>Christ in you, the new creation, neither male nor female</em>, and the cosmos held together in the Logos.</p>
     <p class="thesis-close">The pieces that are awkward to inhabit at full intellectual honesty are the pieces critical scholarship pulls out. The pieces that have been carrying the weight for everything else this work has been building are the pieces the critical knife cannot reach.</p>
@@ -323,7 +323,7 @@
 
   <p>Then, in the last pages of that book, Sanders said something I keep coming back to. He admitted that the technical literature did not yet have an adequate category for what real participation actually is.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The center of Paul's theology&hellip; is participatory in nature&hellip; I must confess that I do not have a category of reality &mdash; real participation in Christ &mdash; which lies between naive cosmological speculation and a revised self-understanding.</p>
     <p class="thesis-close">E.P. Sanders, <em>Paul and Palestinian Judaism</em> (1977), pp. 522&ndash;523.</p>
@@ -347,7 +347,7 @@
 
   <p>I don't know how that lands for you. I'm still working out what to do with the disputed letters myself. But the participation axis &mdash; the thing the rest of this work has been building on &mdash; survives the cut, and it survives the cut more clearly than I expected when I first started running it down properly. The dissonance that was always there in reading Paul has a name, a date, and a fairly clean set of textual fingerprints. And under it, the apostle who said the thing the Greeks did not say &mdash; <em>Christ in you, the hope of glory</em>, in the disputed letter, but also <em>it is no longer I who live, but Christ who lives in me</em>, in the undisputed one &mdash; is right there, waiting to be read straight.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> &mdash; Friedrich Schleiermacher, <em>&Uuml;ber den sogenannten ersten Brief des Paulos an den Timotheos</em> (1807) &middot; F.C. Baur and the T&uuml;bingen school &middot; Hilgenfeld 1875; Holtzmann 1885 &middot; P.N. Harrison, <em>The Problem of the Pastoral Epistles</em> (1921) &middot; Albert Schweitzer, <em>The Mysticism of Paul the Apostle</em> (1930) &middot; Krister Stendahl, "The Apostle Paul and the Introspective Conscience of the West" (HTR 1963) &middot; E.P. Sanders, <em>Paul and Palestinian Judaism</em> (1977) &middot; David L. Balch, <em>Let Wives Be Submissive</em> (1981) &middot; Wayne A. Meeks, <em>The First Urban Christians</em> (1983) &middot; Margaret Y. MacDonald, <em>The Pauline Churches</em> (Cambridge UP, 1988) &middot; Gordon D. Fee, <em>The First Epistle to the Corinthians</em>, NICNT rev. ed. (Eerdmans, 2014) &middot; Philip B. Payne, <em>Man and Woman, One in Christ</em> (Zondervan, 2009) &middot; Antoinette Clark Wire, <em>The Corinthian Women Prophets</em> (Fortress, 1990) &middot; Eldon Jay Epp, <em>Junia: The First Woman Apostle</em> (Fortress, 2005) &middot; Cynthia Long Westfall, <em>Paul and Gender</em> (Baker Academic, 2016); "The Meaning of &alpha;&#8016;&theta;&epsilon;&nu;&tau;&#941;&omega; in 1 Timothy 2:12," JGRChJ 10 (2014) &middot; Linda L. Belleville, "Teaching and Usurping Authority" (IVP, 2005) &middot; Bart D. Ehrman, <em>Forgery and Counterforgery</em> (Oxford UP, 2012) &middot; Paula Fredriksen, <em>Paul: The Pagans' Apostle</em> (Yale, 2017) &middot; Pamela Eisenbaum, <em>Paul Was Not a Christian</em> (HarperOne, 2009) &middot; Aristotle, <em>Politics</em> 1.1253b &middot; Pseudo-Aristotle, <em>Oikonomika</em> 1.1343b &middot; Plutarch, <em>Conjugalia Praecepta</em> &middot; Josephus, <em>Against Apion</em> 2.199&ndash;208 &middot; Codex Vaticanus &middot; Codex Fuldensis (AD 546) &middot; Companion: <a href="/posts/there-are-no-particles.html">There are no particles</a>.</p>
   </div>
 
@@ -358,6 +358,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

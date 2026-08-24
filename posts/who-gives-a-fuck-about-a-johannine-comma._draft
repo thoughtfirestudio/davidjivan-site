@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">There&rsquo;s a Vampire Weekend song where Ezra Koenig opens by asking who gives a fuck about an Oxford comma, and the whole point is that the question answers itself. Nobody does. It&rsquo;s a punctuation mark. You&rsquo;d have to be a particular kind of person to care.</p>
+  <p>There&rsquo;s a Vampire Weekend song where Ezra Koenig opens by asking who gives a fuck about an Oxford comma, and the whole point is that the question answers itself. Nobody does. It&rsquo;s a punctuation mark. You&rsquo;d have to be a particular kind of person to care.</p>
 
   <p>So here is a particular kind of person caring about a different comma.</p>
 
@@ -62,7 +62,7 @@
     <p>For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one.</p>
   </blockquote>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">It is the only place in the entire New Testament where the doctrine of the Trinity is stated outright.</p>
     <p class="thesis-close"></p>
@@ -70,7 +70,7 @@
 
   <p>Sit with what that sentence is doing. It is the only place in the entire New Testament where the doctrine of the Trinity is stated outright &mdash; three named persons, one essence, in a single line. Everywhere else the church had to <em>build</em> the Trinity, argue it across three centuries of councils and anathemas, assemble it out of scattered hints and prepositions. But right here, apparently, the author just says it. Plainly. Done.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     That&rsquo;s the tell, actually. It&rsquo;s too convenient. The fathers who fought the great fourth-century battles over the nature of Christ &mdash; the men who would have killed for a clean proof-text &mdash; never quote it. Not once. Athanasius doesn&rsquo;t reach for it. The defenders of Nicaea don&rsquo;t deploy it. You do not leave the nuclear option in the drawer during the war you are fighting. The simplest explanation for their silence is that they didn&rsquo;t have it.
   </div>
 
@@ -129,7 +129,7 @@
 
   <p>There was a manuscript. It&rsquo;s called Codex Montfortianus, and it sits in Dublin now. It&rsquo;s a sixteenth-century book &mdash; late by any measure, contemporary with the controversy itself. And the Comma <em>in</em> it gives the game away: the Greek is missing the little articles that natural Greek would carry, the unmistakable fingerprint of something translated <em>out of Latin into</em> Greek rather than written in Greek to begin with. Erasmus himself suspected it had been cooked up to corner him.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     Here&rsquo;s where I have to be precise, because precision is the whole point of the exercise. That the clause in Montfortianus is a back-translation from Latin &mdash; that&rsquo;s well supported; you can see it in the grammar. That the <em>entire manuscript was produced to order</em>, fabricated specifically to trap Erasmus &mdash; that&rsquo;s the suspicion, his and others&rsquo;, and it&rsquo;s plausible, but it is not proven. I stated it once as flat fact. It isn&rsquo;t one. The defensible version is narrower and somehow worse: a demonstrably late book, carrying a demonstrably Latin-derived reading, used to leverage a verse into the Greek tradition that the Greek tradition never had.
   </div>
 
@@ -164,7 +164,7 @@
 
   <p>But here&rsquo;s who gave a fuck, historically: people with power and a stake in certainty. The Comma is what happens when a tradition needs a sentence to exist so badly that, across enough centuries and enough hands, it eventually does. A margin note becomes a verse. A Latin gloss becomes Greek. A scholar&rsquo;s quiet capitulation becomes &ldquo;the received text.&rdquo; Nobody sat down to forge scripture in a single villainous afternoon. It accreted. It got <em>wanted</em> into being.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">It got <em>wanted</em> into being.</p>
     <p class="thesis-close"></p>
@@ -174,7 +174,7 @@
     And that, weirdly, is the thing I keep landing on instead of being scandalized by it. The Comma is a small, clear, almost diagrammatic case of the larger pattern &mdash; the text was never a sealed object dropped intact from the sky. It was always alive in human hands, growing toward what its communities needed it to say. If the Logos is the living principle working its way through history rather than hovering above it, you would expect its textual trace to look exactly like this: contested, additive, marked all over with the fingerprints of the people who couldn&rsquo;t bear to leave it as it was. A perfectly preserved verse with no human trace on it would be the strange thing. It would be a Logos that never actually entered history &mdash; which is the one thing the Logos is supposed to do.
   </div>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The verse that most directly says <em>three are one</em> is the verse that most clearly shows the many hands.</p>
     <p class="thesis-close">There&rsquo;s a joke in there somewhere, and I don&rsquo;t think it&rsquo;s entirely on us.</p>
@@ -182,7 +182,7 @@
 
   <p>Who gives a fuck about a Johannine comma. I do, apparently. Now you might too &mdash; and not for the reason anyone defending it ever intended.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources:</span> Henk Jan de Jonge &mdash; Erasmus scholarship, debunking the wager myth &middot; Raymond Brown &mdash; Comma traced to Priscillian &middot; Erasmus&rsquo;s own annotations on 1 John 5:7 &middot; Codex Montfortianus, Trinity College Dublin</p>
   </div>
 
@@ -193,6 +193,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

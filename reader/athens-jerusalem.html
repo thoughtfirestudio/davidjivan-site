@@ -7,25 +7,25 @@
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+  /* SINGLE SOURCE OF TRUTH: tools/john-christology-museum.html :root */
   :root {
-    --bg: #faf8f4;
-    --text: #1a1a1a;
-    --text-muted: #666;
-    --accent: #8b6b4a;
-    --accent-light: #d4c4b0;
-    --bar-bg: #e8e4dd;
+    --night:#171310; --panel:#201A15; --panel2:#262019;
+    --ink:#E8DFD0; --mute:#9C9183; --brass:#B08D3E; --signal:#D6885F;
+    --line:rgba(232,223,208,.14); --line-strong:rgba(232,223,208,.28);
+    --display:Georgia,'Times New Roman',serif;
+    --body:Georgia,'Times New Roman',serif;
+    --data:'SF Mono','Cascadia Code',Consolas,monospace;
     --font-size: 18px;
     --line-height: 1.8;
     --max-width: 640px;
-    --transition: 0.15s ease;
   }
 
   html { font-size: var(--font-size); scroll-behavior: smooth; }
 
   body {
-    font-family: "Charter", "Georgia", "Bitstream Charter", "Times New Roman", serif;
-    background: var(--bg);
-    color: var(--text);
+    font-family: var(--body);
+    background: var(--night);
+    color: var(--ink);
     line-height: var(--line-height);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -34,79 +34,8 @@
   }
 
   ::selection {
-    background: #d4c4b0;
-    color: #1a1a1a;
-  }
-
-  /* Progress bar */
-  #progress {
-    position: fixed;
-    top: 0; left: 0;
-    height: 2px;
-    background: var(--accent);
-    z-index: 100;
-    transition: width 0.1s linear;
-  }
-
-  /* Controls bar */
-  #controls {
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
-    background: rgba(250, 248, 244, 0.92);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-top: 1px solid var(--bar-bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-    padding: 10px 16px;
-    z-index: 99;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-
-  #controls button {
-    background: none;
-    border: 1px solid var(--bar-bg);
-    color: var(--text-muted);
-    width: 40px;
-    height: 36px;
-    border-radius: 6px;
-    font-size: 15px;
-    font-family: -apple-system, "Segoe UI", sans-serif;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all var(--transition);
-  }
-
-  #controls button:hover {
-    background: var(--bar-bg);
-    color: var(--text);
-    border-color: var(--accent-light);
-  }
-
-  #controls button:active {
-    transform: scale(0.95);
-    transition: transform 0.05s;
-  }
-
-  #controls .size-label {
-    font-size: 13px;
-    color: var(--text-muted);
-    min-width: 48px;
-    text-align: center;
-    font-family: -apple-system, "Segoe UI", sans-serif;
-    letter-spacing: 0.02em;
-  }
-
-  #controls .divider {
-    width: 1px;
-    height: 16px;
-    background: var(--bar-bg);
-    margin: 0 8px;
+    background: rgba(176,141,62,.35);
+    color: var(--ink);
   }
 
   /* Article */
@@ -122,16 +51,15 @@
     line-height: 1.25;
     margin-bottom: 0.35em;
     letter-spacing: -0.01em;
-    color: #111;
+    color: var(--ink);
   }
 
   .subtitle {
     font-size: 1rem;
-    color: var(--text-muted);
+    color: var(--mute);
     line-height: 1.6;
     margin-bottom: 3rem;
     font-style: italic;
-    font-family: -apple-system, "Segoe UI", sans-serif;
   }
 
   h2 {
@@ -139,20 +67,20 @@
     font-weight: 600;
     margin: 2.8em 0 0.6em;
     letter-spacing: -0.005em;
-    color: #111;
+    color: var(--ink);
   }
 
   p {
     margin-bottom: 1.2em;
   }
 
-  strong { font-weight: 600; color: #111; }
+  strong { font-weight: 600; color: var(--ink); }
 
   blockquote {
     margin: 1.6em 0;
     padding-left: 1.2em;
-    border-left: 2px solid var(--accent-light);
-    color: #555;
+    border-left: 2px solid var(--brass);
+    color: var(--mute);
     font-style: italic;
   }
 
@@ -167,22 +95,16 @@
     article { padding: 48px 18px 110px; }
     h1 { font-size: 1.6rem; }
     h2 { font-size: 1.15rem; }
-    #controls { padding: 8px 12px; gap: 2px; }
-    #controls button { width: 36px; height: 32px; font-size: 14px; }
-    #controls .size-label { min-width: 40px; font-size: 12px; }
   }
 
   /* Print */
   @media print {
-    #progress, #controls { display: none; }
     body { background: #fff; color: #000; }
     article { padding: 0; max-width: none; }
   }
 </style>
 </head>
 <body>
-
-<div id="progress"></div>
 
 <article>
   <h1>What Athens Has to Do With Jerusalem</h1>
@@ -224,55 +146,6 @@
   <p>This is what incarnation always does. The infinite enters the finite. The container gets stretched. The word &ldquo;God&rdquo; means something different after Christ than it meant before. The philosophical vocabulary doesn&rsquo;t dissolve. It gets expanded. The old words carry new weight. That&rsquo;s not corruption. That&rsquo;s what happens when the Ground expresses itself in human language.</p>
   <p>Tertullian was afraid of that stretching. He thought it would break the container. Origen thought the container was made to be stretched. I&rsquo;m with Origen. Not because it&rsquo;s safe. Because the alternative&nbsp;&mdash;&nbsp;a Christianity that won&rsquo;t think&nbsp;&mdash;&nbsp;isn&rsquo;t actually Christianity. It&rsquo;s just fear wearing theological language.</p>
 </article>
-
-<div id="controls">
-  <button id="btn-smaller" title="Smaller text" aria-label="Decrease font size">A&#x2212;</button>
-  <span class="size-label" id="size-label">18px</span>
-  <button id="btn-bigger" title="Larger text" aria-label="Increase font size">A+</button>
-  <span class="divider"></span>
-  <button id="btn-reset" title="Reset" aria-label="Reset font size" style="font-size:12px;width:auto;padding:0 12px;">Reset</button>
-</div>
-
-<script>
-  const root = document.documentElement;
-  const progress = document.getElementById('progress');
-  const label = document.getElementById('size-label');
-  const minSize = 14, maxSize = 28, defaultSize = 18;
-  let size = parseInt(getComputedStyle(root).getPropertyValue('--font-size')) || defaultSize;
-
-  function setSize(s) {
-    size = Math.max(minSize, Math.min(maxSize, s));
-    root.style.setProperty('--font-size', size + 'px');
-    label.textContent = size + 'px';
-    localStorage.setItem('reader-font-size', size);
-  }
-
-  document.getElementById('btn-smaller').addEventListener('click', () => setSize(size - 1));
-  document.getElementById('btn-bigger').addEventListener('click', () => setSize(size + 1));
-  document.getElementById('btn-reset').addEventListener('click', () => setSize(defaultSize));
-
-  // Keyboard shortcuts
-  document.addEventListener('keydown', e => {
-    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
-    if (e.key === '+' || e.key === '=') { e.preventDefault(); setSize(size + 1); }
-    if (e.key === '-') { e.preventDefault(); setSize(size - 1); }
-    if (e.key === '0') { e.preventDefault(); setSize(defaultSize); }
-  });
-
-  // Restore saved size
-  const saved = localStorage.getItem('reader-font-size');
-  if (saved) setSize(parseInt(saved));
-
-  // Progress bar
-  function updateProgress() {
-    const scrollTop = window.scrollY;
-    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-    const pct = docHeight > 0 ? Math.min(100, (scrollTop / docHeight) * 100) : 0;
-    progress.style.width = pct + '%';
-  }
-  window.addEventListener('scroll', updateProgress, { passive: true });
-  updateProgress();
-</script>
 
 </body>
 </html>

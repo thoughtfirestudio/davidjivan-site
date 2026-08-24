@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">The most famous sentence in the New Testament has been flattened by every major English translation for four hundred years.</p>
+  <p>The most famous sentence in the New Testament has been flattened by every major English translation for four hundred years.</p>
 
   <p>I didn&rsquo;t know this until I sat down with the Greek myself a few years ago. It was late, at a campground in northern Florida, and I had a Greek New Testament open next to my NIV. The difference between what the Greek was doing and what every English Bible I&rsquo;d ever read was doing was so stark that I kept getting up and pacing. The sentence isn&rsquo;t just translated loosely. It&rsquo;s been smoothed into something easier to say and harder to think &mdash; and the smoothing starts with Tyndale and runs straight through to the ESV sitting on your shelf.</p>
 
@@ -63,17 +63,17 @@
   <p>Three clauses. Three claims. Each one doing real philosophical work.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">En arch&#275; &#275;n ho Logos</div>
       <div class="card-label">Clause 1</div>
       <p class="card-body">In the beginning was the Logos</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">ho Logos &#275;n pros ton Theon</div>
       <div class="card-label">Clause 2</div>
       <p class="card-body">The Logos was toward God</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Theos &#275;n ho Logos</div>
       <div class="card-label">Clause 3</div>
       <p class="card-body">What God was, the Logos was</p>
@@ -128,7 +128,7 @@
     </div>
   </div>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     The Jehovah&rsquo;s Witnesses tried to solve this by translating it &ldquo;the Word was <em>a</em> god&rdquo; &mdash; which catches the missing article but produces the opposite error, implying a lesser, created being. That&rsquo;s not what the Greek is doing either.
   </div>
 
@@ -144,7 +144,7 @@
 
   <p>This sentence encodes, in a single line of Greek, a relationship that the tradition would spend three centuries trying to formalize into doctrine. The Logos is distinct from God &mdash; it is &ldquo;toward&rdquo; God, in relation, not the same as God. And the Logos is divine &mdash; what God was, the Logos was, sharing the nature completely. Both claims hold simultaneously. They are not a contradiction to be solved or a mystery to be confessed. They are a precise description of a particular kind of relationship.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">Distinction without separation. Intimacy without <em>identity</em>.</p>
     <p class="thesis-close">The councils of Nicaea and Chalcedon would eventually try to formalize this in the language of <em>homoousios</em> &mdash; &ldquo;same substance&rdquo; &mdash; and the elaborate Christological definitions that followed. But the Author of the Fourth Gospel had already said it more economically, more precisely, in one sentence, by choosing his preposition and dropping his article. The theology was in the grammar.</p>
@@ -222,7 +222,7 @@
 
   <p>What stays with me about the first verse of the Fourth Gospel is that the Author got there before the councils, before the creeds, before the centuries of debate about what this sentence means. The precision was already in the grammar. The theology was already in the preposition. And every major translation smoothed it into something easier to say and harder to think.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The Logos was toward God, and what God was, <em>the Logos was</em>.</p>
     <p class="thesis-close">I keep sitting with that sentence. It&rsquo;s doing more than I can unpack in a single pass. The distinction without separation. The participation without identity. The directionality that is not arrival but permanent orientation. This is the grammar of the relationship between consciousness and its rational structure &mdash; between Being and the Logos &mdash; and the Author encoded it in one line of Greek before anyone had the philosophical vocabulary to say what he had done.</p>
@@ -230,7 +230,7 @@
 
   <p>I&rsquo;m not done with it. I don&rsquo;t think anyone is.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources:</span> C.H. Dodd, <em>The Interpretation of the Fourth Gospel</em>. Wycliffe Bible (1382). William Tyndale, New Testament (1526). Erasmus, Greek New Testament.</p>
   </div>
 
@@ -241,6 +241,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">There's a thing people want from a sacred text. You can feel it in the way the question usually gets framed: <em>which translation is most accurate?</em> As if there's a clean original sitting somewhere, a fixed and final thing, and the translators' only job is to reach it faithfully. The closer you get to that source, the more you have. The further away, the less.</p>
+  <p>There's a thing people want from a sacred text. You can feel it in the way the question usually gets framed: <em>which translation is most accurate?</em> As if there's a clean original sitting somewhere, a fixed and final thing, and the translators' only job is to reach it faithfully. The closer you get to that source, the more you have. The further away, the less.</p>
 
   <p>I understand the instinct. I shared it for a long time. The desire for a text that is just what it is &mdash; not a committee decision, not a product of institutional politics, not shaped by fifteen centuries of hands &mdash; that desire makes sense. It's the same instinct that made Tyndale cross the channel. Give people the actual thing.</p>
 
@@ -159,6 +159,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

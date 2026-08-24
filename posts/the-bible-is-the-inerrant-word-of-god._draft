@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">This claim was never argued for. It was handed to me as the thing arguing started from.</p>
+  <p>This claim was never argued for. It was handed to me as the thing arguing started from.</p>
 
   <p>I grew up reading the NIV. At some point I learned that the NIV was produced by a committee that had committed, in writing, to inerrancy before the translation began &mdash; and that this prior commitment shapes specific translation choices in ways that are traceable. Then, further: the manuscripts behind any translation are themselves a transmission history, not a clean original. I've written about both of those things in earlier pieces, and they're what brought me to this one.</p>
 
@@ -81,7 +81,7 @@
     </div>
   </div>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     The word "inerrancy" does not appear in the Bible. The early church did not have this doctrine. Origen of Alexandria &mdash; the first to build a complete Christian metaphysics as a single structure, working in the 3rd century, reading the texts in their original languages &mdash; did not call the scriptures inerrant. He called them spiritually layered. He read them allegorically precisely because he knew the literal text had tensions and contradictions that were not incidental but instructive. The allegorical sense was where the real meaning lived, he argued, underneath the letter. He was not troubled by the tensions. He thought they were invitations to go deeper.
   </div>
 
@@ -139,7 +139,7 @@
 
   <p>Between 550 and 400 BCE, Jewish theology had been developing a more transcendent, morally coherent picture of God. Attributing the direct instigation of evil to Yahweh had become theologically untenable &mdash; it raised the problem of divine culpability in a way the tradition was no longer comfortable with. And so the tradition did what living traditions do: it thought more carefully about what it actually believed, and it revised its own account. It introduced a figure &mdash; Satan, here functioning as an adversarial agent rather than the later concept of a cosmic enemy &mdash; to carry the moral weight that could no longer rest with God directly.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The tradition was correcting its own theology. In writing. With the original still there to read.</p>
     <p class="thesis-close"></p>
@@ -171,7 +171,7 @@
 
   <p>The Psalms, Job, Ecclesiastes, the prophetic literature &mdash; these are people thinking at the outer edge of what they knew how to think. The questions in them are live: What is God? What is evil? Why do the righteous suffer? What does it mean to be human? These are not the questions of a tradition delivering settled answers. They are the questions of people who have encountered something they cannot fully account for and are working out what they believe about it, honestly, in writing, knowing their writing might outlast them.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">Read as inerrant propositions to be defended, these texts require enormous amounts of energy to protect them from themselves. Read as meditation literature &mdash; as serious people working through the hardest questions they knew &mdash; they are still worth inheriting.</p>
     <p class="thesis-close"></p>
@@ -187,7 +187,7 @@
 
   <p>That's what the text is actually doing. Not delivering settled answers from a pure and uncorrupted source. Thinking out loud, across centuries, about the things that matter most. The inerrancy frame doesn't protect that. It closes it off.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">When the frame comes off, you don't lose the tradition. You get <em>more</em> of it.</p>
     <p class="thesis-close"></p>
@@ -197,7 +197,7 @@
 
   <p>There's one more thing the inerrancy framework did, quietly, that I think did more damage than the rest. It reassigned a phrase. "The Word of God" stopped referring to the Logos &mdash; the rational principle the author of the Fourth Gospel was pointing at in the prologue, the cosmological substrate in which all things subsist &mdash; "in it we live and move and have our being," as Acts 17 puts it, quoting a Greek poet to make the point &mdash; and started referring to the Bible. A collection of texts. These are not the same claim.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     John 1:1 says "In the beginning was the Logos." It does not say "In the beginning was a book." The writers of Genesis and the Psalms and Paul's authentic letters were reaching toward something. They were not the thing itself. The inerrancy framework made the reaching the object, and somewhere in that move, what was being reached for went out of focus.
   </div>
 
@@ -205,7 +205,7 @@
 
   <p>That is the posture I'm trying to recover. Not inerrancy. Not nihilism. Not treating these texts as a rulebook to be defended or a fossil to be debunked. Reading them the way the best readers in the tradition always read them &mdash; seriously, carefully, honestly, and without flinching at what you find.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> — Chicago Statement on Biblical Inerrancy (1978) &middot; Origen of Alexandria, <em>De Principiis</em> (3rd c.) &middot; J/P source theory (Documentary Hypothesis) &middot; NIV translation committee inerrancy commitment &middot; 2 Samuel 24:1 / 1 Chronicles 21:1 comparison</p>
   </div>
 
@@ -216,6 +216,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

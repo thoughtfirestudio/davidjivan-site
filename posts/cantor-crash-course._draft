@@ -24,7 +24,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">This is the first non-theologian crash course on the site. A mathematician. Georg Cantor made the most precise distinction between God's infinity and creation's infinity ever put on paper &mdash; and he did it with proofs, not assertions. The relevance to everything else here is direct: "infinite" is not one word. The failure to distinguish two categorically different things that both get called "infinite" generates a pantheism worry that has haunted theology for centuries. If everything is infinite and God is infinite, they must be the same thing. Cantor dissolved that worry. He showed that what we mean by "infinite" when we talk about mathematical objects and what we mean by "infinite" when we talk about God are not two sizes of one thing. They are two different things entirely.</p>
+  <p>This is the first non-theologian crash course on the site. A mathematician. Georg Cantor made the most precise distinction between God's infinity and creation's infinity ever put on paper &mdash; and he did it with proofs, not assertions. The relevance to everything else here is direct: "infinite" is not one word. The failure to distinguish two categorically different things that both get called "infinite" generates a pantheism worry that has haunted theology for centuries. If everything is infinite and God is infinite, they must be the same thing. Cantor dissolved that worry. He showed that what we mean by "infinite" when we talk about mathematical objects and what we mean by "infinite" when we talk about God are not two sizes of one thing. They are two different things entirely.</p>
 
   <p>Georg Cantor was born in 1845 in St. Petersburg, raised in Germany, and spent his career as a professor at the University of Halle. He created set theory &mdash; the branch of mathematics that underlies virtually all of modern mathematics. He faced fierce opposition from Leopold Kronecker, who considered actual infinities illegitimate and worked to block Cantor's career. Cantor suffered severe mental breakdowns &mdash; real, documented, and not the focus of this guide. He died in 1918 in a sanatorium in Halle. The point here is the mathematics and the theological correspondence that grew out of it.</p>
 
@@ -271,19 +271,19 @@
   <p>Three books that provide the biographical, mathematical, and philosophical context for reading Cantor seriously.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Joseph Warren Dauben</div>
       <div class="card-year">1979</div>
       <div class="card-label">"Georg Cantor: His Mathematics and Philosophy of the Infinite"</div>
       <p class="card-body">The standard biography. Dauben covers the mathematics, the philosophical commitments, the Kronecker opposition, the mental illness, and the theological interests &mdash; all in their historical context. The chapter on the Franzelin correspondence is particularly useful. This is the book to read first if you want to understand Cantor as a person and thinker before engaging the primary texts. Scholarly but accessible to non-mathematicians.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Bruce A. Hedman</div>
       <div class="card-year">1993</div>
       <div class="card-label">"Cantor's Concept of Infinity: Implications of Infinity for Contingence"</div>
       <p class="card-body">"A short article that traces Cantor's theological reasoning about the Absolute Infinite and its implications for the contingency of creation. Hedman focuses on exactly the Absolute/transfinite distinction and its theological consequences &mdash; the terrain most relevant to this project. Available online at the <a href="https://www.asa3.org/ASA/PSCF/1993/PSCF3-93Hedman.html">ASA archive</a>. Brief enough to read in an hour."</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Michael Hallett</div>
       <div class="card-year">1984</div>
       <div class="card-label">Cantorian Set Theory and Limitation of Size</div>
@@ -372,6 +372,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

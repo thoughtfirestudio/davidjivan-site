@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">I need to tell you what I mean by this word, because I know what you heard when you read it.</p>
+  <p>I need to tell you what I mean by this word, because I know what you heard when you read it.</p>
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
@@ -129,6 +129,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

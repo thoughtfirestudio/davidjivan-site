@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">You can find him in any reference work with the same caption: Priscillian of &Aacute;vila, the first heretic in Christian history to be executed for his beliefs. Beheaded at Trier, sometime around 385, along with a handful of his followers. Roughly seventy years after the persecutions ended &mdash; after the empire stopped killing Christians &mdash; Christians worked out how to start killing each other. That&rsquo;s the line. It&rsquo;s true enough to keep repeating.</p>
+  <p>You can find him in any reference work with the same caption: Priscillian of &Aacute;vila, the first heretic in Christian history to be executed for his beliefs. Beheaded at Trier, sometime around 385, along with a handful of his followers. Roughly seventy years after the persecutions ended &mdash; after the empire stopped killing Christians &mdash; Christians worked out how to start killing each other. That&rsquo;s the line. It&rsquo;s true enough to keep repeating.</p>
 
   <p>But the caption hides the thing that actually matters, which is that he was not, on paper, executed for heresy. He was executed for <em>magic</em>.</p>
 
@@ -100,7 +100,7 @@
 
   <p>The textbook calls him the first heretic executed. The court called him a sorcerer. Both are right. And I keep thinking about the distance between them &mdash; the invention being made in that room. Everyone involved understood the trial was about doctrine. But heresy wasn&rsquo;t a capital crime. So they dressed the religious offense in a criminal one, and the secular arm obliged.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">How to make the church&rsquo;s enemy into the empire&rsquo;s criminal, so the empire would do the killing the church couldn&rsquo;t.</p>
     <p class="thesis-close">Henry Chadwick called Priscillian the first and, in all of antiquity, very nearly the <em>only</em> heretic to suffer formal capital punishment from the state. The grim achievement wasn&rsquo;t just a death. It was the discovery of a <em>method</em>.</p>
@@ -151,11 +151,11 @@
 
   <p>Two more things, because they&rsquo;re too strange to leave out.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     The earliest clear appearance of the <em>Comma Johanneum</em> &mdash; that fabricated Trinitarian clause in First John, the one that wasn&rsquo;t in any Greek manuscript for a thousand years &mdash; shows up in the Latin of Priscillian&rsquo;s own <em>Liber Apologeticus</em>. Raymond Brown traced it there. So the first man executed as a heretic is also, possibly, the pen under which Christianity&rsquo;s most famous textual forgery first surfaces. The tradition killed him for corrupting the faith, and then spent the next twelve centuries quietly canonizing a verse that may have started with him. I don&rsquo;t know what to do with that except sit in it.
   </div>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     There&rsquo;s a long-running scholarly suggestion, Chadwick again among its proponents, that the bones venerated for over a thousand years at Santiago de Compostela &mdash; the relics of the apostle James, one of the great pilgrimage destinations of the Christian world &mdash; may in fact be Priscillian&rsquo;s, carried home by his devoted followers and eventually mistaken for something safer to love. It can&rsquo;t be proven. But picture it: the first heretic the church ever put to death, lying in honor at the end of a holy road, with millions of pilgrims kneeling at the tomb of the man their institution killed.
   </div>
 
@@ -171,13 +171,13 @@
 
   <p>I&rsquo;ve been on the road now for a while. And I keep finding the same thing in every century I dig into: the tradition arguing with itself. The institution doing what institutions do &mdash; protecting the structure at the expense of the people. And somewhere in the same room, a dissenter who can&rsquo;t stomach it. Martin at Trier. Ambrose writing letters. The conscience of the church, flinching in real time. That&rsquo;s the part I hold onto. Not the purity. The self-correction.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The tradition has always been arguing with itself. The arguing is not the corruption of it. The arguing might be the most alive thing in it.</p>
     <p class="thesis-close"></p>
   </div>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources:</span> Henry Chadwick, <em>Priscillian of Avila</em> (1976) &mdash; the major modern study. Sulpicius Severus, <em>Life of Martin</em> &mdash; contemporary account of Martin&rsquo;s intervention at Trier. Georg Schepss, discoverer of the W&uuml;rzburg tractates (1885). Virginia Burrus, <em>The Making of a Heretic</em> &mdash; gender, authority, and the construction of Priscillian&rsquo;s deviance.</p>
   </div>
 
@@ -188,6 +188,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

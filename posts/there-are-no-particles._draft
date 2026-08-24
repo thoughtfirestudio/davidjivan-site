@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">I first ran into this in a way I didn&rsquo;t expect. I was sitting at the kitchen table one afternoon, Christen had taken the kids to the playground, and I was reading about quantum fields on my phone. Not for a project. Just because I couldn&rsquo;t stop. There&rsquo;s a sentence in every serious physics book that stops you if you really let it land: there are no particles. Only fields. And nothing physical arises apart from the field that produces it.</p>
+  <p>I first ran into this in a way I didn&rsquo;t expect. I was sitting at the kitchen table one afternoon, Christen had taken the kids to the playground, and I was reading about quantum fields on my phone. Not for a project. Just because I couldn&rsquo;t stop. There&rsquo;s a sentence in every serious physics book that stops you if you really let it land: there are no particles. Only fields. And nothing physical arises apart from the field that produces it.</p>
 
   <p>I read it three times. Then I put the phone down and stared out the window at the scrub brush and the sky and tried to think about what it meant that the thing I&rsquo;d just read made the same structural claim as the opening of the Gospel of John.</p>
 
@@ -72,7 +72,7 @@
 
   <p>&ldquo;All things came into being through the Logos, and apart from it not one thing came into being that came into being.&rdquo; That&rsquo;s John 1:3, written somewhere around the end of the first century. The structural claim it makes &mdash; all things through the one ordering principle, nothing arising apart from it &mdash; is the same claim QFT is making. Every physical event is an excitation of the underlying field. Nothing physical arises apart from it. John 1:3 and QFT are pointing at the same structure: the rational ordering principle through which physical reality coheres.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The structural claim &mdash; all things through <em>the one ordering principle</em>, nothing arising apart from it &mdash; is the same claim QFT is making.</p>
     <p class="thesis-close"></p>
@@ -147,7 +147,7 @@
 
   <p>These are not the same claim. John 1:3 is about the ordering principle through which physical things arise. Acts 17:28 is about the ground in which the ordering principle itself appears. The QFT convergence lands at the first level and stays there. It does not reach the second.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     This matters because the most common mistake in conversations like this is collapsing the two. Someone says: QFT points toward a unified field, the Logos tradition talks about a unified ground, therefore science is reaching God. That move is too fast, and the place where it&rsquo;s too fast is exactly where the interesting question lives.
   </div>
 
@@ -163,7 +163,7 @@
 
   <p>Materialism&rsquo;s fundamental move is this: consciousness is produced by matter. The brain generates experience. Mind is what sufficiently complex physical processes look like from the inside. It&rsquo;s a coherent story as long as you don&rsquo;t push it too hard. Push it &mdash; ask <em>why</em> any physical process is experienced at all, why there is something it is like to be you rather than just information processing happening in the dark &mdash; and the explanation gap doesn&rsquo;t close. It deepens. The framework that predicts the behavior of fields with extraordinary precision has nothing to say about why any of it is felt.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">That gap &mdash; the <em>hard problem of consciousness</em> &mdash; is where materialism runs out of rope.</p>
     <p class="thesis-close">Not because science is wrong. Science is doing real work; the structure of the render is real and rigorous. But <strong>the structure of the render is not the same as the ground in which the render appears.</strong></p>
@@ -176,17 +176,17 @@
   <p>I&rsquo;ve been reading in this neighborhood for a few years, and the cluster of serious contemporary thinkers working this same seam is part of what made the question feel pursuable in the first place. Naming them helps locate where the conversation is actually happening &mdash; and helps mark that the position I&rsquo;m working toward is not idiosyncratic.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Bernardo Kastrup</div>
       <div class="card-label">analytic idealism</div>
       <p class="card-body">A former computer scientist (CERN) turned philosopher. Consciousness is the irreducible given, and the physical world is what consciousness looks like from a localized perspective inside it. His model uses <em>dissociation</em> as the central mechanism &mdash; individual subjects are dissociated alters within a single field of awareness. Of the contemporary work on this side of the question, Kastrup&rsquo;s is the most philosophically built-out.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Donald Hoffman</div>
       <div class="card-label">interface theory</div>
       <p class="card-body">A cognitive scientist at UC Irvine. What we perceive as physical reality is a species-specific user interface &mdash; the icons on a desktop, not the underlying machine. We see spacetime and objects because evolution rewarded the perceptual interface that kept our ancestors alive, not because spacetime and objects are how reality is in itself. The move is the same one consciousness-first metaphysics has always made: what shows up to us is <em>render</em>, not substrate.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Roger Penrose</div>
       <div class="card-label">Orch-OR</div>
       <p class="card-body">A major mathematical physicist. His Orch-OR proposal links consciousness to quantum-gravitational collapse in the brain. Taken seriously by mainstream physics in a way almost no other consciousness theorist is. His model runs causation in the opposite direction from where I land &mdash; he wants consciousness to come from physics. I keep him in the conversation. I don&rsquo;t follow him to his conclusion.</p>
@@ -218,7 +218,7 @@
 
   <p>These two levels &mdash; the rational ordering principle through which all physical things arise, and the ground in which that ordering principle itself appears &mdash; are distinct. The first is where the QFT convergence lives. The second is where Acts 17:28 is pointing. The first is what physics can describe. The second is what physics cannot reach, not because of a gap in the physics, but because space and time and the structure of fields are themselves render-structures. The ground is prior to them &mdash; not located relative to them, but the prior condition for their appearing at all.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The most rigorous description of physical reality science has produced maps onto the Logos tradition&rsquo;s account of the <em>ordering principle</em> &mdash; and physics stops well before it reaches the ground that consciousness-first positions are pointing at.</p>
     <p class="thesis-close">The two claims are <strong>compatible</strong>. They operate at <strong>different levels</strong>. And the gap between them is exactly where the hard problem lives.</p>
@@ -240,7 +240,7 @@
 
   <p>I don&rsquo;t know how that lands for you. I&rsquo;m still working it out myself. But the thread is real, and it connects things that don&rsquo;t usually appear in the same sentence &mdash; and when they do, what they point at together is more coherent than either one alone.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> &mdash; John 1:3 &middot; Acts 17:28 &middot; Bernardo Kastrup, <em>analytic idealism</em> &middot; Donald Hoffman, <em>interface theory of consciousness</em> &middot; Roger Penrose, <em>Orch-OR</em> &middot; David Chalmers, <em>the hard problem of consciousness</em></p>
   </div>
 
@@ -251,6 +251,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

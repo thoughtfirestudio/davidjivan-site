@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">God didn't make the world.</p>
+  <p>God didn't make the world.</p>
 
   <p>I'm not saying there's no God. I'm not saying there's no world. I'm saying "made" is the wrong verb, and the picture behind it &mdash; a maker and an artifact, two separate things, one past-tense act &mdash; is a theological construction that obscures more than it reveals.</p>
 
@@ -106,7 +106,7 @@
 
   <p>That last phrase is doing the heaviest lifting. <em>Di'hou</em> &mdash; "through which." Not <em>by which</em>, as one would say of a maker wielding a tool, but <em>through which</em>, as one would say of the structuring principle a coming-into-being passes through. Philo's vocabulary for how the cosmos comes to be lines up almost word-for-word with the prologue of the Fourth Gospel.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     Philo, on the <em>Logos</em>: the <em>organon di'hou</em> &mdash; the instrument <em>through which</em> the cosmos was framed.
 
 Fourth Gospel 1:3: <em>panta di'autou egeneto</em> &mdash; all things came into being <em>through</em> him.
@@ -190,7 +190,7 @@ Same preposition. Same structure. One generation apart. The Author of the Fourth
 
   <p>This distinction has to stay apophatic &mdash; a denial of sameness-of-kind, not an assertion of two things standing side by side. The moment "God is not the world" hardens into "God over here, the world over there," dualism walks back in wearing new robes and the whole framework cracks. The distinction is real. It is not a gap between two substances. Water and wave. Screen and image. Not-identical yet not-other-than.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     I'm naming this plainly because I've seen what happens when people in this territory refuse to name it. They end up making pantheist claims with panentheist decorations, or panentheist claims they're afraid to say out loud. The honest thing is to say what it is: the position I'm working from is panentheism. All things within God. God not exhausted by all things. Closer to the edge than Aquinas. Not over the edge.
   </div>
 
@@ -200,7 +200,7 @@ Same preposition. Same structure. One generation apart. The Author of the Fourth
 
   <h2>What I'm choosing here, <em>on purpose</em></h2>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     <strong>CONTESTED:</strong> This diverges from classical theism at a specific point. Aquinas held that God's being and created being are related by analogy &mdash; <em>analogia entis</em> &mdash; not by identity or containment. On Aquinas's view, to say "the world exists within God" is already a category error. Created existence participates in God's being but is not <em>in</em> it the way a wave is in water. The consciousness-first move I'm making &mdash; God containing the render &mdash; is a heterodox construction, not a recovery of classical theism. I should own that and I do.
   </div>
 
@@ -224,7 +224,7 @@ Same preposition. Same structure. One generation apart. The Author of the Fourth
 
   <div class="divider">────────────────────────────────────────────────────────</div>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">God didn't <em>make</em> the world. The world is what God's awareness looks like when it takes on structure &mdash; real structure, with real consequences, appearing within the one consciousness that never wasn't.</p>
     <p class="thesis-close">That's a bet. Closer to the edge than I'm sometimes comfortable with. But the railing holds, and what it opens is a picture of creation that doesn't require a watchmaker who walks away.</p>
@@ -234,7 +234,7 @@ Same preposition. Same structure. One generation apart. The Author of the Fourth
 
   <p>What opens on the other side is a creation that is happening now. Not finished. Not wound up and released. A world that is within God the way the wave is within the water &mdash; real, structured, consequential, and never for a moment separate from what it appears in.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> &mdash; Heraclitus, fragment DK B50 &middot; Cleanthes, <em>Hymn to Zeus</em> &middot; Philo of Alexandria, <em>On the Cherubim</em>, <em>On the Confusion of Tongues</em> &middot; The Author of the Fourth Gospel, John 1:1&ndash;3 &middot; Paul Tillich, <em>Systematic Theology</em> &middot; Meister Eckhart, <em>Gottheit</em> tradition &middot; Bernardo Kastrup, analytic idealism &middot; Thomas Aquinas, <em>Summa Theologiae</em> I, q.3&ndash;4</p>
   </div>
 
@@ -245,6 +245,5 @@ Same preposition. Same structure. One generation apart. The Author of the Fourth
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

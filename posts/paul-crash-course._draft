@@ -24,7 +24,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">Here's the wild thing: Paul founded Christianity more than Jesus did.</p>
+  <p>Here's the wild thing: Paul founded Christianity more than Jesus did.</p>
 
   <p>Jesus of Nazareth was a Jewish apocalyptic preacher who healed people, argued with scribes, got executed by the Romans, and whose followers claimed he was raised from the dead. Within his lifetime he had no "church" to speak of &mdash; a following, yes. A movement, barely. After his death, his closest disciples (Peter, James, John) stayed in Jerusalem and kept observing Torah. They didn't seem to think they'd started a new religion.</p>
 
@@ -258,6 +258,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

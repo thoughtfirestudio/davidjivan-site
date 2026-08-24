@@ -24,7 +24,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">Origen of Alexandria (c. 184&ndash;253 CE) is the figure most people in the Logos tradition eventually run into and cannot get past. He was the first systematic theologian of early Christianity &mdash; the first to attempt a comprehensive account of God, cosmos, and human nature that could hold its own against Greek philosophy without surrendering to it. He was the foundational biblical scholar of the ancient church: he compared manuscript traditions, studied Hebrew, and built an apparatus for OT textual criticism that wouldn't be matched for a millennium. And he was the most ambitious Logos-system-builder of the first three centuries &mdash; the one who took the cosmological claim of John 1 seriously enough to build an entire metaphysics around it.</p>
+  <p>Origen of Alexandria (c. 184&ndash;253 CE) is the figure most people in the Logos tradition eventually run into and cannot get past. He was the first systematic theologian of early Christianity &mdash; the first to attempt a comprehensive account of God, cosmos, and human nature that could hold its own against Greek philosophy without surrendering to it. He was the foundational biblical scholar of the ancient church: he compared manuscript traditions, studied Hebrew, and built an apparatus for OT textual criticism that wouldn't be matched for a millennium. And he was the most ambitious Logos-system-builder of the first three centuries &mdash; the one who took the cosmological claim of John 1 seriously enough to build an entire metaphysics around it.</p>
 
   <p>He was condemned roughly three hundred years after his death. Much of what he wrote is gone. What survives has been filtered through translators who admitted softening the heterodox parts, hostile quotations in imperial edicts, and the excerpts his theological opponents chose to preserve. Reading Origen means reading him through fog &mdash; which is itself part of the story.</p>
 
@@ -280,25 +280,25 @@
   <p>These four books are the most useful companions to the primary sources. Read them alongside, not instead of, Origen.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Henri Crouzel</div>
       <div class="card-year">1989</div>
       <div class="card-label">Origen</div>
       <p class="card-body">"The standard introductory monograph in English. Crouzel was a Jesuit patristics scholar who spent his career on Origen; the book is comprehensive and reliable on historical matters. His theological sympathies occasionally color interpretation &mdash; flag that when he seems to be defending Origen's orthodoxy too readily &mdash; but as a map of the terrain it is the best starting point."</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Henri de Lubac</div>
       <div class="card-year">2007</div>
       <div class="card-label">"History and Spirit: The Understanding of Scripture According to Origen"</div>
       <p class="card-body">"De Lubac's study of Origen's exegetical method &mdash; how he moves between the literal, moral, and spiritual senses of a text, and what theological commitments underlie that movement. Essential for understanding the Song of Songs commentary and the homilies. De Lubac reads Origen charitably within the Catholic tradition; the book is nonetheless the best guide to what Origen's allegorical method is actually doing and why he thought it was necessary."</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">John Behr</div>
       <div class="card-year">2017</div>
       <div class="card-label">Introduction to On First Principles</div>
       <p class="card-body">"Not a separate book &mdash; it's the introductory essay in Behr's critical edition. Long enough (roughly 80&ndash;100 pages) to function as a standalone guide. Covers transmission, historical context, Origen's sources, and the main doctrinal issues. If you're reading <em>On First Principles</em>, read this first. If you're not ready for the primary text, read the introduction on its own as a map."</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Ilaria Ramelli</div>
       <div class="card-year">2013</div>
       <div class="card-label">The Christian Doctrine of Apokatastasis</div>
@@ -385,6 +385,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

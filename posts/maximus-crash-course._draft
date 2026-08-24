@@ -24,7 +24,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">If you have followed the arc this far &mdash; through <a href="/posts/origen-crash-course.html">Origen</a>, condemned three hundred years after his death and recovered through fog; through the <a href="/posts/cappadocians-crash-course.html">Cappadocians</a>, who quietly carried theosis forward without anyone catching on; through <a href="/posts/pseudo-dionysius-crash-course.html">Pseudo-Dionysius</a>, whose apophatic theology survived because the church mistook him for one of Paul's converts &mdash; you are probably sitting with the same question I sat with for a long time. If the participation tradition really was the intellectual core of early Christianity, where did it go after 553? Did it only survive underground &mdash; borrowed names, unauthorized Latin translations, condemned syntheses, the line running through <a href="/posts/eriugena-crash-course.html">Eriugena</a> to Eckhart? Or is there a stronger claim available somewhere &mdash; that it kept maturing right through the orthodox center, in the most canonical Greek-East line, never suppressed, never patched in later, formally taught?</p>
+  <p>If you have followed the arc this far &mdash; through <a href="/posts/origen-crash-course.html">Origen</a>, condemned three hundred years after his death and recovered through fog; through the <a href="/posts/cappadocians-crash-course.html">Cappadocians</a>, who quietly carried theosis forward without anyone catching on; through <a href="/posts/pseudo-dionysius-crash-course.html">Pseudo-Dionysius</a>, whose apophatic theology survived because the church mistook him for one of Paul's converts &mdash; you are probably sitting with the same question I sat with for a long time. If the participation tradition really was the intellectual core of early Christianity, where did it go after 553? Did it only survive underground &mdash; borrowed names, unauthorized Latin translations, condemned syntheses, the line running through <a href="/posts/eriugena-crash-course.html">Eriugena</a> to Eckhart? Or is there a stronger claim available somewhere &mdash; that it kept maturing right through the orthodox center, in the most canonical Greek-East line, never suppressed, never patched in later, formally taught?</p>
 
   <p>The answer to that question is one person. And the strangest fact in patristic history is that the man the Byzantine state crippled in 662 wrote, posthumously and without revision, the conciliar definition that overruled the emperor who broke him.</p>
 
@@ -60,7 +60,7 @@
     What we do know with confidence: by the mid-620s he was in North Africa. He was formed by Sophronius &mdash; the future Patriarch of Jerusalem who would surrender the city to Caliph Umar in 638. He spent the next two decades in Carthage writing the bulk of his theological corpus. He debated the former Patriarch Pyrrhus publicly at Carthage in July 645, with the African exarch Gregory presiding, and won the debate so completely that Pyrrhus publicly converted. He went to Rome by 646, co-orchestrated the Lateran Council of 649 with Pope Martin I &mdash; the first papal council ever convened without imperial authorization &mdash; and was arrested with the pope in 653. The biography is solid from his late forties onward. Before that, it dissolves into competing hagiographies.
   </div>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     <strong>One date worth holding.</strong> The hostile Syriac <em>Life</em> was not published in a modern critical edition until 1973. The complete <em>Ambigua</em> in English did not exist until Constas's Dumbarton Oaks edition of 2014. The complete <em>Questions to Thalassios</em> in English did not exist until Constas's Catholic University of America Press edition of 2018. For a figure this central to the Eastern church, that is genuinely unusual. The Maximus we can now read is a Maximus that was not available to scholars two generations ago. The recovery is happening in real time.
   </div>
 
@@ -105,23 +105,23 @@
   <p><em>Ambiguum 41</em> maps the structure of created reality through five divisions, each one a mediation gap that needs unification:</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Division 1</div>
       <p class="card-body">Uncreated and created. The fundamental ontological division between God and everything else.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Division 2</div>
       <p class="card-body">Intelligible and sensible. Within creation, between purely spiritual and material.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Division 3</div>
       <p class="card-body">Heaven and earth. Within the sensible, between celestial and terrestrial.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Division 4</div>
       <p class="card-body">Paradise and inhabited world. Within the earth, between the original sanctuary and the fallen rest.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Division 5</div>
       <p class="card-body">Male and female. Within humanity, the division of the sexes.</p>
     </div>
@@ -161,7 +161,7 @@
 
   <p>And then, in <em>Ambiguum 31</em>, Maximus puts up a railing against the most obvious misreading: <em>He completely divinized us, without in any way violating or essentially altering our nature.</em> Theosis is not pantheism. The created does not collapse into the uncreated. The participation is real and is held under a distinction that does not dissolve. This is what scholars now call the essence&ndash;energies distinction in seed form: union with God is union with the divine energies (the operative self-disclosure of God), not union with the divine essence (which remains apophatically prior to all participation). Whether Gregory Palamas in the fourteenth century is unfolding what is already there in Maximus or whether he is reading his own scheme back into Maximus is a genuine scholarly question. Jean-Claude Larchet (<em>La divinisation de l'homme selon saint Maxime le Confesseur</em>, Cerf, 1996) reads it as already there; David Bradshaw and Bruce Foltz read Palamas as the innovator. Hold this open.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">Man is made god by divinization, and God is made man by hominization.</p>
     <p class="thesis-close">&mdash; Maximus, Ambiguum 7. The participation tradition without the monist collapse. Quote and let it sit.</p>
@@ -227,7 +227,7 @@
 
   <p>Both Eastern Orthodoxy and Roman Catholicism canonize him without reservation. His feast is 13 August, the day of his death. He is the only patristic figure whose technical Christological vocabulary became conciliar doctrine in his exact terms within a generation of his death.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">Origen got the participation tradition <em>condemned</em>. Maximus got it <em>canonized</em>.</p>
     <p class="thesis-close">That is the structural difference between the two figures and the claim everything in this arc turns on. The condemned line survives through translation underground &mdash; Eriugena, Eckhart, the Latin-West channel. The orthodox line runs through the Greek East &mdash; Cappadocians, Pseudo-Dionysius, Maximus &mdash; and is canonized at the center of two of the largest churches in the world. The participation axis was not only an underground. It was made the formal teaching at the orthodox center, by the same imperial machinery that had killed its most articulate exponent nineteen years earlier.</p>
@@ -550,7 +550,7 @@
 
   <p>He left enough on the page to live with.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Primary editions</span> &mdash; Maximos the Confessor, trans. Nicholas Constas, <em>On Difficulties in the Church Fathers: The Ambigua</em>, 2 vols., DOML 28&ndash;29 (Harvard, 2014) &middot; Maximos the Confessor, trans. Maximos Constas, <em>On Difficulties in Sacred Scripture: The Responses to Thalassios</em>, Fathers of the Church 136 (CUA, 2018) &middot; George C. Berthold, trans., <em>Maximus Confessor: Selected Writings</em>, Classics of Western Spirituality (Paulist, 1985) &middot; Andrew Louth, <em>Maximus the Confessor</em>, Routledge Early Church Fathers (1996) &middot; Paul M. Blowers and Robert Louis Wilken, trans., <em>On the Cosmic Mystery of Jesus Christ</em>, Popular Patristics (SVS, 2003) &middot; Joseph P. Farrell, trans., <em>Disputation with Pyrrhus</em> (St. Tikhon's, 1990; reissued 2014) &middot; Despina D. Prassas, trans., <em>Quaestiones et Dubia</em> (NIU/Cornell, 2010) &middot; Pauline Allen and Bronwen Neil, eds., <em>Maximus the Confessor and his Companions: Documents from Exile</em>, Oxford Early Christian Texts (OUP, 2002) &middot; <em>The Philokalia</em>, vol. II, eds. Palmer, Sherrard, Ware (Faber, 1981) &middot; Migne, <em>Patrologia Graeca</em> 91 (1865, for the Opuscula and Letters) &middot; Sebastian P. Brock, "An Early Syriac Life of Maximus the Confessor," <em>Analecta Bollandiana</em> 91 (1973): 299&ndash;346 &middot; Theophanes the Confessor, <em>Chronographia</em>, trans. Mango &amp; Scott (Oxford, 1997). Companion pieces: <a href="/posts/origen-crash-course.html">Origen crash course</a> &middot; <a href="/posts/cappadocians-crash-course.html">Cappadocians crash course</a> &middot; <a href="/posts/pseudo-dionysius-crash-course.html">Pseudo-Dionysius crash course</a> &middot; <a href="/posts/eriugena-crash-course.html">Eriugena crash course</a> &middot; <a href="/posts/the-logos-lineage.html">The Logos lineage</a></p>
   </div>
 
@@ -561,6 +561,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

@@ -73,6 +73,12 @@
   }
   .arc-module .arc-cta a { color: var(--brass); text-decoration: underline; text-underline-offset: 3px; }
   .arc-module .arc-cta a:hover { color: var(--signal); }
+  .arc-module .arc-flow.flow { animation: arcflow 1.1s linear infinite; }
+  @keyframes arcflow { to { stroke-dashoffset: -18; } }
+  .arc-module .node-dot circle.hit { fill: transparent; }
+  @media (prefers-reduced-motion: reduce) {
+    .arc-module .arc-flow.flow { animation: none; }
+  }
 
   .home-note {
     max-width: var(--max-w);
@@ -116,17 +122,16 @@
   <a href="/bible" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px; font-weight: 700; letter-spacing: 0.05em;">BIBLE</a> &middot; <a href="/logos" style="color: var(--mute); text-decoration: underline; text-underline-offset: 3px;">the john museum</a> &middot; <a href="/posts/shroud.html" style="color: var(--mute); text-decoration: underline; text-underline-offset: 3px;">the shroud of turin</a> &middot; <a href="/posts/logos-idealism-axioms.html" style="color: var(--mute); text-decoration: underline; text-underline-offset: 3px;">older notes</a> &middot; <a href="https://tools.davidjivan.net" style="color: var(--mute); text-decoration: underline; text-underline-offset: 3px;">tools</a>
 </div>
 
-<script src="/vendor/jquery.min.js"></script>
-<script src="/vendor/jquery.drawsvg.js"></script>
 <script src="/arc-data.js"></script>
 <script>
-$(function() {
+(function() {
+  "use strict";
   var W = 820, H = 120, n = window.ARC.nodes.length;
   var x0 = 70, x1 = W - 70, y = 62;
   var gap = (x1 - x0) / (n - 1);
   var pts = window.ARC.nodes.map(function(_, i) { return { x: x0 + gap * i, y: y + (i % 2 === 0 ? 0 : 26) }; });
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // connecting curve
   var d = 'M ' + pts[0].x + ' ' + pts[0].y;
   for (var i = 1; i < n; i++) {
     var p0 = pts[i-1], p1 = pts[i], mx = (p0.x + p1.x) / 2;
@@ -134,38 +139,56 @@ $(function() {
   }
 
   var svg = '';
-  svg += '<path d="' + d + '" fill="none" stroke="var(--line-strong)" stroke-width="2"/>';
+  svg += '<path class="arc-flow" d="' + d + '" fill="none" stroke="var(--line-strong)" stroke-width="2"/>';
   pts.forEach(function(p, i) {
     var node = window.ARC.nodes[i];
     svg += '<g class="node-dot" data-i="' + i + '">'
-      + '<circle cx="' + p.x + '" cy="' + p.y + '" r="18" fill="transparent"/>'
-      + '<circle class="dot" cx="' + p.x + '" cy="' + p.y + '" r="7" fill="var(--night)" stroke="var(--brass)" stroke-width="2"/>'
+      + '<circle class="hit" cx="' + p.x + '" cy="' + p.y + '" r="22"/>'
+      + '<circle class="dot" cx="' + p.x + '" cy="' + p.y + '" r="7" fill="var(--panel)" stroke="var(--brass)" stroke-width="2"/>'
       + '<text x="' + p.x + '" y="' + (p.y + 4) + '" text-anchor="middle">' + node.n + '</text>'
       + '</g>';
   });
-  $('#arc-svg').html(svg);
+  var svgEl = document.getElementById('arc-svg');
+  svgEl.innerHTML = svg;
 
-  // Draw the path
-  $('#arc-svg').drawsvg({ duration: 1600, stagger: 90, callback: function() {} });
+  // The wow: the arc draws itself, then the light flows along it.
+  var path = svgEl.querySelector('.arc-flow');
+  var L = path.getTotalLength();
+  path.style.strokeDasharray = L;
+  path.style.strokeDashoffset = L;
+  if (!reduce) {
+    path.getBoundingClientRect();
+    path.style.transition = 'stroke-dashoffset 1.6s ease';
+    path.style.strokeDashoffset = 0;
+    setTimeout(function() { path.style.transition = 'none'; path.style.strokeDasharray = '10 8'; path.classList.add('flow'); }, 1700);
+  } else {
+    path.style.strokeDasharray = '10 8';
+  }
 
-  // Hover tips + click
-  var tip = $('#arc-tip');
-  $('.node-dot').on('mouseenter', function() {
-    var i = $(this).data('i'), p = pts[i];
-    tip.text(window.ARC.nodes[i].name).addClass('show');
-    var fw = $('.arc-frame').width(), scale = fw / W;
-    tip.css({ left: (p.x * scale - 40) + 'px', top: (p.y * scale - 52) + 'px' });
-  }).on('mouseleave', function() { tip.removeClass('show'); });
-
-  $('.node-dot').on('click', function() {
-    var i = $(this).data('i');
-    window.location.href = '/christianity-map#node-' + (i + 1);
+  // Nodes cascade in one by one, then they're yours to tap.
+  var dots = Array.prototype.slice.call(svgEl.querySelectorAll('.node-dot'));
+  dots.forEach(function(el, i) {
+    el.style.opacity = 0;
+    setTimeout(function() { el.style.transition = 'opacity .3s'; el.style.opacity = 1; }, reduce ? 0 : 200 + i * 90);
   });
 
-  if (window.Waves) Waves.attach('.node-dot', ['waves-circle']); Waves.init();
-});
+  var tip = document.getElementById('arc-tip');
+  dots.forEach(function(el, i) {
+    var p = pts[i];
+    el.addEventListener('mouseenter', function() {
+      if (window.matchMedia('(hover: hover)').matches) {
+        tip.textContent = window.ARC.nodes[i].name;
+        tip.classList.add('show');
+        var fw = document.querySelector('.arc-frame').offsetWidth, scale = fw / W;
+        tip.style.left = (p.x * scale - 40) + 'px';
+        tip.style.top = (p.y * scale - 52) + 'px';
+      }
+    });
+    el.addEventListener('mouseleave', function() { tip.classList.remove('show'); });
+    el.addEventListener('click', function() { window.location.href = '/christianity-map#node-' + (i + 1); });
+  });
+})();
 </script>
-<script src="/vendor/waves.min.js"></script>
 <script defer src="/track.js"></script>
 </body>
 </html>

@@ -46,7 +46,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">You already half-know this one.</p>
+  <p>You already half-know this one.</p>
 
   <p>A cat in a steel chamber. A vial of poison wired to a Geiger counter. A radioactive atom that might or might not have decayed in the past hour. If the atom decays, the counter trips, the hammer falls, the flask shatters, the cat is dead. If it doesn't, the cat is alive. You leave the box sealed for an hour and then ask: what is the state of the cat?</p>
 
@@ -69,15 +69,15 @@
   <p>The cleanest formulation of the measurement problem I know is Tim Maudlin's, from a 1995 paper called <em>Three Measurement Problems</em>. Maudlin teaches philosophy of physics at NYU. The paper is now the standard way the problem gets introduced in foundations courses. Three propositions, each of which looks obviously true. None of which can all be true together. Every interpretation of quantum mechanics is a choice about which one to drop.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">A &mdash; completeness</div>
       <p class="card-body">The wave function is a complete description of a physical system. There is nothing more to the system that the wave function leaves out &mdash; no hidden facts, no extra variables, no truth-of-the-matter the math doesn't capture.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">B &mdash; linear evolution</div>
       <p class="card-body">The wave function always evolves according to the Schr&ouml;dinger equation. Smoothly, deterministically, never branching, never jumping. The equation that governs quantum systems is the equation, all the way through.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">C &mdash; definite outcomes</div>
       <p class="card-body">Measurements have single, definite results. You open the box and find a live cat or a dead cat, not a smeared one. The pointer rests at a single number. There is a fact of the matter about what happened.</p>
     </div>
@@ -89,7 +89,7 @@
 
   <p>So one of the three has to go. That is the measurement problem in one breath. The math gives you everything; the world gives you one thing; nothing in the math explains the difference.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     This is not a fringe formulation. Maudlin's three-proposition framing is the standard way foundations of physics is taught. If you ever see the measurement problem presented as a single unresolved puzzle rather than a forced choice between three named costs, the writer has either skipped a step or hasn't read the field.
   </div>
 
@@ -123,7 +123,7 @@
 
   <p>What decoherence does not do is select an outcome. The global wave function &mdash; the system plus the environment &mdash; is still a pure superposition. The reduced density matrix only looks like a mixture if you trace out, by hand, the environmental degrees of freedom you can't measure. Physicists call this an <em>improper</em> mixture. It has the same matrix entries as a classical probability distribution over definite outcomes, but it is not a classical probability distribution over definite outcomes. The universe, on the linear dynamics, is still in all of them at once. Decoherence has just moved the contradiction to a bigger system.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     This is not some fringe reading. The physicists who built decoherence say the same thing. Zurek says it. Zeh said it. Schlosshauer's standard survey in <em>Reviews of Modern Physics</em>: "Many authors agree that decoherence does not solve the measurement problem." Bacciagaluppi wrote the <em>Stanford Encyclopedia</em> entry on decoherence, and he puts it as cleanly as anyone: "It does explain why we do not observe superpositions of measurement results, but it does not explain why we do observe measurement results in the first place." Sheesh. If you've read otherwise, you were reading marketing, not the foundations literature.
   </div>
 
@@ -134,27 +134,27 @@
   <p>Every interpretation drops at least one. Here is the menu, with the bill attached.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Many-Worlds (Everett, Wallace)</div>
       <p class="card-body"><strong>Drops C &mdash; definite outcomes.</strong> The wave function never collapses. Every possible outcome happens, in its own branch. The version you experience is one branch among an unimaginable number. The price: a proliferation of unobservable parallel worlds, and a still-contested account of why the Born probabilities come out the way they do. David Wallace's decision-theoretic derivation in <em>The Emergent Multiverse</em> (2012) is rigorous and disputed.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Bohmian mechanics (de Broglie, Bohm)</div>
       <p class="card-body"><strong>Drops A &mdash; completeness.</strong> The wave function is real, but particles also have definite positions at all times. The wave function "guides" the particles via a pilot wave. The math reproduces standard quantum mechanics. The price: explicit, ineliminable non-locality. The pilot wave acts faster than light. You buy determinate outcomes by giving up locality.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">GRW / Continuous Spontaneous Localization</div>
       <p class="card-body"><strong>Drops B &mdash; linear evolution.</strong> The Schr&ouml;dinger equation is modified by a tiny stochastic collapse term &mdash; rare, random, more frequent as you scale up to macroscopic systems. The cat doesn't stay in superposition because the math has been changed so it can't. The price: you are modifying the most precisely confirmed equation in physics, and you have to do it carefully enough not to break the predictions that have already been tested.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">QBism (Fuchs, Mermin)</div>
       <p class="card-body"><strong>Drops "observer-independent."</strong> The wave function is not a description of physical reality. It is a tool for an agent to update their beliefs about what they will see. Quantum states are personal, like Bayesian probabilities. The price: there is no observer-independent quantum world. Reality, in any strong sense, becomes agent-relative.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Relational QM (Rovelli)</div>
       <p class="card-body"><strong>Drops "observer-independent" &mdash; differently.</strong> Quantum states are not properties of systems in themselves; they are properties of systems relative to other systems. Two observers can have non-equivalent accounts of the same event and both be right. The price: no view from nowhere. Carlo Rovelli's <em>Helgoland</em> (2020) is the accessible book-length statement.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Superdeterminism (Hossenfelder, Palmer, 't Hooft)</div>
       <p class="card-body"><strong>Drops "freedom of measurement choice."</strong> The experimenter's choices about what to measure are correlated, at the deepest level, with the systems they measure &mdash; by initial conditions, fourteen billion years ago. Howard Wiseman has called the position "belief in ubiquitous alien mind-control." Hossenfelder publishes it seriously in <em>Frontiers in Physics</em>. The Bell-test mainstream rejects it sharply. I don't have a settled view on whether this is a real option or a refusal to do science.</p>
     </div>
@@ -189,27 +189,27 @@
   <p>In July 2025, <em>Nature</em> published the largest survey ever taken of physicists' views on the foundations of quantum mechanics. More than 1,100 respondents. The earlier benchmark &mdash; the much-cited Schlosshauer-Kofler-Zeilinger snapshot from 2013 &mdash; surveyed thirty-three people at a single conference. This one is about thirty-five times larger, and the picture it returns is much sharper.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Copenhagen</div>
       <p class="card-body">36%. Still the plurality, but well short of a majority. Rob Spekkens, quoted in the <em>Nature</em> coverage: "Most physicists are drinking the Kool-Aid of Copenhagen philosophy."</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">QBism / epistemic / relational</div>
       <p class="card-body">17%. The "wave function is information, not reality" cluster, including QBism and Rovelli's relational quantum mechanics. Up sharply since 2013.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Many-Worlds</div>
       <p class="card-body">15%. Strong in cosmology and quantum gravity communities; weaker elsewhere. Growing, especially among younger physicists in foundations.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Bohmian</div>
       <p class="card-body">7%. Persistent minority. Disproportionately represented among philosophers of physics relative to working physicists.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Spontaneous collapse</div>
       <p class="card-body">4%. GRW, CSL, and the Penrose lineage. The smallest named camp, but the only one in principle experimentally distinguishable from the others.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Other / no view</div>
       <p class="card-body">The remainder. Some respondents explicitly chose "no interpretation"; some chose options the survey did not list.</p>
     </div>
@@ -235,7 +235,7 @@
 
   <p>And here is the part popular accounts keep getting wrong: Hoffman and Kastrup are not in the consciousness-collapse lineage at all. Hoffman's conscious-agent theory derives the structure of quantum mechanics from networks of conscious agents &mdash; the wave function is emergent, not something agents collapse. Kastrup explicitly aligns analytic idealism with Rovelli's relational quantum mechanics: on his view there is no observer-independent world to collapse in the first place. The popular reading &mdash; <em>idealism means consciousness causes collapse</em> &mdash; is wrong. It misreads both philosophers and gives ammunition to the entirely reasonable suspicion that this whole conversation is quantum-woo all the way down.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     The honest version: consciousness-first positions are not a magic solution to the measurement problem. None of them dissolves it. What they do is decline to pretend it is already closed. They pay a different price than the materialist positions pay, and they make their price visible.
   </div>
 
@@ -251,7 +251,7 @@
 
   <p>That moment is real. You are reading these sentences in a single definite world, not in a smeared superposition of all the worlds in which you decided to start reading and all the ones in which you decided to skip this. The single definite world is what physics, on the linear dynamics, cannot derive. Something is happening that the level the math describes does not capture.</p>
 
-  <div class="thesis reveal">
+  <div class="thesis">
     <div class="thesis-mark">&ldquo;</div>
     <p class="thesis-quote">The measurement problem is the place where the most successful physical theory ever built admits, on its own internal logic, that it is describing the <em>render</em> and not the ground in which the render appears.</p>
     <p class="thesis-close">I read this as overlay, not as something the physics establishes. The physics establishes the gap. What the gap means is the question physics cannot close from inside itself.</p>
@@ -272,23 +272,23 @@
   <p>A few things I want to leave open, because they are open.</p>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">whether physics will close it</div>
       <p class="card-body">Whether the measurement problem will be solved inside physics one day, or whether it marks a permanent limit on what a third-person formal theory can describe. I lean toward the latter. I am not certain.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">whether Many-Worlds is a solution</div>
       <p class="card-body">Whether Wallace's decision-theoretic derivation of the Born rule inside Many-Worlds amounts to a real solution or just an elegant relabeling. The literature is divided. I read it as relabeling. Reasonable people disagree.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">how to read observer-dependence</div>
       <p class="card-body">Whether the observer-dependence the Wigner's-friend experiments reveal is best read as agent-relative facts (QBism), system-relative facts (Rovelli, and Kastrup on Rovelli), or facts that depend on consciousness in some stronger sense (Stapp, Chalmers-McQueen). I am closer to the relational reading. I hold it lightly.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">whether superdeterminism is science</div>
       <p class="card-body">Whether Hossenfelder is right that superdeterminism deserves a serious hearing, or whether the Bell-test mainstream is right that it is essentially a refusal to do science. I do not have a settled view.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">what the 24% number means</div>
       <p class="card-body">Whether the survey's finding that only a quarter of physicists believe their own preferred interpretation is correct should be read as intellectual humility, paralysis, or the field's quiet recognition that the question isn't going to be settled by physics alone. I read it as the third, but the data does not force it.</p>
     </div>
@@ -304,7 +304,7 @@
 
   <p>I don't know exactly how that lands for you. I know I would have wanted somebody to write this down for me about ten years ago, before I spent a long time being convinced the question was closed by people who were quoting popular science books at me rather than the literature. The question is not closed. The cat is not what you were told the cat was. And the place where the cleanest physical theory ever built turns transparent about what it cannot say on its own is exactly the place where the more interesting conversation begins.</p>
 
-  <div class="colophon reveal">
+  <div class="colophon">
     <p><span class="sig">Sources</span> &mdash; Schr&ouml;dinger, <em>Die gegenw&auml;rtige Situation in der Quantenmechanik</em> (1935; Trimmer trans. 1980) &middot; Maudlin, <em>Three Measurement Problems</em> (1995) &middot; Bell, <em>Against Measurement</em> (1990) &middot; Albert, <em>Quantum Mechanics and Experience</em> (1992) &middot; Schlosshauer, <em>Decoherence, the Measurement Problem, and Interpretations of Quantum Mechanics</em>, Rev. Mod. Phys. (2005) &middot; Adler, <em>Why Decoherence Has Not Solved the Measurement Problem</em> (2003) &middot; Bacciagaluppi, SEP entry on decoherence &middot; Frauchiger &amp; Renner, <em>Nature Communications</em> 9:3711 (2018) &middot; Bong et al., <em>Nature Physics</em> 16:1199 (2020) &middot; Proietti et al., <em>Science Advances</em> 5:eaaw9832 (2019) &middot; Donadi, Curceanu et al., <em>Nature Physics</em> 17:74 (2020) &middot; Wallace, <em>The Emergent Multiverse</em> (2012) &middot; Rovelli, <em>Helgoland</em> (2020) &middot; Kastrup, <em>The Idea of the World</em> (2019) &middot; Chalmers &amp; McQueen, <em>Consciousness and the Collapse of the Wave Function</em> (2022) &middot; Becker, <em>Between Myth and History: von Neumann on Consciousness in QM</em>, philsci-archive 26289 (2025) &middot; Castelvecchi, <em>Nature</em> d41586-025-02342-y (July 2025) &middot; companion: <a href="/posts/there-are-no-particles.html">There Are No Particles</a></p>
   </div>
 
@@ -315,6 +315,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

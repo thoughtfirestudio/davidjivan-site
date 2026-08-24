@@ -46,11 +46,11 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">This is the third syllogism, and it's the one that people try hardest to dodge. The first two — hell is incompatible with a just God, and a flawless text can't contain errors — are hard enough. But this one cuts deeper, because it's not about something God might do in the future or about textual transmission. It's about what the text says God <em>did</em>. In direct speech. Attributed to God's own mouth.</p>
+  <p>This is the third syllogism, and it's the one that people try hardest to dodge. The first two — hell is incompatible with a just God, and a flawless text can't contain errors — are hard enough. But this one cuts deeper, because it's not about something God might do in the future or about textual transmission. It's about what the text says God <em>did</em>. In direct speech. Attributed to God's own mouth.</p>
 
   <p>Let me put the texts on the table first, without commentary, so they can sit there.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     <p><strong>Leviticus 25:44–46 (NRSVUE)</strong></p>
     <p>As for the male and female slaves whom you may have, it is from the nations around you that you may acquire male and female slaves. You may also acquire them from among the aliens residing with you and from their families who are with you who have been born in your land; they may be your property. You may keep them as a possession for your children after you, for them to inherit as property. These you may treat as slaves, but as for your fellow Israelites, no one shall rule over the other with harshness.</p>
   </div>
@@ -66,7 +66,7 @@
 
   <p>Here is the syllogism.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     <p><strong>The Divine Command Syllogism</strong></p>
     <p><strong>Premise 1:</strong> A perfectly good God cannot command, endorse, or codify actions that are objectively immoral.</p>
     <p><strong>Premise 2:</strong> The literal text of the Old Testament contains direct commands from God endorsing chattel slavery and the slaughter of infants.</p>
@@ -99,7 +99,7 @@
 
   <p>The trajectory is real, and it's the thing that matters. The movement from tribal war god to universal father, from "an eye for an eye" to "turn the other cheek," from "you may keep them as property" to "there is neither slave nor free" — that movement is the Logos doing its work through human history, gradually, through real people in real cultural contexts who were genuinely reaching for God and sometimes missing and sometimes landing. The Bible is the record of that reaching. It is not the thing being reached for.</p>
 
-  <div class="thesis reveal" style="--i:4">
+  <div class="thesis">
     <div class="thesis-mark">"</div>
     <div class="thesis-quote">The text bears witness to the Logos. Sometimes faithfully. Sometimes through a glass darkly. The Logos is the authority — not the text.</div>
   </div>
@@ -114,7 +114,7 @@
 
   <!-- COLOPHON -->
 
-  <div class="colophon reveal" style="--i:3">
+  <div class="colophon">
     <p><span class="sig">Sources informing this piece</span> &mdash; Origen of Alexandria · Plato's Euthyphro dilemma (~400 BCE) · Leibniz on divine justice and moral truth · the Platonic tradition in patristic hermeneutics · Gregory of Nyssa · the trajectory hermeneutic in modern biblical scholarship · the author of John</p>
   </div>
 
@@ -125,6 +125,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

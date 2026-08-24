@@ -24,7 +24,7 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">John Scotus Eriugena (c. 800&ndash;877) is the Latin-West hinge. The Greek East had its own continuous line: the Cappadocians carried the participation axis forward from Origen, Pseudo-Dionysius secured the apophatic ground, Maximus the Confessor synthesized both axes in the logoi doctrine. That line stayed in Greek. Someone had to carry it across the language barrier into the Latin-speaking church, where it would eventually reach Albertus Magnus and through him Meister Eckhart. That someone was an Irish philosopher working at the court of Charles the Bald in ninth-century Francia.</p>
+  <p>John Scotus Eriugena (c. 800&ndash;877) is the Latin-West hinge. The Greek East had its own continuous line: the Cappadocians carried the participation axis forward from Origen, Pseudo-Dionysius secured the apophatic ground, Maximus the Confessor synthesized both axes in the logoi doctrine. That line stayed in Greek. Someone had to carry it across the language barrier into the Latin-speaking church, where it would eventually reach Albertus Magnus and through him Meister Eckhart. That someone was an Irish philosopher working at the court of Charles the Bald in ninth-century Francia.</p>
 
   <p>Eriugena translated Pseudo-Dionysius's entire corpus from Greek into Latin &mdash; the translation that made the Dionysian apophatic theology accessible to the Western church for the first time. He also translated works of Maximus the Confessor and Gregory of Nyssa, making him the single most important conduit for the Greek patristic tradition into the medieval Latin West. And then he wrote his own synthesis &mdash; the <em>Periphyseon</em> (On the Division of Nature) &mdash; which pushed the participation tradition toward its most radical non-dual form inside a Christian frame. His translations survived and shaped the West for centuries. His own masterwork was condemned and ordered burned.</p>
 
@@ -234,25 +234,25 @@
   <h2>Secondary guides</h2>
 
   <div class="cards">
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Dermot Moran</div>
       <div class="card-year">1989</div>
       <div class="card-label">Eriugena</div>
       <p class="card-body">The standard scholarly monograph in English. Moran covers Eriugena&rsquo;s intellectual context, his relationship to Pseudo-Dionysius and Maximus, the fourfold division, and the condemnation. He reads Eriugena as a sophisticated panentheist, not a pantheist &mdash; the theophany doctrine holds a real distinction between God&rsquo;s unknowable essence and God&rsquo;s self-manifestation in creation. Start here for the scholarly map.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">John J. O&rsquo;Meara</div>
       <div class="card-year">1988</div>
       <div class="card-label">Eriugena</div>
       <p class="card-body">Shorter than Moran&rsquo;s monograph and more accessible. O&rsquo;Meara covers the life, the intellectual context, and the major works, with particular attention to the <em>Periphyseon</em>&rsquo;s structure. Includes an English translation of the <em>Homily on the Prologue of John</em> in the appendix. A good companion for first readings of the primary texts.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Willemien Otten</div>
       <div class="card-year">1991</div>
       <div class="card-label">The Anthropology of Johannes Scottus Eriugena</div>
       <p class="card-body">Focused on Eriugena&rsquo;s account of human nature as microcosm. Otten emphasizes the tensions within the system &mdash; between the apophatic unknowability of God and the theophany doctrine that makes creation a divine self-manifestation. She is less confident than Moran that the apophatic railing holds. Important for anyone thinking about whether theophany collapses into pantheism, which is the central question.</p>
     </div>
-    <div class="card reveal">
+    <div class="card">
       <div class="card-who">Paul Rorem</div>
       <div class="card-year">2005</div>
       <div class="card-label">Eriugena&rsquo;s Commentary on the Dionysian Celestial Hierarchy</div>
@@ -335,6 +335,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>

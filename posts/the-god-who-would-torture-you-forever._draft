@@ -46,11 +46,11 @@
 
 <div class="article">
 
-  <p class="reveal" style="--i:0">This is the syllogism that splits the whole thing open. It's the first one. It's the one that cracked it for me, and I think it cracks it for most people who are being honest with themselves. The logic is clean. The implications are enormous. And almost nobody states it this directly.</p>
+  <p>This is the syllogism that splits the whole thing open. It's the first one. It's the one that cracked it for me, and I think it cracks it for most people who are being honest with themselves. The logic is clean. The implications are enormous. And almost nobody states it this directly.</p>
 
   <p>Here it is, in plain form.</p>
 
-  <div class="callout callout--accent">
+  <div class="callout callout--brass">
     <p><strong>The Moral Syllogism</strong></p>
     <p><strong>Premise 1:</strong> A perfectly just and loving being cannot inflict a punishment that is infinitely greater than the crime committed.</p>
     <p><strong>Premise 2:</strong> Human sins are finite, but the mainstream Christian concept of Hell inflicts a punishment that is infinite.</p>
@@ -89,7 +89,7 @@
 
   <p>I wrote about the suppression in more detail in the piece on Origen — "The first one they killed." But the point here is simpler. The syllogism doesn't prove universalism. It proves that eternal torment is incompatible with a perfectly just and loving God. Once you accept that, universal restoration becomes a live option — and when you look at the tradition, it turns out it was always there, suppressed but never fully extinguished.</p>
 
-  <div class="thesis reveal" style="--i:4">
+  <div class="thesis">
     <div class="thesis-mark">"</div>
     <div class="thesis-quote">The God who would torture you forever is not a God you should worship. The syllogism says why. The tradition says what's on the other side.</div>
   </div>
@@ -104,7 +104,7 @@
 
   <!-- COLOPHON -->
 
-  <div class="colophon reveal" style="--i:3">
+  <div class="colophon">
     <p><span class="sig">Sources informing this piece</span> &mdash; Origen of Alexandria · Gregory of Nyssa · David Bentley Hart (<em>That All Shall Be Saved</em>) · Thomas Talbott (Stanford Encyclopedia of Philosophy, "Heaven and Hell in Christian Thought") · Marilyn McCord Adams on proportionality in retributive justice · George MacDonald on restorative justice · the Platonic principle of proportionality</p>
   </div>
 
@@ -115,6 +115,5 @@
 
 </div>
 
-<script src="/components.js"></script>
 </body>
 </html>
