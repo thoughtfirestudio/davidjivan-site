@@ -111,7 +111,7 @@
     <svg id="arc-svg" viewBox="0 0 820 120" preserveAspectRatio="xMidYMid meet" role="img" aria-label="The arc of Christian origins"></svg>
     <div class="node-tip" id="arc-tip"></div>
   </div>
-  <div class="arc-cta"><a href="/christianity-map">walk the arc</a> — nine stops, from storm god to cosmic Christ</div>
+  <div class="arc-cta"><a href="/christianity-map">walk the arc</a> — thirteen chapters, five threads, from storm god to cosmic Christ</div>
 </div>
 
 <div class="home-note">
@@ -126,10 +126,10 @@
 <script>
 (function() {
   "use strict";
-  var W = 820, H = 120, n = window.ARC.nodes.length;
+  var W = 820, H = 120, n = window.ARC.parts.length;
   var x0 = 70, x1 = W - 70, y = 62;
   var gap = (x1 - x0) / (n - 1);
-  var pts = window.ARC.nodes.map(function(_, i) { return { x: x0 + gap * i, y: y + (i % 2 === 0 ? 0 : 26) }; });
+  var pts = window.ARC.parts.map(function(_, i) { return { x: x0 + gap * i, y: y + (i % 2 === 0 ? 0 : 26) }; });
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   var d = 'M ' + pts[0].x + ' ' + pts[0].y;
@@ -141,11 +141,11 @@
   var svg = '';
   svg += '<path class="arc-flow" d="' + d + '" fill="none" stroke="var(--line-strong)" stroke-width="2"/>';
   pts.forEach(function(p, i) {
-    var node = window.ARC.nodes[i];
+    var node = window.ARC.parts[i];
     svg += '<g class="node-dot" data-i="' + i + '">'
       + '<circle class="hit" cx="' + p.x + '" cy="' + p.y + '" r="22"/>'
       + '<circle class="dot" cx="' + p.x + '" cy="' + p.y + '" r="7" fill="var(--panel)" stroke="var(--brass)" stroke-width="2"/>'
-      + '<text x="' + p.x + '" y="' + (p.y + 4) + '" text-anchor="middle">' + node.n + '</text>'
+      + '<text x="' + p.x + '" y="' + (p.y + 4) + '" text-anchor="middle">' + (i + 1) + '</text>'
       + '</g>';
   });
   var svgEl = document.getElementById('arc-svg');
@@ -177,7 +177,7 @@
     var p = pts[i];
     el.addEventListener('mouseenter', function() {
       if (window.matchMedia('(hover: hover)').matches) {
-        tip.textContent = window.ARC.nodes[i].name;
+        tip.textContent = window.ARC.parts[i].title;
         tip.classList.add('show');
         var fw = document.querySelector('.arc-frame').offsetWidth, scale = fw / W;
         tip.style.left = (p.x * scale - 40) + 'px';
@@ -185,7 +185,7 @@
       }
     });
     el.addEventListener('mouseleave', function() { tip.classList.remove('show'); });
-    el.addEventListener('click', function() { window.location.href = '/christianity-map#node-' + (i + 1); });
+    el.addEventListener('click', function() { window.location.href = '/christianity-map#chapter-' + (i + 1); });
   });
 })();
 </script>
