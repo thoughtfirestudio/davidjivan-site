@@ -22,21 +22,19 @@ window.ARC = {
         {
           "id": "1.1",
           "title": "The Shasu of Yhw: The Southern Desert God",
-          "content": "Before Yahweh was the God of Israel, he was the god of a semi-nomadic people in the southern deserts of Edom, Midian, and the Negev. The earliest evidence is an Egyptian inscription from the temple of Amenhotep III (c. 1400 BCE) mentioning the 'Shasu of Yhw'\u2014the earliest known reference to the divine name Yahweh. The Shasu were tent-dwellers, organized in clans, who roamed the marginal lands between Canaan, Egypt, and the Sinai. The Egyptians viewed them as wanderers and raiders, but sometimes employed them as mercenaries. The god they worshipped was likely a storm-warrior god of thunder, lightning, and desert warfare.",
+          "content": "Before Yahweh was the God of Israel, he was the god of a semi-nomadic people in the southern deserts of Edom, Midian, and the Negev. The earliest evidence is an Egyptian topographical list from the temple of Amenhotep III at Soleb (c. 1380 BCE) mentioning the 'land of the Shasu of Yhw' \u2014 the earliest known reference to the divine name \u2014 with the name also preserved in a 13th-century (Ramesside) copy at Amara West. The Shasu were tent-dwellers, organized in clans, who roamed the marginal lands between Canaan, Egypt, and the Sinai. The Egyptians viewed them as wanderers and raiders, but sometimes employed them as mercenaries. The god they worshipped was likely a storm-warrior god of thunder, lightning, and desert warfare.",
           "key_ideas": [
             "Yahweh originated among semi-nomadic pastoralists (the Shasu)",
             "Yahweh was a storm-warrior god, not yet the creator",
-            "The Soleb Inscription (c. 1400 BCE) is the oldest known reference to Yahweh"
+            "The Soleb Inscription (c. 1380 BCE) is the oldest known reference to Yahweh"
           ],
-          "key_sources": ["Soleb Inscription (c. 1400 BCE)"],
+          "key_sources": ["Soleb Inscription (c. 1380 BCE)"],
           "threads": ["afterlife", "mystical"],
           "thread_notes": {
             "afterlife": "No developed belief; concern was with survival.",
             "mystical": "No evidence of psychoactive ritual use at this stage."
           },
-          "scholar_quotes": [
-            { "scholar": "Israel Finkelstein and Neil Asher Silberman", "source": "The Bible Unearthed (2001)", "quote": "The Shasu were pastoral nomads who lived in the southern Levant. The Soleb Inscription provides the earliest evidence for the name Yahweh, but we have almost no information about how they worshipped him. It is likely that Yahweh was one of several deities venerated by the Shasu, and that his worship was later adopted by the Israelites." }
-          ]
+          "scholar_quotes": []
         }
       ]
     },
@@ -67,9 +65,7 @@ window.ARC = {
           "key_sources": ["Archaeological evidence", "Ugaritic texts"],
           "threads": ["mystical"],
           "thread_notes": { "mystical": "Canaanite religion featured ecstatic prophecy and ritual, providing a cultural template for early Yahwism." },
-          "scholar_quotes": [
-            { "scholar": "William Dever", "source": "Who Were the Early Israelites and Where Did They Come From? (2003)", "quote": "The highland farmers of Canaan were not invaders; they were indigenous people who moved into the highlands after the Bronze Age Collapse. They were the ancestors of both Israel and Judah." }
-          ]
+          "scholar_quotes": []
         }
       ]
     },
@@ -87,9 +83,7 @@ window.ARC = {
             "The Kenite Hypothesis is a scholarly theory but cannot be proven"
           ],
           "key_sources": ["Exodus", "Deuteronomy 33:2", "Judges 5:4-5", "Habakkuk 3:3"],
-          "scholar_quotes": [
-            { "scholar": "Thomas R\u00f6mer", "source": "The Invention of God (2015)", "quote": "The Exodus tradition is not a historical account of a mass departure from Egypt. But it preserves a memory of a southern origin for Yahweh and a connection between Egypt and the early worshippers of Yahweh. The figure of Moses, with his Egyptian name, is a bridge between these two worlds." }
-          ],
+          "scholar_quotes": [],
           "threads": ["afterlife"],
           "thread_notes": { "afterlife": "The Exodus narrative focused on covenant and land, not afterlife." }
         },
@@ -138,9 +132,7 @@ window.ARC = {
             "afterlife": "The Israelites inherited the Canaanite concept of Sheol.",
             "mystical": "Canaanite religion provided a cultural template for ecstatic prophecy."
           },
-          "scholar_quotes": [
-            { "scholar": "Mark S. Smith", "source": "The Early History of God (1990)", "quote": "Yahweh was originally a god of the southern deserts who was brought into the Canaanite pantheon. He was not initially the head god\u2014he was one of the sons of El, assigned to Israel as his inheritance. The Bible preserves this older worldview in passages like Deuteronomy 32:8-9 and Psalm 82." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "4.3",
@@ -159,7 +151,7 @@ window.ARC = {
             "mystical": "The stories contain moments of divine encounter (theophany, dreams, visions)."
           },
           "scholar_quotes": [
-            { "scholar": "Israel Finkelstein and Neil Asher Silberman", "source": "The Bible Unearthed (2001)", "quote": "It is almost as if an American scripture describing pre-Columbian history placed inordinate attention on Manhattan Island or on the tract of land that would later become Washington DC. The point of political meaning of the inclusion of such a detail in a larger narrative at least calls into question its historical credibility." }
+            { "scholar": "Israel Finkelstein and Neil Asher Silberman", "source": "The Bible Unearthed (2001)", "quote": "It is almost as if an American scripture describing pre-Columbian history placed inordinate attention on Manhattan Island or on the tract of land that would later become Washington, DC. The pointed political meaning of the inclusion of such a detail in a larger narrative at least calls into question its historical credibility.", "verified": true }
           ]
         }
       ]
@@ -201,9 +193,7 @@ window.ARC = {
             "Robert R. Wilson: prophecy functioned as a social institution"
           ],
           "key_sources": ["1 Samuel 10:5-6", "2 Kings 2:3-7"],
-          "scholar_quotes": [
-            { "scholar": "Robert R. Wilson", "source": "Prophecy and Society in Ancient Israel (1980)", "quote": "Ancient Israelite prophecy functioned as a social institution, with different types of prophets operating in different social contexts. The 'sons of the prophets' were communities of prophets who lived and worked together, preserving and transmitting prophetic traditions." }
-          ],
+          "scholar_quotes": [],
           "threads": [], "thread_notes": {}
         }
       ]
@@ -227,9 +217,7 @@ window.ARC = {
             "afterlife": "The narrative focused on covenant and land, not afterlife.",
             "mystical": "The Jerusalem Temple became the center of Yahwistic worship."
           },
-          "scholar_quotes": [
-            { "scholar": "Israel Finkelstein and Neil Asher Silberman", "source": "The Bible Unearthed (2001)", "quote": "The United Monarchy of David and Solomon, as described in the Bible, is not supported by the archaeological evidence. Jerusalem in the 10th century was a small settlement, not the capital of a grand empire. The biblical narrative is a later literary creation, designed to legitimize the Davidic dynasty and forge a shared national identity for Judah." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "6.2",
@@ -241,9 +229,7 @@ window.ARC = {
             "The Omrides promoted Yahweh but modeled him on Baal"
           ],
           "key_sources": ["Mesha Stele", "Black Obelisk of Shalmaneser III"],
-          "scholar_quotes": [
-            { "scholar": "Mark S. Smith", "source": "The Early History of God (1990)", "quote": "The Omrides promoted Yahweh as the state god of Israel, but they modeled him on the Canaanite storm god Baal. This was not apostasy\u2014it was a deliberate attempt to make Yahweh competitive with the gods of Israel's neighbors." }
-          ],
+          "scholar_quotes": [],
           "threads": [], "thread_notes": {}
         },
         {
@@ -263,10 +249,7 @@ window.ARC = {
             "afterlife": "Elijah's ascension to heaven foreshadows later beliefs about resurrection.",
             "mystical": "The 'still small voice' on Horeb represents a shift to more intimate revelation."
           },
-          "scholar_quotes": [
-            { "scholar": "Thomas R\u00f6mer", "source": "The Invention of God (2015)", "quote": "The Elijah stories are a critical moment in the evolution of Yahwism. They show Yahweh contesting the claims of Phoenician gods, and they begin to move Yahweh's identity beyond the storm-god imagery that had been borrowed from Baal. Elijah's journey to Horeb is a journey back to the origins of Yahwism\u2014a reaffirmation that Yahweh is not a Phoenician god, but the God of the wilderness." },
-            { "scholar": "Mark S. Smith", "source": "The Early History of God (1990)", "quote": "The Elijah cycle deliberately places Yahweh in competition with Phoenician deities. The fire on Carmel and the resurrection in Zarephath are two sides of the same polemic: Yahweh controls the forces of nature and the power of life itself. The Phoenician gods are shown to be powerless." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "6.4",
@@ -281,9 +264,7 @@ window.ARC = {
           "key_sources": ["Finkelstein and Silberman (2001)", "Martin Noth (1948)"],
           "threads": ["panisraelite"],
           "thread_notes": { "panisraelite": "The Pan-Israelite idea was born in the late 8th and 7th centuries BCE as a response to the Assyrian destruction." },
-          "scholar_quotes": [
-            { "scholar": "Israel Finkelstein and Neil Asher Silberman", "source": "The Bible Unearthed (2001)", "quote": "Judah was a rather isolated, sparsely populated kingdom until the 8th century BC. It was hardly comparable in territory, wealth, and military might to the northern kingdom of Israel. Literacy was very limited and its capital Jerusalem was a small remote hill country town. Yet after the northern kingdom of Israel was liquidated by the Assyrian Empire in 720 BCE, Judah grew enormously in population, developed complex state institutions and emerged as a meaningful power in the region. It was ruled by an ancient dynasty and possessed the most important surviving temple to the God of Israel. Hence, in the late 8th century and in the 7th century, Judah began to develop a unique sense of its own importance and divine destiny. It saw its very survival as evidence of God's intention from the time of the patriarchs: Judah should rule over all the land of Israel. Thus, the Pan-Israelite idea with Judah in its center was born." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "6.5",
@@ -295,9 +276,7 @@ window.ARC = {
             "They were not yet strict monotheists"
           ],
           "key_sources": ["Book of Amos", "Book of Hosea"],
-          "scholar_quotes": [
-            { "scholar": "James L. Crenshaw", "source": "Prophetic Conflict (1971)", "quote": "Amos and Hosea were not strict monotheists. They demanded exclusive loyalty to Yahweh, but they did not deny the existence of other gods. Their message was that Israel should worship only Yahweh, not that Yahweh was the only god." }
-          ],
+          "scholar_quotes": [],
           "threads": [], "thread_notes": {}
         },
         {
@@ -312,26 +291,22 @@ window.ARC = {
           "key_sources": ["Tel Arad", "Tel Motza", "Kuntillet 'Ajrud", "Lachish"],
           "threads": ["mystical"],
           "thread_notes": { "mystical": "The archaeological evidence reveals a lived, ecstatic religion." },
-          "scholar_quotes": [
-            { "scholar": "William Dever", "source": "Did God Have a Wife? (2005)", "quote": "Archaeology reveals that the religion of Judah was far more diverse than the Bible suggests. Yahweh was worshipped alongside Asherah and other deities, and the official state religion was syncretistic. The 'pure' monotheism of the biblical text was a later development." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "6.7",
           "title": "The Mystical Experience: Cannabis at Tel Arad",
-          "content": "A small limestone altar (c. 750\u2013715 BCE) at Tel Arad had residue of THC and CBD, confirming the burning of cannabis mixed with animal dung to vaporize the psychoactive compounds.",
+          "content": "A small limestone altar (c. 750\u2013715 BCE) at Tel Arad had residue of THC and CBD, confirming the burning of cannabis mixed with animal dung to vaporize the psychoactive compounds \u2014 the residue is fact; the excavators interpret the dung as enabling mild heating to release the compounds for a cultic purpose, an interpretation.",
           "key_ideas": [
             "Cannabis residue found at Tel Arad (c. 750\u2013715 BCE)",
             "Mixed with animal dung to vaporize psychoactive compounds",
-            "Used to 'stimulate ecstasy' as part of cultic ceremonies",
+            "Cultic-ecstasy purpose is the excavators' interpretation, not a proven finding",
             "A window into similar practices in the Jerusalem Temple"
           ],
           "key_sources": ["Tel Arad cannabis residue study"],
           "threads": ["mystical"],
-          "thread_notes": { "mystical": "This proves that ecstatic worship was an official part of Judahite religion." },
-          "scholar_quotes": [
-            { "scholar": "Eran Arie", "source": "Tel Aviv University Journal (2020)", "quote": "The discovery of cannabis residue at Tel Arad provides the first concrete evidence that mind-altering substances were used in the official state religion of the Kingdom of Judah. This was not a fringe practice\u2014it was sanctioned by the state." }
-          ]
+          "thread_notes": { "mystical": "The residue is the earliest evidence of a psychoactive substance in Judah's cult; its ecstatic purpose is interpretation." },
+          "scholar_quotes": []
         }
       ]
     },
@@ -347,9 +322,7 @@ window.ARC = {
             "His reform failed\u2014Manasseh reversed it"
           ],
           "key_sources": ["2 Kings 18-20"],
-          "scholar_quotes": [
-            { "scholar": "Israel Finkelstein and Neil Asher Silberman", "source": "The Bible Unearthed (2001)", "quote": "Hezekiah's reform was a political and economic power grab, disguised as a religious revival. By centralizing worship in Jerusalem, he consolidated wealth and authority in the hands of the crown." }
-          ],
+          "scholar_quotes": [],
           "threads": [], "thread_notes": {}
         },
         {
@@ -361,9 +334,7 @@ window.ARC = {
             "He restored the traditional, syncretistic religion of Judah"
           ],
           "key_sources": ["2 Kings 21", "Archaeological evidence"],
-          "scholar_quotes": [
-            { "scholar": "Ehud Ben Zvi", "source": "History, Literature, and Theology in the Book of Chronicles (2006)", "quote": "The Deuteronomistic historians condemned Manasseh because he embodied everything they rejected: the traditional syncretistic religion of Judah. But archaeology shows that his policies were not an aberration\u2014they were the norm." }
-          ],
+          "scholar_quotes": [],
           "threads": [], "thread_notes": {}
         },
         {
@@ -389,9 +360,7 @@ window.ARC = {
           "key_sources": ["Babylonian Chronicles", "Ezekiel", "Second Isaiah"],
           "threads": ["afterlife"],
           "thread_notes": { "afterlife": "The crisis of the Exile forced a rethinking of death; Yahweh's power extended to Sheol." },
-          "scholar_quotes": [
-            { "scholar": "Thomas R\u00f6mer", "source": "The Invention of God (2015)", "quote": "The Exile was a crisis that forced the Israelites to rethink everything\u2014including their understanding of God. In Babylon, the exiles developed monotheism as a survival strategy, transforming Yahweh from a national god into the sole Creator of the universe." }
-          ]
+          "scholar_quotes": []
         }
       ]
     },
@@ -462,9 +431,7 @@ window.ARC = {
             "Ezra embodies the shift from a temple-centered to a Torah-centered religion"
           ],
           "key_sources": ["Ezra", "Nehemiah"],
-          "scholar_quotes": [
-            { "scholar": "Jacob Wright", "source": "The Origin of Israel's Religion (2009)", "quote": "The figure of Ezra, whether historical or not, represents a critical moment in the development of Judaism. He embodies the shift from a temple-centered religion to a Torah-centered religion. The biblical narrative uses Ezra to legitimize the Torah as the foundation of Jewish identity." }
-          ],
+          "scholar_quotes": [],
           "threads": [], "thread_notes": {}
         },
         {
@@ -480,9 +447,7 @@ window.ARC = {
           "key_sources": ["Book of Daniel (c. 165 BCE)", "Book of Enoch (1 Enoch)"],
           "threads": ["afterlife"],
           "thread_notes": { "afterlife": "The Book of Daniel introduces bodily resurrection." },
-          "scholar_quotes": [
-            { "scholar": "John J. Collins", "source": "The Apocalyptic Imagination (1984)", "quote": "The Book of Enoch is the foundational text of Jewish apocalypticism. It introduces the Son of Man as a pre-existent, heavenly being who will judge the world. This figure would profoundly shape early Christian Christology." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "8.7",
@@ -496,9 +461,7 @@ window.ARC = {
           "key_sources": ["Zoroastrian texts", "Book of Daniel"],
           "threads": ["afterlife"],
           "thread_notes": { "afterlife": "Zoroastrian concepts of resurrection and final judgment transformed Jewish afterlife beliefs." },
-          "scholar_quotes": [
-            { "scholar": "Mary Boyce", "source": "A History of Zoroastrianism (1975)", "quote": "The Persian period was a critical moment in the development of Jewish eschatology. Zoroastrian concepts of resurrection, final judgment, and cosmic dualism entered Jewish thought and became central to apocalypticism." }
-          ]
+          "scholar_quotes": []
         }
       ]
     },
@@ -528,9 +491,7 @@ window.ARC = {
           "key_sources": ["Book of Enoch (1 Enoch)"],
           "threads": ["twopowers"],
           "thread_notes": { "twopowers": "The Son of Man is a second, subordinate divine figure." },
-          "scholar_quotes": [
-            { "scholar": "John J. Collins", "source": "The Apocalyptic Imagination (1984)", "quote": "The Book of Enoch is the foundational text of Jewish apocalypticism. It introduces the Son of Man as a pre-existent, heavenly being who will judge the world. This figure would profoundly shape early Christian Christology." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "9.3",
@@ -544,9 +505,7 @@ window.ARC = {
           "key_sources": ["Ezekiel 1", "Origen's Commentary on the Song of Songs"],
           "threads": ["mystical"],
           "thread_notes": { "mystical": "Merkavah mysticism is the visionary ascent to God's throne." },
-          "scholar_quotes": [
-            { "scholar": "Gershom Scholem", "source": "Major Trends in Jewish Mysticism (1941)", "quote": "The roots of Merkavah mysticism are undoubtedly older than the later rabbinic texts. They belong to the Second Temple period, and they provided the framework for visionary experiences like those of Paul." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "9.4",
@@ -563,7 +522,8 @@ window.ARC = {
           "threads": ["twopowers"],
           "thread_notes": { "twopowers": "The Two Powers tradition provided the framework for early Christian Christology." },
           "scholar_quotes": [
-            { "scholar": "Alan F. Segal", "source": "Two Powers in Heaven (1977)", "quote": "The belief in a principal angel or a second power in heaven was a widespread and legitimate form of Jewish theology in the Second Temple period. It was only after the rise of Christianity that the rabbis declared it heretical and suppressed it." }
+            { "scholar": "Alan F. Segal", "source": "Two Powers in Heaven (1977), p. 69", "quote": "Preliminary indications are, therefore, that many parts of the Jewish community in various places and periods used the traditions which the rabbis claim is an heretical conception of the deity.", "verified": true },
+            { "scholar": "Alan F. Segal", "source": "Two Powers in Heaven (1977), p. 246", "quote": "Christianity was the most important heresy, not only because it was the most successful of the sects, but because it defined the divinity and personality of the 'second power' in the clearest and most emphatic way.", "verified": true }
           ]
         },
         {
@@ -578,9 +538,7 @@ window.ARC = {
           "key_sources": ["Heraclitus", "Stoics", "Philo of Alexandria"],
           "threads": ["logos"],
           "thread_notes": { "logos": "Philo calls the Logos 'the second god' (\u03c4\u1f78\u03bd \u03b4\u03b5\u03cd\u03c4\u03b5\u03c1\u03bf\u03bd \u03b8\u03b5\u03cc\u03bd)." },
-          "scholar_quotes": [
-            { "scholar": "Robert M. Bowman Jr.", "source": "The Journal of Theological Studies (1998)", "quote": "Philo's reference to the Logos as 'the second god' is not a parallel to the New Testament doctrine of the Trinity. For Philo, the Logos was a subordinate divine being, not fully equal to God." }
-          ]
+          "scholar_quotes": []
         }
       ]
     },
@@ -597,9 +555,7 @@ window.ARC = {
             "He used the title 'Son of Man' from the Book of Enoch"
           ],
           "key_sources": ["Synoptic Gospels", "Book of Enoch"],
-          "scholar_quotes": [
-            { "scholar": "E.P. Sanders", "source": "The Historical Figure of Jesus (1993)", "quote": "Jesus was an apocalyptic Jewish prophet who proclaimed the imminent arrival of the Kingdom of God. He was not a Christian theologian. He was a Galilean Jew who expected the end of the age." }
-          ],
+          "scholar_quotes": [],
           "threads": [], "thread_notes": {}
         },
         {
@@ -612,7 +568,7 @@ window.ARC = {
           ],
           "key_sources": ["1 Corinthians 15:3-8"],
           "scholar_quotes": [
-            { "scholar": "E.P. Sanders", "source": "The Historical Figure of Jesus (1993)", "quote": "That Jesus' followers (and later Paul) had resurrection experiences is, in my judgment, a fact. What the reality was that gave rise to the experiences, I do not know." }
+            { "scholar": "E.P. Sanders", "source": "The Historical Figure of Jesus (1993)", "quote": "That Jesus' followers (and later Paul) had resurrection experiences is, in my judgment, a fact. What the reality was that gave rise to the experiences I do not know.", "verified": true }
           ],
           "threads": ["afterlife"],
           "thread_notes": { "afterlife": "The resurrection was the catalyst for the early Christian movement." }
@@ -630,7 +586,7 @@ window.ARC = {
           "threads": ["afterlife"],
           "thread_notes": { "afterlife": "The resurrection accounts reflect a tension between visionary and physical interpretations." },
           "scholar_quotes": [
-            { "scholar": "Bart Ehrman", "source": "How Jesus Became God (2014)", "quote": "The resurrection narratives in the New Testament do not present a single, harmonized account. Paul's visionary experience differs from the Gospel writers' emphasis on the physical resurrection. This reflects the diversity of early Christian belief." }
+            { "scholar": "Bart Ehrman", "source": "How Jesus Became God (2014)", "quote": "In fact, the Gospels disagree on nearly every detail in their resurrection narratives.", "verified": true }
           ]
         },
         {
@@ -640,9 +596,8 @@ window.ARC = {
           "key_ideas": [ "The resurrection became the engine of the early Christian movement" ],
           "key_sources": [],
           "scholar_quotes": [
-            { "scholar": "Gerd L\u00fcdemann", "source": "The Resurrection of Christ (1994)", "quote": "The disciples experienced visions of Jesus." },
-            { "scholar": "Bart Ehrman", "source": "How Jesus Became God (2014)", "quote": "Whatever happened, something happened\u2014and that something convinced the disciples that Jesus had been raised from the dead." },
-            { "scholar": "Dale Allison", "source": "Resurrecting Jesus (2005)", "quote": "The resurrection appearances were real experiences, not mere hallucinations or inventions." }
+            { "scholar": "Bart Ehrman", "source": "How Jesus Became God (2014)", "quote": "What made them believe that Jesus had been bodily raised from the dead? Something did. And I think we know what it was. Some of Jesus's followers had visions of him after he had been crucified.", "verified": true },
+            { "scholar": "Dale Allison", "source": "Resurrecting Jesus (2005), pp. 283\u201384", "quote": "I am sure that the disciples saw Jesus after his death", "verified": true }
           ],
           "threads": [], "thread_notes": {}
         }
@@ -674,9 +629,7 @@ window.ARC = {
             "Paul's emphasis on 'the Glory of the Lord' is characteristic of Merkabah mysticism"
           ],
           "key_sources": ["Galatians 1:14", "Alan F. Segal (1990)"],
-          "scholar_quotes": [
-            { "scholar": "Alan F. Segal", "source": "Paul the Convert (1990)", "quote": "Paul's emphasis on the Glory of God (Kavod) in these stories is characteristic of the Merkabah mystic tradition." }
-          ],
+          "scholar_quotes": [],
           "threads": ["mystical"],
           "thread_notes": { "mystical": "Paul's zeal was part of a lifelong practice of mystical devotion." }
         },
@@ -693,7 +646,7 @@ window.ARC = {
           "threads": ["mystical"],
           "thread_notes": { "mystical": "Paul's ascent to the third heaven is a classic Merkavah experience." },
           "scholar_quotes": [
-            { "scholar": "Gershom Scholem", "source": "Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition (1960)", "quote": "Paul's ascent to the third heaven is a classic example of Merkavah mysticism. The concept of multiple heavens and the visionary ascent to the divine throne were part of the Jewish mystical tradition." }
+            { "scholar": "Gershom Scholem", "source": "Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition (1960)", "quote": "Paul's testimony is a link between these older Jewish texts and the Gnosis of the Tannaitic Merkabah mystics.", "verified": true }
           ]
         },
         {
@@ -721,7 +674,7 @@ window.ARC = {
           "threads": ["mystical"],
           "thread_notes": { "mystical": "Pharisaic mysticism is historically attested." },
           "scholar_quotes": [
-            { "scholar": "Rebecca Gray", "source": "Prophetic Figures in Late Second Temple Jewish Palestine (1993)", "quote": "The Pharisees were associated with visionary experiences in the first century CE. Josephus confirms that they had 'the gift of foreknowledge through divine inspiration.'" }
+            { "scholar": "Flavius Josephus", "source": "Antiquities of the Jews 17.41\u201345 (Whiston trans.)", "quote": "since they were believed to have the foreknowledge of things to come by Divine inspiration, they foretold how God had decreed that Herod's government should cease\u2026", "verified": true }
           ]
         },
         {
@@ -747,9 +700,7 @@ window.ARC = {
             "Jesus is identified with YHWH while maintaining subordination to the Father"
           ],
           "key_sources": ["Philippians 2:10-11", "Romans 10:13", "1 Corinthians 8:6"],
-          "scholar_quotes": [
-            { "scholar": "Larry Hurtado", "source": "Lord Jesus Christ (2003)", "quote": "Paul's Christology is a 'high' Christology, but it is expressed within a Jewish monotheistic framework. Jesus is the Lord (Kyrios), the one through whom God created all things, the one to whom every knee will bow. But the Father remains the ultimate source of all things." }
-          ],
+          "scholar_quotes": [],
           "threads": ["twopowers"],
           "thread_notes": { "twopowers": "Paul's use of Kyrios places Jesus within the divine identity." }
         },
@@ -770,15 +721,13 @@ window.ARC = {
           "content": "The Parables of Enoch provide the 'missing link' between the Jewish mediator traditions and Paul's high Christology. Enoch is identified as the Son of Man (1 Enoch 71:14)\u2014a human figure exalted to a divine station.",
           "key_ideas": [
             "The Parables of Enoch provide the missing link",
-            "Enoch is identified as the Son of Man (1 Enoch 71:14)",
+            "Enoch is identified as the Son of Man (1 Enoch 71:14 \u2014 contested: many scholars read chs. 70\u201371 as a later addition)",
             "Paul applied this template to Jesus"
           ],
           "key_sources": ["1 Enoch 37-71", "1 Enoch 71:14"],
           "threads": ["twopowers"],
           "thread_notes": { "twopowers": "The Enochic Son of Man is a human figure exalted to a divine station." },
-          "scholar_quotes": [
-            { "scholar": "George W.E. Nickelsburg", "source": "1 Enoch: A Commentary (2001)", "quote": "The combination of shared elements between the Parables of Enoch and Paul's letters preclude the possibility that they constituted independent, parallel developments." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "11.10",
@@ -803,9 +752,7 @@ window.ARC = {
             "It was eventually marginalized by Paul's gentile Christianity"
           ],
           "key_sources": ["Acts", "Galatians"],
-          "scholar_quotes": [
-            { "scholar": "James D.G. Dunn", "source": "Unity and Diversity in the New Testament (1977)", "quote": "The Jerusalem Church, led by James, represented a Torah-observant, Jewish-Christian tradition that was eventually marginalized by Paul's gentile Christianity. This is the 'road not taken' in Christian history." }
-          ],
+          "scholar_quotes": [],
           "threads": [], "thread_notes": {}
         }
       ]
@@ -825,9 +772,7 @@ window.ARC = {
           "key_sources": ["John 1:1-14"],
           "threads": ["logos"],
           "thread_notes": { "logos": "John's Logos is a person, not an abstract principle." },
-          "scholar_quotes": [
-            { "scholar": "Raymond E. Brown", "source": "The Gospel According to John (1966)", "quote": "John's Logos is not a 'second god' in Philo's sense. He is not a subordinate divine being\u2014he shares the divine nature itself. John 1:1 is a profound theological statement that Jesus is of one nature with the Father." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "12.2",
@@ -859,23 +804,21 @@ window.ARC = {
           "key_sources": ["Justin Martyr", "Origen"],
           "threads": ["logos"],
           "thread_notes": { "logos": "The Logos became the second Person of the Trinity." },
-          "scholar_quotes": [
-            { "scholar": "Jaroslav Pelikan", "source": "The Christian Tradition (1971)", "quote": "Justin Martyr's use of the Logos was a watershed moment in Christian theology. He argued that the Logos had sowed seeds of truth in all humanity, and that Christ was the fulfillment of the best of Greek thought." }
-          ]
+          "scholar_quotes": []
         },
         {
           "id": "13.2",
           "title": "The Trinity and the Nicene Creed (325 CE)",
-          "content": "The Council of Nicaea affirmed that Jesus is 'of one substance with the Father,' establishing the doctrine of the Trinity as orthodox Christianity.",
+          "content": "The Council of Nicaea (325 CE) affirmed that Jesus is 'of one substance with the Father' (homoousios) \u2014 but it did not end the controversy: within a decade the leading Nicene supporters were deposed, Arianism remained the dominant theology of the East, and the full doctrine of the Trinity was only defined at Constantinople (381 CE).",
           "key_ideas": [
             "The Council of Nicaea (325 CE) affirmed Jesus is 'of one substance with the Father'",
-            "The doctrine of the Trinity was established as orthodox Christianity"
+            "Nicaea affirmed homoousios; the controversy continued until Constantinople (381 CE) defined the full doctrine"
           ],
           "key_sources": ["Nicene Creed (325 CE)"],
           "threads": ["logos"],
           "thread_notes": { "logos": "The Logos is now understood as the second Person of the Trinity." },
           "scholar_quotes": [
-            { "scholar": "Henry Chadwick", "source": "The Early Church (1967)", "quote": "The Council of Nicaea established the doctrine of the Trinity as orthodox Christianity. It affirmed that Jesus is 'of one substance with the Father,' ending centuries of debate and marginalizing alternative views." }
+            { "scholar": "Henry Chadwick", "source": "The Early Church (1967), p. 130", "quote": "The creed proposed for adoption by the council was sharply anti-Arian in its affirmation that the Son is 'of one substance with the Father'", "verified": true }
           ]
         }
       ]

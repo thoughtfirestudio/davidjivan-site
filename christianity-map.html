@@ -169,7 +169,7 @@
   var gap = (x1 - x0) / (n - 1);
   var pts = PARTS.map(function(_, i) { return { x: x0 + gap * i, y: y + (i % 2 === 0 ? 0 : 26) }; });
 
-  var VERIFIED = {};  // sectionId -> set of verified quote indexes (populated by the verification pass)
+  var VERIFIED = {};  // (retired — quotes carry their own q.verified flag)
 
   function hashParts() {
     var m = window.location.hash.match(/^#(chapter|thread)-([\w-]+)$/);
@@ -197,9 +197,8 @@
 
   function quotesHTML(section) {
     if (!section.scholar_quotes || !section.scholar_quotes.length) return '';
-    var ok = (VERIFIED[section.id] || {});
-    return section.scholar_quotes.map(function(q, i) {
-      if (!ok[i]) return '';  // gated until verified
+    return section.scholar_quotes.map(function(q) {
+      if (!q.verified) return '';  // gated until the verification pass clears it
       return '<div class="q">\u201C' + esc(q.quote) + '\u201D<span class="qby">\u2014 ' + esc(q.scholar) + ', ' + esc(q.source) + '</span></div>';
     }).join('');
   }
@@ -334,7 +333,7 @@
         + '<span class="dot"></span>'
         + '<span><span class="n">Chapter ' + (i + 1) + '</span><span class="nm">' + esc(p.title) + '</span><span class="pd">' + esc(p.time_period) + '</span></span>'
         + '</button>'
-        + '<div class="body">' + p.sections.map(function(s) { return sectionHTML(s, true); }).join('') + '</div>'
+        + '<div class="body">' + p.sections.map(function(s) { return sectionHTML(s, false); }).join('') + '</div>'
         + '</div>';
     }).join('');
     Array.prototype.forEach.call(wrap.querySelectorAll('.vnode'), function(v) {
