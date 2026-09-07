@@ -6,7 +6,7 @@ window.ARC = {
   "subtitle": "A Complete Intellectual History of Yahweh and His Transformation into the God of Christianity",
   "version": "6.0",
   "last_updated": "2026-08-31",
-  "description": "This arc traces the evolution of Yahweh from a southern desert storm-god worshipped by semi-nomadic pastoralists to the cosmic Christ of Christian orthodoxy, through centuries of cultural interaction, theological reflection, political struggle, and synthesis. It incorporates archaeological evidence, prophetic scholarship, mystical practices, the Logos, the Two Powers tradition, Paul's Pharisaic mysticism, the resurrection traditions, the prophetic cultures of the ancient Near East, Paul's third heaven ascent, the archaeological reality of Manasseh's Judah, the role of Ezra in forging post-exilic Jewish identity, the inclusion of Elijah and the northern prophetic tradition, and the Pan-Israelite idea born from the Assyrian destruction.",
+  "description": "This arc traces the evolution of Yahweh from a southern desert storm-god worshipped by semi-nomadic pastoralists to the cosmic Christ of Christian orthodoxy, through centuries of cultural interaction, theological reflection, political struggle, and synthesis. It incorporates archaeological evidence, prophetic scholarship, mystical practices, the Logos, the Two Powers tradition, Paul's Pharisaic mysticism, the resurrection traditions, the prophetic cultures of the ancient Near East, Paul's third heaven ascent, the archaeological reality of Manasseh's Judah, the role of Ezra in forging post-exilic Jewish identity, the inclusion of Elijah and the northern prophetic tradition, the Pan-Israelite idea born from the Assyrian destruction, and the Mesha Stele's independent confirmation of Yahweh as Israel's god by the ninth century BCE.",
   "author": { "name": "David Jivan", "website": "davidjivan.net" },
   "threads": [
     { "id": "afterlife", "name": "Afterlife", "description": "The evolution of beliefs about death, Sheol, resurrection, judgment, heaven, and hell." },
@@ -222,13 +222,14 @@ window.ARC = {
         {
           "id": "6.2",
           "title": "The Omride Dynasty: Yahweh as State God in the North",
-          "content": "The Omrides were the first true powerhouse of the Northern Kingdom. Omri founded Samaria; Ahab married Jezebel and fielded the second-largest army at Qarqar. The Omrides promoted Yahweh as the state god but modeled him on Baal.",
+          "content": "The Omrides were the first true powerhouse of the Northern Kingdom. Omri founded Samaria; Ahab married Jezebel and fielded the second-largest army at Qarqar. The Omrides promoted Yahweh as the state god but modeled him on Baal. The Mesha Stele (c. 840 BCE) is the earliest non-biblical witness to all of this. Mesha, king of Moab, raised a victory monument at Dibon boasting that he had thrown off Israel's grip \u2014 the grip of Omri and his dynasty, whom he names. In it he describes taking the Israelite town of Nebo and dragging 'the vessels of YHWH' before his own god, Chemosh. Israel's god named in a Moabite inscription, carried off as plunder: Yahweh was real enough to Israel's enemies to be worth capturing. The stele independently confirms the Omrides as the rulers of a kingdom that oppressed Moab for generations, and it proves Yahweh was Israel's national god by the ninth century \u2014 centuries before the exile would make him the only god.",
           "key_ideas": [
             "Omri founded Samaria (c. 880\u2013870 BCE)",
             "Ahab married Jezebel and fielded the second-largest army at Qarqar (853 BCE)",
-            "The Omrides promoted Yahweh but modeled him on Baal"
+            "The Omrides promoted Yahweh but modeled him on Baal",
+            "The Mesha Stele (c. 840 BCE) is the earliest non-biblical witness to Yahweh as Israel's god \u2014 Mesha names Omri and boasts of dragging 'the vessels of YHWH' from Nebo before Chemosh"
           ],
-          "key_sources": ["Mesha Stele", "Black Obelisk of Shalmaneser III"],
+          "key_sources": ["Mesha Stele (c. 840 BCE)", "Black Obelisk of Shalmaneser III"],
           "scholar_quotes": [],
           "threads": [], "thread_notes": {}
         },
@@ -829,6 +830,7 @@ window.ARC = {
       { "question": "Where did Yahweh come from?", "answer": "The Shasu\u2014semi-nomadic pastoralists in the southern deserts." },
       { "question": "What does the Moses narrative preserve?", "answer": "Egyptian influence, southern origin, and the movement into the highlands of Canaan." },
       { "question": "What was the significance of the patriarchal narratives?", "answer": "They were separate regional traditions woven together to serve the political purpose of unifying Israel under Judah's dominance." },
+      { "question": "What does the Mesha Stele confirm?", "answer": "That Yahweh was Israel's national god by c. 840 BCE \u2014 the earliest non-biblical witness: Mesha of Moab names Omri and boasts of dragging 'the vessels of YHWH' from Nebo before Chemosh." },
       { "question": "What was Judahite religion actually like?", "answer": "Syncretistic\u2014Yahweh worshipped alongside Asherah and other deities." },
       { "question": "What role did ecstatic experience play?", "answer": "Central. Cannabis was burned at Tel Arad in official state worship." },
       { "question": "Who was Elijah?", "answer": "A 9th-century prophet who opposed Phoenician religious influence and contested Baal/Melqart on Mount Carmel." },
