@@ -7,29 +7,59 @@ window.ARC = {
   "version": "6.0",
   "last_updated": "2026-08-31",
   "description": "This arc traces the evolution of Yahweh from a southern desert storm-god worshipped by semi-nomadic pastoralists to the cosmic Christ of Christian orthodoxy, through centuries of cultural interaction, theological reflection, political struggle, and synthesis. It incorporates archaeological evidence, prophetic scholarship, mystical practices, the Logos, the Two Powers tradition, Paul's Pharisaic mysticism, the resurrection traditions, the prophetic cultures of the ancient Near East, Paul's third heaven ascent, the archaeological reality of Manasseh's Judah, the role of Ezra in forging post-exilic Jewish identity, the inclusion of Elijah and the northern prophetic tradition, the Pan-Israelite idea born from the Assyrian destruction, and the Mesha Stele's independent confirmation of Yahweh as Israel's god by the ninth century BCE.",
-  "author": { "name": "David Jivan", "website": "davidjivan.net" },
+  "author": {
+    "name": "David Jivan",
+    "website": "davidjivan.net"
+  },
   "threads": [
-    { "id": "afterlife", "name": "Afterlife", "description": "The evolution of beliefs about death, Sheol, resurrection, judgment, heaven, and hell." },
-    { "id": "mystical", "name": "Mystical", "description": "The thread of ecstatic experience, visionary practice, and direct encounter with the divine." },
-    { "id": "logos", "name": "Logos", "description": "The thread of Greek philosophical influence, from Heraclitus to Philo to John's Gospel." },
-    { "id": "twopowers", "name": "Two Powers", "description": "The Second Temple Jewish tradition of a second, subordinate divine figure who bore God's name and authority." },
-    { "id": "panisraelite", "name": "Pan-Israelite Idea", "description": "The political and theological construct born after the Assyrian destruction, asserting Judah's claim as the true heir of all Israel." }
+    {
+      "id": "afterlife",
+      "name": "Afterlife",
+      "description": "The evolution of beliefs about death, Sheol, resurrection, judgment, heaven, and hell."
+    },
+    {
+      "id": "mystical",
+      "name": "Mystical",
+      "description": "The thread of ecstatic experience, visionary practice, and direct encounter with the divine."
+    },
+    {
+      "id": "logos",
+      "name": "Logos",
+      "description": "The thread of Greek philosophical influence, from Heraclitus to Philo to John's Gospel."
+    },
+    {
+      "id": "twopowers",
+      "name": "Two Powers",
+      "description": "The Second Temple Jewish tradition of a second, subordinate divine figure who bore God's name and authority."
+    },
+    {
+      "id": "panisraelite",
+      "name": "Pan-Israelite Idea",
+      "description": "The political and theological construct born after the Assyrian destruction, asserting Judah's claim as the true heir of all Israel."
+    }
   ],
   "parts": [
     {
-      "id": "part-1", "title": "The Origins", "time_period": "c. 1400\u20131200 BCE",
+      "id": "part-1",
+      "title": "The Origins",
+      "time_period": "c. 1400–1200 BCE",
       "sections": [
         {
           "id": "1.1",
           "title": "The Shasu of Yhw: The Southern Desert God",
-          "content": "Before Yahweh was the God of Israel, he was the god of a semi-nomadic people in the southern deserts of Edom, Midian, and the Negev. The earliest evidence is an Egyptian topographical list from the temple of Amenhotep III at Soleb (c. 1380 BCE) mentioning the 'land of the Shasu of Yhw' \u2014 the earliest known reference to the divine name \u2014 with the name also preserved in a 13th-century (Ramesside) copy at Amara West. The Shasu were tent-dwellers, organized in clans, who roamed the marginal lands between Canaan, Egypt, and the Sinai. The Egyptians viewed them as wanderers and raiders, but sometimes employed them as mercenaries. The god they worshipped was likely a storm-warrior god of thunder, lightning, and desert warfare.",
+          "content": "Before Yahweh was the God of Israel, he was the god of a semi-nomadic people in the southern deserts of Edom, Midian, and the Negev. The earliest evidence is an Egyptian topographical list from the temple of Amenhotep III at Soleb (c. 1380 BCE) mentioning the 'land of the Shasu of Yhw' — the earliest known reference to the divine name — with the name also preserved in a 13th-century (Ramesside) copy at Amara West. The Shasu were tent-dwellers, organized in clans, who roamed the marginal lands between Canaan, Egypt, and the Sinai. The Egyptians viewed them as wanderers and raiders, but sometimes employed them as mercenaries. The god they worshipped was likely a storm-warrior god of thunder, lightning, and desert warfare.",
           "key_ideas": [
             "Yahweh originated among semi-nomadic pastoralists (the Shasu)",
             "Yahweh was a storm-warrior god, not yet the creator",
             "The Soleb Inscription (c. 1380 BCE) is the oldest known reference to Yahweh"
           ],
-          "key_sources": ["Soleb Inscription (c. 1380 BCE)"],
-          "threads": ["afterlife", "mystical"],
+          "key_sources": [
+            "Soleb Inscription (c. 1380 BCE)"
+          ],
+          "threads": [
+            "afterlife",
+            "mystical"
+          ],
           "thread_notes": {
             "afterlife": "No developed belief; concern was with survival.",
             "mystical": "No evidence of psychoactive ritual use at this stage."
@@ -39,7 +69,9 @@ window.ARC = {
       ]
     },
     {
-      "id": "part-2", "title": "The Cultural Landscape", "time_period": "c. 1400\u20131200 BCE",
+      "id": "part-2",
+      "title": "The Cultural Landscape",
+      "time_period": "c. 1400–1200 BCE",
       "sections": [
         {
           "id": "2.1",
@@ -50,8 +82,13 @@ window.ARC = {
             "They lived in the same southern desert regions",
             "They shared a common cultural and linguistic background"
           ],
-          "key_sources": ["Soleb Inscription", "Egyptian texts", "Biblical texts"],
-          "threads": [], "thread_notes": {}
+          "key_sources": [
+            "Soleb Inscription",
+            "Egyptian texts",
+            "Biblical texts"
+          ],
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "2.2",
@@ -62,30 +99,48 @@ window.ARC = {
             "They worshipped the Canaanite pantheon (El, Baal, Asherah)",
             "They were in contact with the southern pastoralists"
           ],
-          "key_sources": ["Archaeological evidence", "Ugaritic texts"],
-          "threads": ["mystical"],
-          "thread_notes": { "mystical": "Canaanite religion featured ecstatic prophecy and ritual, providing a cultural template for early Yahwism." },
+          "key_sources": [
+            "Archaeological evidence",
+            "Ugaritic texts"
+          ],
+          "threads": [
+            "mystical"
+          ],
+          "thread_notes": {
+            "mystical": "Canaanite religion featured ecstatic prophecy and ritual, providing a cultural template for early Yahwism."
+          },
           "scholar_quotes": []
         }
       ]
     },
     {
-      "id": "part-3", "title": "The Transmission of Yahweh Worship", "time_period": "c. 1200\u20131000 BCE",
+      "id": "part-3",
+      "title": "The Transmission of Yahweh Worship",
+      "time_period": "c. 1200–1000 BCE",
       "sections": [
         {
           "id": "3.1",
           "title": "The Biblical Memory: Moses and the Southern Origins of Yahweh",
-          "content": "The Moses story\u2014the Exodus from Egypt, the revelation at Mount Sinai, the giving of the law\u2014is not a historical account. It is a foundational narrative that explains the origins of Israel and its relationship with Yahweh. However, it preserves several historical markers that point to the real-world origins of Yahweh worship. The name 'Moses' is Egyptian, preserving a memory of Egyptian influence. The geographical setting (Midian, Sinai) locates Yahweh's origin in the south. The Exodus narrative is a theological expression of Israel's origins.",
+          "content": "The Moses story—the Exodus from Egypt, the revelation at Mount Sinai, the giving of the law—is not a historical account. It is a foundational narrative that explains the origins of Israel and its relationship with Yahweh. However, it preserves several historical markers that point to the real-world origins of Yahweh worship. The name 'Moses' is Egyptian, preserving a memory of Egyptian influence. The geographical setting (Midian, Sinai) locates Yahweh's origin in the south. The Exodus narrative is a theological expression of Israel's origins.",
           "key_ideas": [
             "The name 'Moses' is Egyptian, preserving a memory of Egyptian influence",
             "The geographical setting (Midian, Sinai) locates Yahweh's origin in the south",
             "The Exodus narrative is a theological expression of Israel's origins",
             "The Kenite Hypothesis is a scholarly theory but cannot be proven"
           ],
-          "key_sources": ["Exodus", "Deuteronomy 33:2", "Judges 5:4-5", "Habakkuk 3:3"],
+          "key_sources": [
+            "Exodus",
+            "Deuteronomy 33:2",
+            "Judges 5:4-5",
+            "Habakkuk 3:3"
+          ],
           "scholar_quotes": [],
-          "threads": ["afterlife"],
-          "thread_notes": { "afterlife": "The Exodus narrative focused on covenant and land, not afterlife." }
+          "threads": [
+            "afterlife"
+          ],
+          "thread_notes": {
+            "afterlife": "The Exodus narrative focused on covenant and land, not afterlife."
+          }
         },
         {
           "id": "3.2",
@@ -98,24 +153,30 @@ window.ARC = {
             "Gradual cultural exchange through trade, intermarriage, and migration"
           ],
           "key_sources": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         }
       ]
     },
     {
-      "id": "part-4", "title": "The Canaanite Context", "time_period": "c. 1200\u2013930 BCE",
+      "id": "part-4",
+      "title": "The Canaanite Context",
+      "time_period": "c. 1200–930 BCE",
       "sections": [
         {
           "id": "4.1",
           "title": "The Bronze Age Collapse and the Emergence of Israel",
-          "content": "The Bronze Age Collapse (c. 1200\u20131150 BCE) destroyed the great empires. Indigenous Canaanite farmers moved into the central highlands, becoming the ancestors of both Israel and Judah. The Merneptah Stele (c. 1208 BCE) mentions 'Israel' as a people group in Canaan.",
+          "content": "The Bronze Age Collapse (c. 1200–1150 BCE) destroyed the great empires. Indigenous Canaanite farmers moved into the central highlands, becoming the ancestors of both Israel and Judah. The Merneptah Stele (c. 1208 BCE) mentions 'Israel' as a people group in Canaan.",
           "key_ideas": [
             "The Bronze Age Collapse created a power vacuum",
             "Highland farmers became the ancestors of Israel and Judah",
             "The Merneptah Stele (c. 1208 BCE) is the earliest mention of 'Israel'"
           ],
-          "key_sources": ["Merneptah Stele (c. 1208 BCE)"],
-          "threads": [], "thread_notes": {}
+          "key_sources": [
+            "Merneptah Stele (c. 1208 BCE)"
+          ],
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "4.2",
@@ -126,8 +187,15 @@ window.ARC = {
             "The Bible preserves this older worldview in Psalm 82",
             "'Baal' was originally a title meaning 'lord,' sometimes used for Yahweh"
           ],
-          "key_sources": ["Deuteronomy 32:8-9", "Psalm 82", "Genesis 1:26"],
-          "threads": ["afterlife", "mystical"],
+          "key_sources": [
+            "Deuteronomy 32:8-9",
+            "Psalm 82",
+            "Genesis 1:26"
+          ],
+          "threads": [
+            "afterlife",
+            "mystical"
+          ],
           "thread_notes": {
             "afterlife": "The Israelites inherited the Canaanite concept of Sheol.",
             "mystical": "Canaanite religion provided a cultural template for ecstatic prophecy."
@@ -137,27 +205,40 @@ window.ARC = {
         {
           "id": "4.3",
           "title": "The Patriarchal Narratives: Separate Traditions Woven into a Unified History",
-          "content": "One of the most important insights of modern biblical scholarship is that the patriarchal stories\u2014Abraham, Isaac, and Jacob\u2014were not originally a single, unified narrative. They were separate regional traditions that were later woven together to serve a political purpose. Abraham's stories are set in the south (Hebron, Salem/Jerusalem), Isaac's in the southern desert fringe (Beersheba), and Jacob's in the north (Shechem, Bethel, Transjordan). Martin Noth argued that these were originally separate traditions of individual tribes or clans. The unified genealogy (Abraham \u2192 Isaac \u2192 Jacob \u2192 the twelve tribes) served to emphasize the primacy of Judah and Jerusalem.",
+          "content": "One of the most important insights of modern biblical scholarship is that the patriarchal stories—Abraham, Isaac, and Jacob—were not originally a single, unified narrative. They were separate regional traditions that were later woven together to serve a political purpose. Abraham's stories are set in the south (Hebron, Salem/Jerusalem), Isaac's in the southern desert fringe (Beersheba), and Jacob's in the north (Shechem, Bethel, Transjordan). Martin Noth argued that these were originally separate traditions of individual tribes or clans. The unified genealogy (Abraham → Isaac → Jacob → the twelve tribes) served to emphasize the primacy of Judah and Jerusalem.",
           "key_ideas": [
             "Abraham, Isaac, and Jacob were originally separate regional traditions",
             "Martin Noth argued they were separate tribal traditions later woven together",
             "The unified genealogy served a political purpose: legitimizing Judah's primacy",
             "Abraham's connection to Hebron and Salem emphasized Judah's importance"
           ],
-          "key_sources": ["Genesis 12-50", "Martin Noth (1948)"],
-          "threads": ["afterlife", "mystical"],
+          "key_sources": [
+            "Genesis 12-50",
+            "Martin Noth (1948)"
+          ],
+          "threads": [
+            "afterlife",
+            "mystical"
+          ],
           "thread_notes": {
             "afterlife": "The patriarchal narratives focus on land and covenant, not afterlife.",
             "mystical": "The stories contain moments of divine encounter (theophany, dreams, visions)."
           },
           "scholar_quotes": [
-            { "scholar": "Israel Finkelstein and Neil Asher Silberman", "source": "The Bible Unearthed (2001)", "quote": "It is almost as if an American scripture describing pre-Columbian history placed inordinate attention on Manhattan Island or on the tract of land that would later become Washington, DC. The pointed political meaning of the inclusion of such a detail in a larger narrative at least calls into question its historical credibility.", "verified": true }
+            {
+              "scholar": "Israel Finkelstein and Neil Asher Silberman",
+              "source": "The Bible Unearthed (2001)",
+              "quote": "It is almost as if an American scripture describing pre-Columbian history placed inordinate attention on Manhattan Island or on the tract of land that would later become Washington, DC. The pointed political meaning of the inclusion of such a detail in a larger narrative at least calls into question its historical credibility.",
+              "verified": true
+            }
           ]
         }
       ]
     },
     {
-      "id": "part-5", "title": "The Prophetic Cultures of the Ancient Near East", "time_period": "c. 1800\u2013500 BCE",
+      "id": "part-5",
+      "title": "The Prophetic Cultures of the Ancient Near East",
+      "time_period": "c. 1800–500 BCE",
       "sections": [
         {
           "id": "5.1",
@@ -168,8 +249,13 @@ window.ARC = {
             "The Mari letters (18th century BCE) are the earliest written testimony of prophecy",
             "Israelite prophecy emerged from this broader context"
           ],
-          "key_sources": ["Mari letters", "Neo-Assyrian oracles", "Ugaritic texts"],
-          "threads": [], "thread_notes": {}
+          "key_sources": [
+            "Mari letters",
+            "Neo-Assyrian oracles",
+            "Ugaritic texts"
+          ],
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "5.2",
@@ -181,7 +267,8 @@ window.ARC = {
             "Israelite prophets emphasized social justice and national covenant loyalty"
           ],
           "key_sources": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "5.3",
@@ -192,14 +279,20 @@ window.ARC = {
             "Types of prophets: court, temple, peripheral, and guild",
             "Robert R. Wilson: prophecy functioned as a social institution"
           ],
-          "key_sources": ["1 Samuel 10:5-6", "2 Kings 2:3-7"],
+          "key_sources": [
+            "1 Samuel 10:5-6",
+            "2 Kings 2:3-7"
+          ],
           "scholar_quotes": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         }
       ]
     },
     {
-      "id": "part-6", "title": "The Two Kingdoms and the Rise of Yahwism", "time_period": "c. 930\u2013722 BCE",
+      "id": "part-6",
+      "title": "The Two Kingdoms and the Rise of Yahwism",
+      "time_period": "c. 930–722 BCE",
       "sections": [
         {
           "id": "6.1",
@@ -211,8 +304,15 @@ window.ARC = {
             "David likely ruled a small regional chiefdom",
             "By the 9th century BCE, Israel and Judah are well-attested as distinct entities"
           ],
-          "key_sources": ["Tel Dan Stele (9th century BCE)", "Mesha Stele", "Assyrian records"],
-          "threads": ["afterlife", "mystical"],
+          "key_sources": [
+            "Tel Dan Stele (9th century BCE)",
+            "Mesha Stele",
+            "Assyrian records"
+          ],
+          "threads": [
+            "afterlife",
+            "mystical"
+          ],
           "thread_notes": {
             "afterlife": "The narrative focused on covenant and land, not afterlife.",
             "mystical": "The Jerusalem Temple became the center of Yahwistic worship."
@@ -222,63 +322,106 @@ window.ARC = {
         {
           "id": "6.2",
           "title": "The Omride Dynasty: Yahweh as State God in the North",
-          "content": "The Omrides were the first true powerhouse of the Northern Kingdom. Omri founded Samaria; Ahab married Jezebel and fielded the second-largest army at Qarqar. The Omrides promoted Yahweh as the state god but modeled him on Baal. The Mesha Stele (c. 840 BCE) is the earliest non-biblical witness to all of this. Mesha, king of Moab, raised a victory monument at Dibon boasting that he had thrown off Israel's grip \u2014 the grip of Omri and his dynasty, whom he names. In it he describes taking the Israelite town of Nebo and dragging 'the vessels of YHWH' before his own god, Chemosh. Israel's god named in a Moabite inscription, carried off as plunder: Yahweh was real enough to Israel's enemies to be worth capturing. The stele independently confirms the Omrides as the rulers of a kingdom that oppressed Moab for generations, and it proves Yahweh was Israel's national god by the ninth century \u2014 centuries before the exile would make him the only god.",
+          "content": "The Omrides were the first true powerhouse of the Northern Kingdom. Omri founded Samaria; Ahab married Jezebel and fielded the second-largest army at Qarqar. The Omrides promoted Yahweh as the state god but modeled him on Baal. The Mesha Stele (c. 840 BCE) is the earliest non-biblical witness to all of this. Mesha, king of Moab, raised a victory monument at Dibon boasting that he had thrown off Israel's grip — the grip of Omri and his dynasty, whom he names. In it he describes taking the Israelite town of Nebo and dragging 'the vessels of YHWH' before his own god, Chemosh. Israel's god named in a Moabite inscription, carried off as plunder: Yahweh was real enough to Israel's enemies to be worth capturing. The stele independently confirms the Omrides as the rulers of a kingdom that oppressed Moab for generations, and it proves Yahweh was Israel's national god by the ninth century — centuries before the exile would make him the only god.",
           "key_ideas": [
-            "Omri founded Samaria (c. 880\u2013870 BCE)",
+            "Omri founded Samaria (c. 880–870 BCE)",
             "Ahab married Jezebel and fielded the second-largest army at Qarqar (853 BCE)",
             "The Omrides promoted Yahweh but modeled him on Baal",
-            "The Mesha Stele (c. 840 BCE) is the earliest non-biblical witness to Yahweh as Israel's god \u2014 Mesha names Omri and boasts of dragging 'the vessels of YHWH' from Nebo before Chemosh"
+            "The Mesha Stele (c. 840 BCE) is the earliest non-biblical witness to Yahweh as Israel's god — Mesha names Omri and boasts of dragging 'the vessels of YHWH' from Nebo before Chemosh"
           ],
-          "key_sources": ["Mesha Stele (c. 840 BCE)", "Black Obelisk of Shalmaneser III"],
+          "key_sources": [
+            "Mesha Stele (c. 840 BCE)",
+            "Black Obelisk of Shalmaneser III"
+          ],
           "scholar_quotes": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "6.3",
           "title": "The Northern Prophetic Tradition: Elijah and the Conflict with Phoenician Religion",
-          "content": "The most dramatic expression of the religious conflict in the Northern Kingdom comes from the prophet Elijah, who emerged during the reign of Ahab and Jezebel. Ahab's marriage to Jezebel was a political alliance that brought Phoenician religious influence into Israel. Jezebel introduced the worship of Melqart, the state god of Tyre. Elijah's confrontations were political acts against the state-sponsored religion of the Omride dynasty. The Elijah cycle is arranged in a deliberate sequence: the resurrection in Zarephath (Yahweh vs. Eshmun), the contest on Mount Carmel (Yahweh vs. Melqart), and the theophany at Horeb (the reorientation of Yahwism).",
+          "content": "The most dramatic expression of the religious conflict in the Northern Kingdom comes from the prophet Elijah, who emerged during the reign of Ahab and Jezebel. Ahab's marriage to Jezebel was a political alliance that brought Phoenician religious influence into Israel, and Jezebel promoted the worship of Melqart, the state god of Tyre. Elijah's confrontations were political acts against the state-sponsored religion of the Omride dynasty — and the cycle is arranged in a deliberate sequence, each act contesting a different Phoenician god. First, Zarephath: a town in Sidonian territory, the cultic home of the healing god Eshmun — and there Elijah raises a widow's son from the dead. Yahweh, not Eshmun, has power over life itself. Then Carmel: Elijah challenges the prophets of Baal (in this setting, Melqart) to a contest — the god who answers by fire is God. Yahweh, not the storm god, commands the fire from heaven. Finally, Horeb: the mountain of Yahweh's own wilderness origins — and the theophany reorients everything. God is not in the wind that splits mountains, not in the earthquake, not in the fire, but in 'a sound of sheer silence.' The journey back to Horeb is a journey back to the source: a reaffirmation that Yahweh is not a Phoenician god but the God of the wilderness, who does not need the storm god's theatrics. And when Elijah is taken up in a whirlwind with a chariot of fire and horses of fire (2 Kings 2), the old storm imagery is left behind entirely.",
           "key_ideas": [
             "Ahab's marriage to Jezebel brought Phoenician religious influence into Israel",
             "Jezebel introduced the worship of Melqart, the state god of Tyre",
             "Elijah's confrontations were political acts against state-sponsored religion",
-            "The fire on Carmel and the resurrection in Zarephath form a unified polemic against Phoenician gods",
-            "The 'still small voice' on Horeb reorients Yahweh's identity away from storm-god imagery"
+            "The cycle's three acts: Zarephath (Yahweh vs. Eshmun, power over life), Carmel (Yahweh vs. Baal/Melqart, power over fire), Horeb (the reorientation: 'a sound of sheer silence')",
+            "Elijah's ascent in the whirlwind (2 Kings 2) leaves storm-god imagery behind"
           ],
-          "key_sources": ["1 Kings 17-19", "2 Kings 2:1-12"],
-          "threads": ["afterlife", "mystical"],
+          "key_sources": [
+            "1 Kings 17-19",
+            "2 Kings 2:1-12"
+          ],
+          "threads": [
+            "afterlife",
+            "mystical"
+          ],
           "thread_notes": {
-            "afterlife": "Elijah's ascension to heaven foreshadows later beliefs about resurrection.",
-            "mystical": "The 'still small voice' on Horeb represents a shift to more intimate revelation."
+            "afterlife": "Elijah's ascension to heaven (2 Kings 2:11) foreshadows later beliefs about resurrection and exaltation.",
+            "mystical": "The theophany at Horeb — 'a sound of sheer silence' — reorients revelation from storm-god theatrics toward intimacy; the thread echoes in later mysticism."
           },
-          "scholar_quotes": []
+          "scholar_quotes": [],
+          "scripture_quotes": [
+            {
+              "ref": "1 Kings 17:22",
+              "translation": "NRSVUE",
+              "text": "The Lord listened to the voice of Elijah; the life of the child came into him again, and he revived."
+            },
+            {
+              "ref": "1 Kings 18:24",
+              "translation": "NRSVUE",
+              "text": "Then you call on the name of your god, and I will call on the name of the Lord; the god who answers by fire is indeed God."
+            },
+            {
+              "ref": "1 Kings 19:11-12",
+              "translation": "NRSVUE",
+              "text": "Now there was a great wind, so strong that it was splitting mountains and breaking rocks in pieces before the Lord, but the Lord was not in the wind; and after the wind an earthquake, but the Lord was not in the earthquake; and after the earthquake a fire, but the Lord was not in the fire; and after the fire a sound of sheer silence."
+            },
+            {
+              "ref": "2 Kings 2:11",
+              "translation": "NRSVUE",
+              "text": "As they continued walking and talking, a chariot of fire and horses of fire separated the two of them, and Elijah ascended in a whirlwind into heaven."
+            }
+          ]
         },
         {
           "id": "6.4",
           "title": "The Assyrian Destruction (722 BCE) and the Birth of the Pan-Israelite Idea",
-          "content": "Before the Assyrian destruction, Judah was a minor player\u2014'isolated, sparsely populated' and 'hardly comparable in territory, wealth, and military might to the northern kingdom of Israel.' After the fall of the North, Judah grew enormously in population and developed complex state institutions. It saw its survival as evidence of divine intention: Judah should rule over all the land of Israel. The 'Pan-Israelite idea with Judah in its center was born.' This is the context in which the patriarchal narratives were woven together into a unified history, with Abraham (connected to Hebron and Salem) made the oldest and most authoritative ancestor.",
+          "content": "Before the Assyrian destruction, Judah was a minor player—'isolated, sparsely populated' and 'hardly comparable in territory, wealth, and military might to the northern kingdom of Israel.' After the fall of the North, Judah grew enormously in population and developed complex state institutions. It saw its survival as evidence of divine intention: Judah should rule over all the land of Israel. The 'Pan-Israelite idea with Judah in its center was born.' This is the context in which the patriarchal narratives were woven together into a unified history, with Abraham (connected to Hebron and Salem) made the oldest and most authoritative ancestor.",
           "key_ideas": [
             "Before 722 BCE, Judah was a minor, sparsely populated kingdom",
             "After the fall of the North, Judah grew and saw itself as the heir to all Israel",
             "The Pan-Israelite idea was a political and theological construct",
             "The patriarchal narratives were woven together to serve this political purpose"
           ],
-          "key_sources": ["Finkelstein and Silberman (2001)", "Martin Noth (1948)"],
-          "threads": ["panisraelite"],
-          "thread_notes": { "panisraelite": "The Pan-Israelite idea was born in the late 8th and 7th centuries BCE as a response to the Assyrian destruction." },
+          "key_sources": [
+            "Finkelstein and Silberman (2001)",
+            "Martin Noth (1948)"
+          ],
+          "threads": [
+            "panisraelite"
+          ],
+          "thread_notes": {
+            "panisraelite": "The Pan-Israelite idea was born in the late 8th and 7th centuries BCE as a response to the Assyrian destruction."
+          },
           "scholar_quotes": []
         },
         {
           "id": "6.5",
           "title": "The Northern Literary Prophets: Amos and Hosea",
-          "content": "Amos (c. 760\u2013750 BCE) and Hosea (c. 750\u2013722 BCE) were historical prophets who demanded exclusive loyalty to Yahweh. Amos emphasized social justice; Hosea used marriage imagery to condemn Israel's unfaithfulness. They were not yet strict monotheists.",
+          "content": "Amos (c. 760–750 BCE) and Hosea (c. 750–722 BCE) were historical prophets who demanded exclusive loyalty to Yahweh. Amos emphasized social justice; Hosea used marriage imagery to condemn Israel's unfaithfulness. They were not yet strict monotheists.",
           "key_ideas": [
             "Amos: social justice, Yahweh as sovereign of all nations",
             "Hosea: Israel as an unfaithful wife",
             "They were not yet strict monotheists"
           ],
-          "key_sources": ["Book of Amos", "Book of Hosea"],
+          "key_sources": [
+            "Book of Amos",
+            "Book of Hosea"
+          ],
           "scholar_quotes": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "6.6",
@@ -289,54 +432,78 @@ window.ARC = {
             "Kuntillet 'Ajrud refers to 'Yahweh of Samaria and his Asherah'",
             "Judean Pillar Figurines suggest Asherah was worshipped alongside Yahweh"
           ],
-          "key_sources": ["Tel Arad", "Tel Motza", "Kuntillet 'Ajrud", "Lachish"],
-          "threads": ["mystical"],
-          "thread_notes": { "mystical": "The archaeological evidence reveals a lived, ecstatic religion." },
+          "key_sources": [
+            "Tel Arad",
+            "Tel Motza",
+            "Kuntillet 'Ajrud",
+            "Lachish"
+          ],
+          "threads": [
+            "mystical"
+          ],
+          "thread_notes": {
+            "mystical": "The archaeological evidence reveals a lived, ecstatic religion."
+          },
           "scholar_quotes": []
         },
         {
           "id": "6.7",
           "title": "The Mystical Experience: Cannabis at Tel Arad",
-          "content": "A small limestone altar (c. 750\u2013715 BCE) at Tel Arad had residue of THC and CBD, confirming the burning of cannabis mixed with animal dung to vaporize the psychoactive compounds \u2014 the residue is fact; the excavators interpret the dung as enabling mild heating to release the compounds for a cultic purpose, an interpretation.",
+          "content": "A small limestone altar (c. 750–715 BCE) at Tel Arad had residue of THC and CBD, confirming the burning of cannabis mixed with animal dung to vaporize the psychoactive compounds — the residue is fact; the excavators interpret the dung as enabling mild heating to release the compounds for a cultic purpose, an interpretation.",
           "key_ideas": [
-            "Cannabis residue found at Tel Arad (c. 750\u2013715 BCE)",
+            "Cannabis residue found at Tel Arad (c. 750–715 BCE)",
             "Mixed with animal dung to vaporize psychoactive compounds",
             "Cultic-ecstasy purpose is the excavators' interpretation, not a proven finding",
             "A window into similar practices in the Jerusalem Temple"
           ],
-          "key_sources": ["Tel Arad cannabis residue study"],
-          "threads": ["mystical"],
-          "thread_notes": { "mystical": "The residue is the earliest evidence of a psychoactive substance in Judah's cult; its ecstatic purpose is interpretation." },
+          "key_sources": [
+            "Tel Arad cannabis residue study"
+          ],
+          "threads": [
+            "mystical"
+          ],
+          "thread_notes": {
+            "mystical": "The residue is the earliest evidence of a psychoactive substance in Judah's cult; its ecstatic purpose is interpretation."
+          },
           "scholar_quotes": []
         }
       ]
     },
     {
-      "id": "part-7", "title": "The Southern Kingdom and the Exile", "time_period": "722\u2013539 BCE",
+      "id": "part-7",
+      "title": "The Southern Kingdom and the Exile",
+      "time_period": "722–539 BCE",
       "sections": [
         {
           "id": "7.1",
-          "title": "Hezekiah's Reform (c. 715\u2013701 BCE)",
-          "content": "Hezekiah attempted to centralize worship in Jerusalem and eliminate local shrines. His reform failed\u2014his son Manasseh reversed it.",
+          "title": "Hezekiah's Reform (c. 715–701 BCE)",
+          "content": "Hezekiah attempted to centralize worship in Jerusalem and eliminate local shrines. His reform failed—his son Manasseh reversed it.",
           "key_ideas": [
             "Hezekiah attempted to centralize worship in Jerusalem",
-            "His reform failed\u2014Manasseh reversed it"
+            "His reform failed—Manasseh reversed it"
           ],
-          "key_sources": ["2 Kings 18-20"],
+          "key_sources": [
+            "2 Kings 18-20"
+          ],
           "scholar_quotes": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "7.2",
-          "title": "Manasseh: The Reversal (c. 687\u2013642 BCE)",
+          "title": "Manasseh: The Reversal (c. 687–642 BCE)",
           "content": "Manasseh reversed Hezekiah's reforms and restored the traditional religion of Judah. Archaeology reveals that Manasseh inherited, rather than introduced, these practices.",
           "key_ideas": [
             "Manasseh was the longest-reigning king of Judah (55 years)",
             "He restored the traditional, syncretistic religion of Judah"
           ],
-          "key_sources": ["2 Kings 21", "Archaeological evidence"],
+          "key_sources": [
+            "2 Kings 21",
+            "Archaeological evidence"
+          ],
           "scholar_quotes": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "7.3",
@@ -346,27 +513,47 @@ window.ARC = {
             "Josiah 'found' the Book of the Law (Deuteronomy)",
             "He used it to centralize worship in Jerusalem"
           ],
-          "key_sources": ["2 Kings 22-23"],
-          "threads": [], "thread_notes": {}
+          "key_sources": [
+            "2 Kings 22-23"
+          ],
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "7.4",
-          "title": "The Exile as a Theological Filter (586\u2013539 BCE)",
+          "title": "The Exile as a Theological Filter (586–539 BCE)",
           "content": "Babylon destroyed Jerusalem in 586 BCE. The Exile filtered out the polytheists, leaving the Yahweh-alone faction to survive. In Babylon, exiled priests collected the ancient traditions and wove them together into the first complete Pentateuch.",
           "key_ideas": [
             "Babylon destroyed Jerusalem in 586 BCE",
             "The Exile filtered out the polytheists",
             "Yahweh was transformed from a national god to the sole Creator"
           ],
-          "key_sources": ["Babylonian Chronicles", "Ezekiel", "Second Isaiah"],
-          "threads": ["afterlife"],
-          "thread_notes": { "afterlife": "The crisis of the Exile forced a rethinking of death; Yahweh's power extended to Sheol." },
-          "scholar_quotes": []
+          "key_sources": [
+            "Babylonian Chronicles",
+            "Ezekiel",
+            "Second Isaiah"
+          ],
+          "threads": [
+            "afterlife"
+          ],
+          "thread_notes": {
+            "afterlife": "The crisis of the Exile forced a rethinking of death; Yahweh's power extended to Sheol."
+          },
+          "scholar_quotes": [],
+          "scripture_quotes": [
+            {
+              "ref": "Psalm 139:8",
+              "translation": "NRSVUE",
+              "text": "If I ascend to heaven, you are there; if I make my bed in Sheol, you are there."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "part-8", "title": "The Persian Period and the Return to the Land", "time_period": "539\u2013331 BCE",
+      "id": "part-8",
+      "title": "The Persian Period and the Return to the Land",
+      "time_period": "539–331 BCE",
       "sections": [
         {
           "id": "8.1",
@@ -378,8 +565,13 @@ window.ARC = {
             "The Cyrus Cylinder confirms this policy",
             "Second Isaiah interprets Cyrus as Yahweh's 'anointed'"
           ],
-          "key_sources": ["Cyrus Cylinder (c. 539 BCE)", "Ezra 1:1-4", "Isaiah 45:1"],
-          "threads": [], "thread_notes": {}
+          "key_sources": [
+            "Cyrus Cylinder (c. 539 BCE)",
+            "Ezra 1:1-4",
+            "Isaiah 45:1"
+          ],
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "8.2",
@@ -391,8 +583,14 @@ window.ARC = {
             "Jerusalem became the Persian province of Yehud",
             "The new identity was centered on the Torah"
           ],
-          "key_sources": ["Ezra", "Nehemiah"],
-          "threads": ["afterlife", "mystical"],
+          "key_sources": [
+            "Ezra",
+            "Nehemiah"
+          ],
+          "threads": [
+            "afterlife",
+            "mystical"
+          ],
           "thread_notes": {
             "afterlife": "The crisis of identity also shaped beliefs about resurrection.",
             "mystical": "The return to the land saw the development of Merkavah mysticism."
@@ -401,14 +599,15 @@ window.ARC = {
         {
           "id": "8.3",
           "title": "The Role of the Torah: A Portable Identity",
-          "content": "Without a king, the Torah became the constitution of the community. The Torah became a portable identity\u2014a way to remain 'Israel' even in a foreign land.",
+          "content": "Without a king, the Torah became the constitution of the community. The Torah became a portable identity—a way to remain 'Israel' even in a foreign land.",
           "key_ideas": [
             "The Torah became the constitution of the community",
             "The Torah became a portable identity",
             "The final editing of the Torah occurred in the post-exilic period"
           ],
           "key_sources": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "8.4",
@@ -419,8 +618,12 @@ window.ARC = {
             "The 'people of the land' were viewed with suspicion",
             "The Samaritans were rejected, creating a permanent schism"
           ],
-          "key_sources": ["Ezra 4:1-3", "Nehemiah"],
-          "threads": [], "thread_notes": {}
+          "key_sources": [
+            "Ezra 4:1-3",
+            "Nehemiah"
+          ],
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "8.5",
@@ -431,9 +634,13 @@ window.ARC = {
             "The biblical narrative uses Ezra to legitimize the Torah",
             "Ezra embodies the shift from a temple-centered to a Torah-centered religion"
           ],
-          "key_sources": ["Ezra", "Nehemiah"],
+          "key_sources": [
+            "Ezra",
+            "Nehemiah"
+          ],
           "scholar_quotes": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "8.6",
@@ -445,9 +652,16 @@ window.ARC = {
             "The Book of Daniel (c. 165 BCE) introduces bodily resurrection and the 'Son of Man'",
             "The Book of Enoch develops the Son of Man tradition"
           ],
-          "key_sources": ["Book of Daniel (c. 165 BCE)", "Book of Enoch (1 Enoch)"],
-          "threads": ["afterlife"],
-          "thread_notes": { "afterlife": "The Book of Daniel introduces bodily resurrection." },
+          "key_sources": [
+            "Book of Daniel (c. 165 BCE)",
+            "Book of Enoch (1 Enoch)"
+          ],
+          "threads": [
+            "afterlife"
+          ],
+          "thread_notes": {
+            "afterlife": "The Book of Daniel introduces bodily resurrection."
+          },
           "scholar_quotes": []
         },
         {
@@ -459,15 +673,24 @@ window.ARC = {
             "Key concepts: resurrection, final judgment, cosmic dualism, a savior figure",
             "The figure of Satan evolved from a divine council member to a cosmic adversary"
           ],
-          "key_sources": ["Zoroastrian texts", "Book of Daniel"],
-          "threads": ["afterlife"],
-          "thread_notes": { "afterlife": "Zoroastrian concepts of resurrection and final judgment transformed Jewish afterlife beliefs." },
+          "key_sources": [
+            "Zoroastrian texts",
+            "Book of Daniel"
+          ],
+          "threads": [
+            "afterlife"
+          ],
+          "thread_notes": {
+            "afterlife": "Zoroastrian concepts of resurrection and final judgment transformed Jewish afterlife beliefs."
+          },
           "scholar_quotes": []
         }
       ]
     },
     {
-      "id": "part-9", "title": "Second Temple Judaism", "time_period": "539 BCE\u201370 CE",
+      "id": "part-9",
+      "title": "Second Temple Judaism",
+      "time_period": "539 BCE–70 CE",
       "sections": [
         {
           "id": "9.1",
@@ -477,8 +700,11 @@ window.ARC = {
             "Multiple textual traditions coexisted",
             "Proto-Masoretic, Septuagint, Samaritan Pentateuch, and others"
           ],
-          "key_sources": ["Dead Sea Scrolls"],
-          "threads": [], "thread_notes": {}
+          "key_sources": [
+            "Dead Sea Scrolls"
+          ],
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "9.2",
@@ -489,23 +715,36 @@ window.ARC = {
             "The Son of Man is a pre-existent, heavenly being who judges the world",
             "Enoch himself is identified as the Son of Man (1 Enoch 71:14)"
           ],
-          "key_sources": ["Book of Enoch (1 Enoch)"],
-          "threads": ["twopowers"],
-          "thread_notes": { "twopowers": "The Son of Man is a second, subordinate divine figure." },
+          "key_sources": [
+            "Book of Enoch (1 Enoch)"
+          ],
+          "threads": [
+            "twopowers"
+          ],
+          "thread_notes": {
+            "twopowers": "The Son of Man is a second, subordinate divine figure."
+          },
           "scholar_quotes": []
         },
         {
           "id": "9.3",
           "title": "Mysticism: Merkavah and the Heavenly Ascent",
-          "content": "The ecstatic practices of the pre-exilic period evolved into Merkavah mysticism\u2014the visionary ascent through the heavens to see God on his throne (Ezekiel 1). Origen reports a Jewish custom of restricting four biblical texts to advanced students.",
+          "content": "The ecstatic practices of the pre-exilic period evolved into Merkavah mysticism—the visionary ascent through the heavens to see God on his throne (Ezekiel 1). Origen reports a Jewish custom of restricting four biblical texts to advanced students.",
           "key_ideas": [
             "Merkavah mysticism evolved from pre-exilic ecstatic practices",
             "Origen: four texts were restricted to advanced students",
             "The Song of Songs was interpreted allegorically as the love between God and Israel"
           ],
-          "key_sources": ["Ezekiel 1", "Origen's Commentary on the Song of Songs"],
-          "threads": ["mystical"],
-          "thread_notes": { "mystical": "Merkavah mysticism is the visionary ascent to God's throne." },
+          "key_sources": [
+            "Ezekiel 1",
+            "Origen's Commentary on the Song of Songs"
+          ],
+          "threads": [
+            "mystical"
+          ],
+          "thread_notes": {
+            "mystical": "Merkavah mysticism is the visionary ascent to God's throne."
+          },
           "scholar_quotes": []
         },
         {
@@ -519,12 +758,30 @@ window.ARC = {
             "1 Enoch: the Son of Man is a pre-existent, heavenly being who judges the world",
             "Philo of Alexandria: the Logos is 'the second god'"
           ],
-          "key_sources": ["Daniel 7", "1 Enoch", "Philo of Alexandria"],
-          "threads": ["twopowers"],
-          "thread_notes": { "twopowers": "The Two Powers tradition provided the framework for early Christian Christology." },
+          "key_sources": [
+            "Daniel 7",
+            "1 Enoch",
+            "Philo of Alexandria"
+          ],
+          "threads": [
+            "twopowers"
+          ],
+          "thread_notes": {
+            "twopowers": "The Two Powers tradition provided the framework for early Christian Christology."
+          },
           "scholar_quotes": [
-            { "scholar": "Alan F. Segal", "source": "Two Powers in Heaven (1977), p. 69", "quote": "Preliminary indications are, therefore, that many parts of the Jewish community in various places and periods used the traditions which the rabbis claim is an heretical conception of the deity.", "verified": true },
-            { "scholar": "Alan F. Segal", "source": "Two Powers in Heaven (1977), p. 246", "quote": "Christianity was the most important heresy, not only because it was the most successful of the sects, but because it defined the divinity and personality of the 'second power' in the clearest and most emphatic way.", "verified": true }
+            {
+              "scholar": "Alan F. Segal",
+              "source": "Two Powers in Heaven (1977), p. 69",
+              "quote": "Preliminary indications are, therefore, that many parts of the Jewish community in various places and periods used the traditions which the rabbis claim is an heretical conception of the deity.",
+              "verified": true
+            },
+            {
+              "scholar": "Alan F. Segal",
+              "source": "Two Powers in Heaven (1977), p. 246",
+              "quote": "Christianity was the most important heresy, not only because it was the most successful of the sects, but because it defined the divinity and personality of the 'second power' in the clearest and most emphatic way.",
+              "verified": true
+            }
           ]
         },
         {
@@ -533,31 +790,45 @@ window.ARC = {
           "content": "The concept of the Logos as the rational, ordered principle of the universe began in ancient Greece (Heraclitus, Stoics). Philo of Alexandria synthesized Greek philosophy and Jewish scripture, using the Logos as the intermediary between a transcendent God and the material world.",
           "key_ideas": [
             "Heraclitus (c. 500 BCE): the Logos as the rational principle of the universe",
-            "Philo of Alexandria (c. 20 BCE\u201350 CE): the Logos as 'the second god'",
+            "Philo of Alexandria (c. 20 BCE–50 CE): the Logos as 'the second god'",
             "The Logos is a subordinate divine agent, not equal to the Father"
           ],
-          "key_sources": ["Heraclitus", "Stoics", "Philo of Alexandria"],
-          "threads": ["logos"],
-          "thread_notes": { "logos": "Philo calls the Logos 'the second god' (\u03c4\u1f78\u03bd \u03b4\u03b5\u03cd\u03c4\u03b5\u03c1\u03bf\u03bd \u03b8\u03b5\u03cc\u03bd)." },
+          "key_sources": [
+            "Heraclitus",
+            "Stoics",
+            "Philo of Alexandria"
+          ],
+          "threads": [
+            "logos"
+          ],
+          "thread_notes": {
+            "logos": "Philo calls the Logos 'the second god' (τὸν δεύτερον θεόν)."
+          },
           "scholar_quotes": []
         }
       ]
     },
     {
-      "id": "part-10", "title": "Historical Jesus", "time_period": "c. 30 CE",
+      "id": "part-10",
+      "title": "Historical Jesus",
+      "time_period": "c. 30 CE",
       "sections": [
         {
           "id": "10.1",
           "title": "Jesus: The Apocalyptic Preacher",
-          "content": "Jesus was a Galilean Jew who lived in the context of Second Temple apocalypticism. He proclaimed the Kingdom of God and used the title 'Son of Man'\u2014drawn from the Book of Enoch\u2014to refer to himself as the heavenly judge.",
+          "content": "Jesus was a Galilean Jew who lived in the context of Second Temple apocalypticism. He proclaimed the Kingdom of God and used the title 'Son of Man'—drawn from the Book of Enoch—to refer to himself as the heavenly judge.",
           "key_ideas": [
             "Jesus was an apocalyptic Jewish preacher",
             "He proclaimed the Kingdom of God",
             "He used the title 'Son of Man' from the Book of Enoch"
           ],
-          "key_sources": ["Synoptic Gospels", "Book of Enoch"],
+          "key_sources": [
+            "Synoptic Gospels",
+            "Book of Enoch"
+          ],
           "scholar_quotes": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "10.2",
@@ -567,12 +838,23 @@ window.ARC = {
             "The resurrection is the experiential foundation of early Christianity",
             "Historical minimum: Jesus died, disciples believed he was raised, they had visionary experiences, the resurrection catalyzed the movement"
           ],
-          "key_sources": ["1 Corinthians 15:3-8"],
-          "scholar_quotes": [
-            { "scholar": "E.P. Sanders", "source": "The Historical Figure of Jesus (1993)", "quote": "That Jesus' followers (and later Paul) had resurrection experiences is, in my judgment, a fact. What the reality was that gave rise to the experiences I do not know.", "verified": true }
+          "key_sources": [
+            "1 Corinthians 15:3-8"
           ],
-          "threads": ["afterlife"],
-          "thread_notes": { "afterlife": "The resurrection was the catalyst for the early Christian movement." }
+          "scholar_quotes": [
+            {
+              "scholar": "E.P. Sanders",
+              "source": "The Historical Figure of Jesus (1993)",
+              "quote": "That Jesus' followers (and later Paul) had resurrection experiences is, in my judgment, a fact. What the reality was that gave rise to the experiences I do not know.",
+              "verified": true
+            }
+          ],
+          "threads": [
+            "afterlife"
+          ],
+          "thread_notes": {
+            "afterlife": "The resurrection was the catalyst for the early Christian movement."
+          }
         },
         {
           "id": "10.3",
@@ -583,29 +865,59 @@ window.ARC = {
             "Mark: ends abruptly at 16:8 with no appearances",
             "Core tension: Paul's 'visionary' experience vs. the Gospels' 'physical' emphasis"
           ],
-          "key_sources": ["1 Corinthians 15:3-8", "Mark 16:1-8", "Matthew 28", "Luke 24", "John 20-21"],
-          "threads": ["afterlife"],
-          "thread_notes": { "afterlife": "The resurrection accounts reflect a tension between visionary and physical interpretations." },
+          "key_sources": [
+            "1 Corinthians 15:3-8",
+            "Mark 16:1-8",
+            "Matthew 28",
+            "Luke 24",
+            "John 20-21"
+          ],
+          "threads": [
+            "afterlife"
+          ],
+          "thread_notes": {
+            "afterlife": "The resurrection accounts reflect a tension between visionary and physical interpretations."
+          },
           "scholar_quotes": [
-            { "scholar": "Bart Ehrman", "source": "How Jesus Became God (2014)", "quote": "In fact, the Gospels disagree on nearly every detail in their resurrection narratives.", "verified": true }
+            {
+              "scholar": "Bart Ehrman",
+              "source": "How Jesus Became God (2014)",
+              "quote": "In fact, the Gospels disagree on nearly every detail in their resurrection narratives.",
+              "verified": true
+            }
           ]
         },
         {
           "id": "10.4",
           "title": "The Transformative Impact",
           "content": "The resurrection became the engine of the early Christian movement.",
-          "key_ideas": [ "The resurrection became the engine of the early Christian movement" ],
+          "key_ideas": [
+            "The resurrection became the engine of the early Christian movement"
+          ],
           "key_sources": [],
           "scholar_quotes": [
-            { "scholar": "Bart Ehrman", "source": "How Jesus Became God (2014)", "quote": "What made them believe that Jesus had been bodily raised from the dead? Something did. And I think we know what it was. Some of Jesus's followers had visions of him after he had been crucified.", "verified": true },
-            { "scholar": "Dale Allison", "source": "Resurrecting Jesus (2005), pp. 283\u201384", "quote": "I am sure that the disciples saw Jesus after his death", "verified": true }
+            {
+              "scholar": "Bart Ehrman",
+              "source": "How Jesus Became God (2014)",
+              "quote": "What made them believe that Jesus had been bodily raised from the dead? Something did. And I think we know what it was. Some of Jesus's followers had visions of him after he had been crucified.",
+              "verified": true
+            },
+            {
+              "scholar": "Dale Allison",
+              "source": "Resurrecting Jesus (2005), pp. 283–84",
+              "quote": "I am sure that the disciples saw Jesus after his death",
+              "verified": true
+            }
           ],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         }
       ]
     },
     {
-      "id": "part-11", "title": "Paul and the Gentile Mission", "time_period": "c. 35\u201365 CE",
+      "id": "part-11",
+      "title": "Paul and the Gentile Mission",
+      "time_period": "c. 35–65 CE",
       "sections": [
         {
           "id": "11.1",
@@ -616,9 +928,16 @@ window.ARC = {
             "He says nothing about Damascus, a blinding light, or a voice",
             "The dramatic details come only from Acts"
           ],
-          "key_sources": ["Galatians 1:12-16", "1 Corinthians 15:8"],
-          "threads": ["mystical"],
-          "thread_notes": { "mystical": "Paul's visionary experience fits within the tradition of Jewish mysticism." }
+          "key_sources": [
+            "Galatians 1:12-16",
+            "1 Corinthians 15:8"
+          ],
+          "threads": [
+            "mystical"
+          ],
+          "thread_notes": {
+            "mystical": "Paul's visionary experience fits within the tradition of Jewish mysticism."
+          }
         },
         {
           "id": "11.2",
@@ -629,10 +948,24 @@ window.ARC = {
             "Alan F. Segal labeled Paul 'the Mystic'",
             "Paul's emphasis on 'the Glory of the Lord' is characteristic of Merkabah mysticism"
           ],
-          "key_sources": ["Galatians 1:14", "Alan F. Segal (1990)"],
+          "key_sources": [
+            "Galatians 1:14",
+            "Alan F. Segal (1990)"
+          ],
           "scholar_quotes": [],
-          "threads": ["mystical"],
-          "thread_notes": { "mystical": "Paul's zeal was part of a lifelong practice of mystical devotion." }
+          "threads": [
+            "mystical"
+          ],
+          "thread_notes": {
+            "mystical": "Paul's zeal was part of a lifelong practice of mystical devotion."
+          },
+          "scripture_quotes": [
+            {
+              "ref": "Galatians 1:14",
+              "translation": "NRSVUE",
+              "text": "I advanced in Judaism beyond many among my people of the same age, for I was far more zealous for the traditions of my ancestors."
+            }
+          ]
         },
         {
           "id": "11.3",
@@ -643,11 +976,30 @@ window.ARC = {
             "He heard unspeakable words",
             "Gershom Scholem linked this to early Merkavah mysticism"
           ],
-          "key_sources": ["2 Corinthians 12:1-4", "Gershom Scholem"],
-          "threads": ["mystical"],
-          "thread_notes": { "mystical": "Paul's ascent to the third heaven is a classic Merkavah experience." },
+          "key_sources": [
+            "2 Corinthians 12:1-4",
+            "Gershom Scholem"
+          ],
+          "threads": [
+            "mystical"
+          ],
+          "thread_notes": {
+            "mystical": "Paul's ascent to the third heaven is a classic Merkavah experience."
+          },
           "scholar_quotes": [
-            { "scholar": "Gershom Scholem", "source": "Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition (1960)", "quote": "Paul's testimony is a link between these older Jewish texts and the Gnosis of the Tannaitic Merkabah mystics.", "verified": true }
+            {
+              "scholar": "Gershom Scholem",
+              "source": "Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition (1960)",
+              "quote": "Paul's testimony is a link between these older Jewish texts and the Gnosis of the Tannaitic Merkabah mystics.",
+              "verified": true
+            }
+          ],
+          "scripture_quotes": [
+            {
+              "ref": "2 Corinthians 12:2-4",
+              "translation": "NRSVUE",
+              "text": "I know a person in Christ who fourteen years ago was caught up to the third heaven — whether in the body or out of the body I do not know; God knows. And I know that such a person — whether in the body or out of the body I do not know; God knows — was caught up into paradise and heard things that are not to be told, that no mortal is permitted to repeat."
+            }
           ]
         },
         {
@@ -659,9 +1011,23 @@ window.ARC = {
             "Ecstatic speech (speaking in tongues) (1 Cor 14:18)",
             "Transformation into the divine image"
           ],
-          "key_sources": ["2 Corinthians 12:1-4", "1 Corinthians 14:18"],
-          "threads": ["mystical"],
-          "thread_notes": { "mystical": "These practices reflect Paul's ongoing mystical devotion." }
+          "key_sources": [
+            "2 Corinthians 12:1-4",
+            "1 Corinthians 14:18"
+          ],
+          "threads": [
+            "mystical"
+          ],
+          "thread_notes": {
+            "mystical": "These practices reflect Paul's ongoing mystical devotion."
+          },
+          "scripture_quotes": [
+            {
+              "ref": "1 Corinthians 14:18",
+              "translation": "NRSVUE",
+              "text": "I thank God that I speak in tongues more than all of you."
+            }
+          ]
         },
         {
           "id": "11.5",
@@ -669,13 +1035,26 @@ window.ARC = {
           "content": "Josephus reports that the Pharisees had 'the gift of foreknowledge through divine inspiration.' The Mishnah and Talmud restrict teaching about 'the Chariot' to advanced students.",
           "key_ideas": [
             "Josephus: Pharisees had 'the gift of foreknowledge through divine inspiration'",
-            "Mishnah \u1e24agigah 2:1 restricts teaching about 'the Chariot'"
+            "Mishnah Ḥagigah 2:1 restricts teaching about 'the Chariot'"
           ],
-          "key_sources": ["Josephus (Antiquities 17.41\u201345)", "Mishnah \u1e24agigah 2:1", "Babylonian Talmud \u1e24agigah 14b"],
-          "threads": ["mystical"],
-          "thread_notes": { "mystical": "Pharisaic mysticism is historically attested." },
+          "key_sources": [
+            "Josephus (Antiquities 17.41–45)",
+            "Mishnah Ḥagigah 2:1",
+            "Babylonian Talmud Ḥagigah 14b"
+          ],
+          "threads": [
+            "mystical"
+          ],
+          "thread_notes": {
+            "mystical": "Pharisaic mysticism is historically attested."
+          },
           "scholar_quotes": [
-            { "scholar": "Flavius Josephus", "source": "Antiquities of the Jews 17.41\u201345 (Whiston trans.)", "quote": "since they were believed to have the foreknowledge of things to come by Divine inspiration, they foretold how God had decreed that Herod's government should cease\u2026", "verified": true }
+            {
+              "scholar": "Flavius Josephus",
+              "source": "Antiquities of the Jews 17.41–45 (Whiston trans.)",
+              "quote": "since they were believed to have the foreknowledge of things to come by Divine inspiration, they foretold how God had decreed that Herod's government should cease…",
+              "verified": true
+            }
           ]
         },
         {
@@ -687,9 +1066,17 @@ window.ARC = {
             "Jesus is the visible manifestation of the invisible God",
             "Jesus bears the divine name and authority"
           ],
-          "key_sources": ["2 Corinthians 4:4", "Colossians 1:15", "Colossians 2:9"],
-          "threads": ["twopowers"],
-          "thread_notes": { "twopowers": "Paul's image theology fits within the Two Powers framework." }
+          "key_sources": [
+            "2 Corinthians 4:4",
+            "Colossians 1:15",
+            "Colossians 2:9"
+          ],
+          "threads": [
+            "twopowers"
+          ],
+          "thread_notes": {
+            "twopowers": "Paul's image theology fits within the Two Powers framework."
+          }
         },
         {
           "id": "11.7",
@@ -700,10 +1087,18 @@ window.ARC = {
             "Paul applies YHWH texts to Jesus",
             "Jesus is identified with YHWH while maintaining subordination to the Father"
           ],
-          "key_sources": ["Philippians 2:10-11", "Romans 10:13", "1 Corinthians 8:6"],
+          "key_sources": [
+            "Philippians 2:10-11",
+            "Romans 10:13",
+            "1 Corinthians 8:6"
+          ],
           "scholar_quotes": [],
-          "threads": ["twopowers"],
-          "thread_notes": { "twopowers": "Paul's use of Kyrios places Jesus within the divine identity." }
+          "threads": [
+            "twopowers"
+          ],
+          "thread_notes": {
+            "twopowers": "Paul's use of Kyrios places Jesus within the divine identity."
+          }
         },
         {
           "id": "11.8",
@@ -714,20 +1109,28 @@ window.ARC = {
             "Both views share a high Christology"
           ],
           "key_sources": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         },
         {
           "id": "11.9",
           "title": "The Enochic Connection: The Missing Link",
-          "content": "The Parables of Enoch provide the 'missing link' between the Jewish mediator traditions and Paul's high Christology. Enoch is identified as the Son of Man (1 Enoch 71:14)\u2014a human figure exalted to a divine station.",
+          "content": "The Parables of Enoch provide the 'missing link' between the Jewish mediator traditions and Paul's high Christology. Enoch is identified as the Son of Man (1 Enoch 71:14)—a human figure exalted to a divine station.",
           "key_ideas": [
             "The Parables of Enoch provide the missing link",
-            "Enoch is identified as the Son of Man (1 Enoch 71:14 \u2014 contested: many scholars read chs. 70\u201371 as a later addition)",
+            "Enoch is identified as the Son of Man (1 Enoch 71:14 — contested: many scholars read chs. 70–71 as a later addition)",
             "Paul applied this template to Jesus"
           ],
-          "key_sources": ["1 Enoch 37-71", "1 Enoch 71:14"],
-          "threads": ["twopowers"],
-          "thread_notes": { "twopowers": "The Enochic Son of Man is a human figure exalted to a divine station." },
+          "key_sources": [
+            "1 Enoch 37-71",
+            "1 Enoch 71:14"
+          ],
+          "threads": [
+            "twopowers"
+          ],
+          "thread_notes": {
+            "twopowers": "The Enochic Son of Man is a human figure exalted to a divine station."
+          },
           "scholar_quotes": []
         },
         {
@@ -740,8 +1143,12 @@ window.ARC = {
             "Gentiles are included in God's people"
           ],
           "key_sources": [],
-          "threads": ["afterlife"],
-          "thread_notes": { "afterlife": "Resurrection was central to Paul's theology." }
+          "threads": [
+            "afterlife"
+          ],
+          "thread_notes": {
+            "afterlife": "Resurrection was central to Paul's theology."
+          }
         },
         {
           "id": "11.11",
@@ -752,46 +1159,74 @@ window.ARC = {
             "It represented a Torah-observant, Jewish-Christian tradition",
             "It was eventually marginalized by Paul's gentile Christianity"
           ],
-          "key_sources": ["Acts", "Galatians"],
+          "key_sources": [
+            "Acts",
+            "Galatians"
+          ],
           "scholar_quotes": [],
-          "threads": [], "thread_notes": {}
+          "threads": [],
+          "thread_notes": {}
         }
       ]
     },
     {
-      "id": "part-12", "title": "The Gospel of John and the Incarnate Logos", "time_period": "c. 90\u2013100 CE",
+      "id": "part-12",
+      "title": "The Gospel of John and the Incarnate Logos",
+      "time_period": "c. 90–100 CE",
       "sections": [
         {
           "id": "12.1",
           "title": "John's Radical Reinterpretation of the Logos",
-          "content": "John 1:1-14 redefines the Logos as a person\u2014Jesus of Nazareth\u2014who shares the divine nature. John is not saying the Logos is identical to the Father, but that the Logos shares the divine nature.",
+          "content": "John 1:1-14 redefines the Logos as a person—Jesus of Nazareth—who shares the divine nature. John is not saying the Logos is identical to the Father, but that the Logos shares the divine nature.",
           "key_ideas": [
             "John 1:1-14 redefines the Logos as a person",
             "The Logos shares the divine nature but is not identical to the Father",
             "The Greek grammar (anarthrous theos) emphasizes the qualitative nature of the Logos"
           ],
-          "key_sources": ["John 1:1-14"],
-          "threads": ["logos"],
-          "thread_notes": { "logos": "John's Logos is a person, not an abstract principle." },
-          "scholar_quotes": []
+          "key_sources": [
+            "John 1:1-14"
+          ],
+          "threads": [
+            "logos"
+          ],
+          "thread_notes": {
+            "logos": "John's Logos is a person, not an abstract principle."
+          },
+          "scholar_quotes": [],
+          "scripture_quotes": [
+            {
+              "ref": "John 1:1",
+              "translation": "Greek (NA28); NRSVUE",
+              "text": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος. — 'In the beginning was the Word, and the Word was with God, and the Word was God.'"
+            }
+          ]
         },
         {
           "id": "12.2",
           "title": "Comparison: Philo's 'Second God' vs. John's 'God'",
-          "content": "Philo called the Logos 'the second god' (\u03c4\u1f78\u03bd \u03b4\u03b5\u03cd\u03c4\u03b5\u03c1\u03bf\u03bd \u03b8\u03b5\u03cc\u03bd\u2014with the article), implying a subordinate divine being. John uses anarthrous theos (without the article), implying that the Logos shares the divine nature. John's Logos becomes flesh; Philo's does not.",
+          "content": "Philo called the Logos 'the second god' (τὸν δεύτερον θεόν—with the article), implying a subordinate divine being. John uses anarthrous theos (without the article), implying that the Logos shares the divine nature. John's Logos becomes flesh; Philo's does not.",
           "key_ideas": [
             "Philo: 'the second god' (subordinate divine being)",
             "John: shares the divine nature",
             "John's Logos becomes flesh; Philo's does not"
           ],
-          "key_sources": ["Philo (Questions and Answers on Genesis II.62)", "John 1:14"],
-          "threads": ["logos"],
-          "thread_notes": { "logos": "John's innovation: Philo's Logos is an abstract principle; John's is a person." }
+          "key_sources": [
+            "Philo (Questions and Answers on Genesis II.62)",
+            "John 1:14"
+          ],
+          "threads": [
+            "logos"
+          ],
+          "thread_notes": {
+            "logos": "John's innovation: Philo's Logos is an abstract principle; John's is a person."
+          }
         }
       ]
     },
     {
-      "id": "part-13", "title": "The Cosmic Christ and the Trinity", "time_period": "c. 100\u2013400 CE",
+      "id": "part-13",
+      "title": "The Cosmic Christ and the Trinity",
+      "time_period": "c. 100–400 CE",
       "sections": [
         {
           "id": "13.1",
@@ -802,24 +1237,42 @@ window.ARC = {
             "Justin Martyr used the Logos to defend Christianity",
             "Origen systematized the Logos doctrine"
           ],
-          "key_sources": ["Justin Martyr", "Origen"],
-          "threads": ["logos"],
-          "thread_notes": { "logos": "The Logos became the second Person of the Trinity." },
+          "key_sources": [
+            "Justin Martyr",
+            "Origen"
+          ],
+          "threads": [
+            "logos"
+          ],
+          "thread_notes": {
+            "logos": "The Logos became the second Person of the Trinity."
+          },
           "scholar_quotes": []
         },
         {
           "id": "13.2",
           "title": "The Trinity and the Nicene Creed (325 CE)",
-          "content": "The Council of Nicaea (325 CE) affirmed that Jesus is 'of one substance with the Father' (homoousios) \u2014 but it did not end the controversy: within a decade the leading Nicene supporters were deposed, Arianism remained the dominant theology of the East, and the full doctrine of the Trinity was only defined at Constantinople (381 CE).",
+          "content": "The Council of Nicaea (325 CE) affirmed that Jesus is 'of one substance with the Father' (homoousios) — but it did not end the controversy: within a decade the leading Nicene supporters were deposed, Arianism remained the dominant theology of the East, and the full doctrine of the Trinity was only defined at Constantinople (381 CE).",
           "key_ideas": [
             "The Council of Nicaea (325 CE) affirmed Jesus is 'of one substance with the Father'",
             "Nicaea affirmed homoousios; the controversy continued until Constantinople (381 CE) defined the full doctrine"
           ],
-          "key_sources": ["Nicene Creed (325 CE)"],
-          "threads": ["logos"],
-          "thread_notes": { "logos": "The Logos is now understood as the second Person of the Trinity." },
+          "key_sources": [
+            "Nicene Creed (325 CE)"
+          ],
+          "threads": [
+            "logos"
+          ],
+          "thread_notes": {
+            "logos": "The Logos is now understood as the second Person of the Trinity."
+          },
           "scholar_quotes": [
-            { "scholar": "Henry Chadwick", "source": "The Early Church (1967), p. 130", "quote": "The creed proposed for adoption by the council was sharply anti-Arian in its affirmation that the Son is 'of one substance with the Father'", "verified": true }
+            {
+              "scholar": "Henry Chadwick",
+              "source": "The Early Church (1967), p. 130",
+              "quote": "The creed proposed for adoption by the council was sharply anti-Arian in its affirmation that the Son is 'of one substance with the Father'",
+              "verified": true
+            }
           ]
         }
       ]
@@ -827,20 +1280,62 @@ window.ARC = {
   ],
   "summary": {
     "key_questions": [
-      { "question": "Where did Yahweh come from?", "answer": "The Shasu\u2014semi-nomadic pastoralists in the southern deserts." },
-      { "question": "What does the Moses narrative preserve?", "answer": "Egyptian influence, southern origin, and the movement into the highlands of Canaan." },
-      { "question": "What was the significance of the patriarchal narratives?", "answer": "They were separate regional traditions woven together to serve the political purpose of unifying Israel under Judah's dominance." },
-      { "question": "What does the Mesha Stele confirm?", "answer": "That Yahweh was Israel's national god by c. 840 BCE \u2014 the earliest non-biblical witness: Mesha of Moab names Omri and boasts of dragging 'the vessels of YHWH' from Nebo before Chemosh." },
-      { "question": "What was Judahite religion actually like?", "answer": "Syncretistic\u2014Yahweh worshipped alongside Asherah and other deities." },
-      { "question": "What role did ecstatic experience play?", "answer": "Central. Cannabis was burned at Tel Arad in official state worship." },
-      { "question": "Who was Elijah?", "answer": "A 9th-century prophet who opposed Phoenician religious influence and contested Baal/Melqart on Mount Carmel." },
-      { "question": "What was the Pan-Israelite idea?", "answer": "A political and theological construct born after the Assyrian destruction, asserting Judah's claim as the true heir of all Israel." },
-      { "question": "How did the Exile transform Israel?", "answer": "It filtered out the polytheists, leaving the Yahweh-alone faction to survive and finalize the Torah." },
-      { "question": "What happened after the return?", "answer": "The Torah became the foundation of identity. Persian influence introduced apocalyptic ideas. The Samaritans were rejected." },
-      { "question": "Who was Ezra?", "answer": "A figure (historically debated) who embodies the shift from a temple-centered to a Torah-centered religion." },
-      { "question": "Where did the apocalyptic worldview come from?", "answer": "Zoroastrianism during the Persian period." },
-      { "question": "What was the 'Two Powers' tradition?", "answer": "A widespread Second Temple Jewish tradition of a second, subordinate divine figure who bore God's name and authority." },
-      { "question": "How did the Logos become a person?", "answer": "John's Gospel redefined the Logos as the pre-existent, divine Son who became flesh." }
+      {
+        "question": "Where did Yahweh come from?",
+        "answer": "The Shasu—semi-nomadic pastoralists in the southern deserts."
+      },
+      {
+        "question": "What does the Moses narrative preserve?",
+        "answer": "Egyptian influence, southern origin, and the movement into the highlands of Canaan."
+      },
+      {
+        "question": "What was the significance of the patriarchal narratives?",
+        "answer": "They were separate regional traditions woven together to serve the political purpose of unifying Israel under Judah's dominance."
+      },
+      {
+        "question": "What does the Mesha Stele confirm?",
+        "answer": "That Yahweh was Israel's national god by c. 840 BCE — the earliest non-biblical witness: Mesha of Moab names Omri and boasts of dragging 'the vessels of YHWH' from Nebo before Chemosh."
+      },
+      {
+        "question": "What was Judahite religion actually like?",
+        "answer": "Syncretistic—Yahweh worshipped alongside Asherah and other deities."
+      },
+      {
+        "question": "What role did ecstatic experience play?",
+        "answer": "Central. Cannabis was burned at Tel Arad in official state worship."
+      },
+      {
+        "question": "Who was Elijah?",
+        "answer": "A 9th-century prophet who opposed Phoenician religious influence and contested Baal/Melqart on Mount Carmel."
+      },
+      {
+        "question": "What was the Pan-Israelite idea?",
+        "answer": "A political and theological construct born after the Assyrian destruction, asserting Judah's claim as the true heir of all Israel."
+      },
+      {
+        "question": "How did the Exile transform Israel?",
+        "answer": "It filtered out the polytheists, leaving the Yahweh-alone faction to survive and finalize the Torah."
+      },
+      {
+        "question": "What happened after the return?",
+        "answer": "The Torah became the foundation of identity. Persian influence introduced apocalyptic ideas. The Samaritans were rejected."
+      },
+      {
+        "question": "Who was Ezra?",
+        "answer": "A figure (historically debated) who embodies the shift from a temple-centered to a Torah-centered religion."
+      },
+      {
+        "question": "Where did the apocalyptic worldview come from?",
+        "answer": "Zoroastrianism during the Persian period."
+      },
+      {
+        "question": "What was the 'Two Powers' tradition?",
+        "answer": "A widespread Second Temple Jewish tradition of a second, subordinate divine figure who bore God's name and authority."
+      },
+      {
+        "question": "How did the Logos become a person?",
+        "answer": "John's Gospel redefined the Logos as the pre-existent, divine Son who became flesh."
+      }
     ],
     "thesis": "The Arc is a story of cultural interaction, theological reflection, political struggle, and profound human creativity, showing how a desert storm god became the cosmic Christ through centuries of adaptation, transformation, and synthesis."
   }

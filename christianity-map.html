@@ -63,6 +63,11 @@
     background: var(--panel); font-size: 0.93rem; font-style: italic; color: var(--ink); line-height: 1.7;
   }
   .sec .q .qby { display: block; font-style: normal; font-family: var(--data); font-size: 11.5px; color: var(--brass); margin-top: 8px; }
+  .sec .sq {
+    margin-top: 12px; padding: 14px 18px; border-left: 2px solid var(--brass-dim);
+    background: var(--panel); font-size: 1rem; font-style: italic; color: var(--ink); line-height: 1.8;
+  }
+  .sec .sq .sqref { display: block; font-style: normal; font-family: var(--data); font-size: 11px; color: var(--brass); letter-spacing: .04em; margin-top: 8px; }
   .deep { margin-top: 12px; }
   .deep a { font-family: var(--data); font-size: 12px; color: var(--brass); border: 1px solid var(--line-strong); border-radius: 20px; padding: 7px 14px; text-decoration: none; background: var(--panel); display: inline-block; }
   .deep a:hover { border-color: var(--brass); color: var(--ink); }
@@ -203,9 +208,17 @@
     }).join('');
   }
 
+  function scriptureHTML(s) {
+    if (!s.scripture_quotes || !s.scripture_quotes.length) return '';
+    return s.scripture_quotes.map(function(q) {
+      return '<div class="sq">' + esc(q.text) + '<span class="sqref">' + esc(q.ref) + (q.translation ? ' \u2014 ' + esc(q.translation) : '') + '</span></div>';
+    }).join('');
+  }
+
   function sectionHTML(s, compact) {
     var html = '<div class="sec"><div class="sec-title">' + esc(s.title) + '</div>'
-      + '<div class="sec-body">' + esc(s.content) + '</div>';
+      + '<div class="sec-body">' + esc(s.content) + '</div>'
+      + scriptureHTML(s);
     if (s.key_ideas && s.key_ideas.length) {
       html += '<ul class="ideas">' + s.key_ideas.map(function(k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul>';
     }
