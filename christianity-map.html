@@ -68,6 +68,18 @@
     background: var(--panel); font-size: 1rem; font-style: italic; color: var(--ink); line-height: 1.8;
   }
   .sec .sq .sqref { display: block; font-style: normal; font-family: var(--data); font-size: 11px; color: var(--brass); letter-spacing: .04em; margin-top: 8px; }
+  .sec .tblwrap { margin-top: 14px; overflow-x: auto; }
+  .sec table.tbl { width: 100%; min-width: 420px; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); }
+  .sec table.tbl caption { caption-side: top; text-align: left; font-family: var(--data); font-size: 11px; color: var(--brass); text-transform: uppercase; letter-spacing: .1em; padding: 9px 12px 6px; }
+  .sec table.tbl th { font-family: var(--data); font-size: 11.5px; color: var(--brass); text-align: left; font-weight: 600; padding: 8px 12px; border-bottom: 1px solid var(--line-strong); white-space: nowrap; }
+  .sec table.tbl td { font-size: 0.88rem; color: var(--mute); padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.55; }
+  .sec table.tbl tr:last-child td { border-bottom: 0; }
+  .summary-wrap { max-width: 720px; margin: 0 auto; padding: 8px var(--pad-x) 0; }
+  .summary-wrap h3 { font-size: 1.5rem; font-weight: 400; color: var(--ink); margin-bottom: 8px; }
+  .summary-wrap .lead { font-size: 0.95rem; color: var(--mute); line-height: 1.7; margin-bottom: 20px; }
+  .summary-wrap .qa { border-top: 1px solid var(--line); padding: 13px 0; }
+  .summary-wrap .qa .q { font-size: 1rem; color: var(--ink); font-weight: 500; }
+  .summary-wrap .qa .a { font-size: 0.93rem; color: var(--mute); line-height: 1.65; margin-top: 4px; }
   .deep { margin-top: 12px; }
   .deep a { font-family: var(--data); font-size: 12px; color: var(--brass); border: 1px solid var(--line-strong); border-radius: 20px; padding: 7px 14px; text-decoration: none; background: var(--panel); display: inline-block; }
   .deep a:hover { border-color: var(--brass); color: var(--ink); }
@@ -158,6 +170,8 @@
   <a href="/">back to start</a>
 </div>
 
+<div class="summary-wrap" id="summary"></div>
+
 <script src="/arc-data.js"></script>
 <script>
 (function() {
@@ -183,9 +197,9 @@
   }
 
   function deepLink(partIdx) {
-    // parts 1-8: Israelite territory -> /bible; part 12: John -> /logos
     var p = PARTS[partIdx];
-    if (p.id === 'part-12') return { href: '/logos', label: 'the john museum \u2192' };
+    if (p.id === 'part-12' || p.id === 'part-13') return { href: '/logos', label: 'the john museum \u2192' };
+    if (p.id === 'part-samaritans') return { href: '/bible', label: 'the bible deep map \u2192' };
     if (partIdx <= 7) return { href: '/bible', label: 'the bible deep map \u2192' };
     return null;
   }
@@ -215,10 +229,22 @@
     }).join('');
   }
 
+  function tableHTML(s) {
+    if (!s.tables || !s.tables.length) return '';
+    return s.tables.map(function(t) {
+      return '<div class="tblwrap"><table class="tbl"><caption>' + esc(t.title) + '</caption><thead><tr>'
+        + t.headers.map(function(h) { return '<th>' + esc(h) + '</th>'; }).join('')
+        + '</tr></thead><tbody>'
+        + t.rows.map(function(r) { return '<tr>' + r.map(function(c) { return '<td>' + esc(c) + '</td>'; }).join('') + '</tr>'; }).join('')
+        + '</tbody></table></div>';
+    }).join('');
+  }
+
   function sectionHTML(s, compact) {
     var html = '<div class="sec"><div class="sec-title">' + esc(s.title) + '</div>'
       + '<div class="sec-body">' + esc(s.content) + '</div>'
-      + scriptureHTML(s);
+      + scriptureHTML(s)
+      + tableHTML(s);
     if (s.key_ideas && s.key_ideas.length) {
       html += '<ul class="ideas">' + s.key_ideas.map(function(k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul>';
     }
@@ -387,6 +413,16 @@
     window.location.hash = mode === 'chapter' ? 'chapter-' + (current + 1) : 'thread-' + thread;
   }
 
+  function renderSummary() {
+    var el = document.getElementById('summary');
+    if (!el || !ARC.summary) return;
+    el.innerHTML = '<h3>The whole arc, question by question</h3>'
+      + '<p class="lead">' + esc(ARC.summary.thesis) + '</p>'
+      + ARC.summary.key_questions.map(function(row) {
+          return '<div class="qa"><div class="q">' + esc(row.question) + '</div><div class="a">' + esc(row.answer) + '</div></div>';
+        }).join('');
+  }
+
   document.getElementById('prev').addEventListener('click', function() { goto(current - 1); });
   document.getElementById('next').addEventListener('click', function() { goto(current + 1); });
   document.addEventListener('keydown', function(e) {
@@ -405,6 +441,7 @@
     else if (h.kind === 'thread') { mode = 'thread'; thread = h.val; }
   }
   render();
+  renderSummary();
 })();
 </script>
 <script defer src="/track.js"></script>

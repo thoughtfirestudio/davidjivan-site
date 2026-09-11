@@ -154,7 +154,38 @@ window.ARC = {
           ],
           "key_sources": [],
           "threads": [],
-          "thread_notes": {}
+          "thread_notes": {},
+          "tables": [
+            {
+              "title": "The Timeline of Transmission",
+              "headers": [
+                "Period",
+                "Event"
+              ],
+              "rows": [
+                [
+                  "c. 1400–1200 BCE",
+                  "Shasu in the southern deserts worship Yahweh (Soleb topographical list)"
+                ],
+                [
+                  "c. 1300–1200 BCE",
+                  "The Moses tradition preserves a memory of Egyptian influence and southern origins"
+                ],
+                [
+                  "c. 1200–1150 BCE",
+                  "Bronze Age Collapse; highland settlement begins"
+                ],
+                [
+                  "c. 1200–1000 BCE",
+                  "Yahweh worship spreads from the south to the highlands"
+                ],
+                [
+                  "c. 1000–930 BCE",
+                  "Yahweh established as the national god of Israel and Judah"
+                ]
+              ]
+            }
+          ]
         }
       ]
     },
@@ -351,7 +382,34 @@ window.ARC = {
           ],
           "scholar_quotes": [],
           "threads": [],
-          "thread_notes": {}
+          "thread_notes": {},
+          "tables": [
+            {
+              "title": "Key Inscriptions: The Evolution of Yahweh's Status",
+              "headers": [
+                "Stage",
+                "Yahweh's Status",
+                "Evidence"
+              ],
+              "rows": [
+                [
+                  "Origins",
+                  "God of the southern pastoralists",
+                  "Soleb topographical list (c. 1380 BCE)"
+                ],
+                [
+                  "The kingdom period",
+                  "National god of Israel, recognised by Judah's neighbours",
+                  "Mesha Stele (c. 840 BCE): Omri named; 'the vessels of YHWH' dragged before Chemosh"
+                ],
+                [
+                  "The exile and after",
+                  "Sole Creator of the universe",
+                  "Second Isaiah (6th century BCE)"
+                ]
+              ]
+            }
+          ]
         },
         {
           "id": "6.3",
@@ -398,6 +456,41 @@ window.ARC = {
               "ref": "2 Kings 2:11",
               "translation": "NRSVUE",
               "text": "As they continued walking and talking, a chariot of fire and horses of fire separated the two of them, and Elijah ascended in a whirlwind into heaven."
+            }
+          ],
+          "tables": [
+            {
+              "title": "The Elijah Cycle: Three Acts",
+              "headers": [
+                "Act",
+                "Location",
+                "Contested god",
+                "Domain",
+                "Theme"
+              ],
+              "rows": [
+                [
+                  "Resurrection",
+                  "Zarephath (Sidon)",
+                  "Phoenician tradition",
+                  "Life and death",
+                  "Yahweh has power over life"
+                ],
+                [
+                  "Fire from heaven",
+                  "Mount Carmel",
+                  "'the Baal' — Melqart? Baal-Hadad? Baal-Shamin?",
+                  "Storm and fire",
+                  "Yahweh answers by fire"
+                ],
+                [
+                  "The sheer silence",
+                  "Horeb (Sinai)",
+                  "—",
+                  "—",
+                  "Not in the wind, the earthquake, or the fire — 'a sound of sheer silence'"
+                ]
+              ]
             }
           ]
         },
@@ -861,6 +954,86 @@ window.ARC = {
       ]
     },
     {
+      "id": "part-samaritans",
+      "title": "The Samaritans: The Other Israel",
+      "time_period": "c. 539 BCE – present",
+      "sections": [
+        {
+          "id": "sam.1",
+          "title": "The Schism: Two Israels",
+          "content": "When the exiles returned from Babylon, the land was not empty. The returnees claimed to be the true heirs of the covenant; the people who had stayed — especially in the north, around Shechem — claimed exactly the same thing. The Samaritans trace themselves to the northern tribes who were never deported, and their Torah has always read Mount Gerizim as the place God chose for his name. Ezra–Nehemiah's refusal of their help (Ezra 4:3) is traditionally read as the break, though scholars date the final schism anywhere from the Persian period to the Hasmonean conquest: John Hyrcanus destroyed the Gerizim temple around 110 BCE, which is the hardest historical anchor. Two Israels, two sanctuaries, two Torahs — the same religion, split, each certain it was the real one.",
+          "key_ideas": [
+            "The Samaritans claim descent from the northern tribes who were never deported — the other Israel",
+            "Their sanctuary was Mount Gerizim, which their Torah names as the place God chose",
+            "Ezra 4:3 is the traditional break; the final schism is dated from the Persian period to the Hasmonean destruction of the Gerizim temple (c. 110 BCE)",
+            "The Gerizim excavations (Magen) show a substantial sanctuary with its own priesthood"
+          ],
+          "key_sources": [
+            "Knoppers, Jews and Samaritans (2013)",
+            "Pummer, The Samaritans: A Profile (2016)",
+            "Kartveit, The Origin of the Samaritans (2009)",
+            "Magen's Mount Gerizim excavations",
+            "Ezra 4:1-3"
+          ],
+          "scripture_quotes": [],
+          "scholar_quotes": [],
+          "threads": [
+            "panisraelite"
+          ],
+          "thread_notes": {
+            "panisraelite": "Judah's claim to be all Israel had a living counter-claim — the Samaritans kept the northern identity that Judah's texts wrote out."
+          }
+        },
+        {
+          "id": "sam.2",
+          "title": "The Samaritan Pentateuch: A Parallel Torah",
+          "content": "The Samaritan Pentateuch differs from the Jewish text in roughly six thousand places — most of them trivial, a few decisive. Where Deuteronomy says God will choose a place for his name, the Samaritan text reads that he has already chosen: Gerizim. Its Decalogue carries an added instruction to build an altar there (drawn from Deuteronomy 27). For a long time this looked like a late sectarian rewrite. Then the Dead Sea Scrolls produced 'pre-Samaritan' manuscripts — 4QpaleoExodusᵐ and 4QNumbersᵇ — that share those readings but predate the sect, proving the Samaritan Torah descends from a real, early stream of the Hebrew text rather than a medieval fabrication. It stands as the third great textual family, alongside the Masoretic and the Septuagint, and it is still read aloud on Gerizim.",
+          "key_ideas": [
+            "The Samaritan Pentateuch differs from the Jewish text in about 6,000 places — counting every variant, most of them minor",
+            "It reads 'has chosen' where the Masoretic text reads 'will choose', and its Decalogue adds the Gerizim altar command",
+            "The Qumran 'pre-Samaritan' texts (4QpaleoExodusᵐ, 4QNumbersᵇ) share those readings and predate the sect",
+            "It is the third great textual family: Masoretic, Septuagint, Samaritan"
+          ],
+          "key_sources": [
+            "Purvis, The Samaritan Pentateuch and the Origin of the Samaritan Sect (1968)",
+            "Tov, Textual Criticism of the Hebrew Bible",
+            "White Crawford on the pre-Samaritan scrolls",
+            "Dead Sea Scrolls (4QpaleoExodusᵐ; 4QNumbersᵇ)"
+          ],
+          "scripture_quotes": [],
+          "scholar_quotes": [],
+          "threads": [
+            "panisraelite"
+          ],
+          "thread_notes": {
+            "panisraelite": "A parallel Torah — textual plurality made visible, and still in liturgical use."
+          }
+        },
+        {
+          "id": "sam.3",
+          "title": "The Living Tradition",
+          "content": "The Samaritans still keep the Torah on Gerizim: a community of roughly eight hundred people, split between Nablus and Holon, with a high priest, a Passover sacrifice performed on the mountain, and a liturgy older than the Talmud. They are the control group for the whole story. Judaism as we have it was formed by a specific set of choices — Jerusalem, the Davidic line, the Prophets and Writings, the rabbis; the Samaritans made different choices from the same starting texts and became a different religion. That they survived at all — through Roman repression, Byzantine Christianization, and every century since — is why they matter. They are not a footnote to Israelite religion. They are its other branch.",
+          "key_ideas": [
+            "Roughly eight hundred Samaritans remain, in Nablus and Holon, with a high priest and a Passover sacrifice on Gerizim",
+            "Same starting texts, different choices — the clearest demonstration that Judaism and Samaritanism are two branches of one tradition",
+            "Their survival is the living evidence for the plural Israelite religion the archaeology shows"
+          ],
+          "key_sources": [
+            "Pummer, The Samaritans: A Profile (2016)",
+            "the modern Samaritan community (Nablus / Holon)"
+          ],
+          "scripture_quotes": [],
+          "scholar_quotes": [],
+          "threads": [
+            "panisraelite"
+          ],
+          "thread_notes": {
+            "panisraelite": "The living end of the theme: two claims to Israel, both still standing."
+          }
+        }
+      ]
+    },
+    {
       "id": "part-10",
       "title": "Historical Jesus",
       "time_period": "c. 30 CE",
@@ -974,17 +1147,18 @@ window.ARC = {
         {
           "id": "11.1",
           "title": "Paul's Transformation: A Visionary Experience",
-          "content": "Paul testifies to a direct revelation of the risen Christ (Galatians 1:12-16; 1 Corinthians 15:8), and he names Damascus himself (Galatians 1:17; 2 Corinthians 11:32-33). The blinding light, the voice, and Ananias are Acts-only.",
+          "content": "Paul testifies to a direct revelation of the risen Christ (Galatians 1:12-16; 1 Corinthians 15:8), and he names Damascus himself (Galatians 1:17; 2 Corinthians 11:32-33). The blinding light, the voice, and Ananias are Acts-only. Paul was not inventing a new kind of religious experience. He was working inside a world where apocalyptic literature (Daniel, 1 Enoch) was read, where throne-vision traditions were cultivated, and where visionary ascent was a known practice. Three scholars have shaped how that world is read: Alan Segal argued in Paul the Convert (1990) that Paul's encounter is best understood as a conversion with Merkabah features; Gershom Scholem located Paul's ascent within early Jewish mysticism, though his early dating of that tradition is contested; and Christopher Rowland has traced the roots of Jewish mysticism to Second Temple apocalyptic, with Paul's visions fitting inside it. The reading is a scholarly argument, not a consensus — but it is a substantial one.",
           "key_ideas": [
-            "Paul experienced a direct revelation of the risen Christ",
-            "He names Damascus himself (Gal 1:17; 2 Cor 11:32-33)",
-            "The dramatic details come only from Acts"
+            "Paul was a Pharisaic Jew: 'far more zealous for the traditions of my ancestors' (Galatians 1:14)",
+            "A scholarly reading (Segal, Scholem, Rowland) places Paul's visions inside Second Temple apocalyptic and early Jewish mysticism — argued, not settled",
+            "Paul's emphasis on 'the Glory of the Lord' (Kavod) is characteristic of the Merkabah tradition (Segal's thesis)",
+            "Throne-vision traditions were cultivated in some circles; visionary ascent was a known practice"
           ],
           "key_sources": [
-            "Galatians 1:12-16",
-            "1 Corinthians 15:8",
-            "Galatians 1:17",
-            "2 Corinthians 11:32-33"
+            "Galatians 1:14",
+            "Segal, Paul the Convert (1990)",
+            "Scholem, Major Trends in Jewish Mysticism (1941); Jewish Gnosticism (1960)",
+            "Rowland on apocalyptic and mystical traditions"
           ],
           "threads": [
             "mystical"
@@ -1280,7 +1454,39 @@ window.ARC = {
           ],
           "thread_notes": {
             "logos": "Philo's Logos is already a personal mediator; the innovation in John is that it becomes flesh."
-          }
+          },
+          "tables": [
+            {
+              "title": "Philo's Logos and John's Logos",
+              "headers": [
+                "Feature",
+                "Philo",
+                "John 1:1-14"
+              ],
+              "rows": [
+                [
+                  "What it is",
+                  "The rational principle and God's instrument — already a personal mediator (firstborn son, archangel)",
+                  "A person: Jesus of Nazareth"
+                ],
+                [
+                  "Terms used",
+                  "Logos; 'the second god' (deuteros theos)",
+                  "The Logos, who was theos and pros ton theon"
+                ],
+                [
+                  "Relation to God",
+                  "A subordinate agent of a transcendent God",
+                  "With God and yet God — most grammarians read the anarthrous theos as stressing quality"
+                ],
+                [
+                  "Becomes flesh?",
+                  "No",
+                  "Yes — sarx egeneto (1:14)"
+                ]
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1400,6 +1606,34 @@ window.ARC = {
       {
         "question": "How did the Trinity develop?",
         "answer": "The belief in Jesus's divinity is already in the New Testament (Phil 2; John 1); the 2nd–4th centuries supplied its philosophical articulation — Nicaea (325) for homoousios, Constantinople (381) for the full doctrine."
+      },
+      {
+        "question": "Who were the Samaritans?",
+        "answer": "The other Israel: descendants of the northern tribes who never went to Babylon, keeping the Torah on Mount Gerizim. Their Pentateuch — vindicated by the Qumran pre-Samaritan scrolls — is living proof that textual plurality was real."
+      },
+      {
+        "question": "Who was Jesus?",
+        "answer": "A Galilean Jew and apocalyptic prophet who proclaimed the kingdom of God and spoke of the Son of Man; the Synoptic Gospels are our earliest sources for him."
+      },
+      {
+        "question": "What happened at the resurrection?",
+        "answer": "Most critical historians accept that the disciples had experiences they interpreted as the risen Jesus, and that this conviction launched the movement. What those experiences were is contested."
+      },
+      {
+        "question": "What did Paul experience on the road?",
+        "answer": "He says he was called and saw the Lord (Galatians 1:12-16; 1 Corinthians 15:8), and he names Damascus himself — but the light, the voice, and Ananias come only from Acts."
+      },
+      {
+        "question": "What was Paul's mystical experience?",
+        "answer": "He was caught up to the third heaven, into paradise (2 Corinthians 12:1-4). Scholem and Segal read this as a Merkavah-style ascent, though the dating of that tradition is debated."
+      },
+      {
+        "question": "What was Paul's Christology?",
+        "answer": "He places Jesus within the divine identity (Philippians 2; 1 Corinthians 8:6; Romans 10:13) while the Father remains the source of all — whether that is full identification with YHWH or an agency model is debated."
+      },
+      {
+        "question": "How did Greek philosophy enter?",
+        "answer": "Through the Logos tradition: Heraclitus and the Stoics, then the Wisdom of Solomon, then Philo — and then John, who made the Logos a person who became flesh."
       }
     ],
     "thesis": "The Arc is a story of cultural interaction, theological reflection, political struggle, and profound human creativity, showing how a desert storm god became the cosmic Christ through centuries of adaptation, transformation, and synthesis."
