@@ -54,7 +54,10 @@ window.ARC = {
             "The Soleb Inscription (c. 1380 BCE) carries the earliest known occurrence of the name — most scholars read it as a toponym incorporating the divine element Yhw"
           ],
           "key_sources": [
-            "Soleb Inscription (c. 1380 BCE)"
+            "Soleb topographical list (Amenhotep III, c. 1380 BCE); Amara West copy (Ramesside)",
+            "Römer, The Invention of God (2015), ch. 1",
+            "Tebes, 'The Southern Home of YHWH,' Biblica 98 (2017)",
+            "van der Toorn, Family Religion in Babylonia, Syria and Israel (1996)"
           ],
           "threads": [
             "afterlife",
@@ -83,9 +86,9 @@ window.ARC = {
             "They shared a common cultural and linguistic background"
           ],
           "key_sources": [
-            "Soleb Inscription",
-            "Egyptian texts",
-            "Biblical texts"
+            "Egyptian topographical lists (Soleb; Amara West)",
+            "Genesis 25:1-6; Judges 1:16; 1 Samuel 15:6",
+            "Tebes, 'The Southern Home of YHWH,' Biblica 98 (2017)"
           ],
           "threads": [],
           "thread_notes": {}
@@ -100,8 +103,9 @@ window.ARC = {
             "They were in contact with the southern pastoralists"
           ],
           "key_sources": [
-            "Archaeological evidence",
-            "Ugaritic texts"
+            "Ugaritic Baal Cycle (KTU 1.1-1.6); Smith & Pitard, The Ugaritic Baal Cycle (1994, 2009)",
+            "Finkelstein, The Archaeology of the Israelite Settlement (1988)",
+            "Dever, Who Were the Early Israelites and Where Did They Come From? (2003)"
           ],
           "threads": [
             "mystical"
@@ -129,10 +133,9 @@ window.ARC = {
             "The Kenite hypothesis is now largely set aside, and rests on the Bible's own testimony"
           ],
           "key_sources": [
-            "Exodus",
-            "Deuteronomy 33:2",
-            "Judges 5:4-5",
-            "Habakkuk 3:3"
+            "Exodus 2-3; 18",
+            "Deuteronomy 33:2; Judges 5:4-5; Habakkuk 3:3",
+            "Römer, The Invention of God (2015)"
           ],
           "scholar_quotes": [],
           "threads": [
@@ -152,7 +155,11 @@ window.ARC = {
             "Metallurgy and trade may have carried Yahweh worship northward",
             "Gradual cultural exchange through trade, intermarriage, and migration"
           ],
-          "key_sources": [],
+          "key_sources": [
+            "Römer, The Invention of God (2015)",
+            "van der Toorn, Family Religion in Babylonia, Syria and Israel (1996)",
+            "Tebes, 'The Southern Home of YHWH,' Biblica 98 (2017)"
+          ],
           "threads": [],
           "thread_notes": {},
           "tables": [
@@ -204,7 +211,10 @@ window.ARC = {
             "The Merneptah Stele (c. 1208 BCE) is the earliest mention of 'Israel'"
           ],
           "key_sources": [
-            "Merneptah Stele (c. 1208 BCE)"
+            "Merneptah Stele (c. 1208 BCE); Hasel, Domination and Resistance (1998)",
+            "Cline, 1177 B.C.: The Year Civilization Collapsed (2014)",
+            "Finkelstein & Silberman, The Bible Unearthed (2001)",
+            "Faust, Israel's Ethnogenesis (2006)"
           ],
           "threads": [],
           "thread_notes": {}
@@ -219,9 +229,10 @@ window.ARC = {
             "'Baal' was originally a title meaning 'lord,' sometimes used for Yahweh"
           ],
           "key_sources": [
-            "Deuteronomy 32:8-9 (LXX / 4QDeut-j: \"sons of God\"; MT: \"sons of Israel\")",
+            "Deuteronomy 32:8-9 (4QDeut-j / LXX: 'sons of God'; MT: 'sons of Israel')",
             "Psalm 82",
-            "Genesis 1:26"
+            "Smith, The Early History of God (2nd ed. 2002)",
+            "Day, Yahweh and the Gods and Goddesses of Canaan (2002)"
           ],
           "threads": [
             "afterlife",
@@ -258,8 +269,9 @@ window.ARC = {
           ],
           "key_sources": [
             "Genesis 12-50",
-            "Martin Noth (1948)",
-            "Albrecht Alt"
+            "Noth, A History of Pentateuchal Traditions (German 1948; ET 1972)",
+            "Alt, 'The God of the Fathers' (1929)",
+            "Finkelstein & Silberman, The Bible Unearthed (2001)"
           ],
           "threads": [
             "afterlife",
@@ -295,9 +307,9 @@ window.ARC = {
             "Israelite prophecy emerged from this broader context"
           ],
           "key_sources": [
-            "Mari letters",
-            "Neo-Assyrian oracles",
-            "Ugaritic texts"
+            "Mari prophetic letters (ARM); Nissinen, Seow & Ritner, Prophets and Prophecy in the Ancient Near East (2003)",
+            "Neo-Assyrian Prophecies (SAA 9; Parpola, 1997)",
+            "Nissinen, Ancient Prophecy (2017)"
           ],
           "threads": [],
           "thread_notes": {}
@@ -312,7 +324,10 @@ window.ARC = {
             "Israelite prophets emphasized social justice and national covenant loyalty",
             "The prophets' defining mark is the covenant framework the books are set in and the intensity of the social critique — ethical monotheism is the later endpoint, not the starting point"
           ],
-          "key_sources": [],
+          "key_sources": [
+            "Nissinen, Ancient Prophecy: Near Eastern, Biblical, and Greek Perspectives (2017)",
+            "Wilson, Prophecy and Society in Ancient Israel (1980)"
+          ],
           "threads": [],
           "thread_notes": {}
         },
@@ -326,8 +341,8 @@ window.ARC = {
             "Robert R. Wilson: prophecy functioned as a social institution"
           ],
           "key_sources": [
-            "1 Samuel 10:5-6",
-            "2 Kings 2:3-7"
+            "1 Samuel 10:5-6; 2 Kings 2:3-7; 4:38-41",
+            "Wilson, Prophecy and Society in Ancient Israel (1980)"
           ],
           "scholar_quotes": [],
           "threads": [],
@@ -351,9 +366,10 @@ window.ARC = {
             "By the 9th century BCE, Israel and Judah are well-attested as distinct entities"
           ],
           "key_sources": [
-            "Tel Dan Stele (9th century BCE)",
-            "Mesha Stele",
-            "Assyrian records"
+            "Tel Dan Stele (Biran & Naveh, IEJ 45, 1995)",
+            "Merneptah Stele (c. 1208 BCE)",
+            "Assyrian royal inscriptions (Kurkh Monolith; Sargon II's Annals)",
+            "Finkelstein & Silberman, The Bible Unearthed (2001)"
           ],
           "threads": [
             "afterlife",
@@ -377,8 +393,9 @@ window.ARC = {
           ],
           "key_sources": [
             "Mesha Stele (c. 840 BCE)",
-            "Kurkh Monolith of Shalmaneser III (Qarqar, 853 BCE)",
-            "Black Obelisk of Shalmaneser III (Jehu's tribute)"
+            "Kurkh Monolith of Shalmaneser III (Qarqar, 853 BCE); Na'aman, 'Two Notes on the Monolith Inscription of Shalmaneser III from Kurkh,' Tel Aviv 3 (1976)",
+            "Black Obelisk of Shalmaneser III (Jehu's tribute)",
+            "Cogan & Tadmor, II Kings (Anchor Bible, 1988)"
           ],
           "scholar_quotes": [],
           "threads": [],
@@ -424,8 +441,9 @@ window.ARC = {
             "Elijah's ascent in the whirlwind (2 Kings 2:11) draws on storm-theophany imagery — se'arah, the storm-blast, with chariot and horses of fire (cf. Job 38:1; Isa 29:6; Nah 1:3; Ezek 1:4)"
           ],
           "key_sources": [
-            "1 Kings 17-19",
-            "2 Kings 2:1-12"
+            "1 Kings 17-19; 2 Kings 2:1-12",
+            "Bonnet, 'Melqart est-il vraiment le Baal de Tyr?', Ugarit-Forschungen 27 (1995)",
+            "Pritchard, Recovering Sarepta, a Phoenician City (1978)"
           ],
           "threads": [
             "afterlife",
@@ -505,8 +523,8 @@ window.ARC = {
             "The patriarchal narratives were woven into a unified history in this context; the effect is a Judahite claim to all Israel"
           ],
           "key_sources": [
-            "Finkelstein and Silberman (2001)",
-            "Martin Noth (1948)"
+            "Finkelstein & Silberman, The Bible Unearthed (2001), ch. 2",
+            "Noth, A History of Pentateuchal Traditions (1948; ET 1972)"
           ],
           "threads": [
             "panisraelite"
@@ -533,8 +551,9 @@ window.ARC = {
             "They were not yet strict monotheists"
           ],
           "key_sources": [
-            "Book of Amos",
-            "Book of Hosea"
+            "Amos; Hosea",
+            "Wolff, Hosea (Hermeneia, 1974); Paul, Amos (Hermeneia, 1991)",
+            "Smith, The Early History of God (2nd ed. 2002)"
           ],
           "scholar_quotes": [],
           "threads": [],
@@ -552,13 +571,11 @@ window.ARC = {
             "Judean pillar figurines probably depict a female divine/fertility figure, but identifying them with Asherah is an unproven hypothesis; Kletter's critique is the standard one"
           ],
           "key_sources": [
-            "Tel Arad",
-            "Tel Motza",
-            "Kuntillet 'Ajrud",
-            "Lachish",
-            "Kisilevitz, 'The Iron IIA Judahite Temple at Tel Moẓa,' Tel Aviv 42 (2015): 147-164",
+            "Aharoni, 'Arad: Its Inscriptions and Temple,' BA 31 (1968); Herzog, 'The Fortress Mound at Tel Arad,' Tel Aviv 29 (2002)",
+            "Kisilevitz, 'The Iron IIA Judahite Temple at Tel Moza,' Tel Aviv 42 (2015): 147-164",
+            "Meshel, Kuntillet 'Ajrud (Horvat Teman) (2012); Smoak & Schniedewind, 'Religion at Kuntillet 'Ajrud,' Religions 10/3 (2019)",
             "Kletter, The Judean Pillar-Figurines and the Archaeology of Asherah (BAR Int. Series 636, 1996)",
-            "Smoak & Schniedewind, 'Religion at Kuntillet 'Ajrud,' Religions 10/3 (2019)"
+            "Ussishkin, The Conquest of Lachish by Sennacherib (1982)"
           ],
           "threads": [
             "mystical"
@@ -607,7 +624,9 @@ window.ARC = {
             "701 BCE is Sennacherib's invasion, not the end of Hezekiah's reign (d. c. 687 BCE)"
           ],
           "key_sources": [
-            "2 Kings 18-20"
+            "2 Kings 18-20; Isaiah 36-39",
+            "Na'aman, 'Hezekiah and the Kings of Assyria,' Tel Aviv 21 (1994)",
+            "Cogan & Tadmor, II Kings (Anchor Bible, 1988)"
           ],
           "scholar_quotes": [],
           "threads": [],
@@ -624,7 +643,8 @@ window.ARC = {
           ],
           "key_sources": [
             "2 Kings 21",
-            "Archaeological evidence"
+            "Kletter, The Judean Pillar-Figurines and the Archaeology of Asherah (1996)",
+            "Albertz, Israel in Exile (2003)"
           ],
           "scholar_quotes": [],
           "threads": [],
@@ -639,7 +659,9 @@ window.ARC = {
             "He used it to centralize worship in Jerusalem"
           ],
           "key_sources": [
-            "2 Kings 22-23"
+            "2 Kings 22-23",
+            "Weinfeld, Deuteronomy and the Deuteronomic School (1972)",
+            "Römer, The So-Called Deuteronomistic History (2007)"
           ],
           "threads": [],
           "thread_notes": {}
@@ -654,11 +676,10 @@ window.ARC = {
             "Yahweh was transformed from a national god to the sole Creator"
           ],
           "key_sources": [
-            "2 Kings 25",
-            "Jeremiah 39, 52",
+            "2 Kings 25; Jeremiah 39, 52",
             "Nebuchadnezzar Chronicle (BM 21946) — records 597, not 586",
-            "Ezekiel",
-            "Second Isaiah"
+            "Lipschits, The Fall and Rise of Jerusalem (2005)",
+            "Albertz, Israel in Exile (2003)"
           ],
           "threads": [
             "afterlife"
@@ -693,9 +714,8 @@ window.ARC = {
             "Second Isaiah interprets Cyrus as Yahweh's 'anointed'"
           ],
           "key_sources": [
-            "Cyrus Cylinder (c. 539 BCE)",
-            "Ezra 1:1-4",
-            "Isaiah 45:1"
+            "Cyrus Cylinder (c. 539 BCE); Ezra 1:1-4; Isaiah 45:1",
+            "Grabbe, A History of the Jews and Judaism in the Second Temple Period, Vol. 1 (2004)"
           ],
           "threads": [],
           "thread_notes": {}
@@ -711,8 +731,8 @@ window.ARC = {
             "The new identity was centered on the Torah"
           ],
           "key_sources": [
-            "Ezra",
-            "Nehemiah"
+            "Ezra; Nehemiah; Haggai; Zechariah",
+            "Grabbe, A History of the Jews and Judaism in the Second Temple Period, Vol. 1 (2004)"
           ],
           "threads": [
             "afterlife",
@@ -732,7 +752,11 @@ window.ARC = {
             "The Torah became a portable identity",
             "Most scholars place the final editing of the Torah in the Persian period; a minority argue Hellenistic"
           ],
-          "key_sources": [],
+          "key_sources": [
+            "Ezra 7; Nehemiah 8",
+            "Schniedewind, How the Bible Became a Book (2004)",
+            "Carr, The Formation of the Hebrew Bible (2011)"
+          ],
           "threads": [],
           "thread_notes": {}
         },
@@ -746,8 +770,8 @@ window.ARC = {
             "The Samaritan schism is often read here but variously dated"
           ],
           "key_sources": [
-            "Ezra 4:1-3",
-            "Nehemiah"
+            "Ezra 4:1-3; Nehemiah 4",
+            "Knoppers, Jews and Samaritans (2013)"
           ],
           "threads": [],
           "thread_notes": {}
@@ -764,8 +788,9 @@ window.ARC = {
             "The date of Ezra's mission is disputed — 458 or 398 BCE (the Artaxerxes problem)"
           ],
           "key_sources": [
-            "Ezra",
-            "Nehemiah"
+            "Ezra 7-10; Nehemiah 8",
+            "Grabbe, A History of the Jews and Judaism in the Second Temple Period (2004)",
+            "Knoppers, Jews and Samaritans (2013)"
           ],
           "scholar_quotes": [],
           "threads": [],
@@ -782,8 +807,9 @@ window.ARC = {
             "The Book of Enoch develops the Son of Man tradition"
           ],
           "key_sources": [
-            "Book of Daniel (c. 165 BCE)",
-            "Book of Enoch (1 Enoch)"
+            "Daniel 7; 12:2",
+            "1 Enoch (the Book of the Watchers; the Similitudes)",
+            "Collins, The Apocalyptic Imagination (1984)"
           ],
           "threads": [
             "afterlife"
@@ -803,8 +829,9 @@ window.ARC = {
             "The accuser → adversary shift in the figure of Satan is visible in the texts themselves"
           ],
           "key_sources": [
-            "Zoroastrian texts",
-            "Book of Daniel"
+            "the Avesta (the Gathas); Boyce, A History of Zoroastrianism, Vol. I (1975)",
+            "Daniel 7; 12:2",
+            "Collins, The Apocalyptic Imagination (1984)"
           ],
           "threads": [
             "afterlife"
@@ -837,7 +864,9 @@ window.ARC = {
             "Proto-Masoretic, pre-Samaritan and other Hebrew text-types, plus Hebrew Vorlagen behind the LXX"
           ],
           "key_sources": [
-            "Dead Sea Scrolls"
+            "Tov, Textual Criticism of the Hebrew Bible (3rd ed. 2012)",
+            "Ulrich, The Dead Sea Scrolls and the Origins of the Bible (1999)",
+            "White Crawford, Rewriting Scripture in Second Temple Times (2008)"
           ],
           "threads": [],
           "thread_notes": {}
@@ -852,7 +881,9 @@ window.ARC = {
             "Enoch himself is identified as the Son of Man (1 Enoch 71:14 — contested: many scholars read chs. 70–71 as a later addition)"
           ],
           "key_sources": [
-            "Book of Enoch (1 Enoch)"
+            "1 Enoch (the Book of the Watchers; the Similitudes)",
+            "Nickelsburg & VanderKam, 1 Enoch 1 (2001); 1 Enoch 2 (2012)",
+            "Collins, The Apocalyptic Imagination (1984)"
           ],
           "threads": [
             "twopowers"
@@ -873,7 +904,9 @@ window.ARC = {
           ],
           "key_sources": [
             "Ezekiel 1",
-            "Origen's Commentary on the Song of Songs"
+            "Origen, Commentary on the Song of Songs; Origen, On First Principles",
+            "Scholem, Major Trends in Jewish Mysticism (1941)",
+            "Schäfer, The Origins of Jewish Mysticism (2009)"
           ],
           "threads": [
             "mystical"
@@ -896,8 +929,11 @@ window.ARC = {
           ],
           "key_sources": [
             "Daniel 7",
-            "1 Enoch",
-            "Philo of Alexandria"
+            "1 Enoch (the Similitudes)",
+            "Philo, Questions and Answers on Genesis 2.62",
+            "Segal, Two Powers in Heaven (1977)",
+            "Hurtado, One God, One Lord (1988)",
+            "Bauckham, Jesus and the God of Israel (2008)"
           ],
           "threads": [
             "twopowers"
@@ -931,10 +967,10 @@ window.ARC = {
             "The Logos is a subordinate divine agent, not equal to the Father"
           ],
           "key_sources": [
-            "Heraclitus",
-            "The Stoics",
-            "Wisdom of Solomon 7:25-26",
-            "Philo of Alexandria"
+            "Heraclitus, fragments (Kahn, The Art and Thought of Heraclitus, 1979)",
+            "Long & Sedley, The Hellenistic Philosophers (1987)",
+            "Wisdom of Solomon 7:25-26; Winston, The Wisdom of Solomon (Anchor Bible 43, 1979)",
+            "Philo, Questions and Answers on Genesis 2.62; Runia, Philo of Alexandria and the Timaeus of Plato (1986)"
           ],
           "threads": [
             "logos"
@@ -972,7 +1008,7 @@ window.ARC = {
             "Knoppers, Jews and Samaritans (2013)",
             "Pummer, The Samaritans: A Profile (2016)",
             "Kartveit, The Origin of the Samaritans (2009)",
-            "Magen's Mount Gerizim excavations",
+            "Magen, Mount Gerizim Excavations (IAA Reports, 2004/2008)",
             "Ezra 4:1-3"
           ],
           "scripture_quotes": [],
@@ -996,9 +1032,9 @@ window.ARC = {
           ],
           "key_sources": [
             "Purvis, The Samaritan Pentateuch and the Origin of the Samaritan Sect (1968)",
-            "Tov, Textual Criticism of the Hebrew Bible",
-            "White Crawford on the pre-Samaritan scrolls",
-            "Dead Sea Scrolls (4QpaleoExodusᵐ; 4QNumbersᵇ)"
+            "Tov, Textual Criticism of the Hebrew Bible (3rd ed. 2012)",
+            "White Crawford, Rewriting Scripture in Second Temple Times (2008)",
+            "Dead Sea Scrolls (4QpaleoExodus-m; 4QNumbers-b)"
           ],
           "scripture_quotes": [],
           "scholar_quotes": [],
@@ -1020,7 +1056,7 @@ window.ARC = {
           ],
           "key_sources": [
             "Pummer, The Samaritans: A Profile (2016)",
-            "the modern Samaritan community (Nablus / Holon)"
+            "Knoppers, Jews and Samaritans (2013)"
           ],
           "scripture_quotes": [],
           "scholar_quotes": [],
@@ -1048,8 +1084,10 @@ window.ARC = {
             "He used the title 'Son of Man' — it echoes Daniel 7; some scholars argue the Enochic tradition stands behind it, but the phrase is also ordinary Aramaic"
           ],
           "key_sources": [
-            "Synoptic Gospels",
-            "Book of Enoch"
+            "Mark; Matthew; Luke (the Synoptic Gospels)",
+            "Daniel 7; 1 Enoch (the Similitudes)",
+            "Sanders, The Historical Figure of Jesus (1993)",
+            "Allison, Jesus of Nazareth: Millenarian Prophet (1998)"
           ],
           "scholar_quotes": [],
           "threads": [],
@@ -1064,7 +1102,9 @@ window.ARC = {
             "Historical minimum: Jesus died, disciples believed he was raised, they had visionary experiences, the resurrection catalyzed the movement"
           ],
           "key_sources": [
-            "1 Corinthians 15:3-8"
+            "1 Corinthians 15:3-8",
+            "Sanders, The Historical Figure of Jesus (1993)",
+            "Allison, Resurrecting Jesus (2005)"
           ],
           "scholar_quotes": [
             {
@@ -1092,10 +1132,8 @@ window.ARC = {
           ],
           "key_sources": [
             "1 Corinthians 15:3-8",
-            "Mark 16:1-8",
-            "Matthew 28",
-            "Luke 24",
-            "John 20-21"
+            "Mark 16:1-8; Matthew 28; Luke 24; John 20-21",
+            "Ehrman, How Jesus Became God (2014)"
           ],
           "threads": [
             "afterlife"
@@ -1119,7 +1157,11 @@ window.ARC = {
           "key_ideas": [
             "The resurrection became the engine of the early Christian movement"
           ],
-          "key_sources": [],
+          "key_sources": [
+            "Lüdemann, The Resurrection of Jesus: History, Experience, Theology (1994)",
+            "Ehrman, How Jesus Became God (2014)",
+            "Allison, Resurrecting Jesus (2005)"
+          ],
           "scholar_quotes": [
             {
               "scholar": "Bart Ehrman",
@@ -1157,8 +1199,8 @@ window.ARC = {
           "key_sources": [
             "Galatians 1:14",
             "Segal, Paul the Convert (1990)",
-            "Scholem, Major Trends in Jewish Mysticism (1941); Jewish Gnosticism (1960)",
-            "Rowland on apocalyptic and mystical traditions"
+            "Scholem, Major Trends in Jewish Mysticism (1941); Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition (1960)",
+            "Rowland, The Open Heaven (1982)"
           ],
           "threads": [
             "mystical"
@@ -1177,8 +1219,8 @@ window.ARC = {
             "On Segal's thesis, Paul's emphasis on 'the Glory of the Lord' (Kavod) is characteristic of the Merkabah tradition"
           ],
           "key_sources": [
-            "Galatians 1:14",
-            "Alan F. Segal, Paul the Convert (1990)"
+            "Galatians 1:12-16",
+            "Segal, Paul the Convert: The Apostolate and Apostasy of Saul the Pharisee (1990)"
           ],
           "scholar_quotes": [],
           "threads": [
@@ -1206,7 +1248,8 @@ window.ARC = {
           ],
           "key_sources": [
             "2 Corinthians 12:1-4",
-            "Gershom Scholem, Major Trends in Jewish Mysticism (1941); Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition (1960)"
+            "Scholem, Major Trends in Jewish Mysticism (1941); Jewish Gnosticism (1960)",
+            "Rowland & Morray-Jones, The Mystery of God (2009)"
           ],
           "threads": [
             "mystical"
@@ -1240,8 +1283,8 @@ window.ARC = {
             "Transformation into the divine image"
           ],
           "key_sources": [
-            "2 Corinthians 12:1-4",
-            "1 Corinthians 14:18"
+            "2 Corinthians 12:1-4; 1 Corinthians 14:18",
+            "Rowland, The Open Heaven (1982)"
           ],
           "threads": [
             "mystical"
@@ -1266,9 +1309,9 @@ window.ARC = {
             "Later rabbinic sources (c. 200 CE+) restrict teaching about 'the Chariot' — evidence some scholars read as preserving Second Temple practice"
           ],
           "key_sources": [
-            "Josephus (Antiquities 17.41–45)",
-            "Mishnah Ḥagigah 2:1",
-            "Babylonian Talmud Ḥagigah 14b"
+            "Josephus, Antiquities 17.41-45 (Whiston trans.)",
+            "Mishnah Hagigah 2:1; Babylonian Talmud Hagigah 14b",
+            "Gray, Prophetic Figures in Late Second Temple Jewish Palestine (1993)"
           ],
           "threads": [
             "mystical"
@@ -1296,8 +1339,8 @@ window.ARC = {
           ],
           "key_sources": [
             "2 Corinthians 4:4",
-            "Colossians 1:15 (authorship disputed)",
-            "Colossians 2:9 (authorship disputed)"
+            "Colossians 1:15 (authorship disputed); Colossians 2:9 (authorship disputed)",
+            "Hurtado, Lord Jesus Christ (2003)"
           ],
           "threads": [
             "twopowers"
@@ -1316,9 +1359,9 @@ window.ARC = {
             "Paul places Jesus within the divine identity; whether that is full identification with YHWH is debated"
           ],
           "key_sources": [
-            "Philippians 2:10-11",
-            "Romans 10:13",
-            "1 Corinthians 8:6"
+            "Philippians 2:10-11 (Isaiah 45:23); Romans 10:13 (Joel 2:32); 1 Corinthians 8:6 (the Shema)",
+            "Hurtado, Lord Jesus Christ (2003)",
+            "Bauckham, God Crucified (1998); Dunn, Christology in the Making (1980)"
           ],
           "scholar_quotes": [
             {
@@ -1343,7 +1386,11 @@ window.ARC = {
             "The debate between pre-existence and exaltation Christology",
             "Both views share a high Christology"
           ],
-          "key_sources": [],
+          "key_sources": [
+            "Philippians 2:6-11",
+            "Kramer, Christ, Lord, Son of God (1966)",
+            "Dunn, Christology in the Making (1980)"
+          ],
           "threads": [],
           "thread_notes": {}
         },
@@ -1357,8 +1404,8 @@ window.ARC = {
             "Paul applied this template to Jesus"
           ],
           "key_sources": [
-            "1 Enoch 37-71",
-            "1 Enoch 71:14"
+            "1 Enoch 37-71; 1 Enoch 71:14",
+            "Nickelsburg & VanderKam, 1 Enoch 2 (2012)"
           ],
           "threads": [
             "twopowers"
@@ -1377,7 +1424,11 @@ window.ARC = {
             "On the Law: the classic Reformation reading has it replaced by faith in Christ; the New Perspective reads Paul's critique as targeting the Law as a gentile boundary marker",
             "Gentiles are included in God's people"
           ],
-          "key_sources": [],
+          "key_sources": [
+            "Galatians 2-3; Romans 3-4",
+            "Sanders, Paul and Palestinian Judaism (1977)",
+            "Dunn, The New Perspective on Paul (2007)"
+          ],
           "threads": [
             "afterlife"
           ],
@@ -1395,8 +1446,9 @@ window.ARC = {
             "It was marginalized chiefly by the war with Rome and the shift toward gentile Christianity, rather than by Paul himself"
           ],
           "key_sources": [
-            "Acts",
-            "Galatians"
+            "Acts 15; Galatians 2:1-14",
+            "Dunn, Unity and Diversity in the New Testament (1977)",
+            "Josephus, Antiquities 20.200 (the death of James)"
           ],
           "scholar_quotes": [],
           "threads": [],
@@ -1419,7 +1471,10 @@ window.ARC = {
             "Most grammarians read the anarthrous theos as stressing quality, though the point is contested"
           ],
           "key_sources": [
-            "John 1:1-14"
+            "John 1:1-14",
+            "Brown, The Gospel According to John I-XII (Anchor Bible 29, 1966)",
+            "Harner, 'Qualitative Anarthrous Predicate Nouns: Mark 15:39 and John 1:1,' JBL 92 (1973)",
+            "Wallace, Greek Grammar Beyond the Basics (1996)"
           ],
           "threads": [
             "logos"
@@ -1446,8 +1501,9 @@ window.ARC = {
             "John: the Logos is God (1:1) and becomes flesh (1:14)"
           ],
           "key_sources": [
-            "Philo (Questions and Answers on Genesis II.62)",
-            "John 1:14"
+            "Philo, Questions and Answers on Genesis 2.62; On the Confusion of Tongues 146; On Dreams 1.215",
+            "John 1:1-14",
+            "Runia, Philo in Early Christian Literature (1993)"
           ],
           "threads": [
             "logos"
@@ -1505,8 +1561,9 @@ window.ARC = {
             "Origen systematized the Logos doctrine"
           ],
           "key_sources": [
-            "Justin Martyr",
-            "Origen"
+            "Justin Martyr, 1 Apology 46; 2 Apology 13",
+            "Origen, On First Principles",
+            "Pelikan, The Christian Tradition, Vol. 1 (1971)"
           ],
           "threads": [
             "logos"
@@ -1525,7 +1582,10 @@ window.ARC = {
             "Nicaea affirmed homoousios; anti-Nicene theology dominated the East until 381, though the label 'Arian' flattens a spectrum (homoiousians, homoians, anomoeans); Constantinople (381 CE) defined the full doctrine"
           ],
           "key_sources": [
-            "Nicene Creed (325 CE)"
+            "Nicene Creed (325 CE)",
+            "Chadwick, The Early Church (1967), p. 130",
+            "Ayres, Nicaea and Its Legacy (2004)",
+            "Williams, Arius: Heresy and Tradition (1987; rev. 2001)"
           ],
           "threads": [
             "logos"
