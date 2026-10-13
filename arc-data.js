@@ -5,7 +5,7 @@ window.ARC = {
   "title": "From Storm God to Cosmic Christ",
   "subtitle": "A Complete Intellectual History of Yahweh and His Transformation into the God of Christianity",
   "version": "6.0",
-  "last_updated": "2026-09-13",
+  "last_updated": "2026-10-13",
   "description": "This arc traces the evolution of Yahweh from a southern desert storm-god worshipped by semi-nomadic pastoralists to the cosmic Christ of Christian orthodoxy, through centuries of cultural interaction, theological reflection, political struggle, and synthesis. It incorporates archaeological evidence, prophetic scholarship, mystical practices, the Logos, the Two Powers tradition, Paul's Pharisaic mysticism, the resurrection traditions, the prophetic cultures of the ancient Near East, Paul's third heaven ascent, the archaeological reality of Manasseh's Judah, the role of Ezra in forging post-exilic Jewish identity, the inclusion of Elijah and the northern prophetic tradition, the Pan-Israelite idea born from the Assyrian destruction, and the Mesha Stele's independent confirmation of Yahweh as Israel's god by the ninth century BCE.",
   "author": {
     "name": "David Jivan",
@@ -125,9 +125,10 @@ window.ARC = {
         {
           "id": "3.1",
           "title": "The Biblical Memory: Moses and the Southern Origins of Yahweh",
-          "content": "The Moses story—the Exodus from Egypt, the revelation at Mount Sinai, the giving of the law—is not a historical account. It is a foundational narrative that explains the origins of Israel and its relationship with Yahweh. However, it preserves several historical markers that point to the real-world origins of Yahweh worship. The name 'Moses' is Egyptian, which is why many think an Egyptian connection lies behind the tradition. The geographical setting (Midian, Sinai) is not evidence in itself; the older poems (Deuteronomy 33:2; Judges 5:4-5; Habakkuk 3:3) are the strongest case for a southern origin. The Exodus narrative is a theological expression of Israel's origins.",
+          "content": "The Moses story—the Exodus from Egypt, the revelation at Mount Sinai, the giving of the law—is not a historical account. It is a foundational narrative that explains the origins of Israel and its relationship with Yahweh. However, it preserves several historical markers that point to the real-world origins of Yahweh worship. The name 'Moses' is Egyptian, which is why many think an Egyptian connection lies behind the tradition; the biblical explanation of the name—'drawn out of the water' (Exod 2:10)—is a folk etymology, a literary device, not a linguistic derivation. The geographical setting (Midian, Sinai) is not evidence in itself; the older poems (Deuteronomy 33:2; Judges 5:4-5; Habakkuk 3:3) are the strongest case for a southern origin. The Exodus narrative is a theological expression of Israel's origins.",
           "key_ideas": [
             "The name 'Moses' is Egyptian, which is why many think an Egyptian connection lies behind the tradition",
+            "The biblical 'drawn out of the water' (Exod 2:10) is a folk etymology, not a linguistic derivation",
             "The older poems (Deut 33:2; Judg 5:4-5; Hab 3:3) are the strongest case for a southern origin; the geographical setting is not evidence in itself",
             "The Exodus narrative is a theological expression of Israel's origins",
             "The Kenite hypothesis is now largely set aside, and rests on the Bible's own testimony"
@@ -135,7 +136,8 @@ window.ARC = {
           "key_sources": [
             "Exodus 2-3; 18",
             "Deuteronomy 33:2; Judges 5:4-5; Habakkuk 3:3",
-            "Römer, The Invention of God (2015)"
+            "Römer, The Invention of God (2015)",
+            "Assmann, Moses the Egyptian (1997)"
           ],
           "scholar_quotes": [],
           "threads": [
@@ -1095,6 +1097,25 @@ window.ARC = {
         },
         {
           "id": "10.2",
+          "title": "Jesus the Jewish Miracle Worker: A Hasid",
+          "content": "Jesus also fits a second, older Jewish type: the charismatic holy man, or hasid — a miracle worker whose power flows from closeness to God rather than from office or temple. Vermes built his portrait of Jesus around exactly these Galilean parallels: Honi the Circle-Drawer, who prayed for rain and got it (Mishnah Ta'anit 3:8); Hanina ben Dosa, the healer of the rabbinic tradition. Around them scholarship has gathered other wonder-workers — Nakdimon ben Gorion, Eleazar the Exorcist, Simon ben Yochai — and, further out, the sign prophets Theudas and the Egyptian that Josephus records. Jesus was not unique in kind. He was a recognizable figure within his own culture; the uniqueness of the early Christian claims lies not in the miracles but in the identity his followers came to assign him.",
+          "key_ideas": [
+            "Jesus fits the model of a Jewish charismatic holy man (hasid) — Vermes, Jesus the Jew (1973)",
+            "Closest parallels: Honi the Circle-Drawer (Mishnah Ta'anit 3:8) and Hanina ben Dosa (rabbinic tradition)",
+            "Other wonder-workers: Nakdimon ben Gorion, Eleazar the Exorcist, Simon ben Yochai; the sign prophets Theudas and the Egyptian (Josephus)",
+            "Jesus was not unique in kind — the uniqueness lies in the identity his followers assigned to him"
+          ],
+          "key_sources": [
+            "Vermes, Jesus the Jew (1973)",
+            "Mishnah Ta'anit 3:8 (Honi)",
+            "Josephus (sign prophets: Theudas and the Egyptian)"
+          ],
+          "scholar_quotes": [],
+          "threads": [],
+          "thread_notes": {}
+        },
+        {
+          "id": "10.3",
           "title": "The Resurrection Experience: Something Happened",
           "content": "The resurrection is the experiential foundation of the early Christian movement. Most critical historians accept: Jesus died, his disciples came to believe he was raised, they had experiences they interpreted as appearances, and the resurrection became the catalyst for the movement.",
           "key_ideas": [
@@ -1122,7 +1143,7 @@ window.ARC = {
           }
         },
         {
-          "id": "10.3",
+          "id": "10.4",
           "title": "The Contradictions in the Resurrection Traditions",
           "content": "The earliest sources present different resurrection testimonies. Paul's version lists appearances but never mentions the empty tomb. Mark ends abruptly at 16:8 with no appearances. There is a tension between Paul's visionary experience and the Gospels' physical emphasis.",
           "key_ideas": [
@@ -1151,7 +1172,7 @@ window.ARC = {
           ]
         },
         {
-          "id": "10.4",
+          "id": "10.5",
           "title": "The Transformative Impact",
           "content": "The resurrection became the engine of the early Christian movement.",
           "key_ideas": [
@@ -1189,18 +1210,20 @@ window.ARC = {
         {
           "id": "11.1",
           "title": "Paul's Transformation: A Visionary Experience",
-          "content": "Paul testifies to a direct revelation of the risen Christ (Galatians 1:12-16; 1 Corinthians 15:8), and he names Damascus himself (Galatians 1:17; 2 Corinthians 11:32-33). The blinding light, the voice, and Ananias are Acts-only. Paul was not inventing a new kind of religious experience. He was working inside a world where apocalyptic literature (Daniel, 1 Enoch) was read, where throne-vision traditions were cultivated, and where visionary ascent was a known practice. Three scholars have shaped how that world is read: Alan Segal argued in Paul the Convert (1990) that Paul's encounter is best understood as a conversion with Merkabah features; Gershom Scholem located Paul's ascent within early Jewish mysticism, though his early dating of that tradition is contested; and Christopher Rowland has traced the roots of Jewish mysticism to Second Temple apocalyptic, with Paul's visions fitting inside it. The reading is a scholarly argument, not a consensus — but it is a substantial one.",
+          "content": "Paul testifies to a direct revelation of the risen Christ (Galatians 1:12-16; 1 Corinthians 15:8), and he names Damascus himself (Galatians 1:17; 2 Corinthians 11:32-33). The blinding light, the voice, and Ananias are Acts-only. Paul's letters are the primary source; Acts is a secondary source written decades later — the Gallio inscription at Delphi, which dates Paul's stay in Corinth to c. 51–52 CE, is used to test Acts, not prove it. Paul was not inventing a new kind of religious experience. He was working inside a world where apocalyptic literature (Daniel, 1 Enoch) was read, where throne-vision traditions were cultivated, and where visionary ascent was a known practice. Three scholars have shaped how that world is read: Alan Segal argued in Paul the Convert (1990) that Paul's encounter is best understood as a conversion with Merkabah features; Gershom Scholem located Paul's ascent within early Jewish mysticism, though his early dating of that tradition is contested; and Christopher Rowland has traced the roots of Jewish mysticism to Second Temple apocalyptic, with Paul's visions fitting inside it. The reading is a scholarly argument, not a consensus — but it is a substantial one.",
           "key_ideas": [
             "Paul was a Pharisaic Jew: 'far more zealous for the traditions of my ancestors' (Galatians 1:14)",
             "A scholarly reading (Segal, Scholem, Rowland) places Paul's visions inside Second Temple apocalyptic and early Jewish mysticism — argued, not settled",
             "Paul's emphasis on 'the Glory of the Lord' (Kavod) is characteristic of the Merkabah tradition (Segal's thesis)",
-            "Throne-vision traditions were cultivated in some circles; visionary ascent was a known practice"
+            "Throne-vision traditions were cultivated in some circles; visionary ascent was a known practice",
+            "Paul's letters are the primary source; Acts is secondary, written decades later (the Gallio inscription dates Paul's stay in Corinth to c. 51–52 CE)"
           ],
           "key_sources": [
             "Galatians 1:14",
             "Segal, Paul the Convert (1990)",
             "Scholem, Major Trends in Jewish Mysticism (1941); Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition (1960)",
-            "Rowland, The Open Heaven (1982)"
+            "Rowland, The Open Heaven (1982)",
+            "Gallio inscription, Delphi (c. 51–52 CE)"
           ],
           "threads": [
             "mystical"
@@ -1240,10 +1263,11 @@ window.ARC = {
         {
           "id": "11.3",
           "title": "The Third Heaven Ascent (2 Corinthians 12:1-4)",
-          "content": "Paul writes: 'I know a man in Christ who fourteen years ago was caught up to the third heaven... and heard unspeakable words.' Gershom Scholem linked Paul's experience to early Merkavah mysticism (Major Trends in Jewish Mysticism, 1941; Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition, 1960); his early dating of that continuity is contested.",
+          "content": "Paul writes: 'I know a man in Christ who fourteen years ago was caught up to the third heaven... and heard unspeakable words.' The Greek behind 'caught up' is harpazō, and it appears twice — in 2 Cor 12:2 and 12:4. Gershom Scholem linked Paul's experience to early Merkavah mysticism (Major Trends in Jewish Mysticism, 1941; Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition, 1960); his early dating of that continuity is contested.",
           "key_ideas": [
             "Paul was caught up to the third heaven",
             "He heard unspeakable words",
+            "The Greek verb 'caught up' — harpazō — appears twice (2 Cor 12:2, 12:4)",
             "Gershom Scholem linked this to early Merkavah mysticism"
           ],
           "key_sources": [
@@ -1405,7 +1429,8 @@ window.ARC = {
           ],
           "key_sources": [
             "1 Enoch 37-71; 1 Enoch 71:14",
-            "Nickelsburg & VanderKam, 1 Enoch 2 (2012)"
+            "Nickelsburg & VanderKam, 1 Enoch 2 (2012)",
+            "Waddell, The Messiah: A Comparative Study of the Enochic Son of Man and the Pauline Kyrios (2011)"
           ],
           "threads": [
             "twopowers"
