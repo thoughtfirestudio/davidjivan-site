@@ -5,7 +5,7 @@ window.ARC = {
   "title": "From Storm God to Cosmic Christ",
   "subtitle": "A Complete Intellectual History of Yahweh and His Transformation into the God of Christianity",
   "version": "6.0",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-13",
   "description": "This arc traces the evolution of Yahweh from a southern desert storm-god worshipped by semi-nomadic pastoralists to the cosmic Christ of Christian orthodoxy, through centuries of cultural interaction, theological reflection, political struggle, and synthesis. It incorporates archaeological evidence, prophetic scholarship, mystical practices, the Logos, the Two Powers tradition, Paul's Pharisaic mysticism, the resurrection traditions, the prophetic cultures of the ancient Near East, Paul's third heaven ascent, the archaeological reality of Manasseh's Judah, the role of Ezra in forging post-exilic Jewish identity, the inclusion of Elijah and the northern prophetic tradition, the Pan-Israelite idea born from the Assyrian destruction, and the Mesha Stele's independent confirmation of Yahweh as Israel's god by the ninth century BCE.",
   "author": {
     "name": "David Jivan",
