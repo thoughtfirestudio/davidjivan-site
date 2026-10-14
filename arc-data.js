@@ -781,7 +781,7 @@ window.ARC = {
         {
           "id": "8.5",
           "title": "Ezra: The Father of Judaism",
-          "content": "Ezra is described in the Bible as a priest and scribe who led a group of exiles back to Jerusalem. The biblical writers portrayed him as the figure who read the Torah publicly, enforced separation from foreign wives, and established the Torah as the constitution of the community. His mission is dated either to 458 BCE, the seventh year of Artaxerxes I, or to 398 BCE, under Artaxerxes II — the Artaxerxes problem is unresolved.",
+          "content": "In the book that bears his name, Ezra arrives carrying a letter from Artaxerxes — and the letter is the arrangement of Persian rule in miniature. A priest and scribe, skilled in the law of Moses, is authorized to draw on the imperial treasury and appoint his own judges; anyone who disobeys God's law or the king's faces death, banishment, confiscation, or imprisonment (Ezra 7:25-26). In exchange the community prays for the life of the king and his sons (Ezra 6:10). Persia ran its provinces through local custom and local elites; this is Judah's version of the method — and the book hands it to you in Aramaic, the administrative language of the empire.\n\nThen the story does its famous work. Ezra and Nehemiah were one book for most of history, and the public reading lives in the second half (Nehemiah 8) — people hearing their law read and explained until they get it. When intermarriage becomes the crisis, it is handled with clerical precision: a committee appointed, families listed by name, the investigation run over months and reported on a fixed day (Ezra 10:16-17). The purge reads like minutes from a meeting, because a community organized around a text draws its boundary with names on a list.\n\nHere is what is not in the story: any other source. Ezra appears in no Persian or Greek record. The date of his mission turns on one phrase — Ezra 7:8 says the seventh year of Artaxerxes, and which Artaxerxes decides everything: Artaxerxes I gives 458 BCE, Artaxerxes II gives 398. Most scholarship has gone with the earlier date, but some read the whole account as an idealized foundation story rather than a memoir — its decrees and dialogues shaped the way biblical court narratives are. The tradition never waited for the verdict: \"Father of Judaism\" is an honor it gave him, not a finding historians can certify. What historians do say is that the period produced exactly what the story describes — a community whose authority runs through a text read aloud, argued over, and carried from town to town. When the temple came down for good, that community had been living by its book for generations.",
           "key_ideas": [
             "Ezra is historically debated; no extra-biblical evidence exists",
             "The biblical narrative uses Ezra to legitimize the Torah",
@@ -792,9 +792,17 @@ window.ARC = {
           "key_sources": [
             "Ezra 7-10; Nehemiah 8",
             "Grabbe, A History of the Jews and Judaism in the Second Temple Period (2004)",
-            "Knoppers, Jews and Samaritans (2013)"
+            "Knoppers, Jews and Samaritans (2013)",
+            "Williamson, Ezra-Nehemiah (Word Biblical Commentary, 1985)"
           ],
           "scholar_quotes": [],
+          "scripture_quotes": [
+            {
+              "ref": "Nehemiah 8:8",
+              "translation": "NRSVUE",
+              "text": "They read from the book, from the law of God, with interpretation, and they gave the sense, so that the people understood the reading."
+            }
+          ],
           "threads": [],
           "thread_notes": {}
         },
@@ -824,23 +832,21 @@ window.ARC = {
         {
           "id": "8.7",
           "title": "The Persian Influence on Jewish Thought",
-          "content": "For over 200 years, the Jews lived under Persian rule and were exposed to Zoroastrianism. Many scholars argue that Zoroastrian concepts of resurrection, final judgment, cosmic dualism, and a savior figure were at least catalysed by Persian contact; others treat them as parallels. The shift from accuser to adversary in the figure of Satan is visible in the texts themselves.",
+          "content": "Persia held the region for over two centuries — 539 to 332 BCE — longer than most powers that leave fingerprints on the Bible. Judah was the province of Yehud: a small district, its elites serving under Persian governors, its correspondence written in Imperial Aramaic, its own documents opening \"Artaxerxes, king of kings\" (Ezra 7:12 — the Bible quoting the empire's letterhead). Ezra's decrees and Daniel's visions alike address Israel's God as \"the God of heaven.\" Under that much contact, the live question is not whether ideas moved but which ones.\n\nThe influence case runs through the inventory of ideas. The Gathas — the oldest layer of the Avesta, attributed to Zarathustra — describe a cosmos with a moral architecture: a creation that will be remade at the end, a judgment where each soul answers for its life, the body raised for that judgment, and a savior at the last renovation (the Saoshyant). The later biblical inventory looks remarkably similar: resurrection of the dead, final judgment, a war between good and evil spirits running through history. Mary Boyce, whose case is the fullest of our sources, argued these teachings moved by contact and borrowing.\n\nOthers treat them as parallels, and the objection is serious. Ezekiel had already pictured a valley where a whole people's bones stood up again (Ezekiel 37) — sixth century BCE, before a Persian took Babylon — so resurrection imagery did not require an Iranian. The Greek-speaking Judaism of Alexandria could reach immortality through other channels after 332. And a parallel only becomes evidence of borrowing when you can point to the borrower; these texts never cite their sources. Contact is certain — two centuries of it. Which ideas arrived on which road is argued both ways, and it stays argued.\n\nOne strand you can actually watch. Numbers 22: the angel of the LORD takes Balaam's road as his adversary — the same root that later becomes a name. Job and Zechariah have \"the satan,\" the accuser: a member of the heavenly court with a job description and no name of his own, and he needs God's permission before he touches anyone. Then 1 Chronicles 21:1, a Persian-period book, has Satan standing against Israel and inciting David to count — no permission, no courtroom. By the Gospels he has a personality and a title. Whatever you conclude about the larger borrowings, this thread you can date: the move happens in exactly the centuries of Persian rule.",
           "key_ideas": [
             "Many scholars argue these ideas were at least catalysed by Persian contact; others treat them as parallels",
             "Key concepts: resurrection, final judgment, cosmic dualism, a savior figure",
-            "The accuser → adversary shift in the figure of Satan is visible in the texts themselves"
+            "The accuser → adversary shift in the figure of Satan is visible in the texts themselves",
+            "The internal-development counter: Ezekiel 37 (6th c. BCE) imagines a people standing up from the dead before Persia took Babylon",
+            "1 Chronicles 21:1 (Persian period) — Satan acts without the permission Job’s accuser needed: the move from court title to independent agent"
           ],
           "key_sources": [
             "the Avesta (the Gathas); Boyce, A History of Zoroastrianism, Vol. I (1975)",
             "Daniel 7; 12:2",
-            "Collins, The Apocalyptic Imagination (1984)"
+            "Collins, The Apocalyptic Imagination (1984)",
+            "Ezekiel 37; 1 Chronicles 21; Numbers 22; Job 1-2; Zechariah 3 (Satan tradition)",
+            "Ezra 7:12 (imperial Aramaic document)"
           ],
-          "threads": [
-            "afterlife"
-          ],
-          "thread_notes": {
-            "afterlife": "Many scholars argue Persian contact at least catalysed resurrection and final-judgment ideas; others treat the parallels as independent development."
-          },
           "scholar_quotes": [
             {
               "scholar": "Mary Boyce",
@@ -848,7 +854,20 @@ window.ARC = {
               "quote": "individual judgment, the resurrection of the body, the Last Judgment, and life everlasting, became profoundly familiar, through borrowings, to Jews, Christians and Muslims.",
               "verified": true
             }
-          ]
+          ],
+          "scripture_quotes": [
+            {
+              "ref": "1 Chronicles 21:1",
+              "translation": "NRSVUE",
+              "text": "Satan stood up against Israel, and incited David to count Israel."
+            }
+          ],
+          "threads": [
+            "afterlife"
+          ],
+          "thread_notes": {
+            "afterlife": "Many scholars argue Persian contact at least catalysed resurrection and final-judgment ideas; others treat the parallels as independent development."
+          }
         }
       ]
     },

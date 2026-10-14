@@ -47,6 +47,9 @@
   .sec { margin-bottom: 26px; }
   .sec .sec-title { font-size: 1.12rem; font-weight: 500; color: var(--ink); margin-bottom: 6px; }
   .sec .sec-body { font-size: 0.98rem; line-height: 1.75; color: var(--mute); }
+  /* sections may carry \n\n-separated paragraphs; single-paragraph sections keep their old look */
+  .sec-body p { margin: 0 0 0.8em; }
+  .sec-body p:last-child { margin: 0; }
   .sec .ideas { list-style: none; margin-top: 10px; }
   .sec .ideas li { padding: 9px 0 9px 18px; border-left: 1px solid var(--line-strong); margin-bottom: 2px; font-size: 0.93rem; line-height: 1.6; color: var(--mute); }
   .sec .srcs { font-family: var(--data); font-size: 11.5px; color: var(--mute); margin-top: 8px; }
@@ -240,9 +243,14 @@
     }).join('');
   }
 
+  function parasHTML(text) {
+    // blank-line-separated paragraphs; sections written before this change have none and render as one block
+    return String(text).split(/\n\s*\n/).map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('');
+  }
+
   function sectionHTML(s, compact) {
     var html = '<div class="sec"><div class="sec-title">' + esc(s.title) + '</div>'
-      + '<div class="sec-body">' + esc(s.content) + '</div>'
+      + '<div class="sec-body">' + parasHTML(s.content) + '</div>'
       + scriptureHTML(s)
       + tableHTML(s);
     if (s.key_ideas && s.key_ideas.length) {
